@@ -1,0 +1,2098 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="17cb-b3ab-129e-6d0a" name="Scavengers" revision="1" battleScribeVersion="2.01" gameSystemId="f046-8736-7a7e-93d7" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <profiles/>
+  <rules/>
+  <infoLinks/>
+  <costTypes/>
+  <profileTypes/>
+  <categoryEntries/>
+  <forceEntries/>
+  <selectionEntries>
+    <selectionEntry id="928e-764a-7b21-761b" name="Group Special Rules" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules>
+        <rule id="15cf-10a7-1a4c-47d3" name="Loot and Pillage" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Each time a model from the Scavengers faction list performs the Scavenge Action, roll 1Black. On a Shield, gain 1 bonus Victory Point.</description>
+        </rule>
+      </rules>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Points" costTypeId="0705-c536-f372-c2d0" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="db9c-8a0d-ea7b-c880" name="Derek" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="a81c-29b2-925c-bc8a" name="Derek" hidden="false" profileTypeId="40e9-9288-6f65-70a9" profileTypeName="Character">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Type" characteristicTypeId="d9ce-b162-4bd7-6736" value="Bruiser"/>
+            <characteristic name="Melee" characteristicTypeId="fc7e-dccd-5244-3798" value="2Red"/>
+            <characteristic name="Shoot" characteristicTypeId="b227-fd8f-ea1c-65f7" value="1White"/>
+            <characteristic name="Defense" characteristicTypeId="ca1d-2465-3eb7-9bd8" value="1White,1Red"/>
+            <characteristic name="Health" characteristicTypeId="5e5d-73d3-ba6a-8396" value="5"/>
+            <characteristic name="SP" characteristicTypeId="cae4-668b-3f49-b130" value="2Red/1Red"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="117d-eec0-f29d-8c00" name="Survival of the Fittest" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Whenever a Walker would move into contact with Derek, first check to see if there is a friendly model in his Kill Zone with 3 or less Health remaining. If it is possible for the Walker to reach that model, Derek may redirect the Walker into contact with the new target.</description>
+        </rule>
+      </rules>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="51e6-8a73-812a-5c03" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="69fa-0ef8-ff01-c062" name="New CategoryLink" hidden="false" targetId="1632-3305-8ec4-ecf2" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="3d26-1ca4-d09d-dd3e" name="Browning Hi-Power" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="e963-2e24-0459-3956" name="Browning Hi-Power" hidden="false" profileTypeId="3560-a8a8-6a4e-2aa2" profileTypeName="Ranged Weapon">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Attack Roll Short" characteristicTypeId="5e67-d6ba-ff65-695d" value="1Red"/>
+                <characteristic name="Attack Roll Medium" characteristicTypeId="f3e5-c666-6d43-df23" value="X"/>
+                <characteristic name="Attack Roll Long" characteristicTypeId="1376-9535-490f-fce4" value="X"/>
+                <characteristic name="Special Rules" characteristicTypeId="8821-27ea-b643-76c2" value="May reroll one die per attack roll."/>
+                <characteristic name="Keywords" characteristicTypeId="2c12-568c-52a4-db62" value="Handgun, Reliable"/>
+                <characteristic name="Noise / Mayhem" characteristicTypeId="4783-fd91-26e1-6d38" value="Mayhem"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks>
+            <infoLink id="285b-3d21-094d-4f8f" name="Handgun" hidden="false" targetId="a74c-9639-3b44-470b" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="2e76-295c-4091-66d4" name="Reliable" hidden="false" targetId="9743-9f07-db71-da46" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="97fd-509e-aaba-bec0" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name=" Points" costTypeId="0705-c536-f372-c2d0" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="3962-d18c-db3d-f6c7" name="Upgrades" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="0705-c536-f372-c2d0" scope="parent" value="50.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="68e7-d40f-6635-2d5c" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="78a0-c44e-645e-b0f5" name="Melee Weapons" hidden="false" collective="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="99dc-2964-7829-6a6b" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries>
+                <selectionEntry id="7f77-4024-1256-0357" name="Knife" hidden="false" collective="false" type="upgrade">
+                  <profiles>
+                    <profile id="cc86-f3bf-522c-d338" name="Knife" hidden="false" profileTypeId="d42c-7da6-84ea-bbd3" profileTypeName="Melee Weapon">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                      <characteristics>
+                        <characteristic name="Attack Roll" characteristicTypeId="84c3-eb7b-1a01-99c6" value="1Red"/>
+                        <characteristic name="Special Rules" characteristicTypeId="a811-f6c5-34bc-5f90" value=""/>
+                        <characteristic name="Keywords" characteristicTypeId="c6ce-a20c-5806-fc59"/>
+                        <characteristic name="Noise / Mayhem" characteristicTypeId="35d4-25bc-80cb-6f59"/>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <rules/>
+                  <infoLinks>
+                    <infoLink id="4fe8-58c6-8abd-56cb" name="Dual Wield" hidden="false" targetId="cdbb-55db-ed3e-4259" type="rule">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                    </infoLink>
+                    <infoLink id="0e2a-e070-dd73-3a09" name="Sharp" hidden="false" targetId="3728-71b5-e85a-07f5" type="rule">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                    </infoLink>
+                  </infoLinks>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                  <selectionEntries/>
+                  <selectionEntryGroups/>
+                  <entryLinks/>
+                  <costs>
+                    <cost name=" Points" costTypeId="0705-c536-f372-c2d0" value="10.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="59e4-daca-9498-b976" name="Baseball Bat" hidden="false" collective="false" type="upgrade">
+                  <profiles>
+                    <profile id="1f68-648a-c715-2005" name="Baseball Bat" hidden="false" profileTypeId="d42c-7da6-84ea-bbd3" profileTypeName="Melee Weapon">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                      <characteristics>
+                        <characteristic name="Attack Roll" characteristicTypeId="84c3-eb7b-1a01-99c6" value="1Red"/>
+                        <characteristic name="Special Rules" characteristicTypeId="a811-f6c5-34bc-5f90" value="Bruisers may reroll 1Red per attack."/>
+                        <characteristic name="Keywords" characteristicTypeId="c6ce-a20c-5806-fc59" value=""/>
+                        <characteristic name="Noise / Mayhem" characteristicTypeId="35d4-25bc-80cb-6f59"/>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                  <selectionEntries/>
+                  <selectionEntryGroups/>
+                  <entryLinks/>
+                  <costs>
+                    <cost name=" Points" costTypeId="0705-c536-f372-c2d0" value="10.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+              <selectionEntryGroups/>
+              <entryLinks/>
+            </selectionEntryGroup>
+            <selectionEntryGroup id="90d2-ff31-aa6c-bd50" name="Ranged Weapons" hidden="false" collective="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="7da4-505e-b0c4-8997" value="0.0">
+                  <repeats/>
+                  <conditions>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3d26-1ca4-d09d-dd3e" type="equalTo"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7da4-505e-b0c4-8997" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries>
+                <selectionEntry id="3d8e-c6ee-30eb-c0f2" name="Pump-Action Shotgun" hidden="false" collective="false" type="upgrade">
+                  <profiles>
+                    <profile id="5882-7cdf-a63c-e2bd" name="Pump-Action Shotgun" hidden="false" profileTypeId="3560-a8a8-6a4e-2aa2" profileTypeName="Ranged Weapon">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                      <characteristics>
+                        <characteristic name="Attack Roll Short" characteristicTypeId="5e67-d6ba-ff65-695d" value="1Red"/>
+                        <characteristic name="Attack Roll Medium" characteristicTypeId="f3e5-c666-6d43-df23" value="1Red"/>
+                        <characteristic name="Attack Roll Long" characteristicTypeId="1376-9535-490f-fce4" value="X"/>
+                        <characteristic name="Special Rules" characteristicTypeId="8821-27ea-b643-76c2" value=""/>
+                        <characteristic name="Keywords" characteristicTypeId="2c12-568c-52a4-db62" value="Multiple Shots (2), Shotgun"/>
+                        <characteristic name="Noise / Mayhem" characteristicTypeId="4783-fd91-26e1-6d38" value="Mayhem"/>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <rules/>
+                  <infoLinks>
+                    <infoLink id="69b1-350f-947f-3418" name="Multiple Shots (X)" hidden="false" targetId="f1bf-0f6c-71bd-4705" type="rule">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                    </infoLink>
+                    <infoLink id="cb0f-2271-6206-0446" name="Shotgun" hidden="false" targetId="d56c-2c15-d9e4-9f33" type="rule">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                    </infoLink>
+                  </infoLinks>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                  <selectionEntries/>
+                  <selectionEntryGroups/>
+                  <entryLinks/>
+                  <costs>
+                    <cost name=" Points" costTypeId="0705-c536-f372-c2d0" value="25.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="ab64-e5db-93e0-8e30" name=".22 Revolver" hidden="false" collective="false" type="upgrade">
+                  <profiles>
+                    <profile id="eda2-fa4f-e3df-f0b7" name=".22 Revolver" hidden="false" profileTypeId="3560-a8a8-6a4e-2aa2" profileTypeName="Ranged Weapon">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                      <characteristics>
+                        <characteristic name="Attack Roll Short" characteristicTypeId="5e67-d6ba-ff65-695d" value="1Red"/>
+                        <characteristic name="Attack Roll Medium" characteristicTypeId="f3e5-c666-6d43-df23" value="X"/>
+                        <characteristic name="Attack Roll Long" characteristicTypeId="1376-9535-490f-fce4" value="X"/>
+                        <characteristic name="Special Rules" characteristicTypeId="8821-27ea-b643-76c2" value=""/>
+                        <characteristic name="Keywords" characteristicTypeId="2c12-568c-52a4-db62" value="Handgun"/>
+                        <characteristic name="Noise / Mayhem" characteristicTypeId="4783-fd91-26e1-6d38" value="Mayhem"/>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <rules/>
+                  <infoLinks>
+                    <infoLink id="be54-363a-63c5-67d1" name="Handgun" hidden="false" targetId="a74c-9639-3b44-470b" type="rule">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                    </infoLink>
+                  </infoLinks>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                  <selectionEntries/>
+                  <selectionEntryGroups/>
+                  <entryLinks/>
+                  <costs>
+                    <cost name=" Points" costTypeId="0705-c536-f372-c2d0" value="8.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="5c1b-51ba-6873-bb0e" name=".38 Revolver" hidden="false" collective="false" type="upgrade">
+                  <profiles>
+                    <profile id="6030-77ac-e6b4-5e52" name=".38 Revolver" hidden="false" profileTypeId="3560-a8a8-6a4e-2aa2" profileTypeName="Ranged Weapon">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                      <characteristics>
+                        <characteristic name="Attack Roll Short" characteristicTypeId="5e67-d6ba-ff65-695d" value="1White"/>
+                        <characteristic name="Attack Roll Medium" characteristicTypeId="f3e5-c666-6d43-df23" value="X"/>
+                        <characteristic name="Attack Roll Long" characteristicTypeId="1376-9535-490f-fce4" value="X"/>
+                        <characteristic name="Special Rules" characteristicTypeId="8821-27ea-b643-76c2" value=""/>
+                        <characteristic name="Keywords" characteristicTypeId="2c12-568c-52a4-db62" value="Handgun"/>
+                        <characteristic name="Noise / Mayhem" characteristicTypeId="4783-fd91-26e1-6d38" value="Mayhem"/>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <rules/>
+                  <infoLinks>
+                    <infoLink id="6842-766d-424c-25b5" name="Handgun" hidden="false" targetId="a74c-9639-3b44-470b" type="rule">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                    </infoLink>
+                  </infoLinks>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                  <selectionEntries/>
+                  <selectionEntryGroups/>
+                  <entryLinks/>
+                  <costs>
+                    <cost name=" Points" costTypeId="0705-c536-f372-c2d0" value="14.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+              <selectionEntryGroups/>
+              <entryLinks/>
+            </selectionEntryGroup>
+            <selectionEntryGroup id="8d76-bc97-24b7-a2de" name="Special Items" hidden="false" collective="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="859e-349b-b08d-23d5" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries>
+                <selectionEntry id="c4da-1db4-9ecb-ce67" name="Bandages" hidden="false" collective="false" type="upgrade">
+                  <profiles>
+                    <profile id="299e-b906-e28d-da76" name="Bandages" hidden="false" profileTypeId="ba75-8ed9-edc3-b7f6" profileTypeName="Special Items">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                      <characteristics>
+                        <characteristic name="Special Rules" characteristicTypeId="f83f-be9f-fcc5-abf5" value="One use only. As an Action, restore 1 Health point lost earlier in the game."/>
+                        <characteristic name="Keywords" characteristicTypeId="4d62-b2c0-a0c7-0a18"/>
+                        <characteristic name="Noise / Mayhem" characteristicTypeId="589a-5fe7-b416-6918"/>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                  <selectionEntries/>
+                  <selectionEntryGroups/>
+                  <entryLinks/>
+                  <costs>
+                    <cost name=" Points" costTypeId="0705-c536-f372-c2d0" value="5.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="15e9-56e0-36be-9a39" name="Knapsack" hidden="false" collective="false" type="upgrade">
+                  <profiles>
+                    <profile id="7f4f-ccf0-a145-9bba" name="Knapsack" hidden="false" profileTypeId="ba75-8ed9-edc3-b7f6" profileTypeName="Special Items">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                      <characteristics>
+                        <characteristic name="Special Rules" characteristicTypeId="f83f-be9f-fcc5-abf5" value="This model does not lose VPs for Supply counters if it is killed during a game."/>
+                        <characteristic name="Keywords" characteristicTypeId="4d62-b2c0-a0c7-0a18" value="Attachment: Armor, Body"/>
+                        <characteristic name="Noise / Mayhem" characteristicTypeId="589a-5fe7-b416-6918"/>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <rules/>
+                  <infoLinks>
+                    <infoLink id="cb8f-a84c-6bce-f1de" name="Attachment (X)" hidden="false" targetId="743a-7c67-9a19-9a64" type="rule">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                    </infoLink>
+                  </infoLinks>
+                  <modifiers/>
+                  <constraints>
+                    <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5bdc-09ae-ad5c-4951" type="max"/>
+                  </constraints>
+                  <categoryLinks/>
+                  <selectionEntries/>
+                  <selectionEntryGroups/>
+                  <entryLinks/>
+                  <costs>
+                    <cost name=" Points" costTypeId="0705-c536-f372-c2d0" value="5.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="c7d3-64b1-b804-298e" name="Laser Sight" hidden="false" collective="false" type="upgrade">
+                  <profiles>
+                    <profile id="9c5b-9b51-666d-272e" name="Laser Sight" hidden="false" profileTypeId="ba75-8ed9-edc3-b7f6" profileTypeName="Special Items">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                      <characteristics>
+                        <characteristic name="Special Rules" characteristicTypeId="f83f-be9f-fcc5-abf5" value="When performing a ranged attack with the attached weapon, roll 1Black. On a Shield, add 1Red to the attack roll."/>
+                        <characteristic name="Keywords" characteristicTypeId="4d62-b2c0-a0c7-0a18" value="Attachment (Rifle or Handgun)"/>
+                        <characteristic name="Noise / Mayhem" characteristicTypeId="589a-5fe7-b416-6918"/>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <rules/>
+                  <infoLinks>
+                    <infoLink id="a852-db9c-2257-5b8f" name="Attachment (X)" hidden="false" targetId="743a-7c67-9a19-9a64" type="rule">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                    </infoLink>
+                  </infoLinks>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                  <selectionEntries/>
+                  <selectionEntryGroups/>
+                  <entryLinks/>
+                  <costs>
+                    <cost name=" Points" costTypeId="0705-c536-f372-c2d0" value="8.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+              <selectionEntryGroups/>
+              <entryLinks/>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <entryLinks/>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks/>
+      <costs>
+        <cost name=" Points" costTypeId="0705-c536-f372-c2d0" value="50.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4e80-ca37-4919-7620" name="Carlos" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="b746-15c0-47da-07a0" name="Carlos" hidden="false" profileTypeId="40e9-9288-6f65-70a9" profileTypeName="Character">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Type" characteristicTypeId="d9ce-b162-4bd7-6736" value="Marksman"/>
+            <characteristic name="Melee" characteristicTypeId="fc7e-dccd-5244-3798" value="1Red"/>
+            <characteristic name="Shoot" characteristicTypeId="b227-fd8f-ea1c-65f7" value="1White"/>
+            <characteristic name="Defense" characteristicTypeId="ca1d-2465-3eb7-9bd8" value="1Red,1Red"/>
+            <characteristic name="Health" characteristicTypeId="5e5d-73d3-ba6a-8396" value="5"/>
+            <characteristic name="SP" characteristicTypeId="cae4-668b-3f49-b130" value="X/-"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fe62-dba0-2457-04d9" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="04e6-69b3-3373-b7b0" name="New CategoryLink" hidden="false" targetId="7e4f-cf68-74a3-b58a" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="2302-e358-492d-92a8" name="Arctic Sniper Rifle" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="f7e0-56f5-4281-924f" name="Arctic Sniper Rifle" hidden="false" profileTypeId="3560-a8a8-6a4e-2aa2" profileTypeName="Ranged Weapon">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Attack Roll Short" characteristicTypeId="5e67-d6ba-ff65-695d" value="1Blue"/>
+                <characteristic name="Attack Roll Medium" characteristicTypeId="f3e5-c666-6d43-df23" value="1Blue"/>
+                <characteristic name="Attack Roll Long" characteristicTypeId="1376-9535-490f-fce4" value="1White"/>
+                <characteristic name="Special Rules" characteristicTypeId="8821-27ea-b643-76c2" value="If an attack with this weapon scores two or more [!], immediately add 1Red to the roll."/>
+                <characteristic name="Keywords" characteristicTypeId="2c12-568c-52a4-db62" value="Rifle"/>
+                <characteristic name="Noise / Mayhem" characteristicTypeId="4783-fd91-26e1-6d38" value="Mayhem"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks>
+            <infoLink id="0b01-7c97-0934-ddb1" name="Rifle" hidden="false" targetId="c712-f896-0557-388a" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dacb-fdc1-737d-302d" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name=" Points" costTypeId="0705-c536-f372-c2d0" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="7be1-a711-8515-a6f0" name="Upgrades" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="0705-c536-f372-c2d0" scope="parent" value="44.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e08e-7e13-d535-3c34" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="ebde-bc6d-d0cd-d8b2" name="Melee Weapons" hidden="false" collective="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="33e7-ba27-81a8-1d94" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries>
+                <selectionEntry id="1448-d2b7-1270-046b" name="Knife" hidden="false" collective="false" type="upgrade">
+                  <profiles>
+                    <profile id="e53f-6ae8-bc68-b922" name="Knife" hidden="false" profileTypeId="d42c-7da6-84ea-bbd3" profileTypeName="Melee Weapon">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                      <characteristics>
+                        <characteristic name="Attack Roll" characteristicTypeId="84c3-eb7b-1a01-99c6" value="1Red"/>
+                        <characteristic name="Special Rules" characteristicTypeId="a811-f6c5-34bc-5f90" value=""/>
+                        <characteristic name="Keywords" characteristicTypeId="c6ce-a20c-5806-fc59"/>
+                        <characteristic name="Noise / Mayhem" characteristicTypeId="35d4-25bc-80cb-6f59"/>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <rules/>
+                  <infoLinks>
+                    <infoLink id="d9fc-d649-57ea-9279" name="Dual Wield" hidden="false" targetId="cdbb-55db-ed3e-4259" type="rule">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                    </infoLink>
+                    <infoLink id="3007-de0f-0171-3b72" name="Sharp" hidden="false" targetId="3728-71b5-e85a-07f5" type="rule">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                    </infoLink>
+                  </infoLinks>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                  <selectionEntries/>
+                  <selectionEntryGroups/>
+                  <entryLinks/>
+                  <costs>
+                    <cost name=" Points" costTypeId="0705-c536-f372-c2d0" value="10.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="8545-9dbf-724e-b890" name="Baseball Bat" hidden="false" collective="false" type="upgrade">
+                  <profiles>
+                    <profile id="9dc9-39a8-257e-b406" name="Baseball Bat" hidden="false" profileTypeId="d42c-7da6-84ea-bbd3" profileTypeName="Melee Weapon">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                      <characteristics>
+                        <characteristic name="Attack Roll" characteristicTypeId="84c3-eb7b-1a01-99c6" value="1Red"/>
+                        <characteristic name="Special Rules" characteristicTypeId="a811-f6c5-34bc-5f90" value="Bruisers may reroll 1Red per attack."/>
+                        <characteristic name="Keywords" characteristicTypeId="c6ce-a20c-5806-fc59" value=""/>
+                        <characteristic name="Noise / Mayhem" characteristicTypeId="35d4-25bc-80cb-6f59"/>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                  <selectionEntries/>
+                  <selectionEntryGroups/>
+                  <entryLinks/>
+                  <costs>
+                    <cost name=" Points" costTypeId="0705-c536-f372-c2d0" value="10.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+              <selectionEntryGroups/>
+              <entryLinks/>
+            </selectionEntryGroup>
+            <selectionEntryGroup id="5f13-fa90-8078-51d7" name="Ranged Weapons" hidden="false" collective="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="cf5a-695e-bb8e-392e" value="0.0">
+                  <repeats/>
+                  <conditions>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2302-e358-492d-92a8" type="equalTo"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cf5a-695e-bb8e-392e" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries>
+                <selectionEntry id="059e-9f39-9004-d843" name="Pump-Action Shotgun" hidden="false" collective="false" type="upgrade">
+                  <profiles>
+                    <profile id="f69f-9a59-0944-9589" name="Pump-Action Shotgun" hidden="false" profileTypeId="3560-a8a8-6a4e-2aa2" profileTypeName="Ranged Weapon">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                      <characteristics>
+                        <characteristic name="Attack Roll Short" characteristicTypeId="5e67-d6ba-ff65-695d" value="1Red"/>
+                        <characteristic name="Attack Roll Medium" characteristicTypeId="f3e5-c666-6d43-df23" value="1Red"/>
+                        <characteristic name="Attack Roll Long" characteristicTypeId="1376-9535-490f-fce4" value="X"/>
+                        <characteristic name="Special Rules" characteristicTypeId="8821-27ea-b643-76c2" value=""/>
+                        <characteristic name="Keywords" characteristicTypeId="2c12-568c-52a4-db62" value="Multiple Shots (2), Shotgun"/>
+                        <characteristic name="Noise / Mayhem" characteristicTypeId="4783-fd91-26e1-6d38" value="Mayhem"/>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <rules/>
+                  <infoLinks>
+                    <infoLink id="3bb8-b0df-a51a-603e" name="Multiple Shots (X)" hidden="false" targetId="f1bf-0f6c-71bd-4705" type="rule">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                    </infoLink>
+                    <infoLink id="6735-504f-02c2-35bb" name="Shotgun" hidden="false" targetId="d56c-2c15-d9e4-9f33" type="rule">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                    </infoLink>
+                  </infoLinks>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                  <selectionEntries/>
+                  <selectionEntryGroups/>
+                  <entryLinks/>
+                  <costs>
+                    <cost name=" Points" costTypeId="0705-c536-f372-c2d0" value="25.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="4e6b-ed95-2c06-dcc9" name=".22 Revolver" hidden="false" collective="false" type="upgrade">
+                  <profiles>
+                    <profile id="40d2-2576-5d24-863b" name=".22 Revolver" hidden="false" profileTypeId="3560-a8a8-6a4e-2aa2" profileTypeName="Ranged Weapon">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                      <characteristics>
+                        <characteristic name="Attack Roll Short" characteristicTypeId="5e67-d6ba-ff65-695d" value="1Red"/>
+                        <characteristic name="Attack Roll Medium" characteristicTypeId="f3e5-c666-6d43-df23" value="X"/>
+                        <characteristic name="Attack Roll Long" characteristicTypeId="1376-9535-490f-fce4" value="X"/>
+                        <characteristic name="Special Rules" characteristicTypeId="8821-27ea-b643-76c2" value=""/>
+                        <characteristic name="Keywords" characteristicTypeId="2c12-568c-52a4-db62" value="Handgun"/>
+                        <characteristic name="Noise / Mayhem" characteristicTypeId="4783-fd91-26e1-6d38" value="Mayhem"/>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <rules/>
+                  <infoLinks>
+                    <infoLink id="4cad-8ba5-91b5-bf97" name="Handgun" hidden="false" targetId="a74c-9639-3b44-470b" type="rule">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                    </infoLink>
+                  </infoLinks>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                  <selectionEntries/>
+                  <selectionEntryGroups/>
+                  <entryLinks/>
+                  <costs>
+                    <cost name=" Points" costTypeId="0705-c536-f372-c2d0" value="8.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="1a36-f678-e4ba-524a" name=".38 Revolver" hidden="false" collective="false" type="upgrade">
+                  <profiles>
+                    <profile id="353f-599c-8281-3ddf" name=".38 Revolver" hidden="false" profileTypeId="3560-a8a8-6a4e-2aa2" profileTypeName="Ranged Weapon">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                      <characteristics>
+                        <characteristic name="Attack Roll Short" characteristicTypeId="5e67-d6ba-ff65-695d" value="1White"/>
+                        <characteristic name="Attack Roll Medium" characteristicTypeId="f3e5-c666-6d43-df23" value="X"/>
+                        <characteristic name="Attack Roll Long" characteristicTypeId="1376-9535-490f-fce4" value="X"/>
+                        <characteristic name="Special Rules" characteristicTypeId="8821-27ea-b643-76c2" value=""/>
+                        <characteristic name="Keywords" characteristicTypeId="2c12-568c-52a4-db62" value="Handgun"/>
+                        <characteristic name="Noise / Mayhem" characteristicTypeId="4783-fd91-26e1-6d38" value="Mayhem"/>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <rules/>
+                  <infoLinks>
+                    <infoLink id="bfed-92a7-eaa6-fe74" name="Handgun" hidden="false" targetId="a74c-9639-3b44-470b" type="rule">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                    </infoLink>
+                  </infoLinks>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                  <selectionEntries/>
+                  <selectionEntryGroups/>
+                  <entryLinks/>
+                  <costs>
+                    <cost name=" Points" costTypeId="0705-c536-f372-c2d0" value="14.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+              <selectionEntryGroups/>
+              <entryLinks/>
+            </selectionEntryGroup>
+            <selectionEntryGroup id="ef0b-31e9-18e0-1fcd" name="Special Items" hidden="false" collective="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8e4a-07fc-cb7e-aa35" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries>
+                <selectionEntry id="588d-8851-17e5-05ec" name="Bandages" hidden="false" collective="false" type="upgrade">
+                  <profiles>
+                    <profile id="aa57-49af-4713-5d91" name="Bandages" hidden="false" profileTypeId="ba75-8ed9-edc3-b7f6" profileTypeName="Special Items">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                      <characteristics>
+                        <characteristic name="Special Rules" characteristicTypeId="f83f-be9f-fcc5-abf5" value="One use only. As an Action, restore 1 Health point lost earlier in the game."/>
+                        <characteristic name="Keywords" characteristicTypeId="4d62-b2c0-a0c7-0a18"/>
+                        <characteristic name="Noise / Mayhem" characteristicTypeId="589a-5fe7-b416-6918"/>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                  <selectionEntries/>
+                  <selectionEntryGroups/>
+                  <entryLinks/>
+                  <costs>
+                    <cost name=" Points" costTypeId="0705-c536-f372-c2d0" value="5.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="fb25-b28c-27b5-7ce0" name="Knapsack" hidden="false" collective="false" type="upgrade">
+                  <profiles>
+                    <profile id="61a8-3f70-9f87-68cb" name="Knapsack" hidden="false" profileTypeId="ba75-8ed9-edc3-b7f6" profileTypeName="Special Items">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                      <characteristics>
+                        <characteristic name="Special Rules" characteristicTypeId="f83f-be9f-fcc5-abf5" value="This model does not lose VPs for Supply counters if it is killed during a game."/>
+                        <characteristic name="Keywords" characteristicTypeId="4d62-b2c0-a0c7-0a18" value="Attachment: Armor, Body"/>
+                        <characteristic name="Noise / Mayhem" characteristicTypeId="589a-5fe7-b416-6918"/>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <rules/>
+                  <infoLinks>
+                    <infoLink id="f754-90cb-ec46-0d42" name="Attachment (X)" hidden="false" targetId="743a-7c67-9a19-9a64" type="rule">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                    </infoLink>
+                  </infoLinks>
+                  <modifiers/>
+                  <constraints>
+                    <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4539-4288-3c3f-0583" type="max"/>
+                  </constraints>
+                  <categoryLinks/>
+                  <selectionEntries/>
+                  <selectionEntryGroups/>
+                  <entryLinks/>
+                  <costs>
+                    <cost name=" Points" costTypeId="0705-c536-f372-c2d0" value="5.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="8f41-65fc-b912-b292" name="Laser Sight" hidden="false" collective="false" type="upgrade">
+                  <profiles>
+                    <profile id="27df-ad72-db78-19e4" name="Laser Sight" hidden="false" profileTypeId="ba75-8ed9-edc3-b7f6" profileTypeName="Special Items">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                      <characteristics>
+                        <characteristic name="Special Rules" characteristicTypeId="f83f-be9f-fcc5-abf5" value="When performing a ranged attack with the attached weapon, roll 1Black. On a Shield, add 1Red to the attack roll."/>
+                        <characteristic name="Keywords" characteristicTypeId="4d62-b2c0-a0c7-0a18" value="Attachment (Rifle or Handgun)"/>
+                        <characteristic name="Noise / Mayhem" characteristicTypeId="589a-5fe7-b416-6918"/>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <rules/>
+                  <infoLinks>
+                    <infoLink id="4d15-0304-96a8-c970" name="Attachment (X)" hidden="false" targetId="743a-7c67-9a19-9a64" type="rule">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                    </infoLink>
+                  </infoLinks>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                  <selectionEntries/>
+                  <selectionEntryGroups/>
+                  <entryLinks/>
+                  <costs>
+                    <cost name=" Points" costTypeId="0705-c536-f372-c2d0" value="8.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+              <selectionEntryGroups/>
+              <entryLinks/>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <entryLinks/>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks/>
+      <costs>
+        <cost name=" Points" costTypeId="0705-c536-f372-c2d0" value="44.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9ca2-ce13-aa9c-4abc" name="Sandra" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="c776-3079-ff42-d965" name="Sandra" hidden="false" profileTypeId="40e9-9288-6f65-70a9" profileTypeName="Character">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Type" characteristicTypeId="d9ce-b162-4bd7-6736" value="Runner"/>
+            <characteristic name="Melee" characteristicTypeId="fc7e-dccd-5244-3798" value="1Red"/>
+            <characteristic name="Shoot" characteristicTypeId="b227-fd8f-ea1c-65f7" value="2Red"/>
+            <characteristic name="Defense" characteristicTypeId="ca1d-2465-3eb7-9bd8" value="1White"/>
+            <characteristic name="Health" characteristicTypeId="5e5d-73d3-ba6a-8396" value="4"/>
+            <characteristic name="SP" characteristicTypeId="cae4-668b-3f49-b130" value="X/-"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="3831-ca1b-50b4-32b6" name="Quick" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Sandra may perform two Move Actions in the same turn (if she has the Actions to
+spend). She may not Run twice.</description>
+        </rule>
+      </rules>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="19dd-9b0e-42e7-3c46" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="d40a-3f44-2a5a-0d14" name="New CategoryLink" hidden="false" targetId="7aaa-f540-43d6-81de" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="8ada-69d4-f994-3491" name="Knife" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="9082-e439-79ac-01f8" name="Knife" hidden="false" profileTypeId="d42c-7da6-84ea-bbd3" profileTypeName="Melee Weapon">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Attack Roll" characteristicTypeId="84c3-eb7b-1a01-99c6" value="1Red"/>
+                <characteristic name="Special Rules" characteristicTypeId="a811-f6c5-34bc-5f90" value=""/>
+                <characteristic name="Keywords" characteristicTypeId="c6ce-a20c-5806-fc59"/>
+                <characteristic name="Noise / Mayhem" characteristicTypeId="35d4-25bc-80cb-6f59"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks>
+            <infoLink id="d1ec-934d-a921-15d6" name="Dual Wield" hidden="false" targetId="cdbb-55db-ed3e-4259" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="9266-fa7c-a407-2592" name="Sharp" hidden="false" targetId="3728-71b5-e85a-07f5" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8442-d271-4d69-9c82" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name=" Points" costTypeId="0705-c536-f372-c2d0" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="60ed-80fa-5db7-26a6" name="Upgrades" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="0705-c536-f372-c2d0" scope="parent" value="50.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7544-32b2-89ee-5a86" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="7cb8-06a0-5657-d1a8" name="Melee Weapons" hidden="false" collective="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="9a93-eaac-3f4b-c95c" value="1">
+                  <repeats/>
+                  <conditions>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8ada-69d4-f994-3491" type="equalTo"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9a93-eaac-3f4b-c95c" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries>
+                <selectionEntry id="96fe-dbbe-cb62-fc7a" name="Knife" hidden="false" collective="false" type="upgrade">
+                  <profiles>
+                    <profile id="420e-e706-3da3-3e31" name="Knife" hidden="false" profileTypeId="d42c-7da6-84ea-bbd3" profileTypeName="Melee Weapon">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                      <characteristics>
+                        <characteristic name="Attack Roll" characteristicTypeId="84c3-eb7b-1a01-99c6" value="1Red"/>
+                        <characteristic name="Special Rules" characteristicTypeId="a811-f6c5-34bc-5f90" value=""/>
+                        <characteristic name="Keywords" characteristicTypeId="c6ce-a20c-5806-fc59"/>
+                        <characteristic name="Noise / Mayhem" characteristicTypeId="35d4-25bc-80cb-6f59"/>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <rules/>
+                  <infoLinks>
+                    <infoLink id="6ff6-38a0-d2fd-c2f1" name="Dual Wield" hidden="false" targetId="cdbb-55db-ed3e-4259" type="rule">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                    </infoLink>
+                    <infoLink id="075c-298b-7ad2-a91e" name="Sharp" hidden="false" targetId="3728-71b5-e85a-07f5" type="rule">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                    </infoLink>
+                  </infoLinks>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                  <selectionEntries/>
+                  <selectionEntryGroups/>
+                  <entryLinks/>
+                  <costs>
+                    <cost name=" Points" costTypeId="0705-c536-f372-c2d0" value="10.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="18c2-b7e8-0439-cf12" name="Baseball Bat" hidden="false" collective="false" type="upgrade">
+                  <profiles>
+                    <profile id="7aa3-4697-3247-588f" name="Baseball Bat" hidden="false" profileTypeId="d42c-7da6-84ea-bbd3" profileTypeName="Melee Weapon">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                      <characteristics>
+                        <characteristic name="Attack Roll" characteristicTypeId="84c3-eb7b-1a01-99c6" value="1Red"/>
+                        <characteristic name="Special Rules" characteristicTypeId="a811-f6c5-34bc-5f90" value="Bruisers may reroll 1Red per attack."/>
+                        <characteristic name="Keywords" characteristicTypeId="c6ce-a20c-5806-fc59" value=""/>
+                        <characteristic name="Noise / Mayhem" characteristicTypeId="35d4-25bc-80cb-6f59"/>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                  <selectionEntries/>
+                  <selectionEntryGroups/>
+                  <entryLinks/>
+                  <costs>
+                    <cost name=" Points" costTypeId="0705-c536-f372-c2d0" value="10.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+              <selectionEntryGroups/>
+              <entryLinks/>
+            </selectionEntryGroup>
+            <selectionEntryGroup id="198b-903f-1284-e7d5" name="Ranged Weapons" hidden="false" collective="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7a9f-fcc7-30d3-0806" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries>
+                <selectionEntry id="c941-ca47-e523-7436" name="Pump-Action Shotgun" hidden="false" collective="false" type="upgrade">
+                  <profiles>
+                    <profile id="e311-fb19-67a8-39a2" name="Pump-Action Shotgun" hidden="false" profileTypeId="3560-a8a8-6a4e-2aa2" profileTypeName="Ranged Weapon">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                      <characteristics>
+                        <characteristic name="Attack Roll Short" characteristicTypeId="5e67-d6ba-ff65-695d" value="1Red"/>
+                        <characteristic name="Attack Roll Medium" characteristicTypeId="f3e5-c666-6d43-df23" value="1Red"/>
+                        <characteristic name="Attack Roll Long" characteristicTypeId="1376-9535-490f-fce4" value="X"/>
+                        <characteristic name="Special Rules" characteristicTypeId="8821-27ea-b643-76c2" value=""/>
+                        <characteristic name="Keywords" characteristicTypeId="2c12-568c-52a4-db62" value="Multiple Shots (2), Shotgun"/>
+                        <characteristic name="Noise / Mayhem" characteristicTypeId="4783-fd91-26e1-6d38" value="Mayhem"/>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <rules/>
+                  <infoLinks>
+                    <infoLink id="e788-acf7-aaa1-71cb" name="Multiple Shots (X)" hidden="false" targetId="f1bf-0f6c-71bd-4705" type="rule">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                    </infoLink>
+                    <infoLink id="d73b-483b-2298-d33e" name="Shotgun" hidden="false" targetId="d56c-2c15-d9e4-9f33" type="rule">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                    </infoLink>
+                  </infoLinks>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                  <selectionEntries/>
+                  <selectionEntryGroups/>
+                  <entryLinks/>
+                  <costs>
+                    <cost name=" Points" costTypeId="0705-c536-f372-c2d0" value="25.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="49a5-f5cc-c244-4b55" name=".22 Revolver" hidden="false" collective="false" type="upgrade">
+                  <profiles>
+                    <profile id="7464-8d25-fbc2-7950" name=".22 Revolver" hidden="false" profileTypeId="3560-a8a8-6a4e-2aa2" profileTypeName="Ranged Weapon">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                      <characteristics>
+                        <characteristic name="Attack Roll Short" characteristicTypeId="5e67-d6ba-ff65-695d" value="1Red"/>
+                        <characteristic name="Attack Roll Medium" characteristicTypeId="f3e5-c666-6d43-df23" value="X"/>
+                        <characteristic name="Attack Roll Long" characteristicTypeId="1376-9535-490f-fce4" value="X"/>
+                        <characteristic name="Special Rules" characteristicTypeId="8821-27ea-b643-76c2" value=""/>
+                        <characteristic name="Keywords" characteristicTypeId="2c12-568c-52a4-db62" value="Handgun"/>
+                        <characteristic name="Noise / Mayhem" characteristicTypeId="4783-fd91-26e1-6d38" value="Mayhem"/>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <rules/>
+                  <infoLinks>
+                    <infoLink id="f380-f572-b7fa-5115" name="Handgun" hidden="false" targetId="a74c-9639-3b44-470b" type="rule">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                    </infoLink>
+                  </infoLinks>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                  <selectionEntries/>
+                  <selectionEntryGroups/>
+                  <entryLinks/>
+                  <costs>
+                    <cost name=" Points" costTypeId="0705-c536-f372-c2d0" value="8.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="848c-fc38-ed43-8ac7" name=".38 Revolver" hidden="false" collective="false" type="upgrade">
+                  <profiles>
+                    <profile id="4609-54df-f959-51cc" name=".38 Revolver" hidden="false" profileTypeId="3560-a8a8-6a4e-2aa2" profileTypeName="Ranged Weapon">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                      <characteristics>
+                        <characteristic name="Attack Roll Short" characteristicTypeId="5e67-d6ba-ff65-695d" value="1White"/>
+                        <characteristic name="Attack Roll Medium" characteristicTypeId="f3e5-c666-6d43-df23" value="X"/>
+                        <characteristic name="Attack Roll Long" characteristicTypeId="1376-9535-490f-fce4" value="X"/>
+                        <characteristic name="Special Rules" characteristicTypeId="8821-27ea-b643-76c2" value=""/>
+                        <characteristic name="Keywords" characteristicTypeId="2c12-568c-52a4-db62" value="Handgun"/>
+                        <characteristic name="Noise / Mayhem" characteristicTypeId="4783-fd91-26e1-6d38" value="Mayhem"/>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <rules/>
+                  <infoLinks>
+                    <infoLink id="ddc9-ad71-af9d-f2a2" name="Handgun" hidden="false" targetId="a74c-9639-3b44-470b" type="rule">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                    </infoLink>
+                  </infoLinks>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                  <selectionEntries/>
+                  <selectionEntryGroups/>
+                  <entryLinks/>
+                  <costs>
+                    <cost name=" Points" costTypeId="0705-c536-f372-c2d0" value="14.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+              <selectionEntryGroups/>
+              <entryLinks/>
+            </selectionEntryGroup>
+            <selectionEntryGroup id="0497-19f5-5c90-f8b2" name="Special Items" hidden="false" collective="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="76f7-0f7e-e9de-3d00" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries>
+                <selectionEntry id="d30e-7e28-0c74-21cb" name="Bandages" hidden="false" collective="false" type="upgrade">
+                  <profiles>
+                    <profile id="debb-7cba-96cc-7ecf" name="Bandages" hidden="false" profileTypeId="ba75-8ed9-edc3-b7f6" profileTypeName="Special Items">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                      <characteristics>
+                        <characteristic name="Special Rules" characteristicTypeId="f83f-be9f-fcc5-abf5" value="One use only. As an Action, restore 1 Health point lost earlier in the game."/>
+                        <characteristic name="Keywords" characteristicTypeId="4d62-b2c0-a0c7-0a18"/>
+                        <characteristic name="Noise / Mayhem" characteristicTypeId="589a-5fe7-b416-6918"/>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                  <selectionEntries/>
+                  <selectionEntryGroups/>
+                  <entryLinks/>
+                  <costs>
+                    <cost name=" Points" costTypeId="0705-c536-f372-c2d0" value="5.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="76dd-4cc4-ef09-4b6a" name="Knapsack" hidden="false" collective="false" type="upgrade">
+                  <profiles>
+                    <profile id="adf6-1a5c-688a-a87a" name="Knapsack" hidden="false" profileTypeId="ba75-8ed9-edc3-b7f6" profileTypeName="Special Items">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                      <characteristics>
+                        <characteristic name="Special Rules" characteristicTypeId="f83f-be9f-fcc5-abf5" value="This model does not lose VPs for Supply counters if it is killed during a game."/>
+                        <characteristic name="Keywords" characteristicTypeId="4d62-b2c0-a0c7-0a18" value="Attachment: Armor, Body"/>
+                        <characteristic name="Noise / Mayhem" characteristicTypeId="589a-5fe7-b416-6918"/>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <rules/>
+                  <infoLinks>
+                    <infoLink id="9530-c9c8-261d-a8c5" name="Attachment (X)" hidden="false" targetId="743a-7c67-9a19-9a64" type="rule">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                    </infoLink>
+                  </infoLinks>
+                  <modifiers/>
+                  <constraints>
+                    <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c333-e765-e28e-cd1c" type="max"/>
+                  </constraints>
+                  <categoryLinks/>
+                  <selectionEntries/>
+                  <selectionEntryGroups/>
+                  <entryLinks/>
+                  <costs>
+                    <cost name=" Points" costTypeId="0705-c536-f372-c2d0" value="5.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="e0dd-9575-dbea-1eea" name="Laser Sight" hidden="false" collective="false" type="upgrade">
+                  <profiles>
+                    <profile id="90a9-480f-57d2-c128" name="Laser Sight" hidden="false" profileTypeId="ba75-8ed9-edc3-b7f6" profileTypeName="Special Items">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                      <characteristics>
+                        <characteristic name="Special Rules" characteristicTypeId="f83f-be9f-fcc5-abf5" value="When performing a ranged attack with the attached weapon, roll 1Black. On a Shield, add 1Red to the attack roll."/>
+                        <characteristic name="Keywords" characteristicTypeId="4d62-b2c0-a0c7-0a18" value="Attachment (Rifle or Handgun)"/>
+                        <characteristic name="Noise / Mayhem" characteristicTypeId="589a-5fe7-b416-6918"/>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <rules/>
+                  <infoLinks>
+                    <infoLink id="aae1-9c07-27d6-a27a" name="Attachment (X)" hidden="false" targetId="743a-7c67-9a19-9a64" type="rule">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                    </infoLink>
+                  </infoLinks>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                  <selectionEntries/>
+                  <selectionEntryGroups/>
+                  <entryLinks/>
+                  <costs>
+                    <cost name=" Points" costTypeId="0705-c536-f372-c2d0" value="8.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+              <selectionEntryGroups/>
+              <entryLinks/>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <entryLinks/>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks/>
+      <costs>
+        <cost name=" Points" costTypeId="0705-c536-f372-c2d0" value="32.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c4f2-830b-0364-d303" name="Patrick" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="6534-fb34-9834-f1fd" name="Patrick" hidden="false" profileTypeId="40e9-9288-6f65-70a9" profileTypeName="Character">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Type" characteristicTypeId="d9ce-b162-4bd7-6736" value="Bruiser"/>
+            <characteristic name="Melee" characteristicTypeId="fc7e-dccd-5244-3798" value="1White,1Red"/>
+            <characteristic name="Shoot" characteristicTypeId="b227-fd8f-ea1c-65f7" value="1Red"/>
+            <characteristic name="Defense" characteristicTypeId="ca1d-2465-3eb7-9bd8" value="1Blue"/>
+            <characteristic name="Health" characteristicTypeId="5e5d-73d3-ba6a-8396" value="4"/>
+            <characteristic name="SP" characteristicTypeId="cae4-668b-3f49-b130" value="X/-"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6521-d664-9e85-d8ed" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="847c-f0a0-6447-cecd" name="New CategoryLink" hidden="false" targetId="1632-3305-8ec4-ecf2" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="699c-f367-4e00-dc3b" name="Baseball Bat" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="9685-3f2f-5479-d4a2" name="Baseball Bat" hidden="false" profileTypeId="d42c-7da6-84ea-bbd3" profileTypeName="Melee Weapon">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Attack Roll" characteristicTypeId="84c3-eb7b-1a01-99c6" value="1Red"/>
+                <characteristic name="Special Rules" characteristicTypeId="a811-f6c5-34bc-5f90" value="Bruisers may reroll 1Red per attack."/>
+                <characteristic name="Keywords" characteristicTypeId="c6ce-a20c-5806-fc59" value=""/>
+                <characteristic name="Noise / Mayhem" characteristicTypeId="35d4-25bc-80cb-6f59"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name=" Points" costTypeId="0705-c536-f372-c2d0" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="4b61-dc6f-94c5-6004" name="Upgrades" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="0705-c536-f372-c2d0" scope="parent" value="24.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fcbe-88dc-5d12-57c6" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="2891-8e08-9ffa-17a9" name="Melee Weapons" hidden="false" collective="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="985d-ffc7-e8f0-a0ce" value="1">
+                  <repeats/>
+                  <conditions>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="699c-f367-4e00-dc3b" type="equalTo"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="985d-ffc7-e8f0-a0ce" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries>
+                <selectionEntry id="c5f2-feff-1490-d380" name="Knife" hidden="false" collective="false" type="upgrade">
+                  <profiles>
+                    <profile id="68cc-5f05-2fd9-a64c" name="Knife" hidden="false" profileTypeId="d42c-7da6-84ea-bbd3" profileTypeName="Melee Weapon">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                      <characteristics>
+                        <characteristic name="Attack Roll" characteristicTypeId="84c3-eb7b-1a01-99c6" value="1Red"/>
+                        <characteristic name="Special Rules" characteristicTypeId="a811-f6c5-34bc-5f90" value=""/>
+                        <characteristic name="Keywords" characteristicTypeId="c6ce-a20c-5806-fc59"/>
+                        <characteristic name="Noise / Mayhem" characteristicTypeId="35d4-25bc-80cb-6f59"/>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <rules/>
+                  <infoLinks>
+                    <infoLink id="3c54-2e0f-2bce-3b6c" name="Dual Wield" hidden="false" targetId="cdbb-55db-ed3e-4259" type="rule">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                    </infoLink>
+                    <infoLink id="19f6-b965-66e3-54cd" name="Sharp" hidden="false" targetId="3728-71b5-e85a-07f5" type="rule">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                    </infoLink>
+                  </infoLinks>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                  <selectionEntries/>
+                  <selectionEntryGroups/>
+                  <entryLinks/>
+                  <costs>
+                    <cost name=" Points" costTypeId="0705-c536-f372-c2d0" value="10.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="b09d-dffa-463e-bc3d" name="Baseball Bat" hidden="false" collective="false" type="upgrade">
+                  <profiles>
+                    <profile id="3741-1155-9c7e-a14d" name="Baseball Bat" hidden="false" profileTypeId="d42c-7da6-84ea-bbd3" profileTypeName="Melee Weapon">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                      <characteristics>
+                        <characteristic name="Attack Roll" characteristicTypeId="84c3-eb7b-1a01-99c6" value="1Red"/>
+                        <characteristic name="Special Rules" characteristicTypeId="a811-f6c5-34bc-5f90" value="Bruisers may reroll 1Red per attack."/>
+                        <characteristic name="Keywords" characteristicTypeId="c6ce-a20c-5806-fc59" value=""/>
+                        <characteristic name="Noise / Mayhem" characteristicTypeId="35d4-25bc-80cb-6f59"/>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                  <selectionEntries/>
+                  <selectionEntryGroups/>
+                  <entryLinks/>
+                  <costs>
+                    <cost name=" Points" costTypeId="0705-c536-f372-c2d0" value="10.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+              <selectionEntryGroups/>
+              <entryLinks/>
+            </selectionEntryGroup>
+            <selectionEntryGroup id="c618-925a-78f1-41a3" name="Ranged Weapons" hidden="false" collective="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e1ed-a0f5-e2c9-d0de" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries>
+                <selectionEntry id="d339-d9f0-8e9c-fb47" name="Pump-Action Shotgun" hidden="false" collective="false" type="upgrade">
+                  <profiles>
+                    <profile id="bf5d-14cb-8330-5857" name="Pump-Action Shotgun" hidden="false" profileTypeId="3560-a8a8-6a4e-2aa2" profileTypeName="Ranged Weapon">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                      <characteristics>
+                        <characteristic name="Attack Roll Short" characteristicTypeId="5e67-d6ba-ff65-695d" value="1Red"/>
+                        <characteristic name="Attack Roll Medium" characteristicTypeId="f3e5-c666-6d43-df23" value="1Red"/>
+                        <characteristic name="Attack Roll Long" characteristicTypeId="1376-9535-490f-fce4" value="X"/>
+                        <characteristic name="Special Rules" characteristicTypeId="8821-27ea-b643-76c2" value=""/>
+                        <characteristic name="Keywords" characteristicTypeId="2c12-568c-52a4-db62" value="Multiple Shots (2), Shotgun"/>
+                        <characteristic name="Noise / Mayhem" characteristicTypeId="4783-fd91-26e1-6d38" value="Mayhem"/>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <rules/>
+                  <infoLinks>
+                    <infoLink id="09c9-6f81-03df-1020" name="Multiple Shots (X)" hidden="false" targetId="f1bf-0f6c-71bd-4705" type="rule">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                    </infoLink>
+                    <infoLink id="2d51-e2b4-b492-0ec9" name="Shotgun" hidden="false" targetId="d56c-2c15-d9e4-9f33" type="rule">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                    </infoLink>
+                  </infoLinks>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                  <selectionEntries/>
+                  <selectionEntryGroups/>
+                  <entryLinks/>
+                  <costs>
+                    <cost name=" Points" costTypeId="0705-c536-f372-c2d0" value="25.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="2fb2-c582-6c21-ac61" name=".22 Revolver" hidden="false" collective="false" type="upgrade">
+                  <profiles>
+                    <profile id="ba81-b20d-57af-4aab" name=".22 Revolver" hidden="false" profileTypeId="3560-a8a8-6a4e-2aa2" profileTypeName="Ranged Weapon">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                      <characteristics>
+                        <characteristic name="Attack Roll Short" characteristicTypeId="5e67-d6ba-ff65-695d" value="1Red"/>
+                        <characteristic name="Attack Roll Medium" characteristicTypeId="f3e5-c666-6d43-df23" value="X"/>
+                        <characteristic name="Attack Roll Long" characteristicTypeId="1376-9535-490f-fce4" value="X"/>
+                        <characteristic name="Special Rules" characteristicTypeId="8821-27ea-b643-76c2" value=""/>
+                        <characteristic name="Keywords" characteristicTypeId="2c12-568c-52a4-db62" value="Handgun"/>
+                        <characteristic name="Noise / Mayhem" characteristicTypeId="4783-fd91-26e1-6d38" value="Mayhem"/>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <rules/>
+                  <infoLinks>
+                    <infoLink id="39da-401c-1ae0-4798" name="Handgun" hidden="false" targetId="a74c-9639-3b44-470b" type="rule">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                    </infoLink>
+                  </infoLinks>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                  <selectionEntries/>
+                  <selectionEntryGroups/>
+                  <entryLinks/>
+                  <costs>
+                    <cost name=" Points" costTypeId="0705-c536-f372-c2d0" value="8.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="9a02-bd2e-4faf-c6fd" name=".38 Revolver" hidden="false" collective="false" type="upgrade">
+                  <profiles>
+                    <profile id="16b6-1062-e35c-59d6" name=".38 Revolver" hidden="false" profileTypeId="3560-a8a8-6a4e-2aa2" profileTypeName="Ranged Weapon">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                      <characteristics>
+                        <characteristic name="Attack Roll Short" characteristicTypeId="5e67-d6ba-ff65-695d" value="1White"/>
+                        <characteristic name="Attack Roll Medium" characteristicTypeId="f3e5-c666-6d43-df23" value="X"/>
+                        <characteristic name="Attack Roll Long" characteristicTypeId="1376-9535-490f-fce4" value="X"/>
+                        <characteristic name="Special Rules" characteristicTypeId="8821-27ea-b643-76c2" value=""/>
+                        <characteristic name="Keywords" characteristicTypeId="2c12-568c-52a4-db62" value="Handgun"/>
+                        <characteristic name="Noise / Mayhem" characteristicTypeId="4783-fd91-26e1-6d38" value="Mayhem"/>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <rules/>
+                  <infoLinks>
+                    <infoLink id="486b-2fb3-26ea-dae3" name="Handgun" hidden="false" targetId="a74c-9639-3b44-470b" type="rule">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                    </infoLink>
+                  </infoLinks>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                  <selectionEntries/>
+                  <selectionEntryGroups/>
+                  <entryLinks/>
+                  <costs>
+                    <cost name=" Points" costTypeId="0705-c536-f372-c2d0" value="14.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+              <selectionEntryGroups/>
+              <entryLinks/>
+            </selectionEntryGroup>
+            <selectionEntryGroup id="3a9c-42af-3eef-f7fd" name="Special Items" hidden="false" collective="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e1b2-c826-d250-a35d" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries>
+                <selectionEntry id="0bec-c780-3090-f892" name="Bandages" hidden="false" collective="false" type="upgrade">
+                  <profiles>
+                    <profile id="b72d-6f0c-9012-3c31" name="Bandages" hidden="false" profileTypeId="ba75-8ed9-edc3-b7f6" profileTypeName="Special Items">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                      <characteristics>
+                        <characteristic name="Special Rules" characteristicTypeId="f83f-be9f-fcc5-abf5" value="One use only. As an Action, restore 1 Health point lost earlier in the game."/>
+                        <characteristic name="Keywords" characteristicTypeId="4d62-b2c0-a0c7-0a18"/>
+                        <characteristic name="Noise / Mayhem" characteristicTypeId="589a-5fe7-b416-6918"/>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                  <selectionEntries/>
+                  <selectionEntryGroups/>
+                  <entryLinks/>
+                  <costs>
+                    <cost name=" Points" costTypeId="0705-c536-f372-c2d0" value="5.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="2198-1d57-ca42-53a2" name="Knapsack" hidden="false" collective="false" type="upgrade">
+                  <profiles>
+                    <profile id="8d25-0870-107a-0a29" name="Knapsack" hidden="false" profileTypeId="ba75-8ed9-edc3-b7f6" profileTypeName="Special Items">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                      <characteristics>
+                        <characteristic name="Special Rules" characteristicTypeId="f83f-be9f-fcc5-abf5" value="This model does not lose VPs for Supply counters if it is killed during a game."/>
+                        <characteristic name="Keywords" characteristicTypeId="4d62-b2c0-a0c7-0a18" value="Attachment: Armor, Body"/>
+                        <characteristic name="Noise / Mayhem" characteristicTypeId="589a-5fe7-b416-6918"/>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <rules/>
+                  <infoLinks>
+                    <infoLink id="62ae-c969-4f70-699a" name="Attachment (X)" hidden="false" targetId="743a-7c67-9a19-9a64" type="rule">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                    </infoLink>
+                  </infoLinks>
+                  <modifiers/>
+                  <constraints>
+                    <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="87f7-8056-51fe-662e" type="max"/>
+                  </constraints>
+                  <categoryLinks/>
+                  <selectionEntries/>
+                  <selectionEntryGroups/>
+                  <entryLinks/>
+                  <costs>
+                    <cost name=" Points" costTypeId="0705-c536-f372-c2d0" value="5.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="79e3-fc26-8d7c-be38" name="Laser Sight" hidden="false" collective="false" type="upgrade">
+                  <profiles>
+                    <profile id="38b3-f5c9-dc08-adf6" name="Laser Sight" hidden="false" profileTypeId="ba75-8ed9-edc3-b7f6" profileTypeName="Special Items">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                      <characteristics>
+                        <characteristic name="Special Rules" characteristicTypeId="f83f-be9f-fcc5-abf5" value="When performing a ranged attack with the attached weapon, roll 1Black. On a Shield, add 1Red to the attack roll."/>
+                        <characteristic name="Keywords" characteristicTypeId="4d62-b2c0-a0c7-0a18" value="Attachment (Rifle or Handgun)"/>
+                        <characteristic name="Noise / Mayhem" characteristicTypeId="589a-5fe7-b416-6918"/>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <rules/>
+                  <infoLinks>
+                    <infoLink id="bc44-95e2-29fd-7dcf" name="Attachment (X)" hidden="false" targetId="743a-7c67-9a19-9a64" type="rule">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                    </infoLink>
+                  </infoLinks>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                  <selectionEntries/>
+                  <selectionEntryGroups/>
+                  <entryLinks/>
+                  <costs>
+                    <cost name=" Points" costTypeId="0705-c536-f372-c2d0" value="8.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+              <selectionEntryGroups/>
+              <entryLinks/>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <entryLinks/>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks/>
+      <costs>
+        <cost name=" Points" costTypeId="0705-c536-f372-c2d0" value="24.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4316-d796-8a8d-4fbd" name="Liam" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="d0a8-6fad-7f8c-b90a" name="Liam" hidden="false" profileTypeId="40e9-9288-6f65-70a9" profileTypeName="Character">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Type" characteristicTypeId="d9ce-b162-4bd7-6736" value="Support"/>
+            <characteristic name="Melee" characteristicTypeId="fc7e-dccd-5244-3798" value="1Red"/>
+            <characteristic name="Shoot" characteristicTypeId="b227-fd8f-ea1c-65f7" value="-"/>
+            <characteristic name="Defense" characteristicTypeId="ca1d-2465-3eb7-9bd8" value="1Red"/>
+            <characteristic name="Health" characteristicTypeId="5e5d-73d3-ba6a-8396" value="3"/>
+            <characteristic name="SP" characteristicTypeId="cae4-668b-3f49-b130" value="X/1Red"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="21d8-e9cf-211c-557e" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="7bda-0d52-83cd-4a9a" name="New CategoryLink" hidden="false" targetId="4eb2-d49f-4b22-dd86" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="ff70-1da2-fa1e-5ffe" name="Upgrades" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="0705-c536-f372-c2d0" scope="parent" value="8.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2ace-c58d-d4ec-518c" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="9e66-2f68-b49c-9269" name="Melee Weapons" hidden="false" collective="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="28f8-60ad-3fd3-bb23" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries>
+                <selectionEntry id="c3a1-99c6-95f9-6bf2" name="Knife" hidden="false" collective="false" type="upgrade">
+                  <profiles>
+                    <profile id="c166-1775-feb5-28bf" name="Knife" hidden="false" profileTypeId="d42c-7da6-84ea-bbd3" profileTypeName="Melee Weapon">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                      <characteristics>
+                        <characteristic name="Attack Roll" characteristicTypeId="84c3-eb7b-1a01-99c6" value="1Red"/>
+                        <characteristic name="Special Rules" characteristicTypeId="a811-f6c5-34bc-5f90" value=""/>
+                        <characteristic name="Keywords" characteristicTypeId="c6ce-a20c-5806-fc59"/>
+                        <characteristic name="Noise / Mayhem" characteristicTypeId="35d4-25bc-80cb-6f59"/>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <rules/>
+                  <infoLinks>
+                    <infoLink id="a6cc-de63-6712-ecda" name="Dual Wield" hidden="false" targetId="cdbb-55db-ed3e-4259" type="rule">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                    </infoLink>
+                    <infoLink id="4a1c-61cd-ce74-c8df" name="Sharp" hidden="false" targetId="3728-71b5-e85a-07f5" type="rule">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                    </infoLink>
+                  </infoLinks>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                  <selectionEntries/>
+                  <selectionEntryGroups/>
+                  <entryLinks/>
+                  <costs>
+                    <cost name=" Points" costTypeId="0705-c536-f372-c2d0" value="10.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="6bda-bf90-1c16-83d7" name="Baseball Bat" hidden="false" collective="false" type="upgrade">
+                  <profiles>
+                    <profile id="9532-ccee-16b6-ba4e" name="Baseball Bat" hidden="false" profileTypeId="d42c-7da6-84ea-bbd3" profileTypeName="Melee Weapon">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                      <characteristics>
+                        <characteristic name="Attack Roll" characteristicTypeId="84c3-eb7b-1a01-99c6" value="1Red"/>
+                        <characteristic name="Special Rules" characteristicTypeId="a811-f6c5-34bc-5f90" value="Bruisers may reroll 1Red per attack."/>
+                        <characteristic name="Keywords" characteristicTypeId="c6ce-a20c-5806-fc59" value=""/>
+                        <characteristic name="Noise / Mayhem" characteristicTypeId="35d4-25bc-80cb-6f59"/>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                  <selectionEntries/>
+                  <selectionEntryGroups/>
+                  <entryLinks/>
+                  <costs>
+                    <cost name=" Points" costTypeId="0705-c536-f372-c2d0" value="10.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+              <selectionEntryGroups/>
+              <entryLinks/>
+            </selectionEntryGroup>
+            <selectionEntryGroup id="e7f5-53bb-aeb7-6fd5" name="Ranged Weapons" hidden="false" collective="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9d1b-268a-2487-2b29" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries>
+                <selectionEntry id="2c71-4ed6-249b-0750" name="Pump-Action Shotgun" hidden="false" collective="false" type="upgrade">
+                  <profiles>
+                    <profile id="bdd1-b1b3-ed87-3e8f" name="Pump-Action Shotgun" hidden="false" profileTypeId="3560-a8a8-6a4e-2aa2" profileTypeName="Ranged Weapon">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                      <characteristics>
+                        <characteristic name="Attack Roll Short" characteristicTypeId="5e67-d6ba-ff65-695d" value="1Red"/>
+                        <characteristic name="Attack Roll Medium" characteristicTypeId="f3e5-c666-6d43-df23" value="1Red"/>
+                        <characteristic name="Attack Roll Long" characteristicTypeId="1376-9535-490f-fce4" value="X"/>
+                        <characteristic name="Special Rules" characteristicTypeId="8821-27ea-b643-76c2" value=""/>
+                        <characteristic name="Keywords" characteristicTypeId="2c12-568c-52a4-db62" value="Multiple Shots (2), Shotgun"/>
+                        <characteristic name="Noise / Mayhem" characteristicTypeId="4783-fd91-26e1-6d38" value="Mayhem"/>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <rules/>
+                  <infoLinks>
+                    <infoLink id="528a-792c-562e-83c3" name="Multiple Shots (X)" hidden="false" targetId="f1bf-0f6c-71bd-4705" type="rule">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                    </infoLink>
+                    <infoLink id="90d0-29a0-cfd3-850f" name="Shotgun" hidden="false" targetId="d56c-2c15-d9e4-9f33" type="rule">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                    </infoLink>
+                  </infoLinks>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                  <selectionEntries/>
+                  <selectionEntryGroups/>
+                  <entryLinks/>
+                  <costs>
+                    <cost name=" Points" costTypeId="0705-c536-f372-c2d0" value="25.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="cb06-0e3d-ac32-84d4" name=".22 Revolver" hidden="false" collective="false" type="upgrade">
+                  <profiles>
+                    <profile id="8e18-0d7f-4946-7d42" name=".22 Revolver" hidden="false" profileTypeId="3560-a8a8-6a4e-2aa2" profileTypeName="Ranged Weapon">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                      <characteristics>
+                        <characteristic name="Attack Roll Short" characteristicTypeId="5e67-d6ba-ff65-695d" value="1Red"/>
+                        <characteristic name="Attack Roll Medium" characteristicTypeId="f3e5-c666-6d43-df23" value="X"/>
+                        <characteristic name="Attack Roll Long" characteristicTypeId="1376-9535-490f-fce4" value="X"/>
+                        <characteristic name="Special Rules" characteristicTypeId="8821-27ea-b643-76c2" value=""/>
+                        <characteristic name="Keywords" characteristicTypeId="2c12-568c-52a4-db62" value="Handgun"/>
+                        <characteristic name="Noise / Mayhem" characteristicTypeId="4783-fd91-26e1-6d38" value="Mayhem"/>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <rules/>
+                  <infoLinks>
+                    <infoLink id="0512-a994-b4b3-7c54" name="Handgun" hidden="false" targetId="a74c-9639-3b44-470b" type="rule">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                    </infoLink>
+                  </infoLinks>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                  <selectionEntries/>
+                  <selectionEntryGroups/>
+                  <entryLinks/>
+                  <costs>
+                    <cost name=" Points" costTypeId="0705-c536-f372-c2d0" value="8.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="e89e-0ff6-aebe-2315" name=".38 Revolver" hidden="false" collective="false" type="upgrade">
+                  <profiles>
+                    <profile id="97dd-7abb-2244-9932" name=".38 Revolver" hidden="false" profileTypeId="3560-a8a8-6a4e-2aa2" profileTypeName="Ranged Weapon">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                      <characteristics>
+                        <characteristic name="Attack Roll Short" characteristicTypeId="5e67-d6ba-ff65-695d" value="1White"/>
+                        <characteristic name="Attack Roll Medium" characteristicTypeId="f3e5-c666-6d43-df23" value="X"/>
+                        <characteristic name="Attack Roll Long" characteristicTypeId="1376-9535-490f-fce4" value="X"/>
+                        <characteristic name="Special Rules" characteristicTypeId="8821-27ea-b643-76c2" value=""/>
+                        <characteristic name="Keywords" characteristicTypeId="2c12-568c-52a4-db62" value="Handgun"/>
+                        <characteristic name="Noise / Mayhem" characteristicTypeId="4783-fd91-26e1-6d38" value="Mayhem"/>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <rules/>
+                  <infoLinks>
+                    <infoLink id="b8ec-8c0e-8271-0da7" name="Handgun" hidden="false" targetId="a74c-9639-3b44-470b" type="rule">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                    </infoLink>
+                  </infoLinks>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                  <selectionEntries/>
+                  <selectionEntryGroups/>
+                  <entryLinks/>
+                  <costs>
+                    <cost name=" Points" costTypeId="0705-c536-f372-c2d0" value="14.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+              <selectionEntryGroups/>
+              <entryLinks/>
+            </selectionEntryGroup>
+            <selectionEntryGroup id="3ad4-b4c6-82a0-94ec" name="Special Items" hidden="false" collective="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6cde-9098-2698-fcd7" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries>
+                <selectionEntry id="c084-9103-bc17-fc30" name="Bandages" hidden="false" collective="false" type="upgrade">
+                  <profiles>
+                    <profile id="9f9e-6a54-4fe4-00dd" name="Bandages" hidden="false" profileTypeId="ba75-8ed9-edc3-b7f6" profileTypeName="Special Items">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                      <characteristics>
+                        <characteristic name="Special Rules" characteristicTypeId="f83f-be9f-fcc5-abf5" value="One use only. As an Action, restore 1 Health point lost earlier in the game."/>
+                        <characteristic name="Keywords" characteristicTypeId="4d62-b2c0-a0c7-0a18"/>
+                        <characteristic name="Noise / Mayhem" characteristicTypeId="589a-5fe7-b416-6918"/>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                  <selectionEntries/>
+                  <selectionEntryGroups/>
+                  <entryLinks/>
+                  <costs>
+                    <cost name=" Points" costTypeId="0705-c536-f372-c2d0" value="5.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="f87d-c7db-2b64-28aa" name="Knapsack" hidden="false" collective="false" type="upgrade">
+                  <profiles>
+                    <profile id="f16b-9469-c98f-9778" name="Knapsack" hidden="false" profileTypeId="ba75-8ed9-edc3-b7f6" profileTypeName="Special Items">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                      <characteristics>
+                        <characteristic name="Special Rules" characteristicTypeId="f83f-be9f-fcc5-abf5" value="This model does not lose VPs for Supply counters if it is killed during a game."/>
+                        <characteristic name="Keywords" characteristicTypeId="4d62-b2c0-a0c7-0a18" value="Attachment: Armor, Body"/>
+                        <characteristic name="Noise / Mayhem" characteristicTypeId="589a-5fe7-b416-6918"/>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <rules/>
+                  <infoLinks>
+                    <infoLink id="d4be-15f0-0dd4-2736" name="Attachment (X)" hidden="false" targetId="743a-7c67-9a19-9a64" type="rule">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                    </infoLink>
+                  </infoLinks>
+                  <modifiers/>
+                  <constraints>
+                    <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="32cb-9de9-d2ff-33a5" type="max"/>
+                  </constraints>
+                  <categoryLinks/>
+                  <selectionEntries/>
+                  <selectionEntryGroups/>
+                  <entryLinks/>
+                  <costs>
+                    <cost name=" Points" costTypeId="0705-c536-f372-c2d0" value="5.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="6f8b-3ef1-bdd8-32fa" name="Laser Sight" hidden="false" collective="false" type="upgrade">
+                  <profiles>
+                    <profile id="3b1e-e286-9d44-a5e5" name="Laser Sight" hidden="false" profileTypeId="ba75-8ed9-edc3-b7f6" profileTypeName="Special Items">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                      <characteristics>
+                        <characteristic name="Special Rules" characteristicTypeId="f83f-be9f-fcc5-abf5" value="When performing a ranged attack with the attached weapon, roll 1Black. On a Shield, add 1Red to the attack roll."/>
+                        <characteristic name="Keywords" characteristicTypeId="4d62-b2c0-a0c7-0a18" value="Attachment (Rifle or Handgun)"/>
+                        <characteristic name="Noise / Mayhem" characteristicTypeId="589a-5fe7-b416-6918"/>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <rules/>
+                  <infoLinks>
+                    <infoLink id="96ad-02d8-2a6c-430f" name="Attachment (X)" hidden="false" targetId="743a-7c67-9a19-9a64" type="rule">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                    </infoLink>
+                  </infoLinks>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                  <selectionEntries/>
+                  <selectionEntryGroups/>
+                  <entryLinks/>
+                  <costs>
+                    <cost name=" Points" costTypeId="0705-c536-f372-c2d0" value="8.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+              <selectionEntryGroups/>
+              <entryLinks/>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <entryLinks/>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks/>
+      <costs>
+        <cost name=" Points" costTypeId="0705-c536-f372-c2d0" value="0.0"/>
+      </costs>
+    </selectionEntry>
+  </selectionEntries>
+  <entryLinks/>
+  <sharedSelectionEntries/>
+  <sharedSelectionEntryGroups/>
+  <sharedRules/>
+  <sharedProfiles/>
+</catalogue>

@@ -1,0 +1,1301 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="5641-0741-7c28-0ea1" name="Marauders" revision="1" battleScribeVersion="2.01" gameSystemId="f046-8736-7a7e-93d7" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <profiles/>
+  <rules/>
+  <infoLinks/>
+  <costTypes/>
+  <profileTypes/>
+  <categoryEntries/>
+  <forceEntries/>
+  <selectionEntries>
+    <selectionEntry id="928e-764a-7b21-761b" name="Group Special Rules" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules>
+        <rule id="e394-634c-2e89-d8f9" name="Gang Up" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Any model with the Marauder Keyword may spend an Action to perform a single Action with another friendly Marauder, even if the target model has already activated this turn, and has already performed the same Action. It does not use one of the target’s Actions for the turn. Play then reverts back to the original Marauder (if he has any Actions remaining).</description>
+        </rule>
+      </rules>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Points" costTypeId="0705-c536-f372-c2d0" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="db9c-8a0d-ea7b-c880" name="Jud" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="a81c-29b2-925c-bc8a" name="Jud" hidden="false" profileTypeId="40e9-9288-6f65-70a9" profileTypeName="Character">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Type" characteristicTypeId="d9ce-b162-4bd7-6736" value="Tactician"/>
+            <characteristic name="Melee" characteristicTypeId="fc7e-dccd-5244-3798" value="1Red"/>
+            <characteristic name="Shoot" characteristicTypeId="b227-fd8f-ea1c-65f7" value="1Red"/>
+            <characteristic name="Defense" characteristicTypeId="ca1d-2465-3eb7-9bd8" value="1Red"/>
+            <characteristic name="Health" characteristicTypeId="5e5d-73d3-ba6a-8396" value="5"/>
+            <characteristic name="SP" characteristicTypeId="cae4-668b-3f49-b130" value="1Red/-"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="2c29-e755-f9eb-2e79" name="Marauder" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </rule>
+        <rule id="e62d-d066-98e0-b023" name="Prey On the Weak" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Jud ignores the Just a Kid keyword.</description>
+        </rule>
+      </rules>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="51e6-8a73-812a-5c03" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="ab12-1f42-a54b-d45a" name="New CategoryLink" hidden="false" targetId="b33e-e6d0-05ba-26ce" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="eae0-0cee-60ef-6b93" name="Knife" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="e18f-85b9-e281-3017" name="Knife" hidden="false" profileTypeId="d42c-7da6-84ea-bbd3" profileTypeName="Melee Weapon">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Attack Roll" characteristicTypeId="84c3-eb7b-1a01-99c6" value="1Red"/>
+                <characteristic name="Special Rules" characteristicTypeId="a811-f6c5-34bc-5f90" value=""/>
+                <characteristic name="Keywords" characteristicTypeId="c6ce-a20c-5806-fc59"/>
+                <characteristic name="Noise / Mayhem" characteristicTypeId="35d4-25bc-80cb-6f59"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks>
+            <infoLink id="dc8c-3b3f-d09f-de56" name="Dual Wield" hidden="false" targetId="cdbb-55db-ed3e-4259" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="7759-6c26-c4a8-65e7" name="Sharp" hidden="false" targetId="3728-71b5-e85a-07f5" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d63b-db27-9108-3650" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name=" Points" costTypeId="0705-c536-f372-c2d0" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="3962-d18c-db3d-f6c7" name="Upgrades" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="0705-c536-f372-c2d0" scope="parent" value="20.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="68e7-d40f-6635-2d5c" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="78a0-c44e-645e-b0f5" name="Melee Weapons" hidden="false" collective="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="99dc-2964-7829-6a6b" value="1">
+                  <repeats/>
+                  <conditions>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="eae0-0cee-60ef-6b93" type="equalTo"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="99dc-2964-7829-6a6b" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries>
+                <selectionEntry id="7f77-4024-1256-0357" name="Knife" hidden="false" collective="false" type="upgrade">
+                  <profiles>
+                    <profile id="cc86-f3bf-522c-d338" name="Knife" hidden="false" profileTypeId="d42c-7da6-84ea-bbd3" profileTypeName="Melee Weapon">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                      <characteristics>
+                        <characteristic name="Attack Roll" characteristicTypeId="84c3-eb7b-1a01-99c6" value="1Red"/>
+                        <characteristic name="Special Rules" characteristicTypeId="a811-f6c5-34bc-5f90" value=""/>
+                        <characteristic name="Keywords" characteristicTypeId="c6ce-a20c-5806-fc59"/>
+                        <characteristic name="Noise / Mayhem" characteristicTypeId="35d4-25bc-80cb-6f59"/>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <rules/>
+                  <infoLinks>
+                    <infoLink id="4fe8-58c6-8abd-56cb" name="Dual Wield" hidden="false" targetId="cdbb-55db-ed3e-4259" type="rule">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                    </infoLink>
+                    <infoLink id="0e2a-e070-dd73-3a09" name="Sharp" hidden="false" targetId="3728-71b5-e85a-07f5" type="rule">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                    </infoLink>
+                  </infoLinks>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                  <selectionEntries/>
+                  <selectionEntryGroups/>
+                  <entryLinks/>
+                  <costs>
+                    <cost name=" Points" costTypeId="0705-c536-f372-c2d0" value="10.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="1335-4ced-b519-c294" name="Shiv" hidden="false" collective="false" type="upgrade">
+                  <profiles>
+                    <profile id="6fa8-00f5-cd9b-0815" name="Shiv" hidden="false" profileTypeId="d42c-7da6-84ea-bbd3" profileTypeName="Melee Weapon">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                      <characteristics>
+                        <characteristic name="Attack Roll" characteristicTypeId="84c3-eb7b-1a01-99c6" value="-"/>
+                        <characteristic name="Special Rules" characteristicTypeId="a811-f6c5-34bc-5f90" value="Once per game, you may add 1White to an attack roll with this weapon. If you do so, remove this weapon from the roster once the attack is resolved."/>
+                        <characteristic name="Keywords" characteristicTypeId="c6ce-a20c-5806-fc59" value="Dual Wield, Sharp"/>
+                        <characteristic name="Noise / Mayhem" characteristicTypeId="35d4-25bc-80cb-6f59" value=""/>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <rules/>
+                  <infoLinks>
+                    <infoLink id="02c9-10a9-d5a1-eeb1" name="Dual Wield" hidden="false" targetId="cdbb-55db-ed3e-4259" type="rule">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                    </infoLink>
+                    <infoLink id="e591-6f1f-f6a2-e769" name="Sharp" hidden="false" targetId="3728-71b5-e85a-07f5" type="rule">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                    </infoLink>
+                  </infoLinks>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                  <selectionEntries/>
+                  <selectionEntryGroups/>
+                  <entryLinks/>
+                  <costs>
+                    <cost name=" Points" costTypeId="0705-c536-f372-c2d0" value="4.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="2fa2-3985-71fd-4f31" name="Metal Pipe" hidden="false" collective="false" type="upgrade">
+                  <profiles>
+                    <profile id="a340-8763-fd65-70f1" name="Metal Pipe" hidden="false" profileTypeId="d42c-7da6-84ea-bbd3" profileTypeName="Melee Weapon">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                      <characteristics>
+                        <characteristic name="Attack Roll" characteristicTypeId="84c3-eb7b-1a01-99c6" value="-"/>
+                        <characteristic name="Special Rules" characteristicTypeId="a811-f6c5-34bc-5f90" value=""/>
+                        <characteristic name="Keywords" characteristicTypeId="c6ce-a20c-5806-fc59" value="Bludgeon"/>
+                        <characteristic name="Noise / Mayhem" characteristicTypeId="35d4-25bc-80cb-6f59" value=""/>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <rules/>
+                  <infoLinks>
+                    <infoLink id="6361-8593-ccc2-1445" name="Bludgeon" hidden="false" targetId="c050-a7e4-2e56-0cf1" type="rule">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                    </infoLink>
+                  </infoLinks>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                  <selectionEntries/>
+                  <selectionEntryGroups/>
+                  <entryLinks/>
+                  <costs>
+                    <cost name=" Points" costTypeId="0705-c536-f372-c2d0" value="3.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+              <selectionEntryGroups/>
+              <entryLinks/>
+            </selectionEntryGroup>
+            <selectionEntryGroup id="90d2-ff31-aa6c-bd50" name="Ranged Weapons" hidden="false" collective="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7da4-505e-b0c4-8997" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries>
+                <selectionEntry id="3d8e-c6ee-30eb-c0f2" name="Pump-Action Shotgun" hidden="false" collective="false" type="upgrade">
+                  <profiles>
+                    <profile id="5882-7cdf-a63c-e2bd" name="Pump-Action Shotgun" hidden="false" profileTypeId="3560-a8a8-6a4e-2aa2" profileTypeName="Ranged Weapon">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                      <characteristics>
+                        <characteristic name="Attack Roll Short" characteristicTypeId="5e67-d6ba-ff65-695d" value="1Red"/>
+                        <characteristic name="Attack Roll Medium" characteristicTypeId="f3e5-c666-6d43-df23" value="1Red"/>
+                        <characteristic name="Attack Roll Long" characteristicTypeId="1376-9535-490f-fce4" value="X"/>
+                        <characteristic name="Special Rules" characteristicTypeId="8821-27ea-b643-76c2" value=""/>
+                        <characteristic name="Keywords" characteristicTypeId="2c12-568c-52a4-db62" value="Multiple Shots (2), Shotgun"/>
+                        <characteristic name="Noise / Mayhem" characteristicTypeId="4783-fd91-26e1-6d38" value="Mayhem"/>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <rules/>
+                  <infoLinks>
+                    <infoLink id="69b1-350f-947f-3418" name="Multiple Shots (X)" hidden="false" targetId="f1bf-0f6c-71bd-4705" type="rule">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                    </infoLink>
+                    <infoLink id="cb0f-2271-6206-0446" name="Shotgun" hidden="false" targetId="d56c-2c15-d9e4-9f33" type="rule">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                    </infoLink>
+                  </infoLinks>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                  <selectionEntries/>
+                  <selectionEntryGroups/>
+                  <entryLinks/>
+                  <costs>
+                    <cost name=" Points" costTypeId="0705-c536-f372-c2d0" value="25.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="f556-3944-b57b-751c" name="Sawn-Off Shotgun" hidden="false" collective="false" type="upgrade">
+                  <profiles>
+                    <profile id="11c2-3172-bfa0-c101" name="Sawn-Off Shotgun" hidden="false" profileTypeId="3560-a8a8-6a4e-2aa2" profileTypeName="Ranged Weapon">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                      <characteristics>
+                        <characteristic name="Attack Roll Short" characteristicTypeId="5e67-d6ba-ff65-695d" value="1Red"/>
+                        <characteristic name="Attack Roll Medium" characteristicTypeId="f3e5-c666-6d43-df23" value="X"/>
+                        <characteristic name="Attack Roll Long" characteristicTypeId="1376-9535-490f-fce4" value="X"/>
+                        <characteristic name="Special Rules" characteristicTypeId="8821-27ea-b643-76c2" value=""/>
+                        <characteristic name="Keywords" characteristicTypeId="2c12-568c-52a4-db62" value="Handgun, Shotgun"/>
+                        <characteristic name="Noise / Mayhem" characteristicTypeId="4783-fd91-26e1-6d38" value="Mayhem"/>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <rules/>
+                  <infoLinks>
+                    <infoLink id="ae61-63ca-d573-8005" name="Handgun" hidden="false" targetId="a74c-9639-3b44-470b" type="rule">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                    </infoLink>
+                    <infoLink id="8d70-b066-ff0e-7eed" name="Shotgun" hidden="false" targetId="d56c-2c15-d9e4-9f33" type="rule">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                    </infoLink>
+                  </infoLinks>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                  <selectionEntries/>
+                  <selectionEntryGroups/>
+                  <entryLinks/>
+                  <costs>
+                    <cost name=" Points" costTypeId="0705-c536-f372-c2d0" value="22.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="9765-3826-1066-66bc" name="Molotov" hidden="false" collective="false" type="upgrade">
+                  <profiles>
+                    <profile id="a911-eef9-04d4-0ca6" name="Molotov" hidden="false" profileTypeId="3560-a8a8-6a4e-2aa2" profileTypeName="Ranged Weapon">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                      <characteristics>
+                        <characteristic name="Attack Roll Short" characteristicTypeId="5e67-d6ba-ff65-695d" value="2Red"/>
+                        <characteristic name="Attack Roll Medium" characteristicTypeId="f3e5-c666-6d43-df23" value="X"/>
+                        <characteristic name="Attack Roll Long" characteristicTypeId="1376-9535-490f-fce4" value="X"/>
+                        <characteristic name="Special Rules" characteristicTypeId="8821-27ea-b643-76c2" value="All ! rolled as part of ranged attack are ignored."/>
+                        <characteristic name="Keywords" characteristicTypeId="2c12-568c-52a4-db62" value="Blast, Burning, Lob, One Use"/>
+                        <characteristic name="Noise / Mayhem" characteristicTypeId="4783-fd91-26e1-6d38" value="Mayhem"/>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <rules/>
+                  <infoLinks>
+                    <infoLink id="5123-f7b4-334e-9ea1" name="Blast" hidden="false" targetId="3772-cb2d-f7ec-1e3d" type="rule">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                    </infoLink>
+                    <infoLink id="525e-ea3d-9594-df2a" name="Burning" hidden="false" targetId="7828-a77b-9c16-1889" type="rule">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                    </infoLink>
+                    <infoLink id="53b8-35db-1a92-1d03" name="Lob" hidden="false" targetId="ec31-ac09-8114-8806" type="rule">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                    </infoLink>
+                    <infoLink id="d70a-aece-2d2b-222c" name="One Use" hidden="false" targetId="1fc9-3a4a-db91-83db" type="rule">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                    </infoLink>
+                  </infoLinks>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                  <selectionEntries/>
+                  <selectionEntryGroups/>
+                  <entryLinks/>
+                  <costs>
+                    <cost name=" Points" costTypeId="0705-c536-f372-c2d0" value="10.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="f00c-c4b1-c1ec-bab5" name="Old Gun" hidden="false" collective="false" type="upgrade">
+                  <profiles>
+                    <profile id="8586-b1b9-47b2-5f88" name="Old Gun" hidden="false" profileTypeId="3560-a8a8-6a4e-2aa2" profileTypeName="Ranged Weapon">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                      <characteristics>
+                        <characteristic name="Attack Roll Short" characteristicTypeId="5e67-d6ba-ff65-695d"/>
+                        <characteristic name="Attack Roll Medium" characteristicTypeId="f3e5-c666-6d43-df23"/>
+                        <characteristic name="Attack Roll Long" characteristicTypeId="1376-9535-490f-fce4"/>
+                        <characteristic name="Special Rules" characteristicTypeId="8821-27ea-b643-76c2"/>
+                        <characteristic name="Keywords" characteristicTypeId="2c12-568c-52a4-db62"/>
+                        <characteristic name="Noise / Mayhem" characteristicTypeId="4783-fd91-26e1-6d38"/>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                  <selectionEntries/>
+                  <selectionEntryGroups/>
+                  <entryLinks/>
+                  <costs>
+                    <cost name=" Points" costTypeId="0705-c536-f372-c2d0" value="6.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+              <selectionEntryGroups/>
+              <entryLinks/>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <entryLinks/>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks/>
+      <costs>
+        <cost name=" Points" costTypeId="0705-c536-f372-c2d0" value="20.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8c86-7671-4c0b-d80b" name="Andy" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="8bd9-14cd-950e-cddc" name="Andy" hidden="false" profileTypeId="40e9-9288-6f65-70a9" profileTypeName="Character">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Type" characteristicTypeId="d9ce-b162-4bd7-6736" value="Runner"/>
+            <characteristic name="Melee" characteristicTypeId="fc7e-dccd-5244-3798" value="1White"/>
+            <characteristic name="Shoot" characteristicTypeId="b227-fd8f-ea1c-65f7" value="1Red"/>
+            <characteristic name="Defense" characteristicTypeId="ca1d-2465-3eb7-9bd8" value="2Red"/>
+            <characteristic name="Health" characteristicTypeId="5e5d-73d3-ba6a-8396" value="4"/>
+            <characteristic name="SP" characteristicTypeId="cae4-668b-3f49-b130" value="X/1Red"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="e9ff-8662-f6a9-5897" name="Marauder" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </rule>
+      </rules>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="7f87-c430-7fcb-9bf2" name="New CategoryLink" hidden="false" targetId="7aaa-f540-43d6-81de" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="0db1-182c-9993-08d9" name=".38 Revolver" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="05c8-e97a-5372-bcbc" name=".38 Revolver" hidden="false" profileTypeId="3560-a8a8-6a4e-2aa2" profileTypeName="Ranged Weapon">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Attack Roll Short" characteristicTypeId="5e67-d6ba-ff65-695d" value="1White"/>
+                <characteristic name="Attack Roll Medium" characteristicTypeId="f3e5-c666-6d43-df23" value="X"/>
+                <characteristic name="Attack Roll Long" characteristicTypeId="1376-9535-490f-fce4" value="X"/>
+                <characteristic name="Special Rules" characteristicTypeId="8821-27ea-b643-76c2" value=""/>
+                <characteristic name="Keywords" characteristicTypeId="2c12-568c-52a4-db62" value="Handgun"/>
+                <characteristic name="Noise / Mayhem" characteristicTypeId="4783-fd91-26e1-6d38" value="Mayhem"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks>
+            <infoLink id="5657-d80f-6e8d-850f" name="Handgun" hidden="false" targetId="a74c-9639-3b44-470b" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="48c6-aaf9-7758-4909" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name=" Points" costTypeId="0705-c536-f372-c2d0" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="91a0-6eec-b45a-7f0b" name="Upgrades" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="0705-c536-f372-c2d0" scope="parent" value="25.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dce4-0b6f-045a-a996" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="27f6-4c67-fd15-8ccd" name="Melee Weapons" hidden="false" collective="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="16f7-2b1c-3296-78f4" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries>
+                <selectionEntry id="0ffc-3b02-a72c-1cfa" name="Knife" hidden="false" collective="false" type="upgrade">
+                  <profiles>
+                    <profile id="924d-b4e0-3397-b5d0" name="Knife" hidden="false" profileTypeId="d42c-7da6-84ea-bbd3" profileTypeName="Melee Weapon">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                      <characteristics>
+                        <characteristic name="Attack Roll" characteristicTypeId="84c3-eb7b-1a01-99c6" value="1Red"/>
+                        <characteristic name="Special Rules" characteristicTypeId="a811-f6c5-34bc-5f90" value=""/>
+                        <characteristic name="Keywords" characteristicTypeId="c6ce-a20c-5806-fc59"/>
+                        <characteristic name="Noise / Mayhem" characteristicTypeId="35d4-25bc-80cb-6f59"/>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <rules/>
+                  <infoLinks>
+                    <infoLink id="b12c-4b67-520c-98f3" name="Dual Wield" hidden="false" targetId="cdbb-55db-ed3e-4259" type="rule">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                    </infoLink>
+                    <infoLink id="a252-e818-1795-6fd4" name="Sharp" hidden="false" targetId="3728-71b5-e85a-07f5" type="rule">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                    </infoLink>
+                  </infoLinks>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                  <selectionEntries/>
+                  <selectionEntryGroups/>
+                  <entryLinks/>
+                  <costs>
+                    <cost name=" Points" costTypeId="0705-c536-f372-c2d0" value="10.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="1812-684d-4a78-cf33" name="Shiv" hidden="false" collective="false" type="upgrade">
+                  <profiles>
+                    <profile id="d875-734a-7902-2a59" name="Shiv" hidden="false" profileTypeId="d42c-7da6-84ea-bbd3" profileTypeName="Melee Weapon">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                      <characteristics>
+                        <characteristic name="Attack Roll" characteristicTypeId="84c3-eb7b-1a01-99c6" value="-"/>
+                        <characteristic name="Special Rules" characteristicTypeId="a811-f6c5-34bc-5f90" value="Once per game, you may add 1White to an attack roll with this weapon. If you do so, remove this weapon from the roster once the attack is resolved."/>
+                        <characteristic name="Keywords" characteristicTypeId="c6ce-a20c-5806-fc59" value="Dual Wield, Sharp"/>
+                        <characteristic name="Noise / Mayhem" characteristicTypeId="35d4-25bc-80cb-6f59" value=""/>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <rules/>
+                  <infoLinks>
+                    <infoLink id="85f3-1f2a-ec45-5bd0" name="Dual Wield" hidden="false" targetId="cdbb-55db-ed3e-4259" type="rule">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                    </infoLink>
+                    <infoLink id="f82e-da49-647e-1508" name="Sharp" hidden="false" targetId="3728-71b5-e85a-07f5" type="rule">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                    </infoLink>
+                  </infoLinks>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                  <selectionEntries/>
+                  <selectionEntryGroups/>
+                  <entryLinks/>
+                  <costs>
+                    <cost name=" Points" costTypeId="0705-c536-f372-c2d0" value="4.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="7348-aceb-f338-c96a" name="Metal Pipe" hidden="false" collective="false" type="upgrade">
+                  <profiles>
+                    <profile id="e747-9243-9fcf-f91e" name="Metal Pipe" hidden="false" profileTypeId="d42c-7da6-84ea-bbd3" profileTypeName="Melee Weapon">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                      <characteristics>
+                        <characteristic name="Attack Roll" characteristicTypeId="84c3-eb7b-1a01-99c6" value="-"/>
+                        <characteristic name="Special Rules" characteristicTypeId="a811-f6c5-34bc-5f90" value=""/>
+                        <characteristic name="Keywords" characteristicTypeId="c6ce-a20c-5806-fc59" value="Bludgeon"/>
+                        <characteristic name="Noise / Mayhem" characteristicTypeId="35d4-25bc-80cb-6f59" value=""/>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <rules/>
+                  <infoLinks>
+                    <infoLink id="8f0f-444d-1060-d134" name="Bludgeon" hidden="false" targetId="c050-a7e4-2e56-0cf1" type="rule">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                    </infoLink>
+                  </infoLinks>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                  <selectionEntries/>
+                  <selectionEntryGroups/>
+                  <entryLinks/>
+                  <costs>
+                    <cost name=" Points" costTypeId="0705-c536-f372-c2d0" value="3.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+              <selectionEntryGroups/>
+              <entryLinks/>
+            </selectionEntryGroup>
+            <selectionEntryGroup id="73a9-39fe-5962-b39e" name="Ranged Weapons" hidden="false" collective="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="b547-cebf-a380-7e21" value="0">
+                  <repeats/>
+                  <conditions>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0db1-182c-9993-08d9" type="equalTo"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b547-cebf-a380-7e21" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries>
+                <selectionEntry id="fc11-13d5-3803-0622" name="Pump-Action Shotgun" hidden="false" collective="false" type="upgrade">
+                  <profiles>
+                    <profile id="0f2f-dc0b-0a84-bc5e" name="Pump-Action Shotgun" hidden="false" profileTypeId="3560-a8a8-6a4e-2aa2" profileTypeName="Ranged Weapon">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                      <characteristics>
+                        <characteristic name="Attack Roll Short" characteristicTypeId="5e67-d6ba-ff65-695d" value="1Red"/>
+                        <characteristic name="Attack Roll Medium" characteristicTypeId="f3e5-c666-6d43-df23" value="1Red"/>
+                        <characteristic name="Attack Roll Long" characteristicTypeId="1376-9535-490f-fce4" value="X"/>
+                        <characteristic name="Special Rules" characteristicTypeId="8821-27ea-b643-76c2" value=""/>
+                        <characteristic name="Keywords" characteristicTypeId="2c12-568c-52a4-db62" value="Multiple Shots (2), Shotgun"/>
+                        <characteristic name="Noise / Mayhem" characteristicTypeId="4783-fd91-26e1-6d38" value="Mayhem"/>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <rules/>
+                  <infoLinks>
+                    <infoLink id="856c-4e39-38e8-610a" name="Multiple Shots (X)" hidden="false" targetId="f1bf-0f6c-71bd-4705" type="rule">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                    </infoLink>
+                    <infoLink id="9014-1018-9309-0bab" name="Shotgun" hidden="false" targetId="d56c-2c15-d9e4-9f33" type="rule">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                    </infoLink>
+                  </infoLinks>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                  <selectionEntries/>
+                  <selectionEntryGroups/>
+                  <entryLinks/>
+                  <costs>
+                    <cost name=" Points" costTypeId="0705-c536-f372-c2d0" value="25.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="8abc-b6cb-c83e-0b36" name="Sawn-Off Shotgun" hidden="false" collective="false" type="upgrade">
+                  <profiles>
+                    <profile id="c9c4-2181-bc72-a02c" name="Sawn-Off Shotgun" hidden="false" profileTypeId="3560-a8a8-6a4e-2aa2" profileTypeName="Ranged Weapon">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                      <characteristics>
+                        <characteristic name="Attack Roll Short" characteristicTypeId="5e67-d6ba-ff65-695d" value="1Red"/>
+                        <characteristic name="Attack Roll Medium" characteristicTypeId="f3e5-c666-6d43-df23" value="X"/>
+                        <characteristic name="Attack Roll Long" characteristicTypeId="1376-9535-490f-fce4" value="X"/>
+                        <characteristic name="Special Rules" characteristicTypeId="8821-27ea-b643-76c2" value=""/>
+                        <characteristic name="Keywords" characteristicTypeId="2c12-568c-52a4-db62" value="Handgun, Shotgun"/>
+                        <characteristic name="Noise / Mayhem" characteristicTypeId="4783-fd91-26e1-6d38" value="Mayhem"/>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <rules/>
+                  <infoLinks>
+                    <infoLink id="e1c8-2b40-06c2-b4a4" name="Handgun" hidden="false" targetId="a74c-9639-3b44-470b" type="rule">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                    </infoLink>
+                    <infoLink id="a3f3-66de-2318-3ace" name="Shotgun" hidden="false" targetId="d56c-2c15-d9e4-9f33" type="rule">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                    </infoLink>
+                  </infoLinks>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                  <selectionEntries/>
+                  <selectionEntryGroups/>
+                  <entryLinks/>
+                  <costs>
+                    <cost name=" Points" costTypeId="0705-c536-f372-c2d0" value="22.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="62ff-7abf-3d25-127e" name="Molotov" hidden="false" collective="false" type="upgrade">
+                  <profiles>
+                    <profile id="da27-03f1-1f82-6761" name="Molotov" hidden="false" profileTypeId="3560-a8a8-6a4e-2aa2" profileTypeName="Ranged Weapon">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                      <characteristics>
+                        <characteristic name="Attack Roll Short" characteristicTypeId="5e67-d6ba-ff65-695d" value="2Red"/>
+                        <characteristic name="Attack Roll Medium" characteristicTypeId="f3e5-c666-6d43-df23" value="X"/>
+                        <characteristic name="Attack Roll Long" characteristicTypeId="1376-9535-490f-fce4" value="X"/>
+                        <characteristic name="Special Rules" characteristicTypeId="8821-27ea-b643-76c2" value="All ! rolled as part of ranged attack are ignored."/>
+                        <characteristic name="Keywords" characteristicTypeId="2c12-568c-52a4-db62" value="Blast, Burning, Lob, One Use"/>
+                        <characteristic name="Noise / Mayhem" characteristicTypeId="4783-fd91-26e1-6d38" value="Mayhem"/>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <rules/>
+                  <infoLinks>
+                    <infoLink id="9f48-715c-1445-9c7f" name="Blast" hidden="false" targetId="3772-cb2d-f7ec-1e3d" type="rule">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                    </infoLink>
+                    <infoLink id="4403-0321-deca-9bef" name="Burning" hidden="false" targetId="7828-a77b-9c16-1889" type="rule">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                    </infoLink>
+                    <infoLink id="d2a1-76d6-476e-e4cc" name="Lob" hidden="false" targetId="ec31-ac09-8114-8806" type="rule">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                    </infoLink>
+                    <infoLink id="d3f7-0aeb-7b81-ea01" name="One Use" hidden="false" targetId="1fc9-3a4a-db91-83db" type="rule">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                    </infoLink>
+                  </infoLinks>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                  <selectionEntries/>
+                  <selectionEntryGroups/>
+                  <entryLinks/>
+                  <costs>
+                    <cost name=" Points" costTypeId="0705-c536-f372-c2d0" value="10.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="6ed6-80d3-2c31-4c8a" name="Old Gun" hidden="false" collective="false" type="upgrade">
+                  <profiles>
+                    <profile id="e8ad-ea2b-68c8-8fd7" name="Old Gun" hidden="false" profileTypeId="3560-a8a8-6a4e-2aa2" profileTypeName="Ranged Weapon">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                      <characteristics>
+                        <characteristic name="Attack Roll Short" characteristicTypeId="5e67-d6ba-ff65-695d"/>
+                        <characteristic name="Attack Roll Medium" characteristicTypeId="f3e5-c666-6d43-df23"/>
+                        <characteristic name="Attack Roll Long" characteristicTypeId="1376-9535-490f-fce4"/>
+                        <characteristic name="Special Rules" characteristicTypeId="8821-27ea-b643-76c2"/>
+                        <characteristic name="Keywords" characteristicTypeId="2c12-568c-52a4-db62"/>
+                        <characteristic name="Noise / Mayhem" characteristicTypeId="4783-fd91-26e1-6d38"/>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                  <selectionEntries/>
+                  <selectionEntryGroups/>
+                  <entryLinks/>
+                  <costs>
+                    <cost name=" Points" costTypeId="0705-c536-f372-c2d0" value="6.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+              <selectionEntryGroups/>
+              <entryLinks/>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <entryLinks/>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks/>
+      <costs>
+        <cost name=" Points" costTypeId="0705-c536-f372-c2d0" value="25.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="65cf-1cfd-3628-3040" name="Craig" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="96d3-90fe-2db4-ad80" name="Craig" hidden="false" profileTypeId="40e9-9288-6f65-70a9" profileTypeName="Character">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Type" characteristicTypeId="d9ce-b162-4bd7-6736" value="Bruiser"/>
+            <characteristic name="Melee" characteristicTypeId="fc7e-dccd-5244-3798" value="1Red"/>
+            <characteristic name="Shoot" characteristicTypeId="b227-fd8f-ea1c-65f7" value="1Red"/>
+            <characteristic name="Defense" characteristicTypeId="ca1d-2465-3eb7-9bd8" value="2Red"/>
+            <characteristic name="Health" characteristicTypeId="5e5d-73d3-ba6a-8396" value="4"/>
+            <characteristic name="SP" characteristicTypeId="cae4-668b-3f49-b130" value="X/-"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="5285-7134-3fdb-12b1" name="Marauder" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </rule>
+      </rules>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="f70d-653a-493b-f771" name="New CategoryLink" hidden="false" targetId="1632-3305-8ec4-ecf2" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="1972-e17c-3fd8-2f5f" name="Knife" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="7a45-7666-7929-dfc3" name="Knife" hidden="false" profileTypeId="d42c-7da6-84ea-bbd3" profileTypeName="Melee Weapon">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Attack Roll" characteristicTypeId="84c3-eb7b-1a01-99c6" value="1Red"/>
+                <characteristic name="Special Rules" characteristicTypeId="a811-f6c5-34bc-5f90" value=""/>
+                <characteristic name="Keywords" characteristicTypeId="c6ce-a20c-5806-fc59"/>
+                <characteristic name="Noise / Mayhem" characteristicTypeId="35d4-25bc-80cb-6f59"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks>
+            <infoLink id="a71e-32a6-5d82-809a" name="Dual Wield" hidden="false" targetId="cdbb-55db-ed3e-4259" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="7d2e-fb95-f2a6-6a21" name="Sharp" hidden="false" targetId="3728-71b5-e85a-07f5" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c431-d35c-fbfc-dcfd" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name=" Points" costTypeId="0705-c536-f372-c2d0" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="ec77-c5d7-0e65-a4c5" name="Upgrades" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="0705-c536-f372-c2d0" scope="parent" value="18.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6c05-4be7-659e-46df" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="2c91-3ac1-2844-b7e8" name="Melee Weapons" hidden="false" collective="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="b919-2116-f8e5-76d1" value="0">
+                  <repeats/>
+                  <conditions>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1972-e17c-3fd8-2f5f" type="equalTo"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b919-2116-f8e5-76d1" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries>
+                <selectionEntry id="7ae4-edfd-1144-98b6" name="Knife" hidden="false" collective="false" type="upgrade">
+                  <profiles>
+                    <profile id="1701-8c7a-67f4-dc5a" name="Knife" hidden="false" profileTypeId="d42c-7da6-84ea-bbd3" profileTypeName="Melee Weapon">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                      <characteristics>
+                        <characteristic name="Attack Roll" characteristicTypeId="84c3-eb7b-1a01-99c6" value="1Red"/>
+                        <characteristic name="Special Rules" characteristicTypeId="a811-f6c5-34bc-5f90" value=""/>
+                        <characteristic name="Keywords" characteristicTypeId="c6ce-a20c-5806-fc59"/>
+                        <characteristic name="Noise / Mayhem" characteristicTypeId="35d4-25bc-80cb-6f59"/>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <rules/>
+                  <infoLinks>
+                    <infoLink id="1f3d-9d99-611e-b575" name="Dual Wield" hidden="false" targetId="cdbb-55db-ed3e-4259" type="rule">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                    </infoLink>
+                    <infoLink id="cff9-f9d9-88bc-67d2" name="Sharp" hidden="false" targetId="3728-71b5-e85a-07f5" type="rule">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                    </infoLink>
+                  </infoLinks>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                  <selectionEntries/>
+                  <selectionEntryGroups/>
+                  <entryLinks/>
+                  <costs>
+                    <cost name=" Points" costTypeId="0705-c536-f372-c2d0" value="10.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="8805-23c7-b07e-95d2" name="Shiv" hidden="false" collective="false" type="upgrade">
+                  <profiles>
+                    <profile id="546c-511a-4c4c-fec3" name="Shiv" hidden="false" profileTypeId="d42c-7da6-84ea-bbd3" profileTypeName="Melee Weapon">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                      <characteristics>
+                        <characteristic name="Attack Roll" characteristicTypeId="84c3-eb7b-1a01-99c6" value="-"/>
+                        <characteristic name="Special Rules" characteristicTypeId="a811-f6c5-34bc-5f90" value="Once per game, you may add 1White to an attack roll with this weapon. If you do so, remove this weapon from the roster once the attack is resolved."/>
+                        <characteristic name="Keywords" characteristicTypeId="c6ce-a20c-5806-fc59" value="Dual Wield, Sharp"/>
+                        <characteristic name="Noise / Mayhem" characteristicTypeId="35d4-25bc-80cb-6f59" value=""/>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <rules/>
+                  <infoLinks>
+                    <infoLink id="2084-4ffb-f87e-cc58" name="Dual Wield" hidden="false" targetId="cdbb-55db-ed3e-4259" type="rule">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                    </infoLink>
+                    <infoLink id="6ebf-f334-0211-8d61" name="Sharp" hidden="false" targetId="3728-71b5-e85a-07f5" type="rule">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                    </infoLink>
+                  </infoLinks>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                  <selectionEntries/>
+                  <selectionEntryGroups/>
+                  <entryLinks/>
+                  <costs>
+                    <cost name=" Points" costTypeId="0705-c536-f372-c2d0" value="4.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="88d0-2c7f-8649-7b3b" name="Metal Pipe" hidden="false" collective="false" type="upgrade">
+                  <profiles>
+                    <profile id="b239-d7ed-2203-a0f2" name="Metal Pipe" hidden="false" profileTypeId="d42c-7da6-84ea-bbd3" profileTypeName="Melee Weapon">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                      <characteristics>
+                        <characteristic name="Attack Roll" characteristicTypeId="84c3-eb7b-1a01-99c6" value="-"/>
+                        <characteristic name="Special Rules" characteristicTypeId="a811-f6c5-34bc-5f90" value=""/>
+                        <characteristic name="Keywords" characteristicTypeId="c6ce-a20c-5806-fc59" value="Bludgeon"/>
+                        <characteristic name="Noise / Mayhem" characteristicTypeId="35d4-25bc-80cb-6f59" value=""/>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <rules/>
+                  <infoLinks>
+                    <infoLink id="7739-f0fe-2c03-fc0d" name="Bludgeon" hidden="false" targetId="c050-a7e4-2e56-0cf1" type="rule">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                    </infoLink>
+                  </infoLinks>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                  <selectionEntries/>
+                  <selectionEntryGroups/>
+                  <entryLinks/>
+                  <costs>
+                    <cost name=" Points" costTypeId="0705-c536-f372-c2d0" value="3.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+              <selectionEntryGroups/>
+              <entryLinks/>
+            </selectionEntryGroup>
+            <selectionEntryGroup id="d7d0-6972-7704-5849" name="Ranged Weapons" hidden="false" collective="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f337-c59c-9a5b-eeef" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries>
+                <selectionEntry id="6835-9213-a8ee-40a4" name="Pump-Action Shotgun" hidden="false" collective="false" type="upgrade">
+                  <profiles>
+                    <profile id="ca3b-8597-186c-1364" name="Pump-Action Shotgun" hidden="false" profileTypeId="3560-a8a8-6a4e-2aa2" profileTypeName="Ranged Weapon">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                      <characteristics>
+                        <characteristic name="Attack Roll Short" characteristicTypeId="5e67-d6ba-ff65-695d" value="1Red"/>
+                        <characteristic name="Attack Roll Medium" characteristicTypeId="f3e5-c666-6d43-df23" value="1Red"/>
+                        <characteristic name="Attack Roll Long" characteristicTypeId="1376-9535-490f-fce4" value="X"/>
+                        <characteristic name="Special Rules" characteristicTypeId="8821-27ea-b643-76c2" value=""/>
+                        <characteristic name="Keywords" characteristicTypeId="2c12-568c-52a4-db62" value="Multiple Shots (2), Shotgun"/>
+                        <characteristic name="Noise / Mayhem" characteristicTypeId="4783-fd91-26e1-6d38" value="Mayhem"/>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <rules/>
+                  <infoLinks>
+                    <infoLink id="066b-efaa-d41b-668c" name="Multiple Shots (X)" hidden="false" targetId="f1bf-0f6c-71bd-4705" type="rule">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                    </infoLink>
+                    <infoLink id="16f2-e388-21c9-d1d9" name="Shotgun" hidden="false" targetId="d56c-2c15-d9e4-9f33" type="rule">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                    </infoLink>
+                  </infoLinks>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                  <selectionEntries/>
+                  <selectionEntryGroups/>
+                  <entryLinks/>
+                  <costs>
+                    <cost name=" Points" costTypeId="0705-c536-f372-c2d0" value="25.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="eac4-4778-125e-7b94" name="Sawn-Off Shotgun" hidden="false" collective="false" type="upgrade">
+                  <profiles>
+                    <profile id="73bd-acbf-ccd3-4a77" name="Sawn-Off Shotgun" hidden="false" profileTypeId="3560-a8a8-6a4e-2aa2" profileTypeName="Ranged Weapon">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                      <characteristics>
+                        <characteristic name="Attack Roll Short" characteristicTypeId="5e67-d6ba-ff65-695d" value="1Red"/>
+                        <characteristic name="Attack Roll Medium" characteristicTypeId="f3e5-c666-6d43-df23" value="X"/>
+                        <characteristic name="Attack Roll Long" characteristicTypeId="1376-9535-490f-fce4" value="X"/>
+                        <characteristic name="Special Rules" characteristicTypeId="8821-27ea-b643-76c2" value=""/>
+                        <characteristic name="Keywords" characteristicTypeId="2c12-568c-52a4-db62" value="Handgun, Shotgun"/>
+                        <characteristic name="Noise / Mayhem" characteristicTypeId="4783-fd91-26e1-6d38" value="Mayhem"/>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <rules/>
+                  <infoLinks>
+                    <infoLink id="a209-2485-97b8-7307" name="Handgun" hidden="false" targetId="a74c-9639-3b44-470b" type="rule">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                    </infoLink>
+                    <infoLink id="f98d-6c59-3dcf-12ef" name="Shotgun" hidden="false" targetId="d56c-2c15-d9e4-9f33" type="rule">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                    </infoLink>
+                  </infoLinks>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                  <selectionEntries/>
+                  <selectionEntryGroups/>
+                  <entryLinks/>
+                  <costs>
+                    <cost name=" Points" costTypeId="0705-c536-f372-c2d0" value="22.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="f12b-01ca-4b46-60ee" name="Molotov" hidden="false" collective="false" type="upgrade">
+                  <profiles>
+                    <profile id="7c55-5a01-d540-8a35" name="Molotov" hidden="false" profileTypeId="3560-a8a8-6a4e-2aa2" profileTypeName="Ranged Weapon">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                      <characteristics>
+                        <characteristic name="Attack Roll Short" characteristicTypeId="5e67-d6ba-ff65-695d" value="2Red"/>
+                        <characteristic name="Attack Roll Medium" characteristicTypeId="f3e5-c666-6d43-df23" value="X"/>
+                        <characteristic name="Attack Roll Long" characteristicTypeId="1376-9535-490f-fce4" value="X"/>
+                        <characteristic name="Special Rules" characteristicTypeId="8821-27ea-b643-76c2" value="All ! rolled as part of ranged attack are ignored."/>
+                        <characteristic name="Keywords" characteristicTypeId="2c12-568c-52a4-db62" value="Blast, Burning, Lob, One Use"/>
+                        <characteristic name="Noise / Mayhem" characteristicTypeId="4783-fd91-26e1-6d38" value="Mayhem"/>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <rules/>
+                  <infoLinks>
+                    <infoLink id="d1c8-80b2-932e-b7f2" name="Blast" hidden="false" targetId="3772-cb2d-f7ec-1e3d" type="rule">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                    </infoLink>
+                    <infoLink id="8eb9-537e-3a7f-ce6e" name="Burning" hidden="false" targetId="7828-a77b-9c16-1889" type="rule">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                    </infoLink>
+                    <infoLink id="d857-f3b4-6088-3c10" name="Lob" hidden="false" targetId="ec31-ac09-8114-8806" type="rule">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                    </infoLink>
+                    <infoLink id="b6cd-9b84-ddaa-ee83" name="One Use" hidden="false" targetId="1fc9-3a4a-db91-83db" type="rule">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                    </infoLink>
+                  </infoLinks>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                  <selectionEntries/>
+                  <selectionEntryGroups/>
+                  <entryLinks/>
+                  <costs>
+                    <cost name=" Points" costTypeId="0705-c536-f372-c2d0" value="10.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="f8d3-f41a-6687-2122" name="Old Gun" hidden="false" collective="false" type="upgrade">
+                  <profiles>
+                    <profile id="e5de-3b61-0e4a-e61d" name="Old Gun" hidden="false" profileTypeId="3560-a8a8-6a4e-2aa2" profileTypeName="Ranged Weapon">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                      <characteristics>
+                        <characteristic name="Attack Roll Short" characteristicTypeId="5e67-d6ba-ff65-695d"/>
+                        <characteristic name="Attack Roll Medium" characteristicTypeId="f3e5-c666-6d43-df23"/>
+                        <characteristic name="Attack Roll Long" characteristicTypeId="1376-9535-490f-fce4"/>
+                        <characteristic name="Special Rules" characteristicTypeId="8821-27ea-b643-76c2"/>
+                        <characteristic name="Keywords" characteristicTypeId="2c12-568c-52a4-db62"/>
+                        <characteristic name="Noise / Mayhem" characteristicTypeId="4783-fd91-26e1-6d38"/>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                  <selectionEntries/>
+                  <selectionEntryGroups/>
+                  <entryLinks/>
+                  <costs>
+                    <cost name=" Points" costTypeId="0705-c536-f372-c2d0" value="6.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+              <selectionEntryGroups/>
+              <entryLinks/>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <entryLinks/>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks/>
+      <costs>
+        <cost name=" Points" costTypeId="0705-c536-f372-c2d0" value="18.0"/>
+      </costs>
+    </selectionEntry>
+  </selectionEntries>
+  <entryLinks/>
+  <sharedSelectionEntries/>
+  <sharedSelectionEntryGroups/>
+  <sharedRules/>
+  <sharedProfiles/>
+</catalogue>
