@@ -72,10 +72,31 @@
       <infoLinks/>
       <modifiers/>
       <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1fc4-e43f-67a0-cbef" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1fc4-e43f-67a0-cbef" type="max"/>
       </constraints>
       <categoryLinks>
         <categoryLink id="1e2d-2262-5594-74ac" name="New CategoryLink" hidden="false" targetId="b33e-e6d0-05ba-26ce" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="e2b2-e2b3-bf85-6ffe" name="Alignment: Ruthless" hidden="false" targetId="f115-d6f7-b750-5f55" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="14fe-1118-d463-b65f" name="Wanderers" hidden="false" targetId="7463-e87d-4c87-d6ff" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="64e6-ce76-55cb-d075" name="Brian Blake" hidden="false" targetId="7296-331e-7b22-09dd" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -161,6 +182,22 @@
           <modifiers/>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6e50-d950-0f8c-d44c" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name=" Points" costTypeId="0705-c536-f372-c2d0" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="87cb-d65e-6407-457a" name="Leader" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="db3b-c93e-6e09-e636" type="max"/>
           </constraints>
           <categoryLinks/>
           <selectionEntries/>
@@ -1422,10 +1459,31 @@
       </infoLinks>
       <modifiers/>
       <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="97e6-a287-8ff5-4272" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="97e6-a287-8ff5-4272" type="max"/>
       </constraints>
       <categoryLinks>
         <categoryLink id="c1dd-63f6-1309-9a70" name="New CategoryLink" hidden="false" targetId="4eb2-d49f-4b22-dd86" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="7d7a-198b-a1a0-2894" name="Alignment: Ruthless" hidden="false" targetId="f115-d6f7-b750-5f55" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="73dc-23d2-de72-9cd9" name="Wanderers" hidden="false" targetId="7463-e87d-4c87-d6ff" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="cf52-72cf-c363-66ad" name="Brian Blake" hidden="false" targetId="7296-331e-7b22-09dd" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1575,6 +1633,22 @@
           <entryLinks/>
           <costs>
             <cost name=" Points" costTypeId="0705-c536-f372-c2d0" value="10.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="bdae-18fe-9f77-7edf" name="Leader" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6ec1-a826-efec-943c" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name=" Points" costTypeId="0705-c536-f372-c2d0" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -2830,10 +2904,31 @@
       <infoLinks/>
       <modifiers/>
       <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0ee8-4377-b09e-5b27" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0ee8-4377-b09e-5b27" type="max"/>
       </constraints>
       <categoryLinks>
         <categoryLink id="9d34-90b2-359e-1f17" name="New CategoryLink" hidden="false" targetId="b33e-e6d0-05ba-26ce" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="3576-ad08-f375-6c08" name="Alignment: Ruthless" hidden="false" targetId="f115-d6f7-b750-5f55" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="4372-0ebe-c8b8-0cb9" name="Wanderers" hidden="false" targetId="7463-e87d-4c87-d6ff" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="61c8-96b3-3724-7512" name="Brian Blake" hidden="false" targetId="7296-331e-7b22-09dd" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -2877,6 +2972,22 @@
           <modifiers/>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="98a1-dae5-389d-3abe" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name=" Points" costTypeId="0705-c536-f372-c2d0" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="e497-0259-a28f-9f64" name="Leader" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dbcb-b74f-f9d5-5f99" type="max"/>
           </constraints>
           <categoryLinks/>
           <selectionEntries/>
@@ -4123,10 +4234,24 @@
       <infoLinks/>
       <modifiers/>
       <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b1ac-4cbd-59f8-980b" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b1ac-4cbd-59f8-980b" type="max"/>
       </constraints>
       <categoryLinks>
         <categoryLink id="8d29-9238-5a4c-bfcc" name="New CategoryLink" hidden="false" targetId="4eb2-d49f-4b22-dd86" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="f608-2bd8-286a-906c" name="Alignment: Ruthless" hidden="false" targetId="f115-d6f7-b750-5f55" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="90d3-08b9-414e-0919" name="Wanderers" hidden="false" targetId="7463-e87d-4c87-d6ff" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -4170,6 +4295,22 @@
           <modifiers/>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f5ed-cba9-463c-8bd7" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name=" Points" costTypeId="0705-c536-f372-c2d0" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="fe6e-e5fa-e399-a322" name="Leader" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="300c-2796-4e28-3cc9" type="max"/>
           </constraints>
           <categoryLinks/>
           <selectionEntries/>
@@ -5416,10 +5557,24 @@
       <infoLinks/>
       <modifiers/>
       <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a2cf-00c3-e1dd-13fe" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a2cf-00c3-e1dd-13fe" type="max"/>
       </constraints>
       <categoryLinks>
         <categoryLink id="962b-e50d-66fd-a0d3" name="New CategoryLink" hidden="false" targetId="1632-3305-8ec4-ecf2" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="fcc8-c830-3ec4-ea0d" name="Alignment: Ruthless" hidden="false" targetId="f115-d6f7-b750-5f55" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="8f8e-63b7-8fbc-2a4c" name="Wanderers" hidden="false" targetId="7463-e87d-4c87-d6ff" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -5469,6 +5624,22 @@
           <modifiers/>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="735d-e3e3-de63-38cd" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name=" Points" costTypeId="0705-c536-f372-c2d0" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="5a31-019b-8e54-4f3e" name="Leader" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="45c2-1a54-e9a7-bc29" type="max"/>
           </constraints>
           <categoryLinks/>
           <selectionEntries/>
@@ -6708,10 +6879,24 @@
       <infoLinks/>
       <modifiers/>
       <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c84b-40eb-b07c-9553" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c84b-40eb-b07c-9553" type="max"/>
       </constraints>
       <categoryLinks>
         <categoryLink id="e27b-4104-0db9-40fa" name="New CategoryLink" hidden="false" targetId="7e4f-cf68-74a3-b58a" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="2673-af5a-c429-f765" name="Alignment: Ruthless" hidden="false" targetId="f115-d6f7-b750-5f55" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="1015-324d-c1cf-bc84" name="Wanderers" hidden="false" targetId="7463-e87d-4c87-d6ff" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -6791,6 +6976,22 @@
           <modifiers/>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6c98-8203-fc7a-0fb3" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name=" Points" costTypeId="0705-c536-f372-c2d0" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="4ed4-e2e9-cbb2-6c7d" name="Leader" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9a28-155e-db0c-f9ed" type="max"/>
           </constraints>
           <categoryLinks/>
           <selectionEntries/>
@@ -8039,10 +8240,24 @@
       <infoLinks/>
       <modifiers/>
       <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f536-b2d5-4487-437f" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f536-b2d5-4487-437f" type="max"/>
       </constraints>
       <categoryLinks>
         <categoryLink id="9c58-235e-8e81-b4e8" name="New CategoryLink" hidden="false" targetId="b33e-e6d0-05ba-26ce" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="ebd1-fce7-4b74-f5ab" name="Alignment: Ruthless" hidden="false" targetId="f115-d6f7-b750-5f55" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="ba61-5d5d-0f07-55e3" name="Wanderers" hidden="false" targetId="7463-e87d-4c87-d6ff" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -8086,6 +8301,22 @@
           <modifiers/>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ae53-f111-4ee2-8396" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name=" Points" costTypeId="0705-c536-f372-c2d0" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="73cd-ee36-f5e7-aeac" name="Leader" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1eb7-d0f3-e392-3d00" type="max"/>
           </constraints>
           <categoryLinks/>
           <selectionEntries/>
@@ -9319,10 +9550,24 @@
       <infoLinks/>
       <modifiers/>
       <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0000-44c1-5498-3104" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0000-44c1-5498-3104" type="max"/>
       </constraints>
       <categoryLinks>
         <categoryLink id="dfa5-2dc4-8074-5788" name="New CategoryLink" hidden="false" targetId="4eb2-d49f-4b22-dd86" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="9148-27ee-5db2-63ac" name="Alignment: Ruthless" hidden="false" targetId="f115-d6f7-b750-5f55" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="2c3d-00ec-5dd1-2c0d" name="Wanderers" hidden="false" targetId="7463-e87d-4c87-d6ff" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -9392,6 +9637,22 @@
           <entryLinks/>
           <costs>
             <cost name=" Points" costTypeId="0705-c536-f372-c2d0" value="5.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="8518-b774-781b-6eb5" name="Leader" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6c2a-f172-2906-2ae1" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name=" Points" costTypeId="0705-c536-f372-c2d0" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -10625,10 +10886,24 @@
       <infoLinks/>
       <modifiers/>
       <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8e1a-d3b3-3c98-3d5b" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8e1a-d3b3-3c98-3d5b" type="max"/>
       </constraints>
       <categoryLinks>
         <categoryLink id="3d83-685b-bf0a-9c61" name="New CategoryLink" hidden="false" targetId="4eb2-d49f-4b22-dd86" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="0b7a-4f5f-ffac-70f7" name="Alignment: Ruthless" hidden="false" targetId="f115-d6f7-b750-5f55" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="1dae-1252-0b54-7566" name="Wanderers" hidden="false" targetId="7463-e87d-4c87-d6ff" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -10700,6 +10975,22 @@
           <modifiers/>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="019f-4e8a-afbb-319d" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name=" Points" costTypeId="0705-c536-f372-c2d0" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="a206-2c81-c798-0d60" name="Leader" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dbc6-d551-1ce2-d2ba" type="max"/>
           </constraints>
           <categoryLinks/>
           <selectionEntries/>
@@ -11933,10 +12224,24 @@
       <infoLinks/>
       <modifiers/>
       <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b279-e4dd-d22a-e441" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b279-e4dd-d22a-e441" type="max"/>
       </constraints>
       <categoryLinks>
         <categoryLink id="98c8-e121-8075-0d2e" name="New CategoryLink" hidden="false" targetId="7aaa-f540-43d6-81de" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="c628-35f8-3c0f-b174" name="Alignment: Ruthless" hidden="false" targetId="f115-d6f7-b750-5f55" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="7028-de22-8135-2efc" name="Wanderers" hidden="false" targetId="7463-e87d-4c87-d6ff" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -11992,6 +12297,22 @@
           <modifiers/>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="101d-0f3a-0ddf-36ba" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name=" Points" costTypeId="0705-c536-f372-c2d0" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="a169-7725-7a37-0583" name="Leader" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d670-4356-817b-52af" type="max"/>
           </constraints>
           <categoryLinks/>
           <selectionEntries/>
@@ -13225,10 +13546,24 @@
       <infoLinks/>
       <modifiers/>
       <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="30c5-806a-8fd4-6327" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="30c5-806a-8fd4-6327" type="max"/>
       </constraints>
       <categoryLinks>
         <categoryLink id="3d96-6213-91b5-88b5" name="New CategoryLink" hidden="false" targetId="7e4f-cf68-74a3-b58a" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="1435-10b8-6d09-682a" name="Alignment: Ruthless" hidden="false" targetId="f115-d6f7-b750-5f55" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="99d7-68d0-ae19-f52d" name="Wanderers" hidden="false" targetId="7463-e87d-4c87-d6ff" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -13314,6 +13649,22 @@
           <modifiers/>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c862-5fe0-4f2f-abc7" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name=" Points" costTypeId="0705-c536-f372-c2d0" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="6579-53c2-50b5-c9c9" name="Leader" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7ce5-e6ea-c72a-fa15" type="max"/>
           </constraints>
           <categoryLinks/>
           <selectionEntries/>
@@ -14547,10 +14898,24 @@
       <infoLinks/>
       <modifiers/>
       <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f738-22da-8e87-e598" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f738-22da-8e87-e598" type="max"/>
       </constraints>
       <categoryLinks>
         <categoryLink id="945f-178c-ab9e-4bab" name="New CategoryLink" hidden="false" targetId="4eb2-d49f-4b22-dd86" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="6e56-d8a4-b502-ffdd" name="Alignment: Ruthless" hidden="false" targetId="f115-d6f7-b750-5f55" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="72c5-7f8e-1ab8-70e2" name="Wanderers" hidden="false" targetId="7463-e87d-4c87-d6ff" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -14627,6 +14992,22 @@
           <entryLinks/>
           <costs>
             <cost name=" Points" costTypeId="0705-c536-f372-c2d0" value="15.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="488f-f738-ad7d-7b62" name="Leader" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="69a9-dedb-f909-970d" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name=" Points" costTypeId="0705-c536-f372-c2d0" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -15845,10 +16226,24 @@
       <infoLinks/>
       <modifiers/>
       <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aff9-f870-f469-666b" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aff9-f870-f469-666b" type="max"/>
       </constraints>
       <categoryLinks>
         <categoryLink id="0bcf-35e1-f789-9e1c" name="New CategoryLink" hidden="false" targetId="7aaa-f540-43d6-81de" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="74a8-c885-dcac-cfb2" name="Alignment: Ruthless" hidden="false" targetId="f115-d6f7-b750-5f55" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="c734-5685-d132-1929" name="Wanderers" hidden="false" targetId="7463-e87d-4c87-d6ff" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -15898,6 +16293,22 @@
           <modifiers/>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9900-e2f1-3d94-067b" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name=" Points" costTypeId="0705-c536-f372-c2d0" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="eb2b-689b-0b35-254c" name="Leader" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fbca-0dc2-f01e-4f45" type="max"/>
           </constraints>
           <categoryLinks/>
           <selectionEntries/>
@@ -17123,10 +17534,24 @@
       <infoLinks/>
       <modifiers/>
       <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="61ca-5aef-4701-16d0" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="61ca-5aef-4701-16d0" type="max"/>
       </constraints>
       <categoryLinks>
         <categoryLink id="a891-763f-81b9-edb4" name="New CategoryLink" hidden="false" targetId="1632-3305-8ec4-ecf2" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="0e7c-6c15-e1cd-3cf9" name="Alignment: Ruthless" hidden="false" targetId="f115-d6f7-b750-5f55" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="4a70-288b-39c3-9a27" name="Wanderers" hidden="false" targetId="7463-e87d-4c87-d6ff" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -17190,6 +17615,22 @@
           <modifiers/>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0680-78db-da56-0da1" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name=" Points" costTypeId="0705-c536-f372-c2d0" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="c5a9-8580-095b-c301" name="Leader" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d19e-f397-b33e-10bd" type="max"/>
           </constraints>
           <categoryLinks/>
           <selectionEntries/>
@@ -18431,10 +18872,24 @@
       <infoLinks/>
       <modifiers/>
       <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6dd0-35d3-9f95-e759" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6dd0-35d3-9f95-e759" type="max"/>
       </constraints>
       <categoryLinks>
         <categoryLink id="0d0d-cc9c-3cf1-df03" name="New CategoryLink" hidden="false" targetId="1632-3305-8ec4-ecf2" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="bb1a-a9eb-a0f5-05ef" name="Alignment: Ruthless" hidden="false" targetId="f115-d6f7-b750-5f55" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="c283-89a7-952e-8ac1" name="Wanderers" hidden="false" targetId="7463-e87d-4c87-d6ff" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -18505,6 +18960,22 @@
           <modifiers/>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="58e3-1015-1b42-080e" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name=" Points" costTypeId="0705-c536-f372-c2d0" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="2fc2-0d3b-e81c-6d08" name="Leader" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="51bd-84b1-6134-9821" type="max"/>
           </constraints>
           <categoryLinks/>
           <selectionEntries/>
@@ -19738,10 +20209,24 @@
       <infoLinks/>
       <modifiers/>
       <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ea6f-5882-3699-fe96" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ea6f-5882-3699-fe96" type="max"/>
       </constraints>
       <categoryLinks>
         <categoryLink id="9452-0a69-335d-a639" name="New CategoryLink" hidden="false" targetId="1632-3305-8ec4-ecf2" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="5495-aba7-5a40-dedb" name="Alignment: Ruthless" hidden="false" targetId="f115-d6f7-b750-5f55" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="7e35-d86f-34f7-8362" name="Wanderers" hidden="false" targetId="7463-e87d-4c87-d6ff" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -19791,6 +20276,22 @@
           <modifiers/>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a888-01b2-4f42-bd8e" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name=" Points" costTypeId="0705-c536-f372-c2d0" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="5c01-82dd-f227-f4b6" name="Leader" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d52b-a8c4-e3f1-a59b" type="max"/>
           </constraints>
           <categoryLinks/>
           <selectionEntries/>
@@ -21016,10 +21517,24 @@
       <infoLinks/>
       <modifiers/>
       <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5f9b-ba6c-9ad3-cccd" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5f9b-ba6c-9ad3-cccd" type="max"/>
       </constraints>
       <categoryLinks>
         <categoryLink id="1726-6697-636b-ce9f" name="New CategoryLink" hidden="false" targetId="1632-3305-8ec4-ecf2" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="6765-4da0-a922-e9f8" name="Alignment: Ruthless" hidden="false" targetId="f115-d6f7-b750-5f55" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="0c59-6d01-7446-17fb" name="Wanderers" hidden="false" targetId="7463-e87d-4c87-d6ff" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -21048,6 +21563,22 @@
           <modifiers/>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bd14-0d52-d9d6-9bb0" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name=" Points" costTypeId="0705-c536-f372-c2d0" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="36e2-a62f-59b8-e0ea" name="Leader" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="557a-949e-ddf6-f0d5" type="max"/>
           </constraints>
           <categoryLinks/>
           <selectionEntries/>
@@ -22288,10 +22819,24 @@
       </infoLinks>
       <modifiers/>
       <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fe04-d6e0-c27f-49c1" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fe04-d6e0-c27f-49c1" type="max"/>
       </constraints>
       <categoryLinks>
         <categoryLink id="86e6-a6cd-ea92-afe0" name="New CategoryLink" hidden="false" targetId="7e4f-cf68-74a3-b58a" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="1b0d-6af1-cfb2-055a" name="Alignment: Ruthless" hidden="false" targetId="f115-d6f7-b750-5f55" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="1bd1-a13d-a16c-37fd" name="Wanderers" hidden="false" targetId="7463-e87d-4c87-d6ff" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -22329,6 +22874,22 @@
           <modifiers/>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a631-8797-5cfd-5764" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name=" Points" costTypeId="0705-c536-f372-c2d0" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="34a1-6c36-e8fb-82da" name="Leader" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="676a-a613-5a58-9581" type="max"/>
           </constraints>
           <categoryLinks/>
           <selectionEntries/>

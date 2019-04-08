@@ -29,7 +29,22 @@
       <infoLinks/>
       <modifiers/>
       <constraints/>
-      <categoryLinks/>
+      <categoryLinks>
+        <categoryLink id="8b91-4fca-69c2-c8f6" name="Alignment: Ruthless" hidden="false" targetId="f115-d6f7-b750-5f55" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="be29-5037-d903-feea" name="Wanderers" hidden="false" targetId="7463-e87d-4c87-d6ff" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
@@ -71,12 +86,34 @@
         </rule>
       </rules>
       <infoLinks/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="51e6-8a73-812a-5c03" value="0.0">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="03f7-28fe-397f-08c7" type="greaterThan"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
       <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="51e6-8a73-812a-5c03" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="51e6-8a73-812a-5c03" type="max"/>
       </constraints>
       <categoryLinks>
         <categoryLink id="518c-0cb8-c6ae-7a78" name="New CategoryLink" hidden="false" targetId="b33e-e6d0-05ba-26ce" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="b510-ef37-ded0-c669" name="Alignment: Ruthless" hidden="false" targetId="f115-d6f7-b750-5f55" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="9b7b-1043-2bd2-c6cc" name="Wanderers" hidden="false" targetId="7463-e87d-4c87-d6ff" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -846,12 +883,34 @@
       </profiles>
       <rules/>
       <infoLinks/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="62cb-700a-d3b3-9a0a" value="0.0">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="03f7-28fe-397f-08c7" type="greaterThan"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
       <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="62cb-700a-d3b3-9a0a" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="62cb-700a-d3b3-9a0a" type="max"/>
       </constraints>
       <categoryLinks>
         <categoryLink id="637a-a299-ab6f-5bc2" name="New CategoryLink" hidden="false" targetId="b33e-e6d0-05ba-26ce" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="207e-1c27-6843-c32a" name="Alignment: Ruthless" hidden="false" targetId="f115-d6f7-b750-5f55" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="c5ac-4977-5982-34d0" name="Wanderers" hidden="false" targetId="7463-e87d-4c87-d6ff" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1615,12 +1674,34 @@
       </profiles>
       <rules/>
       <infoLinks/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="699f-17e6-e544-faaa" value="0.0">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="03f7-28fe-397f-08c7" type="greaterThan"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
       <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="699f-17e6-e544-faaa" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="699f-17e6-e544-faaa" type="max"/>
       </constraints>
       <categoryLinks>
         <categoryLink id="80d8-2a60-6a9d-23a4" name="New CategoryLink" hidden="false" targetId="7e4f-cf68-74a3-b58a" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="f180-eec8-5abb-99c3" name="Alignment: Ruthless" hidden="false" targetId="f115-d6f7-b750-5f55" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="5f92-3183-1211-0105" name="Wanderers" hidden="false" targetId="7463-e87d-4c87-d6ff" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -2397,12 +2478,34 @@
           <modifiers/>
         </infoLink>
       </infoLinks>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="a2fa-e132-ad85-3f28" value="0.0">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="03f7-28fe-397f-08c7" type="greaterThan"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
       <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a2fa-e132-ad85-3f28" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a2fa-e132-ad85-3f28" type="max"/>
       </constraints>
       <categoryLinks>
         <categoryLink id="ecb2-ee1a-5ad8-076d" name="New CategoryLink" hidden="false" targetId="4eb2-d49f-4b22-dd86" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="e85c-e99b-c93f-6b13" name="Alignment: Ruthless" hidden="false" targetId="f115-d6f7-b750-5f55" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="6c03-347e-fe49-34d7" name="Wanderers" hidden="false" targetId="7463-e87d-4c87-d6ff" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -3166,12 +3269,34 @@
       </profiles>
       <rules/>
       <infoLinks/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="06bc-c84d-3864-fc88" value="0.0">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="03f7-28fe-397f-08c7" type="greaterThan"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="06bc-c84d-3864-fc88" type="max"/>
       </constraints>
       <categoryLinks>
         <categoryLink id="0418-4d4e-5ea7-9991" name="Support" hidden="false" targetId="4eb2-d49f-4b22-dd86" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="572a-4049-200a-aaf8" name="Alignment: Ruthless" hidden="false" targetId="f115-d6f7-b750-5f55" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="c0f3-638b-63e9-082d" name="Wanderers" hidden="false" targetId="7463-e87d-4c87-d6ff" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -3889,10 +4014,34 @@
       </profiles>
       <rules/>
       <infoLinks/>
-      <modifiers/>
-      <constraints/>
+      <modifiers>
+        <modifier type="set" field="d9fa-bdd8-684b-7454" value="0.0">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="03f7-28fe-397f-08c7" type="greaterThan"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d9fa-bdd8-684b-7454" type="max"/>
+      </constraints>
       <categoryLinks>
         <categoryLink id="2123-4a27-d55d-374c" name="New CategoryLink" hidden="false" targetId="4eb2-d49f-4b22-dd86" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="7e0c-600d-eebc-498e" name="Alignment: Ruthless" hidden="false" targetId="f115-d6f7-b750-5f55" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="d84c-a13e-bb1a-a179" name="Wanderers" hidden="false" targetId="7463-e87d-4c87-d6ff" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>

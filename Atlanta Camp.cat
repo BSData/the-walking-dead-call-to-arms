@@ -31,34 +31,7 @@
       <constraints/>
       <categoryLinks/>
       <selectionEntries/>
-      <selectionEntryGroups>
-        <selectionEntryGroup id="6211-0f68-5a1f-6725" name="Alignment" hidden="false" collective="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-          <selectionEntries>
-            <selectionEntry id="b4f5-2d3a-f7cd-db37" name="Lawful" hidden="false" collective="false" type="upgrade">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints/>
-              <categoryLinks/>
-              <selectionEntries/>
-              <selectionEntryGroups/>
-              <entryLinks/>
-              <costs>
-                <cost name=" Points" costTypeId="0705-c536-f372-c2d0" value="0.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-          <selectionEntryGroups/>
-          <entryLinks/>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
+      <selectionEntryGroups/>
       <entryLinks/>
       <costs>
         <cost name=" Points" costTypeId="0705-c536-f372-c2d0" value="0.0"/>
@@ -111,6 +84,20 @@
       </constraints>
       <categoryLinks>
         <categoryLink id="bb1b-5824-0f22-1cea" name="New CategoryLink" hidden="false" targetId="b33e-e6d0-05ba-26ce" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="44e3-efde-60b4-3a80" name="Alignment: Lawful" hidden="false" targetId="03f7-28fe-397f-08c7" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="cff0-c1f0-8598-7bc8" name="Atlanta Camp" hidden="false" targetId="f7d7-113d-59c5-809e" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1412,6 +1399,20 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="90df-c32b-10d4-bb17" name="Alignment: Lawful" hidden="false" targetId="03f7-28fe-397f-08c7" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="e46b-36f2-f34b-53fe" name="Atlanta Camp" hidden="false" targetId="f7d7-113d-59c5-809e" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="7872-aeb4-887a-8dbb" name="Hatchet" hidden="false" collective="false" type="upgrade">
@@ -2670,6 +2671,20 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="fe9c-9109-53f0-5792" name="Alignment: Lawful" hidden="false" targetId="03f7-28fe-397f-08c7" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="bcce-c2d3-379a-311c" name="Atlanta Camp" hidden="false" targetId="f7d7-113d-59c5-809e" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="dd81-8263-2a3f-0a3a" name="9mm Pistol" hidden="false" collective="false" type="upgrade">
@@ -3915,6 +3930,20 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="aeda-547c-15e2-dc98" name="Alignment: Lawful" hidden="false" targetId="03f7-28fe-397f-08c7" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="1fdd-6d21-3da0-13b9" name="Atlanta Camp" hidden="false" targetId="f7d7-113d-59c5-809e" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="3920-fc9f-1916-c3c4" name=".22 Revolver" hidden="false" collective="false" type="upgrade">
@@ -5144,6 +5173,20 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="8a3f-f4de-946e-60c8" name="Alignment: Lawful" hidden="false" targetId="03f7-28fe-397f-08c7" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="5fa2-d8cf-fa78-3c92" name="Atlanta Camp" hidden="false" targetId="f7d7-113d-59c5-809e" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="acfc-8715-e2c6-662d" name="Knapsack" hidden="false" collective="false" type="upgrade">
@@ -6337,6 +6380,20 @@
       </constraints>
       <categoryLinks>
         <categoryLink id="fbfe-f327-0bda-fa6a" name="New CategoryLink" hidden="false" targetId="1632-3305-8ec4-ecf2" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="8bd5-6b55-1200-f943" name="Alignment: Lawful" hidden="false" targetId="03f7-28fe-397f-08c7" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="7526-69f7-3049-ea55" name="Atlanta Camp" hidden="false" targetId="f7d7-113d-59c5-809e" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -7540,6 +7597,20 @@
       </constraints>
       <categoryLinks>
         <categoryLink id="8ca3-fb49-c847-20a5" name="New CategoryLink" hidden="false" targetId="7e4f-cf68-74a3-b58a" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="f15c-2148-c2d3-8c21" name="Alignment: Lawful" hidden="false" targetId="03f7-28fe-397f-08c7" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="0fa9-7d26-a0c6-89bb" name="Atlanta Camp" hidden="false" targetId="f7d7-113d-59c5-809e" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -8793,6 +8864,20 @@
       </constraints>
       <categoryLinks>
         <categoryLink id="7dcb-9df4-d014-5085" name="New CategoryLink" hidden="false" targetId="7e4f-cf68-74a3-b58a" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="d72c-bbde-0667-ee88" name="Alignment: Lawful" hidden="false" targetId="03f7-28fe-397f-08c7" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="204d-27e3-7525-e90e" name="Atlanta Camp" hidden="false" targetId="f7d7-113d-59c5-809e" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -10080,6 +10165,20 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="82d7-0ad1-2797-c4dd" name="Alignment: Lawful" hidden="false" targetId="03f7-28fe-397f-08c7" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="20b0-f1a1-81c4-be9a" name="Atlanta Camp" hidden="false" targetId="f7d7-113d-59c5-809e" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups>
@@ -11224,6 +11323,20 @@
       </constraints>
       <categoryLinks>
         <categoryLink id="6c4f-aac8-d110-6216" name="New CategoryLink" hidden="false" targetId="7e4f-cf68-74a3-b58a" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="1901-65f1-8779-a207" name="Alignment: Lawful" hidden="false" targetId="03f7-28fe-397f-08c7" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="5909-3077-16a1-e9ea" name="Atlanta Camp" hidden="false" targetId="f7d7-113d-59c5-809e" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -12435,6 +12548,20 @@
       </constraints>
       <categoryLinks>
         <categoryLink id="c5f9-bdae-f196-6378" name="New CategoryLink" hidden="false" targetId="4eb2-d49f-4b22-dd86" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="2864-d0e5-1ba5-baf2" name="Alignment: Lawful" hidden="false" targetId="03f7-28fe-397f-08c7" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="c5bb-beab-94fa-5bbd" name="Atlanta Camp" hidden="false" targetId="f7d7-113d-59c5-809e" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -13688,6 +13815,20 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="a45f-d858-9d84-c5ec" name="Alignment: Lawful" hidden="false" targetId="03f7-28fe-397f-08c7" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="fda1-183d-4bc3-96f7" name="Atlanta Camp" hidden="false" targetId="f7d7-113d-59c5-809e" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="8672-f1b0-ca7c-7d4a" name="Backpack" hidden="false" collective="false" type="upgrade">
@@ -14926,6 +15067,20 @@
       </constraints>
       <categoryLinks>
         <categoryLink id="a871-fd73-0358-f510" name="New CategoryLink" hidden="false" targetId="b33e-e6d0-05ba-26ce" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="4198-b76e-6a41-0805" name="Alignment: Lawful" hidden="false" targetId="03f7-28fe-397f-08c7" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="3614-819b-259d-281c" name="Atlanta Camp" hidden="false" targetId="f7d7-113d-59c5-809e" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -16325,6 +16480,20 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="9e12-46cd-037e-fd88" name="Alignment: Lawful" hidden="false" targetId="03f7-28fe-397f-08c7" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="3e16-5ca0-a887-48a1" name="Atlanta Camp" hidden="false" targetId="f7d7-113d-59c5-809e" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="3a63-6340-8627-17ab" name="Browning Hunting Rifle" hidden="false" collective="false" type="upgrade">
@@ -17521,6 +17690,20 @@
       <constraints/>
       <categoryLinks>
         <categoryLink id="c411-9fc3-3e43-e267" name="New CategoryLink" hidden="false" targetId="7aaa-f540-43d6-81de" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="c9d4-3df7-8b86-58b9" name="Alignment: Lawful" hidden="false" targetId="03f7-28fe-397f-08c7" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="21f3-b743-c756-035b" name="Atlanta Camp" hidden="false" targetId="f7d7-113d-59c5-809e" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -18886,6 +19069,20 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="abc8-1b88-8564-77c8" name="Alignment: Lawful" hidden="false" targetId="03f7-28fe-397f-08c7" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="8475-bdfc-b208-b8ae" name="Atlanta Camp" hidden="false" targetId="f7d7-113d-59c5-809e" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="b786-976a-1145-9656" name="Hammer" hidden="false" collective="false" type="upgrade">
@@ -20114,6 +20311,20 @@
       <constraints/>
       <categoryLinks>
         <categoryLink id="62b3-82ad-f5ef-ec8a" name="New CategoryLink" hidden="false" targetId="1632-3305-8ec4-ecf2" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="c005-1f4e-2029-b93d" name="Alignment: Lawful" hidden="false" targetId="03f7-28fe-397f-08c7" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="b604-cd8f-2b46-bcdb" name="Atlanta Camp" hidden="false" targetId="f7d7-113d-59c5-809e" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -21373,6 +21584,20 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="df96-935c-7048-8633" name="Alignment: Lawful" hidden="false" targetId="03f7-28fe-397f-08c7" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="93a1-cdee-3774-0f4b" name="Atlanta Camp" hidden="false" targetId="f7d7-113d-59c5-809e" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups>
@@ -22529,6 +22754,20 @@
       <constraints/>
       <categoryLinks>
         <categoryLink id="f982-31c3-0b25-4392" name="New CategoryLink" hidden="false" targetId="4eb2-d49f-4b22-dd86" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="8b74-e010-e8de-0ca0" name="Alignment: Lawful" hidden="false" targetId="03f7-28fe-397f-08c7" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="2319-56fa-bf31-feb2" name="Atlanta Camp" hidden="false" targetId="f7d7-113d-59c5-809e" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -23722,6 +23961,20 @@
       </constraints>
       <categoryLinks>
         <categoryLink id="769f-f758-4394-9656" name="New CategoryLink" hidden="false" targetId="4eb2-d49f-4b22-dd86" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="b06e-75d0-f691-2b9b" name="Alignment: Lawful" hidden="false" targetId="03f7-28fe-397f-08c7" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="d03a-44ce-709f-a964" name="Atlanta Camp" hidden="false" targetId="f7d7-113d-59c5-809e" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -24929,6 +25182,20 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="524f-9c73-3930-2d87" name="Alignment: Lawful" hidden="false" targetId="03f7-28fe-397f-08c7" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="b734-ea21-3b2f-24e3" name="Atlanta Camp" hidden="false" targetId="f7d7-113d-59c5-809e" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="ca04-4834-2bad-a604" name="Knife" hidden="false" collective="false" type="upgrade">
@@ -26121,6 +26388,20 @@
       <constraints/>
       <categoryLinks>
         <categoryLink id="f9c3-6c89-8dae-1ad9" name="New CategoryLink" hidden="false" targetId="4eb2-d49f-4b22-dd86" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="8d55-6a0a-03eb-82ca" name="Alignment: Lawful" hidden="false" targetId="03f7-28fe-397f-08c7" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="2faa-a30b-5a9b-2fee" name="Atlanta Camp" hidden="false" targetId="f7d7-113d-59c5-809e" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>

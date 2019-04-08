@@ -22,7 +22,22 @@
       <infoLinks/>
       <modifiers/>
       <constraints/>
-      <categoryLinks/>
+      <categoryLinks>
+        <categoryLink id="f235-e2c7-b69f-2084" name="Alignment: Lawful" hidden="false" targetId="03f7-28fe-397f-08c7" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="c30f-d006-62cb-5488" name="Wanderers" hidden="false" targetId="7463-e87d-4c87-d6ff" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
@@ -70,12 +85,34 @@
         </rule>
       </rules>
       <infoLinks/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="8e1a-d3b3-3c98-3d5b" value="0.0">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f115-d6f7-b750-5f55" type="greaterThan"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
       <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8e1a-d3b3-3c98-3d5b" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8e1a-d3b3-3c98-3d5b" type="max"/>
       </constraints>
       <categoryLinks>
         <categoryLink id="3d83-685b-bf0a-9c61" name="New CategoryLink" hidden="false" targetId="4eb2-d49f-4b22-dd86" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="8582-cebf-97d9-f95a" name="Alignment: Lawful" hidden="false" targetId="03f7-28fe-397f-08c7" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="a430-0729-68db-353e" name="Wanderers" hidden="false" targetId="7463-e87d-4c87-d6ff" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1055,12 +1092,34 @@
         </rule>
       </rules>
       <infoLinks/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="76b9-b228-eabf-db6b" value="0.0">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f115-d6f7-b750-5f55" type="greaterThan"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
       <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="76b9-b228-eabf-db6b" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="76b9-b228-eabf-db6b" type="max"/>
       </constraints>
       <categoryLinks>
         <categoryLink id="f77f-90da-1cb4-2a09" name="New CategoryLink" hidden="false" targetId="b33e-e6d0-05ba-26ce" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="293c-fcfa-0b54-8ae7" name="Alignment: Lawful" hidden="false" targetId="03f7-28fe-397f-08c7" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="5d7d-c3a3-f1c4-d044" name="Wanderers" hidden="false" targetId="7463-e87d-4c87-d6ff" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -2083,12 +2142,34 @@
         </rule>
       </rules>
       <infoLinks/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="ff1d-615f-47c8-1af0" value="0.0">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f115-d6f7-b750-5f55" type="greaterThan"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
       <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ff1d-615f-47c8-1af0" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ff1d-615f-47c8-1af0" type="max"/>
       </constraints>
       <categoryLinks>
         <categoryLink id="7459-6cc1-f70f-8b83" name="New CategoryLink" hidden="false" targetId="1632-3305-8ec4-ecf2" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="89b8-e052-6326-0b23" name="Alignment: Lawful" hidden="false" targetId="03f7-28fe-397f-08c7" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="c9f1-dcb4-7cc4-7b25" name="Wanderers" hidden="false" targetId="7463-e87d-4c87-d6ff" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -3052,12 +3133,34 @@ herself (not within the Kill Zone of an enemy model) from which to cause the NOI
         </rule>
       </rules>
       <infoLinks/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="8141-bafc-76d1-a247" value="0.0">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f115-d6f7-b750-5f55" type="greaterThan"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
       <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8141-bafc-76d1-a247" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8141-bafc-76d1-a247" type="max"/>
       </constraints>
       <categoryLinks>
         <categoryLink id="fbe9-5a2a-901c-f99d" name="New CategoryLink" hidden="false" targetId="4eb2-d49f-4b22-dd86" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="c230-c196-e44d-497e" name="Alignment: Lawful" hidden="false" targetId="03f7-28fe-397f-08c7" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="6ee9-53d7-d5c5-521d" name="Wanderers" hidden="false" targetId="7463-e87d-4c87-d6ff" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -4078,12 +4181,34 @@ herself (not within the Kill Zone of an enemy model) from which to cause the NOI
           <modifiers/>
         </infoLink>
       </infoLinks>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="66b4-152c-b9a5-17e8" value="0.0">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f115-d6f7-b750-5f55" type="greaterThan"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
       <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="66b4-152c-b9a5-17e8" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="66b4-152c-b9a5-17e8" type="max"/>
       </constraints>
       <categoryLinks>
         <categoryLink id="7df1-c822-5359-21be" name="New CategoryLink" hidden="false" targetId="4eb2-d49f-4b22-dd86" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="86c2-a3c5-8886-1f53" name="Alignment: Lawful" hidden="false" targetId="03f7-28fe-397f-08c7" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="4a1e-c47d-5b37-c35b" name="Wanderers" hidden="false" targetId="7463-e87d-4c87-d6ff" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -5089,12 +5214,34 @@ herself (not within the Kill Zone of an enemy model) from which to cause the NOI
       </profiles>
       <rules/>
       <infoLinks/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="873e-9c92-e082-db47" value="0.0">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f115-d6f7-b750-5f55" type="greaterThan"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
       <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="873e-9c92-e082-db47" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="873e-9c92-e082-db47" type="max"/>
       </constraints>
       <categoryLinks>
         <categoryLink id="c0ae-9cf2-ba58-f574" name="New CategoryLink" hidden="false" targetId="7e4f-cf68-74a3-b58a" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="dd70-9a12-829b-a4a0" name="Alignment: Lawful" hidden="false" targetId="03f7-28fe-397f-08c7" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="b2f2-2255-4e7a-3b7a" name="Wanderers" hidden="false" targetId="7463-e87d-4c87-d6ff" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -6159,12 +6306,34 @@ herself (not within the Kill Zone of an enemy model) from which to cause the NOI
           <modifiers/>
         </infoLink>
       </infoLinks>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="872a-4fc0-79c2-511d" value="0.0">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f115-d6f7-b750-5f55" type="greaterThan"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
       <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="872a-4fc0-79c2-511d" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="872a-4fc0-79c2-511d" type="max"/>
       </constraints>
       <categoryLinks>
         <categoryLink id="840d-db5c-9349-0e77" name="New CategoryLink" hidden="false" targetId="7aaa-f540-43d6-81de" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="899d-d75c-c444-847f" name="Alignment: Lawful" hidden="false" targetId="03f7-28fe-397f-08c7" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="43de-9efc-bef1-d747" name="Wanderers" hidden="false" targetId="7463-e87d-4c87-d6ff" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -7166,12 +7335,34 @@ herself (not within the Kill Zone of an enemy model) from which to cause the NOI
       </profiles>
       <rules/>
       <infoLinks/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="8106-0e36-664f-7269" value="0.0">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f115-d6f7-b750-5f55" type="greaterThan"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
       <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8106-0e36-664f-7269" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8106-0e36-664f-7269" type="max"/>
       </constraints>
       <categoryLinks>
         <categoryLink id="18b3-239b-2533-d824" name="New CategoryLink" hidden="false" targetId="7e4f-cf68-74a3-b58a" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="ffcd-5978-9ec3-33e0" name="Alignment: Lawful" hidden="false" targetId="03f7-28fe-397f-08c7" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="2bfb-dbfb-d049-84bd" name="Wanderers" hidden="false" targetId="7463-e87d-4c87-d6ff" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>

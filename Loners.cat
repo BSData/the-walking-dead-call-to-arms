@@ -65,9 +65,25 @@
       </rules>
       <infoLinks/>
       <modifiers/>
-      <constraints/>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a814-8d70-7d64-c662" type="max"/>
+      </constraints>
       <categoryLinks>
         <categoryLink id="c627-c055-8f05-1ea0" name="New CategoryLink" hidden="false" targetId="1632-3305-8ec4-ecf2" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="4df5-dc20-0381-a0fe" name="Alignment: Neutral" hidden="false" targetId="a184-b0a1-ca0d-b36f" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="40e5-f38d-d8ab-c859" name="Wanderers" hidden="false" targetId="7463-e87d-4c87-d6ff" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -171,6 +187,22 @@
             <cost name=" Points" costTypeId="0705-c536-f372-c2d0" value="18.0"/>
           </costs>
         </selectionEntry>
+        <selectionEntry id="43fc-65fc-bdfc-e470" name="Leader" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="623c-d533-9f98-9fe3" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name=" Points" costTypeId="0705-c536-f372-c2d0" value="0.0"/>
+          </costs>
+        </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
         <selectionEntryGroup id="f794-ff65-5f3e-521d" name="Alignment" hidden="false" collective="false" defaultSelectionEntryId="71b0-7e46-8652-0c0d">
@@ -247,10 +279,41 @@ able to move into contact with the target, she must do so, but must always end t
         </rule>
       </rules>
       <infoLinks/>
-      <modifiers/>
-      <constraints/>
+      <modifiers>
+        <modifier type="set" field="7f65-73ff-057b-884a" value="0">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7296-331e-7b22-09dd" type="greaterThan"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="set" field="hidden" value="true">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7296-331e-7b22-09dd" type="greaterThan"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7f65-73ff-057b-884a" type="max"/>
+      </constraints>
       <categoryLinks>
         <categoryLink id="ed8d-31a8-7ac4-f08a" name="New CategoryLink" hidden="false" targetId="1632-3305-8ec4-ecf2" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="65f0-d485-110a-1cb0" name="Alignment: Neutral" hidden="false" targetId="a184-b0a1-ca0d-b36f" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="b131-fd89-d1bb-fe62" name="Wanderers" hidden="false" targetId="7463-e87d-4c87-d6ff" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -321,6 +384,22 @@ able to move into contact with the target, she must do so, but must always end t
             <cost name=" Points" costTypeId="0705-c536-f372-c2d0" value="0.0"/>
           </costs>
         </selectionEntry>
+        <selectionEntry id="ae93-f1c7-5729-b323" name="Leader" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5d2a-6ce1-b2f2-cc10" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name=" Points" costTypeId="0705-c536-f372-c2d0" value="0.0"/>
+          </costs>
+        </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
         <selectionEntryGroup id="c3a4-eebc-9bf7-04ee" name="Alignment" hidden="false" collective="false" defaultSelectionEntryId="724f-b5d1-cb4c-6c78">
@@ -383,9 +462,25 @@ able to move into contact with the target, she must do so, but must always end t
       </rules>
       <infoLinks/>
       <modifiers/>
-      <constraints/>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6280-0aa8-1023-1988" type="max"/>
+      </constraints>
       <categoryLinks>
         <categoryLink id="7e1c-c27b-ed62-8a16" name="New CategoryLink" hidden="false" targetId="7aaa-f540-43d6-81de" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="862a-3fc0-e825-7e4a" name="Alignment: Neutral" hidden="false" targetId="a184-b0a1-ca0d-b36f" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="0caa-2668-53fe-320e" name="Wanderers" hidden="false" targetId="7463-e87d-4c87-d6ff" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -429,6 +524,22 @@ able to move into contact with the target, she must do so, but must always end t
           <modifiers/>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b129-d607-40f3-c682" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name=" Points" costTypeId="0705-c536-f372-c2d0" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="f990-9b84-e230-87be" name="Leader" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b2e7-0bb2-ef37-81f4" type="max"/>
           </constraints>
           <categoryLinks/>
           <selectionEntries/>
@@ -500,10 +611,41 @@ Fear while either of them are in play.</description>
         </rule>
       </rules>
       <infoLinks/>
-      <modifiers/>
-      <constraints/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f115-d6f7-b750-5f55" type="greaterThan"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="set" field="dbd5-445b-7e50-e695" value="0">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f115-d6f7-b750-5f55" type="greaterThan"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dbd5-445b-7e50-e695" type="max"/>
+      </constraints>
       <categoryLinks>
         <categoryLink id="1af4-8668-1a4c-30a2" name="New CategoryLink" hidden="false" targetId="b33e-e6d0-05ba-26ce" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="89b5-7d0e-4601-e1ff" name="Alignment: Lawful" hidden="false" targetId="03f7-28fe-397f-08c7" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="2b9d-f0eb-f411-ddbf" name="Wanderers" hidden="false" targetId="7463-e87d-4c87-d6ff" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -594,6 +736,22 @@ Fear while either of them are in play.</description>
             <cost name=" Points" costTypeId="0705-c536-f372-c2d0" value="0.0"/>
           </costs>
         </selectionEntry>
+        <selectionEntry id="cddd-7085-562e-6834" name="Leader" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a776-4a48-bfe7-a0f7" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name=" Points" costTypeId="0705-c536-f372-c2d0" value="0.0"/>
+          </costs>
+        </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups/>
       <entryLinks/>
@@ -629,9 +787,25 @@ Fear while either of them are in play.</description>
       </rules>
       <infoLinks/>
       <modifiers/>
-      <constraints/>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e978-ab7f-f4fe-5f51" type="max"/>
+      </constraints>
       <categoryLinks>
         <categoryLink id="eee7-09b6-329b-89a4" name="New CategoryLink" hidden="false" targetId="b33e-e6d0-05ba-26ce" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="0072-bde6-3113-1c3b" name="Alignment: Neutral" hidden="false" targetId="a184-b0a1-ca0d-b36f" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="10bd-6628-5b4c-2a1b" name="Wanderers" hidden="false" targetId="7463-e87d-4c87-d6ff" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -682,6 +856,22 @@ Fear while either of them are in play.</description>
             <cost name=" Points" costTypeId="0705-c536-f372-c2d0" value="0.0"/>
           </costs>
         </selectionEntry>
+        <selectionEntry id="d97e-a836-ac26-d8a6" name="Leader" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5626-1f6e-c6aa-f0c3" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name=" Points" costTypeId="0705-c536-f372-c2d0" value="0.0"/>
+          </costs>
+        </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
         <selectionEntryGroup id="d5af-265d-d191-5542" name="Alignment" hidden="false" collective="false">
@@ -716,7 +906,7 @@ Fear while either of them are in play.</description>
         <cost name=" Points" costTypeId="0705-c536-f372-c2d0" value="25.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="e9e6-eda1-a861-7cb3" name="Duane" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="e9e6-eda1-a861-7cb3" name="Duane" hidden="false" collective="false" type="model">
       <profiles>
         <profile id="aada-8986-bf87-152e" name="Duane" hidden="false" profileTypeId="40e9-9288-6f65-70a9" profileTypeName="Character">
           <profiles/>
@@ -750,9 +940,48 @@ Fear while either of them are in play.</description>
         </rule>
       </rules>
       <infoLinks/>
-      <modifiers/>
-      <constraints/>
-      <categoryLinks/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f115-d6f7-b750-5f55" type="greaterThan"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="set" field="df9f-d244-f0ce-4f37" value="0">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f115-d6f7-b750-5f55" type="greaterThan"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="df9f-d244-f0ce-4f37" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="6a16-e417-2e2f-1696" name="Alignment: Lawful" hidden="false" targetId="03f7-28fe-397f-08c7" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="313f-7e63-9c23-4cdd" name="Wanderers" hidden="false" targetId="7463-e87d-4c87-d6ff" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="4aa5-31c1-8c0f-674d" name="New CategoryLink" hidden="false" targetId="7aaa-f540-43d6-81de" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
       <selectionEntries>
         <selectionEntry id="a7f0-6206-3db4-5393" name="Shovel" hidden="false" collective="false" type="upgrade">
           <profiles>
@@ -796,6 +1025,22 @@ Fear while either of them are in play.</description>
             <cost name=" Points" costTypeId="0705-c536-f372-c2d0" value="0.0"/>
           </costs>
         </selectionEntry>
+        <selectionEntry id="f9c6-09fb-4fa7-bc12" name="Leader" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="158e-b067-a059-0a86" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name=" Points" costTypeId="0705-c536-f372-c2d0" value="0.0"/>
+          </costs>
+        </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
         <selectionEntryGroup id="0237-d27e-b7a6-3924" name="Alignment" hidden="false" collective="false">
@@ -827,7 +1072,7 @@ Fear while either of them are in play.</description>
       </selectionEntryGroups>
       <entryLinks/>
       <costs>
-        <cost name=" Points" costTypeId="0705-c536-f372-c2d0" value="0.0"/>
+        <cost name=" Points" costTypeId="0705-c536-f372-c2d0" value="14.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c002-f729-96dc-3382" name="Father Gabriel, Naive Preacher" hidden="false" collective="false" type="model">
@@ -864,10 +1109,41 @@ Fear while either of them are in play.</description>
         </rule>
       </rules>
       <infoLinks/>
-      <modifiers/>
-      <constraints/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f115-d6f7-b750-5f55" type="greaterThan"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="set" field="51dd-7836-0537-2c36" value="0">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f115-d6f7-b750-5f55" type="greaterThan"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="51dd-7836-0537-2c36" type="max"/>
+      </constraints>
       <categoryLinks>
         <categoryLink id="8b8b-80ff-51d5-2577" name="New CategoryLink" hidden="false" targetId="b33e-e6d0-05ba-26ce" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="f12e-f832-1eed-3231" name="Alignment: Lawful" hidden="false" targetId="03f7-28fe-397f-08c7" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="f411-dc3d-07b0-011a" name="Wanderers" hidden="false" targetId="7463-e87d-4c87-d6ff" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -891,6 +1167,22 @@ Fear while either of them are in play.</description>
           <modifiers/>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bb86-705b-0044-8c64" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name=" Points" costTypeId="0705-c536-f372-c2d0" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="92c3-708d-fef1-8068" name="Leader" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="181b-dab0-2c6a-e3ca" type="max"/>
           </constraints>
           <categoryLinks/>
           <selectionEntries/>
@@ -934,10 +1226,41 @@ Fear while either of them are in play.</description>
         </rule>
       </rules>
       <infoLinks/>
-      <modifiers/>
-      <constraints/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="03f7-28fe-397f-08c7" type="greaterThan"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="set" field="1060-4fdf-66ee-eafc" value="0">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="03f7-28fe-397f-08c7" type="greaterThan"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1060-4fdf-66ee-eafc" type="max"/>
+      </constraints>
       <categoryLinks>
         <categoryLink id="c37a-6423-8372-16c9" name="New CategoryLink" hidden="false" targetId="1632-3305-8ec4-ecf2" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="f6fc-31f4-e401-d9d7" name="Alignment: Ruthless" hidden="false" targetId="f115-d6f7-b750-5f55" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="b434-5d1a-eb93-05b2" name="Wanderers" hidden="false" targetId="7463-e87d-4c87-d6ff" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -981,6 +1304,22 @@ Fear while either of them are in play.</description>
           <modifiers/>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="461b-c4d6-cf4e-46cb" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name=" Points" costTypeId="0705-c536-f372-c2d0" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="ddd2-4477-9e1a-f1fc" name="Leader" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8194-5637-92c0-11a4" type="max"/>
           </constraints>
           <categoryLinks/>
           <selectionEntries/>
@@ -1051,10 +1390,41 @@ Fear while either of them are in play.</description>
         </rule>
       </rules>
       <infoLinks/>
-      <modifiers/>
-      <constraints/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f115-d6f7-b750-5f55" type="greaterThan"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="set" field="258a-746f-4a48-8fc5" value="0">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f115-d6f7-b750-5f55" type="greaterThan"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="258a-746f-4a48-8fc5" type="max"/>
+      </constraints>
       <categoryLinks>
         <categoryLink id="33b0-11a8-ebfb-98f0" name="New CategoryLink" hidden="false" targetId="b33e-e6d0-05ba-26ce" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="10c0-e901-c2d6-7992" name="Alignment: Lawful" hidden="false" targetId="03f7-28fe-397f-08c7" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="828a-28f3-bb63-295b" name="Wanderers" hidden="false" targetId="7463-e87d-4c87-d6ff" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1105,6 +1475,22 @@ Fear while either of them are in play.</description>
             <cost name=" Points" costTypeId="0705-c536-f372-c2d0" value="0.0"/>
           </costs>
         </selectionEntry>
+        <selectionEntry id="886c-d036-9e0e-2201" name="Leader" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dc2a-646e-fe4e-94fa" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name=" Points" costTypeId="0705-c536-f372-c2d0" value="0.0"/>
+          </costs>
+        </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
         <selectionEntryGroup id="017a-f51d-a3a2-aaf6" name="Alignment" hidden="false" collective="false">
@@ -1139,7 +1525,7 @@ Fear while either of them are in play.</description>
         <cost name=" Points" costTypeId="0705-c536-f372-c2d0" value="46.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="56c9-ae04-5476-7fd3" name="Clementine" hidden="false" collective="false" type="model">
+    <selectionEntry id="6475-ef43-b179-8003" name="Clementine" hidden="false" collective="false" type="model">
       <profiles>
         <profile id="1f02-f72d-7bbb-1891" name="Clementine" hidden="false" profileTypeId="40e9-9288-6f65-70a9" profileTypeName="Character">
           <profiles/>
@@ -1180,10 +1566,41 @@ Fear while either of them are in play.</description>
           <modifiers/>
         </infoLink>
       </infoLinks>
-      <modifiers/>
-      <constraints/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f115-d6f7-b750-5f55" type="greaterThan"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="set" field="dc13-d64d-1d58-5d5c" value="0">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f115-d6f7-b750-5f55" type="greaterThan"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dc13-d64d-1d58-5d5c" type="max"/>
+      </constraints>
       <categoryLinks>
         <categoryLink id="92e3-092e-d9aa-d5dc" name="New CategoryLink" hidden="false" targetId="d4f0-9ba3-75e7-a793" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="d1a0-31d0-b596-dd0a" name="Alignment: Lawful" hidden="false" targetId="03f7-28fe-397f-08c7" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="d2f9-67b4-f3ea-a4f0" name="Wanderers" hidden="false" targetId="7463-e87d-4c87-d6ff" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1260,6 +1677,22 @@ Fear while either of them are in play.</description>
           <modifiers/>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ca57-7896-ae61-13c9" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name=" Points" costTypeId="0705-c536-f372-c2d0" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="239a-c276-2e88-28b2" name="Leader" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f0b9-fa6b-220c-493a" type="max"/>
           </constraints>
           <categoryLinks/>
           <selectionEntries/>

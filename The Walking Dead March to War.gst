@@ -86,6 +86,55 @@
       <modifiers/>
       <constraints/>
     </categoryEntry>
+    <categoryEntry id="a184-b0a1-ca0d-b36f" name="Alignment: Neutral" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+    </categoryEntry>
+    <categoryEntry id="f115-d6f7-b750-5f55" name="Alignment: Ruthless" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+    </categoryEntry>
+    <categoryEntry id="03f7-28fe-397f-08c7" name="Alignment: Lawful" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+    </categoryEntry>
+    <categoryEntry id="f7d7-113d-59c5-809e" name="Atlanta Camp" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+    </categoryEntry>
+    <categoryEntry id="80ce-410c-b879-c6db" name="Woodbury Army" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+    </categoryEntry>
+    <categoryEntry id="7463-e87d-4c87-d6ff" name="Wanderers" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+    </categoryEntry>
+    <categoryEntry id="7296-331e-7b22-09dd" name="Brian Blake" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+    </categoryEntry>
   </categoryEntries>
   <forceEntries>
     <forceEntry id="0747-3d1e-6f14-5332" name="Survivors" hidden="false">
@@ -140,6 +189,13 @@
               <modifiers/>
               <constraints/>
             </categoryLink>
+            <categoryLink id="5eef-5f40-caf3-c369" name="Special" hidden="false" targetId="d4f0-9ba3-75e7-a793" primary="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </categoryLink>
           </categoryLinks>
         </forceEntry>
       </forceEntries>
@@ -188,6 +244,13 @@
           <constraints>
             <constraint field="selections" scope="roster" value="50.0" percentValue="true" shared="true" includeChildSelections="true" includeChildForces="true" id="c747-aecf-02ee-5149" type="max"/>
           </constraints>
+        </categoryLink>
+        <categoryLink id="fc9e-3743-cec6-d030" name="Special" hidden="false" targetId="d4f0-9ba3-75e7-a793" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
         </categoryLink>
       </categoryLinks>
     </forceEntry>
