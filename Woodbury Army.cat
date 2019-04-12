@@ -39,8 +39,8 @@
       <categoryLinks>
         <categoryLink id="1e2d-2262-5594-74ac" name="New CategoryLink" hidden="false" targetId="b33e-e6d0-05ba-26ce" primary="true"/>
         <categoryLink id="e2b2-e2b3-bf85-6ffe" name="Alignment: Ruthless" hidden="false" targetId="f115-d6f7-b750-5f55" primary="false"/>
-        <categoryLink id="14fe-1118-d463-b65f" name="Wanderers" hidden="false" targetId="7463-e87d-4c87-d6ff" primary="false"/>
         <categoryLink id="64e6-ce76-55cb-d075" name="Brian Blake" hidden="false" targetId="7296-331e-7b22-09dd" primary="false"/>
+        <categoryLink id="1238-4e34-9f30-1d74" name="Woodbury Army" hidden="false" targetId="80ce-410c-b879-c6db" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="3151-ebbd-a3fd-872b" name="Beretta 92" hidden="false" collective="false" type="upgrade">
@@ -160,8 +160,8 @@
       <categoryLinks>
         <categoryLink id="c1dd-63f6-1309-9a70" name="New CategoryLink" hidden="false" targetId="4eb2-d49f-4b22-dd86" primary="true"/>
         <categoryLink id="7d7a-198b-a1a0-2894" name="Alignment: Ruthless" hidden="false" targetId="f115-d6f7-b750-5f55" primary="false"/>
-        <categoryLink id="73dc-23d2-de72-9cd9" name="Wanderers" hidden="false" targetId="7463-e87d-4c87-d6ff" primary="false"/>
         <categoryLink id="cf52-72cf-c363-66ad" name="Brian Blake" hidden="false" targetId="7296-331e-7b22-09dd" primary="false"/>
+        <categoryLink id="6c8b-18ee-eae8-9b51" name="Woodbury Army" hidden="false" targetId="80ce-410c-b879-c6db" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="a572-48e9-f19e-7abf" name="Beretta 92" hidden="false" collective="false" type="upgrade">
@@ -322,8 +322,8 @@
       <categoryLinks>
         <categoryLink id="9d34-90b2-359e-1f17" name="New CategoryLink" hidden="false" targetId="b33e-e6d0-05ba-26ce" primary="true"/>
         <categoryLink id="3576-ad08-f375-6c08" name="Alignment: Ruthless" hidden="false" targetId="f115-d6f7-b750-5f55" primary="false"/>
-        <categoryLink id="4372-0ebe-c8b8-0cb9" name="Wanderers" hidden="false" targetId="7463-e87d-4c87-d6ff" primary="false"/>
         <categoryLink id="61c8-96b3-3724-7512" name="Brian Blake" hidden="false" targetId="7296-331e-7b22-09dd" primary="false"/>
+        <categoryLink id="b9f9-c8d6-c581-d9c5" name="Woodbury Army" hidden="false" targetId="80ce-410c-b879-c6db" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="5f3e-2d69-6b36-b1f1" name="Beretta 92" hidden="false" collective="false" type="upgrade">
@@ -410,7 +410,7 @@
       <categoryLinks>
         <categoryLink id="8d29-9238-5a4c-bfcc" name="New CategoryLink" hidden="false" targetId="4eb2-d49f-4b22-dd86" primary="true"/>
         <categoryLink id="f608-2bd8-286a-906c" name="Alignment: Ruthless" hidden="false" targetId="f115-d6f7-b750-5f55" primary="false"/>
-        <categoryLink id="90d3-08b9-414e-0919" name="Wanderers" hidden="false" targetId="7463-e87d-4c87-d6ff" primary="false"/>
+        <categoryLink id="28ee-0a5d-ddd0-4f5c" name="Woodbury Army" hidden="false" targetId="80ce-410c-b879-c6db" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="2947-7876-1498-2d76" name="9mm Pistol" hidden="false" collective="false" type="upgrade">
@@ -493,7 +493,7 @@
       <categoryLinks>
         <categoryLink id="962b-e50d-66fd-a0d3" name="New CategoryLink" hidden="false" targetId="1632-3305-8ec4-ecf2" primary="true"/>
         <categoryLink id="fcc8-c830-3ec4-ea0d" name="Alignment: Ruthless" hidden="false" targetId="f115-d6f7-b750-5f55" primary="false"/>
-        <categoryLink id="8f8e-63b7-8fbc-2a4c" name="Wanderers" hidden="false" targetId="7463-e87d-4c87-d6ff" primary="false"/>
+        <categoryLink id="7c4e-c776-d2fb-b2eb" name="Woodbury Army" hidden="false" targetId="80ce-410c-b879-c6db" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="6771-ad99-2f72-faef" name="M4 Carbine" hidden="false" collective="false" type="upgrade">
@@ -574,7 +574,7 @@
       <categoryLinks>
         <categoryLink id="e27b-4104-0db9-40fa" name="New CategoryLink" hidden="false" targetId="7e4f-cf68-74a3-b58a" primary="true"/>
         <categoryLink id="2673-af5a-c429-f765" name="Alignment: Ruthless" hidden="false" targetId="f115-d6f7-b750-5f55" primary="false"/>
-        <categoryLink id="1015-324d-c1cf-bc84" name="Wanderers" hidden="false" targetId="7463-e87d-4c87-d6ff" primary="false"/>
+        <categoryLink id="4a12-0adf-9060-877d" name="Woodbury Army" hidden="false" targetId="80ce-410c-b879-c6db" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="8464-f778-11a7-12cf" name="Browning Hunting Rifle" hidden="false" collective="false" type="upgrade">
@@ -685,7 +685,7 @@
       <categoryLinks>
         <categoryLink id="9c58-235e-8e81-b4e8" name="New CategoryLink" hidden="false" targetId="b33e-e6d0-05ba-26ce" primary="true"/>
         <categoryLink id="ebd1-fce7-4b74-f5ab" name="Alignment: Ruthless" hidden="false" targetId="f115-d6f7-b750-5f55" primary="false"/>
-        <categoryLink id="ba61-5d5d-0f07-55e3" name="Wanderers" hidden="false" targetId="7463-e87d-4c87-d6ff" primary="false"/>
+        <categoryLink id="6195-a74b-57a9-6b8f" name="Woodbury Army" hidden="false" targetId="80ce-410c-b879-c6db" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="d1cd-99a1-3bf0-576c" name="9mm Pistol" hidden="false" collective="false" type="upgrade">
@@ -764,7 +764,7 @@
       <categoryLinks>
         <categoryLink id="dfa5-2dc4-8074-5788" name="New CategoryLink" hidden="false" targetId="4eb2-d49f-4b22-dd86" primary="true"/>
         <categoryLink id="9148-27ee-5db2-63ac" name="Alignment: Ruthless" hidden="false" targetId="f115-d6f7-b750-5f55" primary="false"/>
-        <categoryLink id="2c3d-00ec-5dd1-2c0d" name="Wanderers" hidden="false" targetId="7463-e87d-4c87-d6ff" primary="false"/>
+        <categoryLink id="4a59-5eb3-875e-1fc8" name="Woodbury Army" hidden="false" targetId="80ce-410c-b879-c6db" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="5d23-53f8-cc8f-dc65" name="Medical Bag" hidden="false" collective="false" type="upgrade">
@@ -856,7 +856,7 @@
       <categoryLinks>
         <categoryLink id="3d83-685b-bf0a-9c61" name="New CategoryLink" hidden="false" targetId="4eb2-d49f-4b22-dd86" primary="true"/>
         <categoryLink id="0b7a-4f5f-ffac-70f7" name="Alignment: Ruthless" hidden="false" targetId="f115-d6f7-b750-5f55" primary="false"/>
-        <categoryLink id="1dae-1252-0b54-7566" name="Wanderers" hidden="false" targetId="7463-e87d-4c87-d6ff" primary="false"/>
+        <categoryLink id="c58f-367f-c4ba-0ab7" name="Woodbury Army" hidden="false" targetId="80ce-410c-b879-c6db" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="8978-db8c-244a-ae75" name="Bandages" hidden="false" collective="false" type="upgrade">
@@ -952,7 +952,7 @@
       <categoryLinks>
         <categoryLink id="98c8-e121-8075-0d2e" name="New CategoryLink" hidden="false" targetId="7aaa-f540-43d6-81de" primary="true"/>
         <categoryLink id="c628-35f8-3c0f-b174" name="Alignment: Ruthless" hidden="false" targetId="f115-d6f7-b750-5f55" primary="false"/>
-        <categoryLink id="7028-de22-8135-2efc" name="Wanderers" hidden="false" targetId="7463-e87d-4c87-d6ff" primary="false"/>
+        <categoryLink id="11f5-c624-8717-edc8" name="Woodbury Army" hidden="false" targetId="80ce-410c-b879-c6db" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="e15c-8c21-5ed3-573c" name="IMI Uzi" hidden="false" collective="false" type="upgrade">
@@ -1030,7 +1030,7 @@
       <categoryLinks>
         <categoryLink id="3d96-6213-91b5-88b5" name="New CategoryLink" hidden="false" targetId="7e4f-cf68-74a3-b58a" primary="true"/>
         <categoryLink id="1435-10b8-6d09-682a" name="Alignment: Ruthless" hidden="false" targetId="f115-d6f7-b750-5f55" primary="false"/>
-        <categoryLink id="99d7-68d0-ae19-f52d" name="Wanderers" hidden="false" targetId="7463-e87d-4c87-d6ff" primary="false"/>
+        <categoryLink id="614e-0c8d-878d-6bbe" name="Woodbury Army" hidden="false" targetId="80ce-410c-b879-c6db" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="becd-eed2-db15-4a9b" name="Remington 700" hidden="false" collective="false" type="upgrade">
@@ -1131,10 +1131,15 @@
           </characteristics>
         </profile>
       </profiles>
+      <rules>
+        <rule id="3880-5533-30c2-a5d8" name="Bottom of a Bottle" hidden="false">
+          <description>Bottom of a Bottle: Unless a friendly Lilly model is within 6”, Bob treats all enemies as if they cause Fear.</description>
+        </rule>
+      </rules>
       <categoryLinks>
         <categoryLink id="945f-178c-ab9e-4bab" name="New CategoryLink" hidden="false" targetId="4eb2-d49f-4b22-dd86" primary="true"/>
         <categoryLink id="6e56-d8a4-b502-ffdd" name="Alignment: Ruthless" hidden="false" targetId="f115-d6f7-b750-5f55" primary="false"/>
-        <categoryLink id="72c5-7f8e-1ab8-70e2" name="Wanderers" hidden="false" targetId="7463-e87d-4c87-d6ff" primary="false"/>
+        <categoryLink id="698a-9943-90b2-d666" name="Woodbury Army" hidden="false" targetId="80ce-410c-b879-c6db" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="8a68-0c59-dd9c-08b7" name="Liquor" hidden="false" collective="false" type="upgrade">
@@ -1221,7 +1226,7 @@
       <categoryLinks>
         <categoryLink id="0bcf-35e1-f789-9e1c" name="New CategoryLink" hidden="false" targetId="7aaa-f540-43d6-81de" primary="true"/>
         <categoryLink id="74a8-c885-dcac-cfb2" name="Alignment: Ruthless" hidden="false" targetId="f115-d6f7-b750-5f55" primary="false"/>
-        <categoryLink id="c734-5685-d132-1929" name="Wanderers" hidden="false" targetId="7463-e87d-4c87-d6ff" primary="false"/>
+        <categoryLink id="94cb-5ebf-de9d-8bb4" name="Woodbury Army" hidden="false" targetId="80ce-410c-b879-c6db" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="43b0-439b-925b-3393" name="AK-47" hidden="false" collective="false" type="upgrade">
@@ -1293,7 +1298,7 @@
       <categoryLinks>
         <categoryLink id="a891-763f-81b9-edb4" name="New CategoryLink" hidden="false" targetId="1632-3305-8ec4-ecf2" primary="true"/>
         <categoryLink id="0e7c-6c15-e1cd-3cf9" name="Alignment: Ruthless" hidden="false" targetId="f115-d6f7-b750-5f55" primary="false"/>
-        <categoryLink id="4a70-288b-39c3-9a27" name="Wanderers" hidden="false" targetId="7463-e87d-4c87-d6ff" primary="false"/>
+        <categoryLink id="b80b-a511-504a-e6ca" name="Woodbury Army" hidden="false" targetId="80ce-410c-b879-c6db" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="f151-9fbf-4cc6-1598" name="Baseball Bat" hidden="false" collective="false" type="upgrade">
@@ -1394,7 +1399,7 @@
       <categoryLinks>
         <categoryLink id="0d0d-cc9c-3cf1-df03" name="New CategoryLink" hidden="false" targetId="1632-3305-8ec4-ecf2" primary="true"/>
         <categoryLink id="bb1a-a9eb-a0f5-05ef" name="Alignment: Ruthless" hidden="false" targetId="f115-d6f7-b750-5f55" primary="false"/>
-        <categoryLink id="c283-89a7-952e-8ac1" name="Wanderers" hidden="false" targetId="7463-e87d-4c87-d6ff" primary="false"/>
+        <categoryLink id="2ebb-b994-4295-986b" name="Woodbury Army" hidden="false" targetId="80ce-410c-b879-c6db" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="125f-5a26-6067-c2ce" name="Hockey Gear" hidden="false" collective="false" type="upgrade">
@@ -1490,7 +1495,7 @@
       <categoryLinks>
         <categoryLink id="9452-0a69-335d-a639" name="New CategoryLink" hidden="false" targetId="1632-3305-8ec4-ecf2" primary="true"/>
         <categoryLink id="5495-aba7-5a40-dedb" name="Alignment: Ruthless" hidden="false" targetId="f115-d6f7-b750-5f55" primary="false"/>
-        <categoryLink id="7e35-d86f-34f7-8362" name="Wanderers" hidden="false" targetId="7463-e87d-4c87-d6ff" primary="false"/>
+        <categoryLink id="f67e-a7bc-faca-8920" name="Woodbury Army" hidden="false" targetId="80ce-410c-b879-c6db" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="da8c-acf8-6b32-aaba" name="M4 Carbine" hidden="false" collective="false" type="upgrade">
@@ -1562,7 +1567,7 @@
       <categoryLinks>
         <categoryLink id="1726-6697-636b-ce9f" name="New CategoryLink" hidden="false" targetId="1632-3305-8ec4-ecf2" primary="true"/>
         <categoryLink id="6765-4da0-a922-e9f8" name="Alignment: Ruthless" hidden="false" targetId="f115-d6f7-b750-5f55" primary="false"/>
-        <categoryLink id="0c59-6d01-7446-17fb" name="Wanderers" hidden="false" targetId="7463-e87d-4c87-d6ff" primary="false"/>
+        <categoryLink id="14d1-45fa-b2e0-5c9b" name="Woodbury Army" hidden="false" targetId="80ce-410c-b879-c6db" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="03f2-17de-255d-3a50" name="Tire Iron" hidden="false" collective="false" type="upgrade">
@@ -1635,7 +1640,7 @@
       <categoryLinks>
         <categoryLink id="86e6-a6cd-ea92-afe0" name="New CategoryLink" hidden="false" targetId="7e4f-cf68-74a3-b58a" primary="true"/>
         <categoryLink id="1b0d-6af1-cfb2-055a" name="Alignment: Ruthless" hidden="false" targetId="f115-d6f7-b750-5f55" primary="false"/>
-        <categoryLink id="1bd1-a13d-a16c-37fd" name="Wanderers" hidden="false" targetId="7463-e87d-4c87-d6ff" primary="false"/>
+        <categoryLink id="8428-86e4-e36b-3dc2" name="Woodbury Army" hidden="false" targetId="80ce-410c-b879-c6db" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="22cd-9908-5d17-4352" name="Springfield M1903" hidden="false" collective="false" type="upgrade">

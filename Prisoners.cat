@@ -36,7 +36,7 @@
       <categoryLinks>
         <categoryLink id="c8da-57be-a828-4b8a" name="New CategoryLink" hidden="false" targetId="1632-3305-8ec4-ecf2" primary="true"/>
         <categoryLink id="665a-2fd3-f94a-98d8" name="Alignment: Neutral" hidden="false" targetId="a184-b0a1-ca0d-b36f" primary="false"/>
-        <categoryLink id="6319-ce9a-17a0-9821" name="Wanderers" hidden="false" targetId="7463-e87d-4c87-d6ff" primary="false"/>
+        <categoryLink id="49be-bddb-1eba-5aeb" name="Prisoners" hidden="false" targetId="a9fe-f760-9605-75d6" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="3a3b-966e-2481-8249" name="Pump-Action Shotgun" hidden="false" collective="false" type="upgrade">
@@ -113,7 +113,7 @@
       <categoryLinks>
         <categoryLink id="0cbd-ae6c-8afc-6d31" name="New CategoryLink" hidden="false" targetId="4eb2-d49f-4b22-dd86" primary="true"/>
         <categoryLink id="c7c7-b846-b02e-6804" name="Alignment: Neutral" hidden="false" targetId="a184-b0a1-ca0d-b36f" primary="false"/>
-        <categoryLink id="7058-e2a5-e8c5-0813" name="Wanderers" hidden="false" targetId="7463-e87d-4c87-d6ff" primary="false"/>
+        <categoryLink id="5465-33e6-9e64-c0d9" name="Prisoners" hidden="false" targetId="a9fe-f760-9605-75d6" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="1626-7b28-ea5b-cebb" name=".38 Revolver" hidden="false" collective="false" type="upgrade">
@@ -188,7 +188,7 @@
       </rules>
       <categoryLinks>
         <categoryLink id="c073-98f3-19b3-1d84" name="Alignment: Neutral" hidden="false" targetId="a184-b0a1-ca0d-b36f" primary="false"/>
-        <categoryLink id="6a56-a893-adf3-d008" name="Wanderers" hidden="false" targetId="7463-e87d-4c87-d6ff" primary="false"/>
+        <categoryLink id="7992-1138-4e37-7735" name="Prisoners" hidden="false" targetId="a9fe-f760-9605-75d6" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="5fc8-e194-1924-5d5e" name="Marlin XT-17R" hidden="false" collective="false" type="upgrade">
@@ -264,7 +264,7 @@
       <categoryLinks>
         <categoryLink id="200e-1bf7-e300-0e43" name="New CategoryLink" hidden="false" targetId="b33e-e6d0-05ba-26ce" primary="true"/>
         <categoryLink id="f662-bd88-3629-fe98" name="Alignment: Neutral" hidden="false" targetId="a184-b0a1-ca0d-b36f" primary="false"/>
-        <categoryLink id="0d15-53d0-933f-7961" name="Wanderers" hidden="false" targetId="7463-e87d-4c87-d6ff" primary="false"/>
+        <categoryLink id="2fe8-503b-1354-3372" name="Prisoners" hidden="false" targetId="a9fe-f760-9605-75d6" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="9cb3-ffc6-8277-36ab" name="Shiv" hidden="false" collective="false" type="upgrade">

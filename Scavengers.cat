@@ -35,7 +35,7 @@
       <categoryLinks>
         <categoryLink id="69fa-0ef8-ff01-c062" name="New CategoryLink" hidden="false" targetId="1632-3305-8ec4-ecf2" primary="true"/>
         <categoryLink id="3052-ac2d-d78b-82c1" name="Alignment: Ruthless" hidden="false" targetId="f115-d6f7-b750-5f55" primary="false"/>
-        <categoryLink id="26be-4fb7-2390-52bb" name="Wanderers" hidden="false" targetId="7463-e87d-4c87-d6ff" primary="false"/>
+        <categoryLink id="4b79-cd35-5d35-975b" name="Scavengers" hidden="false" targetId="604d-5476-6363-ee71" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="3d26-1ca4-d09d-dd3e" name="Browning Hi-Power" hidden="false" collective="false" type="upgrade">
@@ -109,7 +109,7 @@
       <categoryLinks>
         <categoryLink id="04e6-69b3-3373-b7b0" name="New CategoryLink" hidden="false" targetId="7e4f-cf68-74a3-b58a" primary="true"/>
         <categoryLink id="9ace-74fe-43bc-2558" name="Alignment: Ruthless" hidden="false" targetId="f115-d6f7-b750-5f55" primary="false"/>
-        <categoryLink id="edbd-2c00-c848-fdb7" name="Wanderers" hidden="false" targetId="7463-e87d-4c87-d6ff" primary="false"/>
+        <categoryLink id="7b88-10c3-0088-3a0c" name="Scavengers" hidden="false" targetId="604d-5476-6363-ee71" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="2302-e358-492d-92a8" name="Arctic Sniper Rifle" hidden="false" collective="false" type="upgrade">
@@ -185,7 +185,7 @@ spend). She may not Run twice.</description>
       <categoryLinks>
         <categoryLink id="d40a-3f44-2a5a-0d14" name="New CategoryLink" hidden="false" targetId="7aaa-f540-43d6-81de" primary="true"/>
         <categoryLink id="c89b-86c0-4219-b57d" name="Alignment: Ruthless" hidden="false" targetId="f115-d6f7-b750-5f55" primary="false"/>
-        <categoryLink id="5299-dfa7-37c9-eb65" name="Wanderers" hidden="false" targetId="7463-e87d-4c87-d6ff" primary="false"/>
+        <categoryLink id="6101-8d34-5989-533c" name="Scavengers" hidden="false" targetId="604d-5476-6363-ee71" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="8ada-69d4-f994-3491" name="Knife" hidden="false" collective="false" type="upgrade">
@@ -254,7 +254,7 @@ spend). She may not Run twice.</description>
       <categoryLinks>
         <categoryLink id="847c-f0a0-6447-cecd" name="New CategoryLink" hidden="false" targetId="1632-3305-8ec4-ecf2" primary="true"/>
         <categoryLink id="3ec8-bfc5-ff60-7d71" name="Alignment: Ruthless" hidden="false" targetId="f115-d6f7-b750-5f55" primary="false"/>
-        <categoryLink id="2e22-df0d-7cfe-6ec7" name="Wanderers" hidden="false" targetId="7463-e87d-4c87-d6ff" primary="false"/>
+        <categoryLink id="75cf-42ea-dd4a-d038" name="Scavengers" hidden="false" targetId="604d-5476-6363-ee71" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="699c-f367-4e00-dc3b" name="Baseball Bat" hidden="false" collective="false" type="upgrade">
@@ -316,7 +316,7 @@ spend). She may not Run twice.</description>
       <categoryLinks>
         <categoryLink id="7bda-0d52-83cd-4a9a" name="New CategoryLink" hidden="false" targetId="4eb2-d49f-4b22-dd86" primary="true"/>
         <categoryLink id="7ca4-e9d1-1202-d031" name="Alignment: Ruthless" hidden="false" targetId="f115-d6f7-b750-5f55" primary="false"/>
-        <categoryLink id="b011-9938-022c-f9e2" name="Wanderers" hidden="false" targetId="7463-e87d-4c87-d6ff" primary="false"/>
+        <categoryLink id="b65f-91c3-a3c8-e947" name="Scavengers" hidden="false" targetId="604d-5476-6363-ee71" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="5598-8ffc-6f69-0ee4" name="Upgrades" hidden="false" collective="false">

@@ -38,7 +38,7 @@
       <categoryLinks>
         <categoryLink id="0eca-e9e1-dbf9-fdd2" name="New CategoryLink" hidden="false" targetId="1632-3305-8ec4-ecf2" primary="true"/>
         <categoryLink id="0e8c-8988-e835-78d0" name="Alignment: Lawful" hidden="false" targetId="03f7-28fe-397f-08c7" primary="false"/>
-        <categoryLink id="ec87-2a87-9fd8-981f" name="Wanderers" hidden="false" targetId="7463-e87d-4c87-d6ff" primary="false"/>
+        <categoryLink id="c66d-6243-20e5-5940" name="Tyreese&apos;s Group" hidden="false" targetId="8b3c-c36d-6ed2-9533" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="8744-6b6c-23fa-c54a" name="Hammer" hidden="false" collective="false" type="upgrade">
@@ -110,7 +110,7 @@
       <categoryLinks>
         <categoryLink id="055f-2ca7-8e3a-3b35" name="New CategoryLink" hidden="false" targetId="b33e-e6d0-05ba-26ce" primary="true"/>
         <categoryLink id="04a7-592b-46b2-62e9" name="Alignment: Lawful" hidden="false" targetId="03f7-28fe-397f-08c7" primary="false"/>
-        <categoryLink id="9c91-4ca8-84b8-bed4" name="Wanderers" hidden="false" targetId="7463-e87d-4c87-d6ff" primary="false"/>
+        <categoryLink id="c25d-8104-fd37-004e" name="Tyreese&apos;s Group" hidden="false" targetId="8b3c-c36d-6ed2-9533" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="8dc1-2b80-82bf-1b41" name="Browning Hi-Power" hidden="false" collective="false" type="upgrade">
@@ -186,7 +186,7 @@
       <categoryLinks>
         <categoryLink id="a214-2bd4-657f-5e04" name="Support" hidden="false" targetId="4eb2-d49f-4b22-dd86" primary="true"/>
         <categoryLink id="0f44-e41e-14d2-ab7d" name="Alignment: Lawful" hidden="false" targetId="03f7-28fe-397f-08c7" primary="false"/>
-        <categoryLink id="ea3a-402b-cab8-364e" name="Wanderers" hidden="false" targetId="7463-e87d-4c87-d6ff" primary="false"/>
+        <categoryLink id="4d81-9951-00b9-bf50" name="Tyreese&apos;s Group" hidden="false" targetId="8b3c-c36d-6ed2-9533" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="6e12-9741-42e9-0252" name="Upgrades" hidden="false" collective="false">

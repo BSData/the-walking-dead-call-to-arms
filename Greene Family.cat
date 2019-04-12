@@ -43,7 +43,7 @@
       <categoryLinks>
         <categoryLink id="3d83-685b-bf0a-9c61" name="New CategoryLink" hidden="false" targetId="4eb2-d49f-4b22-dd86" primary="true"/>
         <categoryLink id="8582-cebf-97d9-f95a" name="Alignment: Lawful" hidden="false" targetId="03f7-28fe-397f-08c7" primary="false"/>
-        <categoryLink id="a430-0729-68db-353e" name="Wanderers" hidden="false" targetId="7463-e87d-4c87-d6ff" primary="false"/>
+        <categoryLink id="0eb3-162e-b878-41c1" name="Greene Family" hidden="false" targetId="9e76-1b82-7d89-1e79" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="92e6-a1a0-eaa4-4045" name="Veterinarian’s Bag" hidden="false" collective="false" type="upgrade">
@@ -106,7 +106,7 @@
       <categoryLinks>
         <categoryLink id="f77f-90da-1cb4-2a09" name="New CategoryLink" hidden="false" targetId="b33e-e6d0-05ba-26ce" primary="true"/>
         <categoryLink id="293c-fcfa-0b54-8ae7" name="Alignment: Lawful" hidden="false" targetId="03f7-28fe-397f-08c7" primary="false"/>
-        <categoryLink id="5d7d-c3a3-f1c4-d044" name="Wanderers" hidden="false" targetId="7463-e87d-4c87-d6ff" primary="false"/>
+        <categoryLink id="73f0-2cd8-134a-f716" name="Greene Family" hidden="false" targetId="9e76-1b82-7d89-1e79" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="96db-17d6-ecc4-89f0" name="CZ 82" hidden="false" collective="false" type="upgrade">
@@ -185,7 +185,7 @@
       <categoryLinks>
         <categoryLink id="7459-6cc1-f70f-8b83" name="New CategoryLink" hidden="false" targetId="1632-3305-8ec4-ecf2" primary="true"/>
         <categoryLink id="89b8-e052-6326-0b23" name="Alignment: Lawful" hidden="false" targetId="03f7-28fe-397f-08c7" primary="false"/>
-        <categoryLink id="c9f1-dcb4-7cc4-7b25" name="Wanderers" hidden="false" targetId="7463-e87d-4c87-d6ff" primary="false"/>
+        <categoryLink id="d306-bb0a-143c-3e2b" name="Greene Family" hidden="false" targetId="9e76-1b82-7d89-1e79" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="b1b2-6dd2-5901-e725" name="Upgrades" hidden="false" collective="false">
@@ -228,7 +228,7 @@ herself (not within the Kill Zone of an enemy model) from which to cause the NOI
       <categoryLinks>
         <categoryLink id="fbe9-5a2a-901c-f99d" name="New CategoryLink" hidden="false" targetId="4eb2-d49f-4b22-dd86" primary="true"/>
         <categoryLink id="c230-c196-e44d-497e" name="Alignment: Lawful" hidden="false" targetId="03f7-28fe-397f-08c7" primary="false"/>
-        <categoryLink id="6ee9-53d7-d5c5-521d" name="Wanderers" hidden="false" targetId="7463-e87d-4c87-d6ff" primary="false"/>
+        <categoryLink id="90b7-6706-65fc-26a4" name="Greene Family" hidden="false" targetId="9e76-1b82-7d89-1e79" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="80d3-8692-9eef-4a6c" name="Pitchfork" hidden="false" collective="false" type="upgrade">
@@ -305,7 +305,7 @@ herself (not within the Kill Zone of an enemy model) from which to cause the NOI
       <categoryLinks>
         <categoryLink id="7df1-c822-5359-21be" name="New CategoryLink" hidden="false" targetId="4eb2-d49f-4b22-dd86" primary="true"/>
         <categoryLink id="86c2-a3c5-8886-1f53" name="Alignment: Lawful" hidden="false" targetId="03f7-28fe-397f-08c7" primary="false"/>
-        <categoryLink id="4a1e-c47d-5b37-c35b" name="Wanderers" hidden="false" targetId="7463-e87d-4c87-d6ff" primary="false"/>
+        <categoryLink id="cc9e-3a88-b3de-6c8b" name="Greene Family" hidden="false" targetId="9e76-1b82-7d89-1e79" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="77d6-3d40-777c-65c0" name="Knife" hidden="false" collective="false" type="upgrade">
@@ -374,7 +374,7 @@ herself (not within the Kill Zone of an enemy model) from which to cause the NOI
       <categoryLinks>
         <categoryLink id="c0ae-9cf2-ba58-f574" name="New CategoryLink" hidden="false" targetId="7e4f-cf68-74a3-b58a" primary="true"/>
         <categoryLink id="dd70-9a12-829b-a4a0" name="Alignment: Lawful" hidden="false" targetId="03f7-28fe-397f-08c7" primary="false"/>
-        <categoryLink id="b2f2-2255-4e7a-3b7a" name="Wanderers" hidden="false" targetId="7463-e87d-4c87-d6ff" primary="false"/>
+        <categoryLink id="377a-9547-33bd-92af" name="Greene Family" hidden="false" targetId="9e76-1b82-7d89-1e79" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="a732-7afb-f253-386b" name="Remington 700" hidden="false" collective="false" type="upgrade">
@@ -478,7 +478,7 @@ herself (not within the Kill Zone of an enemy model) from which to cause the NOI
       <categoryLinks>
         <categoryLink id="840d-db5c-9349-0e77" name="New CategoryLink" hidden="false" targetId="7aaa-f540-43d6-81de" primary="true"/>
         <categoryLink id="899d-d75c-c444-847f" name="Alignment: Lawful" hidden="false" targetId="03f7-28fe-397f-08c7" primary="false"/>
-        <categoryLink id="43de-9efc-bef1-d747" name="Wanderers" hidden="false" targetId="7463-e87d-4c87-d6ff" primary="false"/>
+        <categoryLink id="c65b-3cd4-fa0b-18f3" name="Greene Family" hidden="false" targetId="9e76-1b82-7d89-1e79" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="bc13-fc14-d8ec-ff3d" name="Marlin XT-17R" hidden="false" collective="false" type="upgrade">
@@ -548,7 +548,7 @@ herself (not within the Kill Zone of an enemy model) from which to cause the NOI
       <categoryLinks>
         <categoryLink id="18b3-239b-2533-d824" name="New CategoryLink" hidden="false" targetId="7e4f-cf68-74a3-b58a" primary="true"/>
         <categoryLink id="ffcd-5978-9ec3-33e0" name="Alignment: Lawful" hidden="false" targetId="03f7-28fe-397f-08c7" primary="false"/>
-        <categoryLink id="2bfb-dbfb-d049-84bd" name="Wanderers" hidden="false" targetId="7463-e87d-4c87-d6ff" primary="false"/>
+        <categoryLink id="3854-f6c6-3597-d438" name="Greene Family" hidden="false" targetId="9e76-1b82-7d89-1e79" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="3b29-bc6c-9b68-8340" name=".22 Revolver" hidden="false" collective="false" type="upgrade">

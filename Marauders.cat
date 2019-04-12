@@ -36,7 +36,7 @@
       <categoryLinks>
         <categoryLink id="ab12-1f42-a54b-d45a" name="New CategoryLink" hidden="false" targetId="b33e-e6d0-05ba-26ce" primary="true"/>
         <categoryLink id="3513-8e59-308c-58e7" name="Alignment: Ruthless" hidden="false" targetId="f115-d6f7-b750-5f55" primary="false"/>
-        <categoryLink id="4bc2-a0fe-d7d2-73ea" name="Wanderers" hidden="false" targetId="7463-e87d-4c87-d6ff" primary="false"/>
+        <categoryLink id="b87a-03f0-fab5-0496" name="Marauders" hidden="false" targetId="35d4-1d10-541a-8cab" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="eae0-0cee-60ef-6b93" name="Knife" hidden="false" collective="false" type="upgrade">
@@ -107,7 +107,7 @@
       <categoryLinks>
         <categoryLink id="7f87-c430-7fcb-9bf2" name="New CategoryLink" hidden="false" targetId="7aaa-f540-43d6-81de" primary="true"/>
         <categoryLink id="ce66-2c6f-536e-e118" name="Alignment: Ruthless" hidden="false" targetId="f115-d6f7-b750-5f55" primary="false"/>
-        <categoryLink id="fc89-6749-e482-3cc3" name="Wanderers" hidden="false" targetId="7463-e87d-4c87-d6ff" primary="false"/>
+        <categoryLink id="9c48-b91d-ab14-de48" name="Marauders" hidden="false" targetId="35d4-1d10-541a-8cab" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="0db1-182c-9993-08d9" name=".38 Revolver" hidden="false" collective="false" type="upgrade">
@@ -179,7 +179,7 @@
       <categoryLinks>
         <categoryLink id="f70d-653a-493b-f771" name="New CategoryLink" hidden="false" targetId="1632-3305-8ec4-ecf2" primary="true"/>
         <categoryLink id="b9b9-f253-9baf-c6ef" name="Alignment: Ruthless" hidden="false" targetId="f115-d6f7-b750-5f55" primary="false"/>
-        <categoryLink id="4590-5ecd-7ba3-a89a" name="Wanderers" hidden="false" targetId="7463-e87d-4c87-d6ff" primary="false"/>
+        <categoryLink id="c69b-0b06-b1dc-5b7e" name="Marauders" hidden="false" targetId="35d4-1d10-541a-8cab" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="1972-e17c-3fd8-2f5f" name="Knife" hidden="false" collective="false" type="upgrade">
