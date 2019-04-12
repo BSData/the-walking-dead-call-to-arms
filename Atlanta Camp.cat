@@ -477,9 +477,6 @@
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
-      <entryLinks>
-        <entryLink id="e37d-864a-b5ac-b020" name="Leader" hidden="false" collective="false" targetId="cca0-d068-1229-20ea" type="selectionEntry"/>
-      </entryLinks>
       <costs>
         <cost name=" Points" typeId="0705-c536-f372-c2d0" value="25.0"/>
       </costs>
@@ -940,9 +937,6 @@
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
-      <entryLinks>
-        <entryLink id="0f57-e5f0-abd9-c76e" name="Leader" hidden="false" collective="false" targetId="cca0-d068-1229-20ea" type="selectionEntry"/>
-      </entryLinks>
       <costs>
         <cost name=" Points" typeId="0705-c536-f372-c2d0" value="10.0"/>
       </costs>
@@ -1252,9 +1246,6 @@
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
-      <entryLinks>
-        <entryLink id="9c80-8ac0-b371-eb2b" name="Leader" hidden="false" collective="false" targetId="cca0-d068-1229-20ea" type="selectionEntry"/>
-      </entryLinks>
       <costs>
         <cost name=" Points" typeId="0705-c536-f372-c2d0" value="40.0"/>
       </costs>
@@ -1459,9 +1450,6 @@
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
-      <entryLinks>
-        <entryLink id="013c-6533-978f-de9e" name="Leader" hidden="false" collective="false" targetId="cca0-d068-1229-20ea" type="selectionEntry"/>
-      </entryLinks>
       <costs>
         <cost name=" Points" typeId="0705-c536-f372-c2d0" value="45.0"/>
       </costs>
@@ -1540,9 +1528,6 @@
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
-      <entryLinks>
-        <entryLink id="96a3-b615-3a77-d59e" name="Leader" hidden="false" collective="false" targetId="cca0-d068-1229-20ea" type="selectionEntry"/>
-      </entryLinks>
       <costs>
         <cost name=" Points" typeId="0705-c536-f372-c2d0" value="45.0"/>
       </costs>
@@ -1731,9 +1716,6 @@
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
-      <entryLinks>
-        <entryLink id="7c5f-a47a-d3c4-f5d8" name="Leader" hidden="false" collective="false" targetId="cca0-d068-1229-20ea" type="selectionEntry"/>
-      </entryLinks>
       <costs>
         <cost name=" Points" typeId="0705-c536-f372-c2d0" value="58.0"/>
       </costs>
@@ -1952,9 +1934,6 @@
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
-      <entryLinks>
-        <entryLink id="af53-c516-727b-cadb" name="Leader" hidden="false" collective="false" targetId="cca0-d068-1229-20ea" type="selectionEntry"/>
-      </entryLinks>
       <costs>
         <cost name=" Points" typeId="0705-c536-f372-c2d0" value="38.0"/>
       </costs>
@@ -1997,9 +1976,6 @@
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
-      <entryLinks>
-        <entryLink id="16b1-502a-1308-ae21" name="Leader" hidden="false" collective="false" targetId="cca0-d068-1229-20ea" type="selectionEntry"/>
-      </entryLinks>
       <costs>
         <cost name=" Points" typeId="0705-c536-f372-c2d0" value="8.0"/>
       </costs>
@@ -2080,9 +2056,6 @@
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
-      <entryLinks>
-        <entryLink id="41b0-ed96-9119-a1df" name="Leader" hidden="false" collective="false" targetId="cca0-d068-1229-20ea" type="selectionEntry"/>
-      </entryLinks>
       <costs>
         <cost name=" Points" typeId="0705-c536-f372-c2d0" value="12.0"/>
       </costs>
@@ -2157,9 +2130,6 @@
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
-      <entryLinks>
-        <entryLink id="388f-c383-ae6c-57fc" name="Leader" hidden="false" collective="false" targetId="cca0-d068-1229-20ea" type="selectionEntry"/>
-      </entryLinks>
       <costs>
         <cost name=" Points" typeId="0705-c536-f372-c2d0" value="30.0"/>
       </costs>
@@ -2234,9 +2204,6 @@
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
-      <entryLinks>
-        <entryLink id="3373-c461-1f78-60f7" name="Leader" hidden="false" collective="false" targetId="cca0-d068-1229-20ea" type="selectionEntry"/>
-      </entryLinks>
       <costs>
         <cost name=" Points" typeId="0705-c536-f372-c2d0" value="12.0"/>
       </costs>
@@ -2274,9 +2241,6 @@
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
-      <entryLinks>
-        <entryLink id="6c71-a90d-90cc-313a" name="Leader" hidden="false" collective="false" targetId="cca0-d068-1229-20ea" type="selectionEntry"/>
-      </entryLinks>
       <costs>
         <cost name=" Points" typeId="0705-c536-f372-c2d0" value="11.0"/>
       </costs>

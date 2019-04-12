@@ -95,11 +95,56 @@
             <constraint field="selections" scope="roster" value="50.0" percentValue="true" shared="true" includeChildSelections="false" includeChildForces="false" id="304d-494a-3a5f-02db" type="max"/>
           </constraints>
           <categoryLinks>
-            <categoryLink id="7df4-00ef-0a39-e541" name="Bruiser" hidden="false" targetId="1632-3305-8ec4-ecf2" primary="false"/>
-            <categoryLink id="b62e-4dec-917b-14d7" name="Marksman" hidden="false" targetId="7e4f-cf68-74a3-b58a" primary="false"/>
-            <categoryLink id="0f0b-178b-38c6-e9c5" name="Runner" hidden="false" targetId="7aaa-f540-43d6-81de" primary="false"/>
-            <categoryLink id="86f4-e106-19ad-da83" name="Support" hidden="false" targetId="4eb2-d49f-4b22-dd86" primary="false"/>
-            <categoryLink id="68b3-3e49-f678-ba81" name="Tactician" hidden="false" targetId="b33e-e6d0-05ba-26ce" primary="false"/>
+            <categoryLink id="7df4-00ef-0a39-e541" name="Bruiser" hidden="false" targetId="1632-3305-8ec4-ecf2" primary="false">
+              <constraints>
+                <constraint field="selections" scope="roster" value="50.0" percentValue="true" shared="true" includeChildSelections="true" includeChildForces="true" id="7a35-2be3-55dd-0c5e" type="max"/>
+              </constraints>
+              <rules>
+                <rule id="397a-a2cc-a6b8-8d52" name="Bash!" hidden="false">
+                  <description>Any Bruiser that performs a melee attack may spend 1SP to add one automatic [!] to the melee attack roll.</description>
+                </rule>
+              </rules>
+            </categoryLink>
+            <categoryLink id="b62e-4dec-917b-14d7" name="Marksman" hidden="false" targetId="7e4f-cf68-74a3-b58a" primary="false">
+              <constraints>
+                <constraint field="selections" scope="roster" value="50.0" percentValue="true" shared="true" includeChildSelections="true" includeChildForces="true" id="f91a-ff57-ce4f-fc5c" type="max"/>
+              </constraints>
+              <rules>
+                <rule id="7256-2105-1e2c-9cbd" name="Crackshot" hidden="false">
+                  <description>Any Marksman that performs a ranged attack may spend 1SP to add one automatic [!] to the ranged attack roll.</description>
+                </rule>
+              </rules>
+            </categoryLink>
+            <categoryLink id="0f0b-178b-38c6-e9c5" name="Runner" hidden="false" targetId="7aaa-f540-43d6-81de" primary="false">
+              <constraints>
+                <constraint field="selections" scope="roster" value="50.0" percentValue="true" shared="true" includeChildSelections="true" includeChildForces="true" id="dc24-1745-d981-0286" type="max"/>
+              </constraints>
+              <rules>
+                <rule id="8516-8560-7e40-4861" name="Turn of Speed" hidden="false">
+                  <description>Any Runner may spend 1SP when performing a Run Action to add 2” to their Run distance (does not apply when mounted).</description>
+                </rule>
+              </rules>
+            </categoryLink>
+            <categoryLink id="86f4-e106-19ad-da83" name="Support" hidden="false" targetId="4eb2-d49f-4b22-dd86" primary="false">
+              <constraints>
+                <constraint field="selections" scope="roster" value="50.0" percentValue="true" shared="true" includeChildSelections="true" includeChildForces="true" id="1424-d3c5-ed3f-1960" type="max"/>
+              </constraints>
+              <rules>
+                <rule id="bb0d-459f-509b-f08a" name="Encourage" hidden="false">
+                  <description>Any Support character may spend 1SP during their activation to give a target model in their Kill Zone a +1 Action token.</description>
+                </rule>
+              </rules>
+            </categoryLink>
+            <categoryLink id="68b3-3e49-f678-ba81" name="Tactician" hidden="false" targetId="b33e-e6d0-05ba-26ce" primary="false">
+              <constraints>
+                <constraint field="selections" scope="roster" value="50.0" percentValue="true" shared="true" includeChildSelections="true" includeChildForces="true" id="90a3-bcd1-c54b-553f" type="max"/>
+              </constraints>
+              <rules>
+                <rule id="a119-0d13-b52b-469e" name="Tactical Flexibility" hidden="false">
+                  <description>Any Tactician may spend 1SP to treat their Type as either Bruiser, Marksman, Runner or Support for the rest of the turn. They retain their Tactician type in addition to the new type. Further SP may be spent to perform Strategies in accordance with the new type.</description>
+                </rule>
+              </rules>
+            </categoryLink>
             <categoryLink id="5eef-5f40-caf3-c369" name="Special" hidden="false" targetId="d4f0-9ba3-75e7-a793" primary="false"/>
           </categoryLinks>
         </forceEntry>
@@ -109,29 +154,107 @@
           <constraints>
             <constraint field="selections" scope="roster" value="50.0" percentValue="true" shared="true" includeChildSelections="true" includeChildForces="true" id="9ca7-2f38-bdee-5e9c" type="max"/>
           </constraints>
+          <rules>
+            <rule id="ab33-ae91-9fb6-3d65" name="Bash!" hidden="false">
+              <description>Any Bruiser that performs a melee attack may spend 1SP to add one automatic [!] to the melee attack roll.</description>
+            </rule>
+          </rules>
         </categoryLink>
         <categoryLink id="42af-0b6f-2cec-4d32" name="Marksman" hidden="false" targetId="7e4f-cf68-74a3-b58a" primary="false">
           <constraints>
             <constraint field="selections" scope="roster" value="50.0" percentValue="true" shared="true" includeChildSelections="true" includeChildForces="true" id="c2f9-f2cc-2f0a-1946" type="max"/>
           </constraints>
+          <rules>
+            <rule id="2a90-d88c-f5a4-38d0" name="Crackshot" hidden="false">
+              <description>Any Marksman that performs a ranged attack may spend 1SP to add one automatic [!] to the ranged attack roll.</description>
+            </rule>
+          </rules>
         </categoryLink>
         <categoryLink id="7226-b199-efd1-bb3c" name="Runner" hidden="false" targetId="7aaa-f540-43d6-81de" primary="false">
           <constraints>
             <constraint field="selections" scope="roster" value="50.0" percentValue="true" shared="true" includeChildSelections="true" includeChildForces="true" id="a7fa-b7c6-5ede-f717" type="max"/>
           </constraints>
+          <rules>
+            <rule id="9f69-5d8e-2173-a593" name="Turn of Speed" hidden="false">
+              <description>Any Runner may spend 1SP when performing a Run Action to add 2” to their Run distance (does not apply when mounted).</description>
+            </rule>
+          </rules>
         </categoryLink>
         <categoryLink id="efb6-3a1d-7126-cc96" name="Support" hidden="false" targetId="4eb2-d49f-4b22-dd86" primary="false">
           <constraints>
             <constraint field="selections" scope="roster" value="50.0" percentValue="true" shared="true" includeChildSelections="true" includeChildForces="true" id="e8f5-e3fd-7d91-5329" type="max"/>
           </constraints>
+          <rules>
+            <rule id="180c-da51-d596-47d0" name="Encourage" hidden="false">
+              <description>Any Support character may spend 1SP during their activation to give a target model in their Kill Zone a +1 Action token.</description>
+            </rule>
+          </rules>
         </categoryLink>
         <categoryLink id="c78f-6621-562e-075c" name="Tactician" hidden="false" targetId="b33e-e6d0-05ba-26ce" primary="false">
           <constraints>
             <constraint field="selections" scope="roster" value="50.0" percentValue="true" shared="true" includeChildSelections="true" includeChildForces="true" id="c747-aecf-02ee-5149" type="max"/>
           </constraints>
+          <rules>
+            <rule id="45fc-b32c-175a-f437" name="Tactical Flexibility" hidden="false">
+              <description>Any Tactician may spend 1SP to treat their Type as either Bruiser, Marksman, Runner or Support for the rest of the turn. They retain their Tactician type in addition to the new type. Further SP may be spent to perform Strategies in accordance with the new type.</description>
+            </rule>
+          </rules>
         </categoryLink>
         <categoryLink id="fc9e-3743-cec6-d030" name="Special" hidden="false" targetId="d4f0-9ba3-75e7-a793" primary="false"/>
       </categoryLinks>
+    </forceEntry>
+    <forceEntry id="7179-d0fb-ce30-26ad" name="Game Size" hidden="false">
+      <forceEntries>
+        <forceEntry id="8102-ccee-8e06-f390" name="&lt;50" hidden="false">
+          <rules>
+            <rule id="fd8d-cc07-485a-5a3b" name="&lt;50" hidden="false">
+              <description>5 Walkers</description>
+            </rule>
+          </rules>
+        </forceEntry>
+        <forceEntry id="032c-779b-8c4f-8e59" name="50-149" hidden="false">
+          <rules>
+            <rule id="4228-e509-034c-c644" name="50-149" hidden="false">
+              <description>8 Walkers</description>
+            </rule>
+          </rules>
+        </forceEntry>
+        <forceEntry id="522f-7eac-10a3-351b" name="150-249" hidden="false">
+          <rules>
+            <rule id="d458-4ce3-bbde-0770" name="150-249" hidden="false">
+              <description>5 Walkers</description>
+            </rule>
+          </rules>
+        </forceEntry>
+        <forceEntry id="e1e4-f7fd-c55a-3254" name="250-349" hidden="false">
+          <rules>
+            <rule id="bee3-bb0b-f007-916c" name="250-349" hidden="false">
+              <description>20 Walkers</description>
+            </rule>
+          </rules>
+        </forceEntry>
+        <forceEntry id="6b27-0658-9381-ae4c" name="350-449" hidden="false">
+          <rules>
+            <rule id="43d4-50f2-2d80-1c9e" name="350-449" hidden="false">
+              <description>25 Walkers</description>
+            </rule>
+          </rules>
+        </forceEntry>
+        <forceEntry id="3326-2f82-05fb-7896" name="450-549" hidden="false">
+          <rules>
+            <rule id="1505-f21c-6428-2181" name="450-549" hidden="false">
+              <description>30 Walkers</description>
+            </rule>
+          </rules>
+        </forceEntry>
+        <forceEntry id="ba61-2429-2264-cc45" name="&gt;550" hidden="false">
+          <rules>
+            <rule id="8128-746f-52ce-6b4f" name="&gt;550" hidden="false">
+              <description>35 Walkers</description>
+            </rule>
+          </rules>
+        </forceEntry>
+      </forceEntries>
     </forceEntry>
   </forceEntries>
   <sharedSelectionEntries>
@@ -141,6 +264,20 @@
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="43a2-c369-fe8b-ba53" type="max"/>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="2f42-93a8-7a2c-bc9c" type="min"/>
       </constraints>
+      <rules>
+        <rule id="249b-9a2b-626a-dbdc" name="Follow Me!" hidden="false">
+          <description>When the Group Leader declares a Move action, any friendly model in its Kill Zone may also Move as a free, out-of-sequence action (even if they have already moved this turn), at a cost of 1SP per model moved. All models must start and end this move within the Group Leader’s Kill Zone – if this is not possible (because they fail a Climb roll, for example), the model loses 1 Action in its next activation. This special move may not be increased by a Runner’s Turn of Speed Strategy. NOISE caused by Run actions is worked out one model at a time.</description>
+        </rule>
+        <rule id="7b65-d235-8fd7-b2fc" name="Bring &apos;Em Down!" hidden="false">
+          <description>The Group Leader may spend 1SP after performing a Shoot action. Any friendly model performing a ranged attack against the same target enemy this turn adds 1Red to their ranged attack rolls.</description>
+        </rule>
+        <rule id="b007-2d0b-23f0-a653" name="Hold Your Nerve" hidden="false">
+          <description>The Leader may spend 1SP at the start of their activation to ignore the effects of Fear this turn. If they do so, all friendly models in their Kill Zone are also immune to Fear this turn.</description>
+        </rule>
+        <rule id="1fa9-5242-9275-6a87" name="Charge!" hidden="false">
+          <description>While engaged with an enemy, the Group Leader may spend Strategy Points to move friendly models within 6” into contact with enemies in their respective Kill zones, at a rate of 1SP per friendly model moved. This special move may only be performed if the enemy can be reached without moving a total of more than 4” (due to intervening models and scenery, for example). Models may attempt to Climb only if there is no other way to reach the target enemy.</description>
+        </rule>
+      </rules>
       <costs>
         <cost name=" Points" typeId="0705-c536-f372-c2d0" value="0.0"/>
       </costs>

@@ -113,9 +113,6 @@
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
-      <entryLinks>
-        <entryLink id="7a95-6083-851c-8aee" name="Leader" hidden="false" collective="false" targetId="cca0-d068-1229-20ea" type="selectionEntry"/>
-      </entryLinks>
       <costs>
         <cost name=" Points" typeId="0705-c536-f372-c2d0" value="55.0"/>
       </costs>
@@ -206,9 +203,6 @@ able to move into contact with the target, she must do so, but must always end t
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
-      <entryLinks>
-        <entryLink id="2f00-37ed-413e-d97e" name="Leader" hidden="false" collective="false" targetId="cca0-d068-1229-20ea" type="selectionEntry"/>
-      </entryLinks>
       <costs>
         <cost name=" Points" typeId="0705-c536-f372-c2d0" value="50.0"/>
       </costs>
@@ -275,9 +269,6 @@ able to move into contact with the target, she must do so, but must always end t
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
-      <entryLinks>
-        <entryLink id="1149-ccab-9180-afe4" name="Leader" hidden="false" collective="false" targetId="cca0-d068-1229-20ea" type="selectionEntry"/>
-      </entryLinks>
       <costs>
         <cost name=" Points" typeId="0705-c536-f372-c2d0" value="30.0"/>
       </costs>
@@ -431,9 +422,6 @@ Fear while either of them are in play.</description>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
-      <entryLinks>
-        <entryLink id="0d60-2971-8ea1-9462" name="Leader" hidden="false" collective="false" targetId="cca0-d068-1229-20ea" type="selectionEntry"/>
-      </entryLinks>
       <costs>
         <cost name=" Points" typeId="0705-c536-f372-c2d0" value="25.0"/>
       </costs>
@@ -501,9 +489,6 @@ Fear while either of them are in play.</description>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
-      <entryLinks>
-        <entryLink id="8977-0925-1b15-1e28" name="Leader" hidden="false" collective="false" targetId="cca0-d068-1229-20ea" type="selectionEntry"/>
-      </entryLinks>
       <costs>
         <cost name=" Points" typeId="0705-c536-f372-c2d0" value="14.0"/>
       </costs>
@@ -562,9 +547,6 @@ Fear while either of them are in play.</description>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
-      <entryLinks>
-        <entryLink id="0c65-95cf-2cce-6df5" name="Leader" hidden="false" collective="false" targetId="cca0-d068-1229-20ea" type="selectionEntry"/>
-      </entryLinks>
       <costs>
         <cost name=" Points" typeId="0705-c536-f372-c2d0" value="22.0"/>
       </costs>
@@ -640,9 +622,6 @@ Fear while either of them are in play.</description>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
-      <entryLinks>
-        <entryLink id="8562-64f9-66bb-f204" name="Leader" hidden="false" collective="false" targetId="cca0-d068-1229-20ea" type="selectionEntry"/>
-      </entryLinks>
       <costs>
         <cost name=" Points" typeId="0705-c536-f372-c2d0" value="40.0"/>
       </costs>
@@ -803,9 +782,6 @@ Fear while either of them are in play.</description>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
-      <entryLinks>
-        <entryLink id="e2e6-0c7d-89ae-5c1f" name="Leader" hidden="false" collective="false" targetId="cca0-d068-1229-20ea" type="selectionEntry"/>
-      </entryLinks>
       <costs>
         <cost name=" Points" typeId="0705-c536-f372-c2d0" value="20.0"/>
       </costs>

@@ -154,9 +154,6 @@
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
-      <entryLinks>
-        <entryLink id="9274-52e0-1882-d629" name="Leader" hidden="false" collective="false" targetId="cca0-d068-1229-20ea" type="selectionEntry"/>
-      </entryLinks>
       <costs>
         <cost name=" Points" typeId="0705-c536-f372-c2d0" value="30.0"/>
       </costs>
@@ -202,9 +199,6 @@
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
-      <entryLinks>
-        <entryLink id="360c-ad61-83f9-5fc2" name="Leader" hidden="false" collective="false" targetId="cca0-d068-1229-20ea" type="selectionEntry"/>
-      </entryLinks>
       <costs>
         <cost name=" Points" typeId="0705-c536-f372-c2d0" value="26.0"/>
       </costs>
@@ -280,9 +274,6 @@ herself (not within the Kill Zone of an enemy model) from which to cause the NOI
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
-      <entryLinks>
-        <entryLink id="0b7f-176f-058c-11e8" name="Leader" hidden="false" collective="false" targetId="cca0-d068-1229-20ea" type="selectionEntry"/>
-      </entryLinks>
       <costs>
         <cost name=" Points" typeId="0705-c536-f372-c2d0" value="15.0"/>
       </costs>
@@ -360,9 +351,6 @@ herself (not within the Kill Zone of an enemy model) from which to cause the NOI
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
-      <entryLinks>
-        <entryLink id="4fd5-da27-aa49-5f93" name="Leader" hidden="false" collective="false" targetId="cca0-d068-1229-20ea" type="selectionEntry"/>
-      </entryLinks>
       <costs>
         <cost name=" Points" typeId="0705-c536-f372-c2d0" value="15.0"/>
       </costs>
@@ -464,9 +452,6 @@ herself (not within the Kill Zone of an enemy model) from which to cause the NOI
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
-      <entryLinks>
-        <entryLink id="307e-0ec5-26dc-b26b" name="Leader" hidden="false" collective="false" targetId="cca0-d068-1229-20ea" type="selectionEntry"/>
-      </entryLinks>
       <costs>
         <cost name=" Points" typeId="0705-c536-f372-c2d0" value="46.0"/>
       </costs>
@@ -540,9 +525,6 @@ herself (not within the Kill Zone of an enemy model) from which to cause the NOI
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
-      <entryLinks>
-        <entryLink id="0905-1434-0b3e-a6f2" name="Leader" hidden="false" collective="false" targetId="cca0-d068-1229-20ea" type="selectionEntry"/>
-      </entryLinks>
       <costs>
         <cost name=" Points" typeId="0705-c536-f372-c2d0" value="35.0"/>
       </costs>
@@ -613,9 +595,6 @@ herself (not within the Kill Zone of an enemy model) from which to cause the NOI
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
-      <entryLinks>
-        <entryLink id="3de8-0bd9-947d-9a1a" name="Leader" hidden="false" collective="false" targetId="cca0-d068-1229-20ea" type="selectionEntry"/>
-      </entryLinks>
       <costs>
         <cost name=" Points" typeId="0705-c536-f372-c2d0" value="14.0"/>
       </costs>
