@@ -203,59 +203,6 @@
         <categoryLink id="fc9e-3743-cec6-d030" name="Special" hidden="false" targetId="d4f0-9ba3-75e7-a793" primary="false"/>
       </categoryLinks>
     </forceEntry>
-    <forceEntry id="7179-d0fb-ce30-26ad" name="Game Size" hidden="false">
-      <forceEntries>
-        <forceEntry id="8102-ccee-8e06-f390" name="&lt;50" hidden="false">
-          <rules>
-            <rule id="fd8d-cc07-485a-5a3b" name="&lt;50" hidden="false">
-              <description>5 Walkers</description>
-            </rule>
-          </rules>
-        </forceEntry>
-        <forceEntry id="032c-779b-8c4f-8e59" name="50-149" hidden="false">
-          <rules>
-            <rule id="4228-e509-034c-c644" name="50-149" hidden="false">
-              <description>8 Walkers</description>
-            </rule>
-          </rules>
-        </forceEntry>
-        <forceEntry id="522f-7eac-10a3-351b" name="150-249" hidden="false">
-          <rules>
-            <rule id="d458-4ce3-bbde-0770" name="150-249" hidden="false">
-              <description>5 Walkers</description>
-            </rule>
-          </rules>
-        </forceEntry>
-        <forceEntry id="e1e4-f7fd-c55a-3254" name="250-349" hidden="false">
-          <rules>
-            <rule id="bee3-bb0b-f007-916c" name="250-349" hidden="false">
-              <description>20 Walkers</description>
-            </rule>
-          </rules>
-        </forceEntry>
-        <forceEntry id="6b27-0658-9381-ae4c" name="350-449" hidden="false">
-          <rules>
-            <rule id="43d4-50f2-2d80-1c9e" name="350-449" hidden="false">
-              <description>25 Walkers</description>
-            </rule>
-          </rules>
-        </forceEntry>
-        <forceEntry id="3326-2f82-05fb-7896" name="450-549" hidden="false">
-          <rules>
-            <rule id="1505-f21c-6428-2181" name="450-549" hidden="false">
-              <description>30 Walkers</description>
-            </rule>
-          </rules>
-        </forceEntry>
-        <forceEntry id="ba61-2429-2264-cc45" name="&gt;550" hidden="false">
-          <rules>
-            <rule id="8128-746f-52ce-6b4f" name="&gt;550" hidden="false">
-              <description>35 Walkers</description>
-            </rule>
-          </rules>
-        </forceEntry>
-      </forceEntries>
-    </forceEntry>
   </forceEntries>
   <sharedSelectionEntries>
     <selectionEntry id="cca0-d068-1229-20ea" name="Leader" hidden="false" collective="false" type="upgrade">
