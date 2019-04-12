@@ -509,6 +509,9 @@
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="acfc-8715-e2c6-662d" name="Knapsack" hidden="false" collective="false" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="602e-eb4d-07d1-a3cb" type="max"/>
+          </constraints>
           <profiles>
             <profile id="fc5d-137a-0325-0247" name="Knapsack" hidden="false" typeId="ba75-8ed9-edc3-b7f6" typeName="Special Items">
               <characteristics>
