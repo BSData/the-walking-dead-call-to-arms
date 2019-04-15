@@ -1153,8 +1153,8 @@
         <profile id="383c-3c83-bee7-4f38" name="Glenn" hidden="false" typeId="40e9-9288-6f65-70a9" typeName="Character">
           <characteristics>
             <characteristic name="Type" typeId="d9ce-b162-4bd7-6736">Runner</characteristic>
-            <characteristic name="Melee" typeId="fc7e-dccd-5244-3798">1Melee</characteristic>
-            <characteristic name="Shoot" typeId="b227-fd8f-ea1c-65f7">1Shoot</characteristic>
+            <characteristic name="Melee" typeId="fc7e-dccd-5244-3798">1Red</characteristic>
+            <characteristic name="Shoot" typeId="b227-fd8f-ea1c-65f7">1Red</characteristic>
             <characteristic name="Defense" typeId="ca1d-2465-3eb7-9bd8">1White</characteristic>
             <characteristic name="Health" typeId="5e5d-73d3-ba6a-8396">5</characteristic>
             <characteristic name="SP" typeId="cae4-668b-3f49-b130">X/1Red</characteristic>
