@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="17cb-b3ab-129e-6d0a" name="Scavengers" revision="1" battleScribeVersion="2.02" library="false" gameSystemId="f046-8736-7a7e-93d7" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="17cb-b3ab-129e-6d0a" name="Scavengers" revision="2" battleScribeVersion="2.02" library="false" gameSystemId="f046-8736-7a7e-93d7" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="928e-764a-7b21-761b" name="Group Special Rules" hidden="false" collective="false" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bd63-997d-defb-7a5c" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5856-1995-efd8-9455" type="min"/>
+      </constraints>
       <rules>
         <rule id="15cf-10a7-1a4c-47d3" name="Loot and Pillage" hidden="false">
-          <description>Each time a model from the Scavengers faction list performs the Scavenge Action, roll 1Black. On a Shield, gain 1 bonus Victory Point.</description>
+          <description>Each time a Scavengers model or friendly Follower performs the Scavenge Action, roll 1Black. On a Shield, gain 1 bonus Victory Point.</description>
         </rule>
       </rules>
       <costs>
@@ -37,54 +41,46 @@
         <categoryLink id="3052-ac2d-d78b-82c1" name="Alignment: Ruthless" hidden="false" targetId="f115-d6f7-b750-5f55" primary="false"/>
         <categoryLink id="4b79-cd35-5d35-975b" name="Scavengers" hidden="false" targetId="604d-5476-6363-ee71" primary="false"/>
       </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="3d26-1ca4-d09d-dd3e" name="Browning Hi-Power" hidden="false" collective="false" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="97fd-509e-aaba-bec0" type="max"/>
-          </constraints>
-          <profiles>
-            <profile id="e963-2e24-0459-3956" name="Browning Hi-Power" hidden="false" typeId="3560-a8a8-6a4e-2aa2" typeName="Ranged Weapon">
-              <characteristics>
-                <characteristic name="Attack Roll Short" typeId="5e67-d6ba-ff65-695d">1Red</characteristic>
-                <characteristic name="Attack Roll Medium" typeId="f3e5-c666-6d43-df23">X</characteristic>
-                <characteristic name="Attack Roll Long" typeId="1376-9535-490f-fce4">X</characteristic>
-                <characteristic name="Special Rules" typeId="8821-27ea-b643-76c2">May reroll one die per attack roll.</characteristic>
-                <characteristic name="Keywords" typeId="2c12-568c-52a4-db62">Handgun, Reliable</characteristic>
-                <characteristic name="Noise / Mayhem" typeId="4783-fd91-26e1-6d38">Mayhem</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <infoLinks>
-            <infoLink id="285b-3d21-094d-4f8f" name="Handgun" hidden="false" targetId="a74c-9639-3b44-470b" type="rule"/>
-            <infoLink id="2e76-295c-4091-66d4" name="Reliable" hidden="false" targetId="9743-9f07-db71-da46" type="rule"/>
-          </infoLinks>
-          <costs>
-            <cost name=" Points" typeId="0705-c536-f372-c2d0" value="0.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
       <selectionEntryGroups>
         <selectionEntryGroup id="6c41-e08d-a3a2-be49" name="Upgrades" hidden="false" collective="false">
           <constraints>
             <constraint field="0705-c536-f372-c2d0" scope="parent" value="50.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f474-eaf6-d318-6523" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="d26b-4ddc-8365-e2d9" name="Scavengers Melee Weapons" hidden="false" collective="false" targetId="8b0b-62bf-6772-e66e" type="selectionEntryGroup"/>
-            <entryLink id="d9cf-26ba-f16a-06ff" name="Scavengers Ranged Weapons" hidden="false" collective="false" targetId="5803-8583-7153-6627" type="selectionEntryGroup">
+            <entryLink id="3bbc-7222-5c8d-5eda" name="Armor" hidden="false" collective="false" targetId="ae2c-f939-ccd5-108a" type="selectionEntryGroup"/>
+            <entryLink id="664f-6bf3-73f8-e025" name="Melee Weapons" hidden="false" collective="false" targetId="e8e1-137d-8a53-a1fd" type="selectionEntryGroup"/>
+            <entryLink id="4045-0c2d-71d3-83c0" name="Ranged Weapons" hidden="false" collective="false" targetId="6461-e3e9-6745-0a3b" type="selectionEntryGroup">
               <modifiers>
-                <modifier type="set" field="d0bf-a12d-2400-253e" value="0.0">
+                <modifier type="set" field="87c9-5f1f-65c7-96be" value="0.0">
                   <conditions>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3d26-1ca4-d09d-dd3e" type="equalTo"/>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="95c4-21b8-e653-245d" type="greaterThan"/>
                   </conditions>
                 </modifier>
               </modifiers>
             </entryLink>
-            <entryLink id="0fed-f9a9-c4db-3d35" name="Scavengers Special Items" hidden="false" collective="false" targetId="ee8b-a88a-0156-8867" type="selectionEntryGroup"/>
+            <entryLink id="a111-9de0-ca5b-009f" name="Special Items" hidden="false" collective="false" targetId="8a02-d9d8-d10a-0ca2" type="selectionEntryGroup"/>
+            <entryLink id="95c4-21b8-e653-245d" name="Browning Hi-Power" hidden="false" collective="false" targetId="577e-ffd8-55b8-147e" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="0705-c536-f372-c2d0" value="0.0"/>
+                <modifier type="set" field="809e-93c3-ffda-fb23" value="0.0">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4045-0c2d-71d3-83c0" type="greaterThan"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="809e-93c3-ffda-fb23" type="max"/>
+              </constraints>
+            </entryLink>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="39d1-12eb-5aa0-ebfb" name="Leader" hidden="false" collective="false" targetId="cca0-d068-1229-20ea" type="selectionEntry"/>
+        <entryLink id="1f4b-00e1-8f96-f067" name="Leader" hidden="false" collective="false" targetId="2bee-5b46-6bef-8581" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ceae-026c-032c-5f37" type="max"/>
+          </constraints>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="0705-c536-f372-c2d0" value="50.0"/>
@@ -111,227 +107,49 @@
         <categoryLink id="9ace-74fe-43bc-2558" name="Alignment: Ruthless" hidden="false" targetId="f115-d6f7-b750-5f55" primary="false"/>
         <categoryLink id="7b88-10c3-0088-3a0c" name="Scavengers" hidden="false" targetId="604d-5476-6363-ee71" primary="false"/>
       </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="2302-e358-492d-92a8" name="Arctic Sniper Rifle" hidden="false" collective="false" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dacb-fdc1-737d-302d" type="max"/>
-          </constraints>
-          <profiles>
-            <profile id="f7e0-56f5-4281-924f" name="Arctic Sniper Rifle" hidden="false" typeId="3560-a8a8-6a4e-2aa2" typeName="Ranged Weapon">
-              <characteristics>
-                <characteristic name="Attack Roll Short" typeId="5e67-d6ba-ff65-695d">1Blue</characteristic>
-                <characteristic name="Attack Roll Medium" typeId="f3e5-c666-6d43-df23">1Blue</characteristic>
-                <characteristic name="Attack Roll Long" typeId="1376-9535-490f-fce4">1White</characteristic>
-                <characteristic name="Special Rules" typeId="8821-27ea-b643-76c2">If an attack with this weapon scores two or more [!], immediately add 1Red to the roll.</characteristic>
-                <characteristic name="Keywords" typeId="2c12-568c-52a4-db62">Rifle</characteristic>
-                <characteristic name="Noise / Mayhem" typeId="4783-fd91-26e1-6d38">Mayhem</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <infoLinks>
-            <infoLink id="0b01-7c97-0934-ddb1" name="Rifle" hidden="false" targetId="c712-f896-0557-388a" type="rule"/>
-          </infoLinks>
-          <costs>
-            <cost name=" Points" typeId="0705-c536-f372-c2d0" value="0.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
       <selectionEntryGroups>
         <selectionEntryGroup id="7be1-a711-8515-a6f0" name="Upgrades" hidden="false" collective="false">
           <constraints>
             <constraint field="0705-c536-f372-c2d0" scope="parent" value="44.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e08e-7e13-d535-3c34" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="d549-e5a9-4267-554f" name="Scavengers Melee Weapons" hidden="false" collective="false" targetId="8b0b-62bf-6772-e66e" type="selectionEntryGroup"/>
-            <entryLink id="733b-ec5e-8bc7-2c40" name="Scavengers Ranged Weapons" hidden="false" collective="false" targetId="5803-8583-7153-6627" type="selectionEntryGroup">
+            <entryLink id="eaf5-7311-43fc-baa0" name="Armor" hidden="false" collective="false" targetId="ae2c-f939-ccd5-108a" type="selectionEntryGroup"/>
+            <entryLink id="343c-f932-a9ed-66f2" name="Melee Weapons" hidden="false" collective="false" targetId="e8e1-137d-8a53-a1fd" type="selectionEntryGroup"/>
+            <entryLink id="c0b1-8944-ef55-191b" name="Ranged Weapons" hidden="false" collective="false" targetId="6461-e3e9-6745-0a3b" type="selectionEntryGroup">
               <modifiers>
-                <modifier type="set" field="d0bf-a12d-2400-253e" value="0.0">
+                <modifier type="set" field="87c9-5f1f-65c7-96be" value="0.0">
                   <conditions>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2302-e358-492d-92a8" type="equalTo"/>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="645e-43c7-ae6e-af06" type="greaterThan"/>
                   </conditions>
                 </modifier>
               </modifiers>
             </entryLink>
-            <entryLink id="8782-f42f-9a85-2a5a" name="Scavengers Special Items" hidden="false" collective="false" targetId="ee8b-a88a-0156-8867" type="selectionEntryGroup"/>
+            <entryLink id="2c98-8b3d-33c0-348c" name="Special Items" hidden="false" collective="false" targetId="8a02-d9d8-d10a-0ca2" type="selectionEntryGroup"/>
+            <entryLink id="645e-43c7-ae6e-af06" name="Arctic Warfare Sniper Rifle" hidden="false" collective="false" targetId="37ea-4bc5-5b66-4f28" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="0705-c536-f372-c2d0" value="0.0"/>
+                <modifier type="set" field="a6e6-d83c-c64a-fabc" value="0.0">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c0b1-8944-ef55-191b" type="greaterThan"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a6e6-d83c-c64a-fabc" type="max"/>
+              </constraints>
+            </entryLink>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="4c51-7d62-f811-b13f" name="Leader" hidden="false" collective="false" targetId="2bee-5b46-6bef-8581" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5e8c-9372-bd35-2140" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name=" Points" typeId="0705-c536-f372-c2d0" value="44.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="9ca2-ce13-aa9c-4abc" name="Sandra" hidden="false" collective="false" type="model">
-      <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="19dd-9b0e-42e7-3c46" type="max"/>
-      </constraints>
-      <profiles>
-        <profile id="c776-3079-ff42-d965" name="Sandra" hidden="false" typeId="40e9-9288-6f65-70a9" typeName="Character">
-          <characteristics>
-            <characteristic name="Type" typeId="d9ce-b162-4bd7-6736">Runner</characteristic>
-            <characteristic name="Melee" typeId="fc7e-dccd-5244-3798">1Red</characteristic>
-            <characteristic name="Shoot" typeId="b227-fd8f-ea1c-65f7">2Red</characteristic>
-            <characteristic name="Defense" typeId="ca1d-2465-3eb7-9bd8">1White</characteristic>
-            <characteristic name="Health" typeId="5e5d-73d3-ba6a-8396">4</characteristic>
-            <characteristic name="SP" typeId="cae4-668b-3f49-b130">X/-</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <rules>
-        <rule id="3831-ca1b-50b4-32b6" name="Quick" hidden="false">
-          <description>Sandra may perform two Move Actions in the same turn (if she has the Actions to
-spend). She may not Run twice.</description>
-        </rule>
-      </rules>
-      <categoryLinks>
-        <categoryLink id="d40a-3f44-2a5a-0d14" name="New CategoryLink" hidden="false" targetId="7aaa-f540-43d6-81de" primary="true"/>
-        <categoryLink id="c89b-86c0-4219-b57d" name="Alignment: Ruthless" hidden="false" targetId="f115-d6f7-b750-5f55" primary="false"/>
-        <categoryLink id="6101-8d34-5989-533c" name="Scavengers" hidden="false" targetId="604d-5476-6363-ee71" primary="false"/>
-      </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="8ada-69d4-f994-3491" name="Knife" hidden="false" collective="false" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8442-d271-4d69-9c82" type="max"/>
-          </constraints>
-          <profiles>
-            <profile id="9082-e439-79ac-01f8" name="Knife" hidden="false" typeId="d42c-7da6-84ea-bbd3" typeName="Melee Weapon">
-              <characteristics>
-                <characteristic name="Attack Roll" typeId="84c3-eb7b-1a01-99c6">1Red</characteristic>
-                <characteristic name="Special Rules" typeId="a811-f6c5-34bc-5f90"/>
-                <characteristic name="Keywords" typeId="c6ce-a20c-5806-fc59"/>
-                <characteristic name="Noise / Mayhem" typeId="35d4-25bc-80cb-6f59"/>
-              </characteristics>
-            </profile>
-          </profiles>
-          <infoLinks>
-            <infoLink id="d1ec-934d-a921-15d6" name="Dual Wield" hidden="false" targetId="cdbb-55db-ed3e-4259" type="rule"/>
-            <infoLink id="9266-fa7c-a407-2592" name="Sharp" hidden="false" targetId="3728-71b5-e85a-07f5" type="rule"/>
-          </infoLinks>
-          <costs>
-            <cost name=" Points" typeId="0705-c536-f372-c2d0" value="0.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
-      <selectionEntryGroups>
-        <selectionEntryGroup id="a75e-58d2-6734-836f" name="Upgrades" hidden="false" collective="false">
-          <constraints>
-            <constraint field="0705-c536-f372-c2d0" scope="parent" value="32.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6e4b-535e-ca71-f3ba" type="max"/>
-          </constraints>
-          <entryLinks>
-            <entryLink id="968f-2d27-ee8f-a96c" name="Scavengers Melee Weapons" hidden="false" collective="false" targetId="8b0b-62bf-6772-e66e" type="selectionEntryGroup">
-              <modifiers>
-                <modifier type="set" field="bea1-3223-bac2-5ab2" value="1">
-                  <conditions>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8ada-69d4-f994-3491" type="equalTo"/>
-                  </conditions>
-                </modifier>
-              </modifiers>
-            </entryLink>
-            <entryLink id="3dda-ac67-d651-6b7a" name="Scavengers Ranged Weapons" hidden="false" collective="false" targetId="5803-8583-7153-6627" type="selectionEntryGroup"/>
-            <entryLink id="42f8-4592-5561-b13d" name="Scavengers Special Items" hidden="false" collective="false" targetId="ee8b-a88a-0156-8867" type="selectionEntryGroup"/>
-          </entryLinks>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
-      <costs>
-        <cost name=" Points" typeId="0705-c536-f372-c2d0" value="32.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="c4f2-830b-0364-d303" name="Patrick" hidden="false" collective="false" type="model">
-      <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6521-d664-9e85-d8ed" type="max"/>
-      </constraints>
-      <profiles>
-        <profile id="6534-fb34-9834-f1fd" name="Patrick" hidden="false" typeId="40e9-9288-6f65-70a9" typeName="Character">
-          <characteristics>
-            <characteristic name="Type" typeId="d9ce-b162-4bd7-6736">Bruiser</characteristic>
-            <characteristic name="Melee" typeId="fc7e-dccd-5244-3798">1White,1Red</characteristic>
-            <characteristic name="Shoot" typeId="b227-fd8f-ea1c-65f7">1Red</characteristic>
-            <characteristic name="Defense" typeId="ca1d-2465-3eb7-9bd8">1Blue</characteristic>
-            <characteristic name="Health" typeId="5e5d-73d3-ba6a-8396">4</characteristic>
-            <characteristic name="SP" typeId="cae4-668b-3f49-b130">X/-</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <categoryLinks>
-        <categoryLink id="847c-f0a0-6447-cecd" name="New CategoryLink" hidden="false" targetId="1632-3305-8ec4-ecf2" primary="true"/>
-        <categoryLink id="3ec8-bfc5-ff60-7d71" name="Alignment: Ruthless" hidden="false" targetId="f115-d6f7-b750-5f55" primary="false"/>
-        <categoryLink id="75cf-42ea-dd4a-d038" name="Scavengers" hidden="false" targetId="604d-5476-6363-ee71" primary="false"/>
-      </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="699c-f367-4e00-dc3b" name="Baseball Bat" hidden="false" collective="false" type="upgrade">
-          <profiles>
-            <profile id="9685-3f2f-5479-d4a2" name="Baseball Bat" hidden="false" typeId="d42c-7da6-84ea-bbd3" typeName="Melee Weapon">
-              <characteristics>
-                <characteristic name="Attack Roll" typeId="84c3-eb7b-1a01-99c6">1Red</characteristic>
-                <characteristic name="Special Rules" typeId="a811-f6c5-34bc-5f90">Bruisers may reroll 1Red per attack.</characteristic>
-                <characteristic name="Keywords" typeId="c6ce-a20c-5806-fc59"/>
-                <characteristic name="Noise / Mayhem" typeId="35d4-25bc-80cb-6f59"/>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name=" Points" typeId="0705-c536-f372-c2d0" value="0.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
-      <selectionEntryGroups>
-        <selectionEntryGroup id="180d-03cc-319d-1957" name="Upgrades" hidden="false" collective="false">
-          <constraints>
-            <constraint field="0705-c536-f372-c2d0" scope="parent" value="24.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="08ec-4de0-b0ae-3cb7" type="max"/>
-          </constraints>
-          <entryLinks>
-            <entryLink id="60cd-10bd-ad30-36ad" name="Scavengers Melee Weapons" hidden="false" collective="false" targetId="8b0b-62bf-6772-e66e" type="selectionEntryGroup">
-              <modifiers>
-                <modifier type="set" field="bea1-3223-bac2-5ab2" value="1">
-                  <conditions>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="699c-f367-4e00-dc3b" type="equalTo"/>
-                  </conditions>
-                </modifier>
-              </modifiers>
-            </entryLink>
-            <entryLink id="74a8-d276-81b0-f4bd" name="Scavengers Ranged Weapons" hidden="false" collective="false" targetId="5803-8583-7153-6627" type="selectionEntryGroup"/>
-            <entryLink id="39f0-9ac6-af25-31c7" name="Scavengers Special Items" hidden="false" collective="false" targetId="ee8b-a88a-0156-8867" type="selectionEntryGroup"/>
-          </entryLinks>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
-      <costs>
-        <cost name=" Points" typeId="0705-c536-f372-c2d0" value="24.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="4316-d796-8a8d-4fbd" name="Liam" hidden="false" collective="false" type="model">
-      <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="21d8-e9cf-211c-557e" type="max"/>
-      </constraints>
-      <profiles>
-        <profile id="d0a8-6fad-7f8c-b90a" name="Liam" hidden="false" typeId="40e9-9288-6f65-70a9" typeName="Character">
-          <characteristics>
-            <characteristic name="Type" typeId="d9ce-b162-4bd7-6736">Support</characteristic>
-            <characteristic name="Melee" typeId="fc7e-dccd-5244-3798">1Red</characteristic>
-            <characteristic name="Shoot" typeId="b227-fd8f-ea1c-65f7">-</characteristic>
-            <characteristic name="Defense" typeId="ca1d-2465-3eb7-9bd8">1Red</characteristic>
-            <characteristic name="Health" typeId="5e5d-73d3-ba6a-8396">3</characteristic>
-            <characteristic name="SP" typeId="cae4-668b-3f49-b130">X/1Red</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <categoryLinks>
-        <categoryLink id="7bda-0d52-83cd-4a9a" name="New CategoryLink" hidden="false" targetId="4eb2-d49f-4b22-dd86" primary="true"/>
-        <categoryLink id="7ca4-e9d1-1202-d031" name="Alignment: Ruthless" hidden="false" targetId="f115-d6f7-b750-5f55" primary="false"/>
-        <categoryLink id="b65f-91c3-a3c8-e947" name="Scavengers" hidden="false" targetId="604d-5476-6363-ee71" primary="false"/>
-      </categoryLinks>
-      <selectionEntryGroups>
-        <selectionEntryGroup id="5598-8ffc-6f69-0ee4" name="Upgrades" hidden="false" collective="false">
-          <constraints>
-            <constraint field="0705-c536-f372-c2d0" scope="parent" value="8.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3a9b-b6e5-aa69-dcc6" type="max"/>
-          </constraints>
-          <entryLinks>
-            <entryLink id="68ae-6f70-4c72-6faa" name="Scavengers Melee Weapons" hidden="false" collective="false" targetId="8b0b-62bf-6772-e66e" type="selectionEntryGroup"/>
-            <entryLink id="cc7d-3696-1040-33a3" name="Scavengers Ranged Weapons" hidden="false" collective="false" targetId="5803-8583-7153-6627" type="selectionEntryGroup"/>
-            <entryLink id="cba3-36b5-6c45-8569" name="Scavengers Special Items" hidden="false" collective="false" targetId="ee8b-a88a-0156-8867" type="selectionEntryGroup"/>
-          </entryLinks>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
-      <costs>
-        <cost name=" Points" typeId="0705-c536-f372-c2d0" value="0.0"/>
       </costs>
     </selectionEntry>
   </selectionEntries>

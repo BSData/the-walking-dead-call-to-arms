@@ -2,6 +2,10 @@
 <catalogue id="ae13-91e9-632e-a903" name="Woodbury Army" revision="1" battleScribeVersion="2.02" library="false" gameSystemId="f046-8736-7a7e-93d7" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="1ae9-f700-f030-3872" name="Group Special Rules" hidden="false" collective="false" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6723-c87b-6e19-5f49" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="91d8-5426-a6a2-94e1" type="min"/>
+      </constraints>
       <rules>
         <rule id="e394-634c-2e89-d8f9" name="Conscript Militia" hidden="false">
           <description>Models with the Woodbury Commander keyword, and friendly Woodbury Army models within 3” of them, may spend 1SP to add 1Red to a Ranged Attack roll. However, if a Woodbury Army model begins its activation more than 3” from a Woodbury Commander, it loses 1 Action.</description>
@@ -29,99 +33,78 @@
       </profiles>
       <rules>
         <rule id="896e-dee7-b713-42ce" name="Woodbury Commander" hidden="false"/>
-        <rule id="8b45-99d4-6a89-f317" name="Tyrant" hidden="false">
-          <description>If the Woodbury Army is the primary faction of your Group, and Brian Blake is included, he must be the Group Leader.</description>
-        </rule>
         <rule id="d9b8-a02b-d0bd-b6c2" name="Do As I Say! (Special Order)" hidden="false">
-          <description>The Governor may spend 1SP to perform a single Action with a friendly model within 6”, even if the target model has already activated this turn, and has already performed the same Action. It does not use an Action from either model. When this bonus Action is complete, play reverts back to the Governor (if he has any Actions remaining).</description>
+          <description>The Governor may spend 1SP to perform a single Action with a friendly model within 6”, even if the target model has already activated this round, and has already performed the same Action. It does not use an Action from either model. When this bonus Action is complete, play reverts back to the Governor (if he has any Actions remaining).</description>
         </rule>
       </rules>
+      <infoLinks>
+        <infoLink id="fbc3-9940-cd80-0fcf" name="Boss" hidden="false" targetId="4bcf-b79d-278c-0223" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="1e2d-2262-5594-74ac" name="New CategoryLink" hidden="false" targetId="b33e-e6d0-05ba-26ce" primary="true"/>
         <categoryLink id="e2b2-e2b3-bf85-6ffe" name="Alignment: Ruthless" hidden="false" targetId="f115-d6f7-b750-5f55" primary="false"/>
         <categoryLink id="64e6-ce76-55cb-d075" name="Brian Blake" hidden="false" targetId="7296-331e-7b22-09dd" primary="false"/>
         <categoryLink id="1238-4e34-9f30-1d74" name="Woodbury Army" hidden="false" targetId="80ce-410c-b879-c6db" primary="false"/>
       </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="3151-ebbd-a3fd-872b" name="Beretta 92" hidden="false" collective="false" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cc68-31f9-d5a0-3957" type="max"/>
-          </constraints>
-          <profiles>
-            <profile id="2fc1-b387-6c93-a2cf" name="Beretta 92" hidden="false" typeId="3560-a8a8-6a4e-2aa2" typeName="Ranged Weapon">
-              <characteristics>
-                <characteristic name="Attack Roll Short" typeId="5e67-d6ba-ff65-695d">1White</characteristic>
-                <characteristic name="Attack Roll Medium" typeId="f3e5-c666-6d43-df23">X</characteristic>
-                <characteristic name="Attack Roll Long" typeId="1376-9535-490f-fce4">X</characteristic>
-                <characteristic name="Special Rules" typeId="8821-27ea-b643-76c2"/>
-                <characteristic name="Keywords" typeId="2c12-568c-52a4-db62">Handgun, Reliable</characteristic>
-                <characteristic name="Noise / Mayhem" typeId="4783-fd91-26e1-6d38">Mayhem</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <infoLinks>
-            <infoLink id="7a9d-932f-5f8d-bd12" name="Handgun" hidden="false" targetId="a74c-9639-3b44-470b" type="rule"/>
-            <infoLink id="7ee2-0f9f-16e9-0624" name="Reliable" hidden="false" targetId="9743-9f07-db71-da46" type="rule"/>
-          </infoLinks>
-          <costs>
-            <cost name=" Points" typeId="0705-c536-f372-c2d0" value="0.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="7bfe-d1ea-b4d4-f8cc" name="Knife" hidden="false" collective="false" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6e50-d950-0f8c-d44c" type="max"/>
-          </constraints>
-          <profiles>
-            <profile id="2dd7-c318-aa65-788e" name="Knife" hidden="false" typeId="d42c-7da6-84ea-bbd3" typeName="Melee Weapon">
-              <characteristics>
-                <characteristic name="Attack Roll" typeId="84c3-eb7b-1a01-99c6">1Red</characteristic>
-                <characteristic name="Special Rules" typeId="a811-f6c5-34bc-5f90"/>
-                <characteristic name="Keywords" typeId="c6ce-a20c-5806-fc59"/>
-                <characteristic name="Noise / Mayhem" typeId="35d4-25bc-80cb-6f59"/>
-              </characteristics>
-            </profile>
-          </profiles>
-          <infoLinks>
-            <infoLink id="bd28-e8e1-48c5-4dea" name="Dual Wield" hidden="false" targetId="cdbb-55db-ed3e-4259" type="rule"/>
-            <infoLink id="e55b-86db-578b-938b" name="Sharp" hidden="false" targetId="3728-71b5-e85a-07f5" type="rule"/>
-          </infoLinks>
-          <costs>
-            <cost name=" Points" typeId="0705-c536-f372-c2d0" value="0.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
       <selectionEntryGroups>
         <selectionEntryGroup id="8fd8-06d1-d50c-e08e" name="Upgrades" hidden="false" collective="false">
           <constraints>
             <constraint field="0705-c536-f372-c2d0" scope="parent" value="68.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b0d5-6292-c400-cc98" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="3086-d0aa-93fc-b684" name="Woodbury Army Melee Weapons" hidden="false" collective="false" targetId="60f9-7cac-2fc3-2203" type="selectionEntryGroup">
+            <entryLink id="f6bf-1853-a622-457e" name="Armor" hidden="false" collective="false" targetId="ae2c-f939-ccd5-108a" type="selectionEntryGroup"/>
+            <entryLink id="6da0-ad8c-e59c-e2a9" name="Melee Weapons" hidden="false" collective="false" targetId="e8e1-137d-8a53-a1fd" type="selectionEntryGroup">
               <modifiers>
-                <modifier type="set" field="1c5b-fa24-fe5d-5f30" value="1">
+                <modifier type="set" field="4f9c-993e-439e-104e" value="1.0">
                   <conditions>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7bfe-d1ea-b4d4-f8cc" type="equalTo"/>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3eca-6488-e35e-fb87" type="greaterThan"/>
                   </conditions>
                 </modifier>
               </modifiers>
             </entryLink>
-            <entryLink id="d245-c90a-30ce-526a" name="Woodbury Army Special Items" hidden="false" collective="false" targetId="cd4b-4756-895b-1925" type="selectionEntryGroup"/>
-            <entryLink id="2fb4-33a0-3669-cc2b" name="Woodbury Army Ranged Weapons" hidden="false" collective="false" targetId="d268-eca1-4fad-20f7" type="selectionEntryGroup">
+            <entryLink id="43c6-e7f6-3da2-9bac" name="Ranged Weapons" hidden="false" collective="false" targetId="6461-e3e9-6745-0a3b" type="selectionEntryGroup">
               <modifiers>
-                <modifier type="set" field="9d64-f432-23f9-b430" value="0.0">
+                <modifier type="set" field="87c9-5f1f-65c7-96be" value="0.0">
                   <conditions>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3151-ebbd-a3fd-872b" type="equalTo"/>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f4c6-e9c7-19d4-db30" type="greaterThan"/>
                   </conditions>
                 </modifier>
               </modifiers>
+            </entryLink>
+            <entryLink id="0145-6aa2-a009-efd7" name="Special Items" hidden="false" collective="false" targetId="8a02-d9d8-d10a-0ca2" type="selectionEntryGroup"/>
+            <entryLink id="f4c6-e9c7-19d4-db30" name="Beretta 92" hidden="false" collective="false" targetId="c2f9-298d-8cac-dc94" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="0705-c536-f372-c2d0" value="0.0"/>
+                <modifier type="set" field="e7b1-125f-a1fa-a57b" value="0.0">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="43c6-e7f6-3da2-9bac" type="greaterThan"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e7b1-125f-a1fa-a57b" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="3eca-6488-e35e-fb87" name="Knife" hidden="false" collective="false" targetId="e1c4-2bd3-01d3-0fdd" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="0705-c536-f372-c2d0" value="0.0"/>
+                <modifier type="set" field="3d87-68a8-d7c0-8ec3" value="0.0">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6da0-ad8c-e59c-e2a9" type="greaterThan"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3d87-68a8-d7c0-8ec3" type="max"/>
+              </constraints>
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="169f-8474-dac1-6042" name="Leader" hidden="false" collective="false" targetId="cca0-d068-1229-20ea" type="selectionEntry">
+        <entryLink id="5358-9f5a-31b3-5c15" name="Leader" hidden="false" collective="false" targetId="2bee-5b46-6bef-8581" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9e34-b761-ebf9-4139" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f72f-01a3-12ba-c675" type="min"/>
           </constraints>
         </entryLink>
       </entryLinks>
@@ -147,146 +130,132 @@
       </profiles>
       <rules>
         <rule id="c16b-ad33-7e2a-19e0" name="Woodbury Commander" hidden="false"/>
-        <rule id="8973-152a-e244-ddfc" name="Tyrant" hidden="false">
-          <description>If the Woodbury Army is the primary faction of your Group, and Brian Blake is included, he must be the Group Leader.</description>
-        </rule>
         <rule id="7c31-b370-fb50-07b0" name="Kill Them All! (Special Order, One Use)" hidden="false">
           <description>Spend 1SP and create NOISE. Brian Blake and every friendly Woodbury Army model within 6” add 1Red to their attack rolls (any type) for the remainder of the turn.</description>
         </rule>
       </rules>
       <infoLinks>
         <infoLink id="f8ea-698f-a1b8-6157" name="One-Handed" hidden="false" targetId="d3b5-d51d-e0e2-98f8" type="rule"/>
+        <infoLink id="cda8-f333-5df2-c84e" name="Boss" hidden="false" targetId="4bcf-b79d-278c-0223" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="c1dd-63f6-1309-9a70" name="New CategoryLink" hidden="false" targetId="4eb2-d49f-4b22-dd86" primary="true"/>
         <categoryLink id="7d7a-198b-a1a0-2894" name="Alignment: Ruthless" hidden="false" targetId="f115-d6f7-b750-5f55" primary="false"/>
-        <categoryLink id="cf52-72cf-c363-66ad" name="Brian Blake" hidden="false" targetId="7296-331e-7b22-09dd" primary="false"/>
         <categoryLink id="6c8b-18ee-eae8-9b51" name="Woodbury Army" hidden="false" targetId="80ce-410c-b879-c6db" primary="false"/>
       </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="a572-48e9-f19e-7abf" name="Beretta 92" hidden="false" collective="false" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b57b-6637-a159-81fb" type="max"/>
-          </constraints>
-          <profiles>
-            <profile id="98e6-69e5-f143-066a" name="Beretta 92" hidden="false" typeId="3560-a8a8-6a4e-2aa2" typeName="Ranged Weapon">
-              <characteristics>
-                <characteristic name="Attack Roll Short" typeId="5e67-d6ba-ff65-695d">1White</characteristic>
-                <characteristic name="Attack Roll Medium" typeId="f3e5-c666-6d43-df23">X</characteristic>
-                <characteristic name="Attack Roll Long" typeId="1376-9535-490f-fce4">X</characteristic>
-                <characteristic name="Special Rules" typeId="8821-27ea-b643-76c2"/>
-                <characteristic name="Keywords" typeId="2c12-568c-52a4-db62">Handgun, Reliable</characteristic>
-                <characteristic name="Noise / Mayhem" typeId="4783-fd91-26e1-6d38">Mayhem</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <infoLinks>
-            <infoLink id="5116-4965-c6e5-a16c" name="Handgun" hidden="false" targetId="a74c-9639-3b44-470b" type="rule"/>
-            <infoLink id="2884-8a22-72ff-438d" name="Reliable" hidden="false" targetId="9743-9f07-db71-da46" type="rule"/>
-          </infoLinks>
-          <costs>
-            <cost name=" Points" typeId="0705-c536-f372-c2d0" value="0.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="ff9d-ae1e-51bb-c4e1" name="Riot Gear" hidden="false" collective="false" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a107-eead-f456-0395" type="max"/>
-          </constraints>
-          <profiles>
-            <profile id="741c-184b-6867-23d4" name="Riot Gear" hidden="false" typeId="ba75-8ed9-edc3-b7f6" typeName="Special Items">
-              <characteristics>
-                <characteristic name="Special Rules" typeId="f83f-be9f-fcc5-abf5">Your opponent must discard one die of their choice from attack rolls against this Survivor. If this Survivor dies, they are replaced with an Armored Walker.</characteristic>
-                <characteristic name="Keywords" typeId="4d62-b2c0-a0c7-0a18">Armor</characteristic>
-                <characteristic name="Noise / Mayhem" typeId="589a-5fe7-b416-6918"/>
-              </characteristics>
-            </profile>
-          </profiles>
-          <infoLinks>
-            <infoLink id="3a48-f81b-1360-2a2c" name="Armor" hidden="false" targetId="3ef1-f7b5-3ef7-7c6c" type="rule"/>
-          </infoLinks>
-          <costs>
-            <cost name=" Points" typeId="0705-c536-f372-c2d0" value="0.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="91ee-45c8-98e5-6b9e" name="Katana" hidden="false" collective="false" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3b01-ee30-8b01-e4b6" type="max"/>
-          </constraints>
-          <profiles>
-            <profile id="5c3c-8739-626b-dd11" name="Katana" hidden="false" typeId="d42c-7da6-84ea-bbd3" typeName="Melee Weapon">
-              <characteristics>
-                <characteristic name="Attack Roll" typeId="84c3-eb7b-1a01-99c6">1Blue</characteristic>
-                <characteristic name="Special Rules" typeId="a811-f6c5-34bc-5f90"/>
-                <characteristic name="Keywords" typeId="c6ce-a20c-5806-fc59">Sharp</characteristic>
-                <characteristic name="Noise / Mayhem" typeId="35d4-25bc-80cb-6f59"/>
-              </characteristics>
-            </profile>
-          </profiles>
-          <infoLinks>
-            <infoLink id="2f66-de34-4ced-7a92" name="Sharp" hidden="false" targetId="3728-71b5-e85a-07f5" type="rule"/>
-          </infoLinks>
-          <costs>
-            <cost name=" Points" typeId="0705-c536-f372-c2d0" value="16.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="1848-de9d-dde8-cd76" name="The Governor&apos;s Megaphone" hidden="false" collective="false" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b888-ba84-1fc6-ddad" type="max"/>
-          </constraints>
-          <profiles>
-            <profile id="d3ec-0078-7b18-04e3" name="The Governor&apos;s Megaphone" hidden="false" typeId="ba75-8ed9-edc3-b7f6" typeName="Special Items">
-              <characteristics>
-                <characteristic name="Special Rules" typeId="f83f-be9f-fcc5-abf5">Brian Blake, Mutilated and Merciless Only. Brian may use this item to increase the range of his Kill them All! Special Order to 12”, creating MAYHEM instead of NOISE.</characteristic>
-                <characteristic name="Keywords" typeId="4d62-b2c0-a0c7-0a18"/>
-                <characteristic name="Noise / Mayhem" typeId="589a-5fe7-b416-6918"/>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name=" Points" typeId="0705-c536-f372-c2d0" value="10.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
       <selectionEntryGroups>
         <selectionEntryGroup id="2c10-288f-c4fa-d698" name="Upgrades" hidden="false" collective="false">
           <constraints>
             <constraint field="0705-c536-f372-c2d0" scope="parent" value="65.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="71f7-7572-93d6-5435" type="max"/>
           </constraints>
+          <selectionEntries>
+            <selectionEntry id="edf3-534d-d88f-8eac" name="The Governor&apos;s Megaphone" hidden="false" collective="false" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="f91e-6b45-d62f-94d6" value="0.0">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3cb6-35dc-5c5f-18bb" type="greaterThan"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f91e-6b45-d62f-94d6" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="c451-c401-616b-b421" name="The Governor&apos;s Megaphone" hidden="false" typeId="ba75-8ed9-edc3-b7f6" typeName="Special Items">
+                  <characteristics>
+                    <characteristic name="Special Rules" typeId="f83f-be9f-fcc5-abf5">Brian Blake, Mutilated and Merciless Only. Brian may use this item to increase the range of his Kill them All! Special Order to 12”, creating MAYHEM instead of NOISE.</characteristic>
+                    <characteristic name="Keywords" typeId="4d62-b2c0-a0c7-0a18"/>
+                    <characteristic name="Noise / Mayhem" typeId="589a-5fe7-b416-6918"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" Points" typeId="0705-c536-f372-c2d0" value="10.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
           <entryLinks>
-            <entryLink id="06bf-41bd-a2d9-3b7f" name="Woodbury Army Melee Weapons" hidden="false" collective="false" targetId="60f9-7cac-2fc3-2203" type="selectionEntryGroup">
+            <entryLink id="f5db-4fe1-733c-f75d" name="Armor" hidden="false" collective="false" targetId="ae2c-f939-ccd5-108a" type="selectionEntryGroup">
               <modifiers>
-                <modifier type="set" field="1c5b-fa24-fe5d-5f30" value="0">
+                <modifier type="set" field="ec3d-4a63-9fa9-c35f" value="0.0">
                   <conditions>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="91ee-45c8-98e5-6b9e" type="equalTo"/>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a90d-63b9-e6ab-0406" type="greaterThan"/>
                   </conditions>
                 </modifier>
               </modifiers>
             </entryLink>
-            <entryLink id="c35d-d2b4-096e-ca4b" name="Woodbury Army Special Items" hidden="false" collective="false" targetId="cd4b-4756-895b-1925" type="selectionEntryGroup">
+            <entryLink id="7d39-5a0b-66f1-6d49" name="Melee Weapons" hidden="false" collective="false" targetId="e8e1-137d-8a53-a1fd" type="selectionEntryGroup">
               <modifiers>
-                <modifier type="set" field="ff46-60b1-ebee-4f90" value="0.0">
+                <modifier type="set" field="4f9c-993e-439e-104e" value="1.0">
                   <conditions>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ff9d-ae1e-51bb-c4e1" type="equalTo"/>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="df75-0398-a51d-9b6b" type="greaterThan"/>
                   </conditions>
                 </modifier>
               </modifiers>
             </entryLink>
-            <entryLink id="6a27-1820-5ce2-5cd1" name="Woodbury Army Ranged Weapons" hidden="false" collective="false" targetId="d268-eca1-4fad-20f7" type="selectionEntryGroup">
+            <entryLink id="4c7e-9be6-a355-80ea" name="Ranged Weapons" hidden="false" collective="false" targetId="6461-e3e9-6745-0a3b" type="selectionEntryGroup">
               <modifiers>
-                <modifier type="set" field="9d64-f432-23f9-b430" value="0.0">
+                <modifier type="set" field="87c9-5f1f-65c7-96be" value="0.0">
                   <conditions>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a572-48e9-f19e-7abf" type="equalTo"/>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6a5c-b2ad-623d-1279" type="greaterThan"/>
                   </conditions>
                 </modifier>
               </modifiers>
+            </entryLink>
+            <entryLink id="3cb6-35dc-5c5f-18bb" name="Special Items" hidden="false" collective="false" targetId="8a02-d9d8-d10a-0ca2" type="selectionEntryGroup">
+              <modifiers>
+                <modifier type="set" field="9a7f-457e-7197-5f45" value="0.0">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="edf3-534d-d88f-8eac" type="greaterThan"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
+            <entryLink id="6a5c-b2ad-623d-1279" name="Beretta 92" hidden="false" collective="false" targetId="c2f9-298d-8cac-dc94" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="0705-c536-f372-c2d0" value="0.0"/>
+                <modifier type="set" field="71d9-c8cb-4ddd-9516" value="0.0">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4c7e-9be6-a355-80ea" type="greaterThan"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="71d9-c8cb-4ddd-9516" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="a90d-63b9-e6ab-0406" name="Riot Gear" hidden="false" collective="false" targetId="1672-3925-3d1b-4808" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="0705-c536-f372-c2d0" value="0.0"/>
+                <modifier type="set" field="cf2f-84a0-caff-050b" value="0.0">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f5db-4fe1-733c-f75d" type="greaterThan"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cf2f-84a0-caff-050b" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="df75-0398-a51d-9b6b" name="Riot Baton" hidden="false" collective="false" targetId="c400-4b83-38d2-fe71" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="c6e5-dc36-d1fd-9138" value="0.0">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7d39-5a0b-66f1-6d49" type="greaterThan"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c6e5-dc36-d1fd-9138" type="max"/>
+              </constraints>
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="87a8-c7b7-8287-77bc" name="Leader" hidden="false" collective="false" targetId="cca0-d068-1229-20ea" type="selectionEntry">
+        <entryLink id="ade9-76a6-3ec8-c3dd" name="Leader" hidden="false" collective="false" targetId="2bee-5b46-6bef-8581" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f6f5-3dd0-43b3-fb38" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="df0b-7d1a-bbad-5194" type="min"/>
           </constraints>
         </entryLink>
       </entryLinks>
@@ -315,66 +284,53 @@
         <rule id="1935-c48d-0fa9-97a9" name="Trophy Hunter" hidden="false">
           <description>If Brian Blake kills an enemy Survivor in melee without causing a Headshot, do not replace the enemy with a Prone Walker. Instead, remove the model from play and gain 1 bonus Victory Point.</description>
         </rule>
-        <rule id="f8cc-7fab-40f2-c87b" name="Tyrant" hidden="false">
-          <description>If the Woodbury Army is the primary faction of your Group, and Brian Blake is included, he must be the Group Leader.</description>
-        </rule>
       </rules>
+      <infoLinks>
+        <infoLink id="cccb-b2e9-ac8c-e027" name="Boss" hidden="false" targetId="4bcf-b79d-278c-0223" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="9d34-90b2-359e-1f17" name="New CategoryLink" hidden="false" targetId="b33e-e6d0-05ba-26ce" primary="true"/>
         <categoryLink id="3576-ad08-f375-6c08" name="Alignment: Ruthless" hidden="false" targetId="f115-d6f7-b750-5f55" primary="false"/>
-        <categoryLink id="61c8-96b3-3724-7512" name="Brian Blake" hidden="false" targetId="7296-331e-7b22-09dd" primary="false"/>
         <categoryLink id="b9f9-c8d6-c581-d9c5" name="Woodbury Army" hidden="false" targetId="80ce-410c-b879-c6db" primary="false"/>
       </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="5f3e-2d69-6b36-b1f1" name="Beretta 92" hidden="false" collective="false" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="98a1-dae5-389d-3abe" type="max"/>
-          </constraints>
-          <profiles>
-            <profile id="198e-9824-ec99-6e9b" name="Beretta 92" hidden="false" typeId="3560-a8a8-6a4e-2aa2" typeName="Ranged Weapon">
-              <characteristics>
-                <characteristic name="Attack Roll Short" typeId="5e67-d6ba-ff65-695d">1White</characteristic>
-                <characteristic name="Attack Roll Medium" typeId="f3e5-c666-6d43-df23">X</characteristic>
-                <characteristic name="Attack Roll Long" typeId="1376-9535-490f-fce4">X</characteristic>
-                <characteristic name="Special Rules" typeId="8821-27ea-b643-76c2"/>
-                <characteristic name="Keywords" typeId="2c12-568c-52a4-db62">Handgun, Reliable</characteristic>
-                <characteristic name="Noise / Mayhem" typeId="4783-fd91-26e1-6d38">Mayhem</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <infoLinks>
-            <infoLink id="5d8f-7280-31f5-d35f" name="Handgun" hidden="false" targetId="a74c-9639-3b44-470b" type="rule"/>
-            <infoLink id="12a6-e934-706d-c5ae" name="Reliable" hidden="false" targetId="9743-9f07-db71-da46" type="rule"/>
-          </infoLinks>
-          <costs>
-            <cost name=" Points" typeId="0705-c536-f372-c2d0" value="0.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="5368-d58d-e3d4-cdfe" name="Upgrades" hidden="false" collective="false">
+        <selectionEntryGroup id="bdc3-69a7-e35f-8043" name="Upgrades" hidden="false" collective="false">
           <constraints>
-            <constraint field="0705-c536-f372-c2d0" scope="parent" value="65.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1301-cf30-cc6d-b6d3" type="max"/>
+            <constraint field="0705-c536-f372-c2d0" scope="parent" value="65.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0483-d360-455b-72cd" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="fd5d-3c69-a785-e0a8" name="Woodbury Army Melee Weapons" hidden="false" collective="false" targetId="60f9-7cac-2fc3-2203" type="selectionEntryGroup"/>
-            <entryLink id="ba8e-fc8d-bc43-ed74" name="Woodbury Army Special Items" hidden="false" collective="false" targetId="cd4b-4756-895b-1925" type="selectionEntryGroup"/>
-            <entryLink id="f059-f330-fb8f-cf55" name="Woodbury Army Ranged Weapons" hidden="false" collective="false" targetId="d268-eca1-4fad-20f7" type="selectionEntryGroup">
+            <entryLink id="9260-2d63-5622-4d85" name="Armor" hidden="false" collective="false" targetId="ae2c-f939-ccd5-108a" type="selectionEntryGroup"/>
+            <entryLink id="0d6a-b740-5bc5-ebb9" name="Melee Weapons" hidden="false" collective="false" targetId="e8e1-137d-8a53-a1fd" type="selectionEntryGroup"/>
+            <entryLink id="a797-ca7d-4460-4752" name="Ranged Weapons" hidden="false" collective="false" targetId="6461-e3e9-6745-0a3b" type="selectionEntryGroup">
               <modifiers>
-                <modifier type="set" field="9d64-f432-23f9-b430" value="0.0">
+                <modifier type="set" field="87c9-5f1f-65c7-96be" value="0.0">
                   <conditions>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5f3e-2d69-6b36-b1f1" type="equalTo"/>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1efa-ba60-144b-8b4f" type="greaterThan"/>
                   </conditions>
                 </modifier>
               </modifiers>
+            </entryLink>
+            <entryLink id="0f35-d9e7-0f64-60ca" name="Special Items" hidden="false" collective="false" targetId="8a02-d9d8-d10a-0ca2" type="selectionEntryGroup"/>
+            <entryLink id="1efa-ba60-144b-8b4f" name="Beretta 92" hidden="false" collective="false" targetId="c2f9-298d-8cac-dc94" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="0705-c536-f372-c2d0" value="0.0"/>
+                <modifier type="set" field="a386-58cd-10ae-6ebe" value="0.0">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a797-ca7d-4460-4752" type="greaterThan"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a386-58cd-10ae-6ebe" type="max"/>
+              </constraints>
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="79f4-36ee-87b4-c14c" name="Leader" hidden="false" collective="false" targetId="cca0-d068-1229-20ea" type="selectionEntry">
+        <entryLink id="2ac7-eeaa-237e-a31e" name="Leader" hidden="false" collective="false" targetId="2bee-5b46-6bef-8581" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ad5c-2a5d-a27b-f501" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ae0c-1729-6451-b84d" type="min"/>
           </constraints>
         </entryLink>
       </entryLinks>
@@ -403,66 +359,51 @@
         <rule id="4e29-d8e1-ea31-b574" name="Out of Shape" hidden="false">
           <description>Gabe can only Sneak 3” and run 6”.</description>
         </rule>
-        <rule id="b2e0-0239-a485-c423" name="Trusted Lieutenant" hidden="false">
-          <description>If a friendly Brian Blake is in play, Gabe can use the Try Again Special Order as if he were the Group Leader.</description>
-        </rule>
       </rules>
       <categoryLinks>
         <categoryLink id="8d29-9238-5a4c-bfcc" name="New CategoryLink" hidden="false" targetId="4eb2-d49f-4b22-dd86" primary="true"/>
         <categoryLink id="f608-2bd8-286a-906c" name="Alignment: Ruthless" hidden="false" targetId="f115-d6f7-b750-5f55" primary="false"/>
         <categoryLink id="28ee-0a5d-ddd0-4f5c" name="Woodbury Army" hidden="false" targetId="80ce-410c-b879-c6db" primary="false"/>
       </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="2947-7876-1498-2d76" name="9mm Pistol" hidden="false" collective="false" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f5ed-cba9-463c-8bd7" type="max"/>
-          </constraints>
-          <profiles>
-            <profile id="2754-0070-c10d-d294" name="9mm Pistol" hidden="false" typeId="3560-a8a8-6a4e-2aa2" typeName="Ranged Weapon">
-              <characteristics>
-                <characteristic name="Attack Roll Short" typeId="5e67-d6ba-ff65-695d">1Red</characteristic>
-                <characteristic name="Attack Roll Medium" typeId="f3e5-c666-6d43-df23">X</characteristic>
-                <characteristic name="Attack Roll Long" typeId="1376-9535-490f-fce4">X</characteristic>
-                <characteristic name="Special Rules" typeId="8821-27ea-b643-76c2">If the attack roll scores one or omre !, add 1Red to the roll.</characteristic>
-                <characteristic name="Keywords" typeId="2c12-568c-52a4-db62">Handgun, Reliable</characteristic>
-                <characteristic name="Noise / Mayhem" typeId="4783-fd91-26e1-6d38">Mayhem</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <infoLinks>
-            <infoLink id="275a-e5c9-313b-dc38" name="Handgun" hidden="false" targetId="a74c-9639-3b44-470b" type="rule"/>
-            <infoLink id="a62d-c840-ce1d-dd54" name="Reliable" hidden="false" targetId="9743-9f07-db71-da46" type="rule"/>
-          </infoLinks>
-          <costs>
-            <cost name=" Points" typeId="0705-c536-f372-c2d0" value="0.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
       <selectionEntryGroups>
         <selectionEntryGroup id="9287-b812-ab5f-fb32" name="Upgrades" hidden="false" collective="false">
           <constraints>
-            <constraint field="0705-c536-f372-c2d0" scope="parent" value="42.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7193-a4cc-7d20-2d01" type="max"/>
+            <constraint field="0705-c536-f372-c2d0" scope="parent" value="40.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7193-a4cc-7d20-2d01" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="2cbe-5461-222d-2a85" name="Woodbury Army Melee Weapons" hidden="false" collective="false" targetId="60f9-7cac-2fc3-2203" type="selectionEntryGroup"/>
-            <entryLink id="abf9-fb41-a258-8040" name="Woodbury Army Special Items" hidden="false" collective="false" targetId="cd4b-4756-895b-1925" type="selectionEntryGroup"/>
-            <entryLink id="dcde-2a67-cd68-88ea" name="Woodbury Army Ranged Weapons" hidden="false" collective="false" targetId="d268-eca1-4fad-20f7" type="selectionEntryGroup">
+            <entryLink id="2386-6727-e915-c85c" name="9mm Pistol" hidden="false" collective="false" targetId="329b-bd83-bbe9-bd52" type="selectionEntry">
               <modifiers>
-                <modifier type="set" field="9d64-f432-23f9-b430" value="0.0">
+                <modifier type="set" field="0705-c536-f372-c2d0" value="0.0"/>
+                <modifier type="set" field="075e-2688-b826-65ca" value="0.0">
                   <conditions>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2947-7876-1498-2d76" type="equalTo"/>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a383-4ebf-738e-1f3e" type="greaterThan"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="075e-2688-b826-65ca" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="45e0-1e94-5377-b4cd" name="Special Items" hidden="false" collective="false" targetId="8a02-d9d8-d10a-0ca2" type="selectionEntryGroup"/>
+            <entryLink id="a383-4ebf-738e-1f3e" name="Ranged Weapons" hidden="false" collective="false" targetId="6461-e3e9-6745-0a3b" type="selectionEntryGroup">
+              <modifiers>
+                <modifier type="set" field="87c9-5f1f-65c7-96be" value="0.0">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2386-6727-e915-c85c" type="greaterThan"/>
                   </conditions>
                 </modifier>
               </modifiers>
             </entryLink>
+            <entryLink id="7afa-2d20-924c-4553" name="Melee Weapons" hidden="false" collective="false" targetId="e8e1-137d-8a53-a1fd" type="selectionEntryGroup"/>
+            <entryLink id="b78f-b98e-8b54-22b3" name="Armor" hidden="false" collective="false" targetId="ae2c-f939-ccd5-108a" type="selectionEntryGroup"/>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="b610-4ba4-3e26-e9c9" name="Leader" hidden="false" collective="false" targetId="cca0-d068-1229-20ea" type="selectionEntry"/>
+        <entryLink id="3948-77e5-c1d5-e0d4" name="Leader" hidden="false" collective="false" targetId="2bee-5b46-6bef-8581" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" Points" typeId="0705-c536-f372-c2d0" value="42.0"/>
+        <cost name=" Points" typeId="0705-c536-f372-c2d0" value="40.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d5cf-7c95-6ca2-989b" name="Bruce Cooper" hidden="false" collective="false" type="model">
@@ -474,7 +415,7 @@
           <characteristics>
             <characteristic name="Type" typeId="d9ce-b162-4bd7-6736">Bruiser</characteristic>
             <characteristic name="Melee" typeId="fc7e-dccd-5244-3798">1Blue</characteristic>
-            <characteristic name="Shoot" typeId="b227-fd8f-ea1c-65f7">1White</characteristic>
+            <characteristic name="Shoot" typeId="b227-fd8f-ea1c-65f7">1Red</characteristic>
             <characteristic name="Defense" typeId="ca1d-2465-3eb7-9bd8">2Red</characteristic>
             <characteristic name="Health" typeId="5e5d-73d3-ba6a-8396">6</characteristic>
             <characteristic name="SP" typeId="cae4-668b-3f49-b130">1Red/-</characteristic>
@@ -483,70 +424,55 @@
       </profiles>
       <rules>
         <rule id="f2dd-af4a-d720-d49d" name="Woodbury Commander" hidden="false"/>
-        <rule id="b060-f908-94f3-4bd2" name="Bodyguard" hidden="false">
-          <description>If a friendly Brian Blake model within Bruce’s Kill Zone is targeted by a ranged attack, Bruce may take the attack on his behalf. Bruce becomes the new target, even if he was not initially in range or line of sight.</description>
-        </rule>
-        <rule id="108b-bb58-4bb5-4312" name="The Muscle" hidden="false">
-          <description>If a friendly Brian Blake is in play, Bruce can use the Charge! Special Order as if he were the Group Leader.</description>
-        </rule>
+        <rule id="b060-f908-94f3-4bd2" name="Bodyguard (Brian Blake)" hidden="false"/>
       </rules>
+      <infoLinks>
+        <infoLink id="eb1c-4b0d-bc7d-3a75" name="Bodyguard (X)" hidden="false" targetId="b835-4f78-3c0a-5dee" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="962b-e50d-66fd-a0d3" name="New CategoryLink" hidden="false" targetId="1632-3305-8ec4-ecf2" primary="true"/>
         <categoryLink id="fcc8-c830-3ec4-ea0d" name="Alignment: Ruthless" hidden="false" targetId="f115-d6f7-b750-5f55" primary="false"/>
         <categoryLink id="7c4e-c776-d2fb-b2eb" name="Woodbury Army" hidden="false" targetId="80ce-410c-b879-c6db" primary="false"/>
       </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="6771-ad99-2f72-faef" name="M4 Carbine" hidden="false" collective="false" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="735d-e3e3-de63-38cd" type="max"/>
-          </constraints>
-          <profiles>
-            <profile id="6bfd-af8a-9b78-c6c3" name="M4 Carbine" hidden="false" typeId="3560-a8a8-6a4e-2aa2" typeName="Ranged Weapon">
-              <characteristics>
-                <characteristic name="Attack Roll Short" typeId="5e67-d6ba-ff65-695d">1White</characteristic>
-                <characteristic name="Attack Roll Medium" typeId="f3e5-c666-6d43-df23">1Red</characteristic>
-                <characteristic name="Attack Roll Long" typeId="1376-9535-490f-fce4">X</characteristic>
-                <characteristic name="Special Rules" typeId="8821-27ea-b643-76c2"/>
-                <characteristic name="Keywords" typeId="2c12-568c-52a4-db62">Assault, Multiple Shots (2), Reliable</characteristic>
-                <characteristic name="Noise / Mayhem" typeId="4783-fd91-26e1-6d38">Mayhem</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <infoLinks>
-            <infoLink id="2fe3-465e-2552-4148" name="Assault" hidden="false" targetId="a279-140c-00e3-0bcc" type="rule"/>
-            <infoLink id="dbe5-60d0-28ab-466d" name="Multiple Shots (X)" hidden="false" targetId="f1bf-0f6c-71bd-4705" type="rule"/>
-            <infoLink id="3c23-18c4-62a1-1e75" name="Reliable" hidden="false" targetId="9743-9f07-db71-da46" type="rule"/>
-          </infoLinks>
-          <costs>
-            <cost name=" Points" typeId="0705-c536-f372-c2d0" value="0.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
       <selectionEntryGroups>
         <selectionEntryGroup id="10c8-eec7-57be-3846" name="Upgrades" hidden="false" collective="false">
           <constraints>
-            <constraint field="0705-c536-f372-c2d0" scope="parent" value="49.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="adf0-4a22-b83b-c52f" type="max"/>
+            <constraint field="0705-c536-f372-c2d0" scope="parent" value="44.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="adf0-4a22-b83b-c52f" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="dfb4-5254-a27f-29d1" name="Woodbury Army Melee Weapons" hidden="false" collective="false" targetId="60f9-7cac-2fc3-2203" type="selectionEntryGroup"/>
-            <entryLink id="2346-3ff8-67f3-dd0e" name="Woodbury Army Special Items" hidden="false" collective="false" targetId="cd4b-4756-895b-1925" type="selectionEntryGroup"/>
-            <entryLink id="a1cc-f10c-1d77-e9cd" name="Woodbury Army Ranged Weapons" hidden="false" collective="false" targetId="d268-eca1-4fad-20f7" type="selectionEntryGroup">
+            <entryLink id="cfc3-fb27-0ae7-41ff" name="Armor" hidden="false" collective="false" targetId="ae2c-f939-ccd5-108a" type="selectionEntryGroup"/>
+            <entryLink id="042f-76f8-c8e4-d8b5" name="Melee Weapons" hidden="false" collective="false" targetId="e8e1-137d-8a53-a1fd" type="selectionEntryGroup"/>
+            <entryLink id="3728-03d5-4f42-17c6" name="Ranged Weapons" hidden="false" collective="false" targetId="6461-e3e9-6745-0a3b" type="selectionEntryGroup">
               <modifiers>
-                <modifier type="set" field="9d64-f432-23f9-b430" value="0.0">
+                <modifier type="set" field="87c9-5f1f-65c7-96be" value="0.0">
                   <conditions>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6771-ad99-2f72-faef" type="equalTo"/>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="940e-4b5a-749f-3985" type="greaterThan"/>
                   </conditions>
                 </modifier>
               </modifiers>
+            </entryLink>
+            <entryLink id="86ce-e863-f83e-9f3b" name="Special Items" hidden="false" collective="false" targetId="8a02-d9d8-d10a-0ca2" type="selectionEntryGroup"/>
+            <entryLink id="940e-4b5a-749f-3985" name="M4 Carbine" hidden="false" collective="false" targetId="b817-8f91-f299-f1de" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="0705-c536-f372-c2d0" value="0.0"/>
+                <modifier type="set" field="85f6-ad24-624e-e3b5" value="0.0">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3728-03d5-4f42-17c6" type="greaterThan"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="85f6-ad24-624e-e3b5" type="max"/>
+              </constraints>
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="d9ca-06c1-4717-af21" name="Leader" hidden="false" collective="false" targetId="cca0-d068-1229-20ea" type="selectionEntry"/>
+        <entryLink id="29eb-c88a-e171-0ae6" name="Leader" hidden="false" collective="false" targetId="2bee-5b46-6bef-8581" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" Points" typeId="0705-c536-f372-c2d0" value="49.0"/>
+        <cost name=" Points" typeId="0705-c536-f372-c2d0" value="44.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="ca9e-b247-f354-f3b2" name="Martinez" hidden="false" collective="false" type="model">
@@ -567,95 +493,64 @@
       </profiles>
       <rules>
         <rule id="add8-b7ab-cd67-05cf" name="Woodbury Commander" hidden="false"/>
-        <rule id="d7b9-2961-9a7d-2416" name="Wall Guard" hidden="false">
-          <description>If a friendly Brian Blake is in play, Martinez can use the Bring ’em Down Special Order as if he were the Group Leader.</description>
-        </rule>
       </rules>
       <categoryLinks>
         <categoryLink id="e27b-4104-0db9-40fa" name="New CategoryLink" hidden="false" targetId="7e4f-cf68-74a3-b58a" primary="true"/>
-        <categoryLink id="2673-af5a-c429-f765" name="Alignment: Ruthless" hidden="false" targetId="f115-d6f7-b750-5f55" primary="false"/>
         <categoryLink id="4a12-0adf-9060-877d" name="Woodbury Army" hidden="false" targetId="80ce-410c-b879-c6db" primary="false"/>
+        <categoryLink id="24ec-f2c4-0f8a-5d5d" name="Alignment: Neutral" hidden="false" targetId="a184-b0a1-ca0d-b36f" primary="false"/>
       </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="8464-f778-11a7-12cf" name="Browning Hunting Rifle" hidden="false" collective="false" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="01d7-5b9c-9b88-5f38" type="max"/>
-          </constraints>
-          <profiles>
-            <profile id="6016-5e85-5d80-3954" name="Browning Hunting Rifle" hidden="false" typeId="3560-a8a8-6a4e-2aa2" typeName="Ranged Weapon">
-              <characteristics>
-                <characteristic name="Attack Roll Short" typeId="5e67-d6ba-ff65-695d">2Red</characteristic>
-                <characteristic name="Attack Roll Medium" typeId="f3e5-c666-6d43-df23">1Red</characteristic>
-                <characteristic name="Attack Roll Long" typeId="1376-9535-490f-fce4">1Red</characteristic>
-                <characteristic name="Special Rules" typeId="8821-27ea-b643-76c2"/>
-                <characteristic name="Keywords" typeId="2c12-568c-52a4-db62">Rifle</characteristic>
-                <characteristic name="Noise / Mayhem" typeId="4783-fd91-26e1-6d38">Mayhem</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <infoLinks>
-            <infoLink id="a469-d684-5bbf-579d" name="Rifle" hidden="false" targetId="c712-f896-0557-388a" type="rule"/>
-          </infoLinks>
-          <costs>
-            <cost name=" Points" typeId="0705-c536-f372-c2d0" value="0.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="681a-4809-b711-7009" name="Knife" hidden="false" collective="false" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6c98-8203-fc7a-0fb3" type="max"/>
-          </constraints>
-          <profiles>
-            <profile id="bca8-4eeb-0147-5e19" name="Knife" hidden="false" typeId="d42c-7da6-84ea-bbd3" typeName="Melee Weapon">
-              <characteristics>
-                <characteristic name="Attack Roll" typeId="84c3-eb7b-1a01-99c6">1Red</characteristic>
-                <characteristic name="Special Rules" typeId="a811-f6c5-34bc-5f90"/>
-                <characteristic name="Keywords" typeId="c6ce-a20c-5806-fc59"/>
-                <characteristic name="Noise / Mayhem" typeId="35d4-25bc-80cb-6f59"/>
-              </characteristics>
-            </profile>
-          </profiles>
-          <infoLinks>
-            <infoLink id="00ee-2ba0-1982-641c" name="Dual Wield" hidden="false" targetId="cdbb-55db-ed3e-4259" type="rule"/>
-            <infoLink id="9894-09a3-2953-a609" name="Sharp" hidden="false" targetId="3728-71b5-e85a-07f5" type="rule"/>
-          </infoLinks>
-          <costs>
-            <cost name=" Points" typeId="0705-c536-f372-c2d0" value="0.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
       <selectionEntryGroups>
         <selectionEntryGroup id="d48d-9fcb-f86b-d8bb" name="Upgrades" hidden="false" collective="false">
           <constraints>
-            <constraint field="0705-c536-f372-c2d0" scope="parent" value="52.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="12be-dc05-690e-8c61" type="max"/>
+            <constraint field="0705-c536-f372-c2d0" scope="parent" value="48.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="12be-dc05-690e-8c61" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="24cd-1f8b-0c8e-6fd2" name="Woodbury Army Melee Weapons" hidden="false" collective="false" targetId="60f9-7cac-2fc3-2203" type="selectionEntryGroup">
+            <entryLink id="7622-4e8b-3a65-f6e3" name="Armor" hidden="false" collective="false" targetId="ae2c-f939-ccd5-108a" type="selectionEntryGroup"/>
+            <entryLink id="1f77-19cd-5ce5-0581" name="Melee Weapons" hidden="false" collective="false" targetId="e8e1-137d-8a53-a1fd" type="selectionEntryGroup"/>
+            <entryLink id="a7fb-a161-4cee-4355" name="Ranged Weapons" hidden="false" collective="false" targetId="6461-e3e9-6745-0a3b" type="selectionEntryGroup">
               <modifiers>
-                <modifier type="set" field="1c5b-fa24-fe5d-5f30" value="1">
+                <modifier type="set" field="87c9-5f1f-65c7-96be" value="0.0">
                   <conditions>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="681a-4809-b711-7009" type="equalTo"/>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="bfcf-b0d9-9855-5dd3" type="greaterThan"/>
                   </conditions>
                 </modifier>
               </modifiers>
             </entryLink>
-            <entryLink id="95d1-2466-7f17-bee9" name="Woodbury Army Special Items" hidden="false" collective="false" targetId="cd4b-4756-895b-1925" type="selectionEntryGroup"/>
-            <entryLink id="f99d-81bd-c48b-e09f" name="Woodbury Army Ranged Weapons" hidden="false" collective="false" targetId="d268-eca1-4fad-20f7" type="selectionEntryGroup">
+            <entryLink id="561b-8567-73ae-b59c" name="Special Items" hidden="false" collective="false" targetId="8a02-d9d8-d10a-0ca2" type="selectionEntryGroup"/>
+            <entryLink id="bfcf-b0d9-9855-5dd3" name="Browning Hunting Rifle" hidden="false" collective="false" targetId="3401-aa6d-f643-de6d" type="selectionEntry">
               <modifiers>
-                <modifier type="set" field="9d64-f432-23f9-b430" value="0.0">
+                <modifier type="set" field="0705-c536-f372-c2d0" value="0.0"/>
+                <modifier type="set" field="ea69-2b22-a13c-eb08" value="0.0">
                   <conditions>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8464-f778-11a7-12cf" type="equalTo"/>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a7fb-a161-4cee-4355" type="greaterThan"/>
                   </conditions>
                 </modifier>
               </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ea69-2b22-a13c-eb08" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="9acc-0f8e-2ada-1710" name="Knife" hidden="false" collective="false" targetId="e1c4-2bd3-01d3-0fdd" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="0705-c536-f372-c2d0" value="0.0"/>
+                <modifier type="set" field="e5a5-3edf-39e2-03d8" value="0.0">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1f77-19cd-5ce5-0581" type="greaterThan"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e5a5-3edf-39e2-03d8" type="max"/>
+              </constraints>
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="5ce0-d24d-7949-bd53" name="Leader" hidden="false" collective="false" targetId="cca0-d068-1229-20ea" type="selectionEntry"/>
+        <entryLink id="ce99-4e99-4cf2-fa24" name="Leader" hidden="false" collective="false" targetId="2bee-5b46-6bef-8581" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" Points" typeId="0705-c536-f372-c2d0" value="52.0"/>
+        <cost name=" Points" typeId="0705-c536-f372-c2d0" value="48.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="960a-3273-89f9-54a1" name="Gloria" hidden="false" collective="false" type="model">
@@ -675,335 +570,54 @@
         </profile>
       </profiles>
       <rules>
-        <rule id="c7b7-37b5-2a2c-c247" name="Independent" hidden="false">
-          <description>Gloria ignores the Conscript Militia special rule.</description>
-        </rule>
         <rule id="07ba-00d4-b501-c941" name="Up Close and Personal" hidden="false">
           <description>When using a weapon with the Handgun keyword in melee, Gloria adds 1Red to her attack rolls.</description>
         </rule>
       </rules>
       <categoryLinks>
         <categoryLink id="9c58-235e-8e81-b4e8" name="New CategoryLink" hidden="false" targetId="b33e-e6d0-05ba-26ce" primary="true"/>
-        <categoryLink id="ebd1-fce7-4b74-f5ab" name="Alignment: Ruthless" hidden="false" targetId="f115-d6f7-b750-5f55" primary="false"/>
         <categoryLink id="6195-a74b-57a9-6b8f" name="Woodbury Army" hidden="false" targetId="80ce-410c-b879-c6db" primary="false"/>
+        <categoryLink id="543c-a4b8-65a0-d52d" name="Alignment: Neutral" hidden="false" targetId="a184-b0a1-ca0d-b36f" primary="false"/>
       </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="d1cd-99a1-3bf0-576c" name="9mm Pistol" hidden="false" collective="false" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ae53-f111-4ee2-8396" type="max"/>
-          </constraints>
-          <profiles>
-            <profile id="932d-f202-4e19-4be1" name="9mm Pistol" hidden="false" typeId="3560-a8a8-6a4e-2aa2" typeName="Ranged Weapon">
-              <characteristics>
-                <characteristic name="Attack Roll Short" typeId="5e67-d6ba-ff65-695d">1Red</characteristic>
-                <characteristic name="Attack Roll Medium" typeId="f3e5-c666-6d43-df23">X</characteristic>
-                <characteristic name="Attack Roll Long" typeId="1376-9535-490f-fce4">X</characteristic>
-                <characteristic name="Special Rules" typeId="8821-27ea-b643-76c2">If the attack roll scores one or omre !, add 1Red to the roll.</characteristic>
-                <characteristic name="Keywords" typeId="2c12-568c-52a4-db62">Handgun, Reliable</characteristic>
-                <characteristic name="Noise / Mayhem" typeId="4783-fd91-26e1-6d38">Mayhem</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <infoLinks>
-            <infoLink id="a0e2-d199-fc3d-3855" name="Handgun" hidden="false" targetId="a74c-9639-3b44-470b" type="rule"/>
-            <infoLink id="5e06-9d8d-4164-d4c9" name="Reliable" hidden="false" targetId="9743-9f07-db71-da46" type="rule"/>
-          </infoLinks>
-          <costs>
-            <cost name=" Points" typeId="0705-c536-f372-c2d0" value="0.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
       <selectionEntryGroups>
         <selectionEntryGroup id="13ff-bb87-4ad2-87d6" name="Upgrades" hidden="false" collective="false">
           <constraints>
-            <constraint field="0705-c536-f372-c2d0" scope="parent" value="45.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b1fe-e0dd-f628-a85c" type="max"/>
+            <constraint field="0705-c536-f372-c2d0" scope="parent" value="42.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b1fe-e0dd-f628-a85c" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="946c-2f17-56be-5a58" name="Woodbury Army Melee Weapons" hidden="false" collective="false" targetId="60f9-7cac-2fc3-2203" type="selectionEntryGroup"/>
-            <entryLink id="74cd-f998-c5f9-eae0" name="Woodbury Army Special Items" hidden="false" collective="false" targetId="cd4b-4756-895b-1925" type="selectionEntryGroup"/>
-            <entryLink id="a06b-5640-3094-d645" name="Woodbury Army Ranged Weapons" hidden="false" collective="false" targetId="d268-eca1-4fad-20f7" type="selectionEntryGroup">
+            <entryLink id="55ce-28c7-5d18-94c6" name="Armor" hidden="false" collective="false" targetId="ae2c-f939-ccd5-108a" type="selectionEntryGroup"/>
+            <entryLink id="9e3a-e8a1-f250-288d" name="Melee Weapons" hidden="false" collective="false" targetId="e8e1-137d-8a53-a1fd" type="selectionEntryGroup"/>
+            <entryLink id="55c2-06bf-ffdb-cf8d" name="Ranged Weapons" hidden="false" collective="false" targetId="6461-e3e9-6745-0a3b" type="selectionEntryGroup">
               <modifiers>
-                <modifier type="set" field="9d64-f432-23f9-b430" value="0.0">
+                <modifier type="set" field="87c9-5f1f-65c7-96be" value="0.0">
                   <conditions>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d1cd-99a1-3bf0-576c" type="equalTo"/>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a677-570e-e240-14ad" type="greaterThan"/>
                   </conditions>
                 </modifier>
               </modifiers>
+            </entryLink>
+            <entryLink id="07c3-e4ed-7d3a-2a18" name="Special Items" hidden="false" collective="false" targetId="8a02-d9d8-d10a-0ca2" type="selectionEntryGroup"/>
+            <entryLink id="a677-570e-e240-14ad" name="9mm Pistol" hidden="false" collective="false" targetId="329b-bd83-bbe9-bd52" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="0705-c536-f372-c2d0" value="0.0"/>
+                <modifier type="set" field="8d1f-41e2-bc00-ae3f" value="0.0">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="55c2-06bf-ffdb-cf8d" type="greaterThan"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8d1f-41e2-bc00-ae3f" type="max"/>
+              </constraints>
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="c513-1f39-2be0-03ce" name="Leader" hidden="false" collective="false" targetId="cca0-d068-1229-20ea" type="selectionEntry"/>
+        <entryLink id="388b-8343-4ea0-04ce" name="Leader" hidden="false" collective="false" targetId="2bee-5b46-6bef-8581" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" Points" typeId="0705-c536-f372-c2d0" value="45.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="2a3d-544b-730b-7bed" name="Dr. Stevens" hidden="false" collective="false" type="model">
-      <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0000-44c1-5498-3104" type="max"/>
-      </constraints>
-      <profiles>
-        <profile id="9a4b-3419-cae8-dd36" name="Dr. Stevens" hidden="false" typeId="40e9-9288-6f65-70a9" typeName="Character">
-          <characteristics>
-            <characteristic name="Type" typeId="d9ce-b162-4bd7-6736">Support</characteristic>
-            <characteristic name="Melee" typeId="fc7e-dccd-5244-3798">-</characteristic>
-            <characteristic name="Shoot" typeId="b227-fd8f-ea1c-65f7">-</characteristic>
-            <characteristic name="Defense" typeId="ca1d-2465-3eb7-9bd8">1White</characteristic>
-            <characteristic name="Health" typeId="5e5d-73d3-ba6a-8396">4</characteristic>
-            <characteristic name="SP" typeId="cae4-668b-3f49-b130">X/-</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <rules>
-        <rule id="378e-e212-0d34-06f5" name="Medical Professional" hidden="false">
-          <description>As an Action, Stevens may restore 1White Health points lost earlier in the game to himself or a friendly model in his Kill Zone.</description>
-        </rule>
-      </rules>
-      <categoryLinks>
-        <categoryLink id="dfa5-2dc4-8074-5788" name="New CategoryLink" hidden="false" targetId="4eb2-d49f-4b22-dd86" primary="true"/>
-        <categoryLink id="9148-27ee-5db2-63ac" name="Alignment: Ruthless" hidden="false" targetId="f115-d6f7-b750-5f55" primary="false"/>
-        <categoryLink id="4a59-5eb3-875e-1fc8" name="Woodbury Army" hidden="false" targetId="80ce-410c-b879-c6db" primary="false"/>
-      </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="5d23-53f8-cc8f-dc65" name="Medical Bag" hidden="false" collective="false" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="649e-d763-ccf9-636b" type="max"/>
-          </constraints>
-          <profiles>
-            <profile id="f378-4a25-ab3a-2124" name="Medical Bag" hidden="false" typeId="ba75-8ed9-edc3-b7f6" typeName="Special Items">
-              <characteristics>
-                <characteristic name="Special Rules" typeId="f83f-be9f-fcc5-abf5">If this model restores Health points to itself or a friendly model, increase the number of points restored by 1.</characteristic>
-                <characteristic name="Keywords" typeId="4d62-b2c0-a0c7-0a18">Amputate</characteristic>
-                <characteristic name="Noise / Mayhem" typeId="589a-5fe7-b416-6918"/>
-              </characteristics>
-            </profile>
-          </profiles>
-          <infoLinks>
-            <infoLink id="ca85-78e3-aea3-ff4e" name="Amputate" hidden="false" targetId="fc2a-0fd7-efbf-15c0" type="rule"/>
-          </infoLinks>
-          <costs>
-            <cost name=" Points" typeId="0705-c536-f372-c2d0" value="0.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="3a33-ffb2-7564-e4fb" name="Bandages" hidden="false" collective="false" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d003-c974-d77f-ffa2" type="max"/>
-          </constraints>
-          <profiles>
-            <profile id="ba26-9a09-7ae8-7850" name="Bandages" hidden="false" typeId="ba75-8ed9-edc3-b7f6" typeName="Special Items">
-              <characteristics>
-                <characteristic name="Special Rules" typeId="f83f-be9f-fcc5-abf5">One use only. As an Action, restore 1 Health point lost earlier in the game.</characteristic>
-                <characteristic name="Keywords" typeId="4d62-b2c0-a0c7-0a18"/>
-                <characteristic name="Noise / Mayhem" typeId="589a-5fe7-b416-6918"/>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name=" Points" typeId="0705-c536-f372-c2d0" value="5.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
-      <selectionEntryGroups>
-        <selectionEntryGroup id="8d3b-dd79-6c24-8d46" name="Upgrades" hidden="false" collective="false">
-          <constraints>
-            <constraint field="0705-c536-f372-c2d0" scope="parent" value="34.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="53d7-610d-b0aa-ad83" type="max"/>
-          </constraints>
-          <entryLinks>
-            <entryLink id="a38d-6b88-92ac-53fd" name="Woodbury Army Melee Weapons" hidden="false" collective="false" targetId="60f9-7cac-2fc3-2203" type="selectionEntryGroup"/>
-            <entryLink id="9264-761b-9948-5466" name="Woodbury Army Special Items" hidden="false" collective="false" targetId="cd4b-4756-895b-1925" type="selectionEntryGroup">
-              <modifiers>
-                <modifier type="set" field="ff46-60b1-ebee-4f90" value="0.0">
-                  <conditions>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3a33-ffb2-7564-e4fb" type="equalTo"/>
-                  </conditions>
-                </modifier>
-              </modifiers>
-            </entryLink>
-            <entryLink id="38d6-9506-f835-11bd" name="Woodbury Army Ranged Weapons" hidden="false" collective="false" targetId="d268-eca1-4fad-20f7" type="selectionEntryGroup"/>
-          </entryLinks>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
-      <costs>
-        <cost name=" Points" typeId="0705-c536-f372-c2d0" value="34.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="ad54-0813-cb43-41f8" name="Alice" hidden="false" collective="false" type="model">
-      <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8e1a-d3b3-3c98-3d5b" type="max"/>
-      </constraints>
-      <profiles>
-        <profile id="a526-71dc-88de-687d" name="Alice" hidden="false" typeId="40e9-9288-6f65-70a9" typeName="Character">
-          <characteristics>
-            <characteristic name="Type" typeId="d9ce-b162-4bd7-6736">Support</characteristic>
-            <characteristic name="Melee" typeId="fc7e-dccd-5244-3798">1Red</characteristic>
-            <characteristic name="Shoot" typeId="b227-fd8f-ea1c-65f7">-</characteristic>
-            <characteristic name="Defense" typeId="ca1d-2465-3eb7-9bd8">2Red</characteristic>
-            <characteristic name="Health" typeId="5e5d-73d3-ba6a-8396">3</characteristic>
-            <characteristic name="SP" typeId="cae4-668b-3f49-b130">X/-</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <rules>
-        <rule id="d421-9845-ee6f-af56" name="Medical Assistant" hidden="false">
-          <description>As an Action, Alice may restore 1Red Health points lost earlier in the game to herself or a friendly model in her Kill Zone.</description>
-        </rule>
-        <rule id="5624-a789-9b2d-9e90" name="Reluctant Follower" hidden="false">
-          <description>Alice may never be the target of a Woodbury Commander’s Special Orders. However, she ignores the Conscript Militia special rule.</description>
-        </rule>
-      </rules>
-      <categoryLinks>
-        <categoryLink id="3d83-685b-bf0a-9c61" name="New CategoryLink" hidden="false" targetId="4eb2-d49f-4b22-dd86" primary="true"/>
-        <categoryLink id="0b7a-4f5f-ffac-70f7" name="Alignment: Ruthless" hidden="false" targetId="f115-d6f7-b750-5f55" primary="false"/>
-        <categoryLink id="c58f-367f-c4ba-0ab7" name="Woodbury Army" hidden="false" targetId="80ce-410c-b879-c6db" primary="false"/>
-      </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="8978-db8c-244a-ae75" name="Bandages" hidden="false" collective="false" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6196-a6eb-1e66-f88a" type="max"/>
-          </constraints>
-          <profiles>
-            <profile id="4fcb-7b2a-ceaa-b87b" name="Bandages" hidden="false" typeId="ba75-8ed9-edc3-b7f6" typeName="Special Items">
-              <characteristics>
-                <characteristic name="Special Rules" typeId="f83f-be9f-fcc5-abf5">One use only. As an Action, restore 1 Health point lost earlier in the game.</characteristic>
-                <characteristic name="Keywords" typeId="4d62-b2c0-a0c7-0a18"/>
-                <characteristic name="Noise / Mayhem" typeId="589a-5fe7-b416-6918"/>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name=" Points" typeId="0705-c536-f372-c2d0" value="0.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="b661-7692-fc2b-b035" name="Mossberg 500" hidden="false" collective="false" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="019f-4e8a-afbb-319d" type="max"/>
-          </constraints>
-          <profiles>
-            <profile id="81d9-7839-4134-566b" name="Mossberg 500" hidden="false" typeId="3560-a8a8-6a4e-2aa2" typeName="Ranged Weapon">
-              <characteristics>
-                <characteristic name="Attack Roll Short" typeId="5e67-d6ba-ff65-695d">2Red</characteristic>
-                <characteristic name="Attack Roll Medium" typeId="f3e5-c666-6d43-df23">1Red</characteristic>
-                <characteristic name="Attack Roll Long" typeId="1376-9535-490f-fce4">X</characteristic>
-                <characteristic name="Special Rules" typeId="8821-27ea-b643-76c2"/>
-                <characteristic name="Keywords" typeId="2c12-568c-52a4-db62">Multiple Shots (2), Shotgun</characteristic>
-                <characteristic name="Noise / Mayhem" typeId="4783-fd91-26e1-6d38">Mayhem</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <infoLinks>
-            <infoLink id="1f0b-4278-ddd6-12f9" name="Multiple Shots (X)" hidden="false" targetId="f1bf-0f6c-71bd-4705" type="rule"/>
-            <infoLink id="e91f-eec7-3419-8be0" name="Shotgun" hidden="false" targetId="d56c-2c15-d9e4-9f33" type="rule"/>
-          </infoLinks>
-          <costs>
-            <cost name=" Points" typeId="0705-c536-f372-c2d0" value="0.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
-      <selectionEntryGroups>
-        <selectionEntryGroup id="db7f-58d0-1979-bda0" name="Upgrades" hidden="false" collective="false">
-          <constraints>
-            <constraint field="0705-c536-f372-c2d0" scope="parent" value="36.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="43dc-4179-0370-7d95" type="max"/>
-          </constraints>
-          <entryLinks>
-            <entryLink id="99ef-3e3b-8bfc-7660" name="Woodbury Army Melee Weapons" hidden="false" collective="false" targetId="60f9-7cac-2fc3-2203" type="selectionEntryGroup"/>
-            <entryLink id="6287-cacf-534f-cd36" name="Woodbury Army Special Items" hidden="false" collective="false" targetId="cd4b-4756-895b-1925" type="selectionEntryGroup">
-              <modifiers>
-                <modifier type="set" field="ff46-60b1-ebee-4f90" value="0.0">
-                  <conditions>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8978-db8c-244a-ae75" type="equalTo"/>
-                  </conditions>
-                </modifier>
-              </modifiers>
-            </entryLink>
-            <entryLink id="e838-e45a-a9a1-7ad1" name="Woodbury Army Ranged Weapons" hidden="false" collective="false" targetId="d268-eca1-4fad-20f7" type="selectionEntryGroup">
-              <modifiers>
-                <modifier type="set" field="9d64-f432-23f9-b430" value="0.0">
-                  <conditions>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b661-7692-fc2b-b035" type="equalTo"/>
-                  </conditions>
-                </modifier>
-              </modifiers>
-            </entryLink>
-          </entryLinks>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
-      <costs>
-        <cost name=" Points" typeId="0705-c536-f372-c2d0" value="36.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="d980-ac12-2e7d-3374" name="Raymond" hidden="false" collective="false" type="model">
-      <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b279-e4dd-d22a-e441" type="max"/>
-      </constraints>
-      <profiles>
-        <profile id="aec1-38e5-4953-16e4" name="Raymond" hidden="false" typeId="40e9-9288-6f65-70a9" typeName="Character">
-          <characteristics>
-            <characteristic name="Type" typeId="d9ce-b162-4bd7-6736">Runner</characteristic>
-            <characteristic name="Melee" typeId="fc7e-dccd-5244-3798">1Red</characteristic>
-            <characteristic name="Shoot" typeId="b227-fd8f-ea1c-65f7">1Red</characteristic>
-            <characteristic name="Defense" typeId="ca1d-2465-3eb7-9bd8">2Red</characteristic>
-            <characteristic name="Health" typeId="5e5d-73d3-ba6a-8396">4</characteristic>
-            <characteristic name="SP" typeId="cae4-668b-3f49-b130">X/-</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <categoryLinks>
-        <categoryLink id="98c8-e121-8075-0d2e" name="New CategoryLink" hidden="false" targetId="7aaa-f540-43d6-81de" primary="true"/>
-        <categoryLink id="c628-35f8-3c0f-b174" name="Alignment: Ruthless" hidden="false" targetId="f115-d6f7-b750-5f55" primary="false"/>
-        <categoryLink id="11f5-c624-8717-edc8" name="Woodbury Army" hidden="false" targetId="80ce-410c-b879-c6db" primary="false"/>
-      </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="e15c-8c21-5ed3-573c" name="IMI Uzi" hidden="false" collective="false" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="101d-0f3a-0ddf-36ba" type="max"/>
-          </constraints>
-          <profiles>
-            <profile id="f9ad-a098-b573-1cc4" name="IMI Uzi" hidden="false" typeId="3560-a8a8-6a4e-2aa2" typeName="Ranged Weapon">
-              <characteristics>
-                <characteristic name="Attack Roll Short" typeId="5e67-d6ba-ff65-695d">1Red</characteristic>
-                <characteristic name="Attack Roll Medium" typeId="f3e5-c666-6d43-df23">X</characteristic>
-                <characteristic name="Attack Roll Long" typeId="1376-9535-490f-fce4">X</characteristic>
-                <characteristic name="Special Rules" typeId="8821-27ea-b643-76c2"/>
-                <characteristic name="Keywords" typeId="2c12-568c-52a4-db62">Assault, Handgun, Multiple Shots (3), Reliable</characteristic>
-                <characteristic name="Noise / Mayhem" typeId="4783-fd91-26e1-6d38">Mayhem</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <infoLinks>
-            <infoLink id="cca3-e480-510c-e7a1" name="Assault" hidden="false" targetId="a279-140c-00e3-0bcc" type="rule"/>
-            <infoLink id="2425-91a5-6a45-0a40" name="Handgun" hidden="false" targetId="a74c-9639-3b44-470b" type="rule"/>
-            <infoLink id="e604-6c64-9daa-659d" name="Multiple Shots (X)" hidden="false" targetId="f1bf-0f6c-71bd-4705" type="rule"/>
-            <infoLink id="d10a-eaec-baa5-f65e" name="Reliable" hidden="false" targetId="9743-9f07-db71-da46" type="rule"/>
-          </infoLinks>
-          <costs>
-            <cost name=" Points" typeId="0705-c536-f372-c2d0" value="0.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
-      <selectionEntryGroups>
-        <selectionEntryGroup id="6b07-e5a3-3870-bb96" name="Upgrades" hidden="false" collective="false">
-          <constraints>
-            <constraint field="0705-c536-f372-c2d0" scope="parent" value="31.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7170-915b-ddca-7d00" type="max"/>
-          </constraints>
-          <entryLinks>
-            <entryLink id="dea8-de59-8c7f-4d90" name="Woodbury Army Melee Weapons" hidden="false" collective="false" targetId="60f9-7cac-2fc3-2203" type="selectionEntryGroup"/>
-            <entryLink id="92ef-14f2-775f-4c82" name="Woodbury Army Special Items" hidden="false" collective="false" targetId="cd4b-4756-895b-1925" type="selectionEntryGroup"/>
-            <entryLink id="2ff3-186a-1061-4128" name="Woodbury Army Ranged Weapons" hidden="false" collective="false" targetId="d268-eca1-4fad-20f7" type="selectionEntryGroup">
-              <modifiers>
-                <modifier type="set" field="9d64-f432-23f9-b430" value="0.0">
-                  <conditions>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e15c-8c21-5ed3-573c" type="equalTo"/>
-                  </conditions>
-                </modifier>
-              </modifiers>
-            </entryLink>
-          </entryLinks>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
-      <costs>
-        <cost name=" Points" typeId="0705-c536-f372-c2d0" value="31.0"/>
+        <cost name=" Points" typeId="0705-c536-f372-c2d0" value="42.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="8402-d2dd-d5c2-aeae" name="Lilly" hidden="false" collective="false" type="model">
@@ -1023,457 +637,70 @@
         </profile>
       </profiles>
       <rules>
-        <rule id="bcd2-15de-00ea-1ab1" name="Cunning" hidden="false">
-          <description>Lilly may spend 1SP to add one bonus 1Red to either her Melee, Shoot or Defense until the end of the turn.</description>
+        <rule id="bcd2-15de-00ea-1ab1" name="Cunning (Strategy)" hidden="false">
+          <description>Lilly may spend 1SP to add one bonus 1White to either her Melee, Shoot or Defense until the end of the round.</description>
+        </rule>
+        <rule id="e7ff-6c05-62fa-ddff" name="Relunctant Leader" hidden="false">
+          <description>If Lilly begins her activation 10&quot; or more from a friendly Woodbury Commander, she gains the Woodbury Commander keyword until the end of the round.</description>
         </rule>
       </rules>
       <categoryLinks>
         <categoryLink id="3d96-6213-91b5-88b5" name="New CategoryLink" hidden="false" targetId="7e4f-cf68-74a3-b58a" primary="true"/>
-        <categoryLink id="1435-10b8-6d09-682a" name="Alignment: Ruthless" hidden="false" targetId="f115-d6f7-b750-5f55" primary="false"/>
         <categoryLink id="614e-0c8d-878d-6bbe" name="Woodbury Army" hidden="false" targetId="80ce-410c-b879-c6db" primary="false"/>
+        <categoryLink id="0a9f-ab6e-b3fd-e5c7" name="Alignment: Neutral" hidden="false" targetId="a184-b0a1-ca0d-b36f" primary="false"/>
       </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="becd-eed2-db15-4a9b" name="Remington 700" hidden="false" collective="false" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="efd6-362b-b028-1702" type="max"/>
-          </constraints>
-          <profiles>
-            <profile id="4384-8039-0bfd-3378" name="Remington 700" hidden="false" typeId="3560-a8a8-6a4e-2aa2" typeName="Ranged Weapon">
-              <characteristics>
-                <characteristic name="Attack Roll Short" typeId="5e67-d6ba-ff65-695d">2Red</characteristic>
-                <characteristic name="Attack Roll Medium" typeId="f3e5-c666-6d43-df23">1Red</characteristic>
-                <characteristic name="Attack Roll Long" typeId="1376-9535-490f-fce4">X</characteristic>
-                <characteristic name="Special Rules" typeId="8821-27ea-b643-76c2"/>
-                <characteristic name="Keywords" typeId="2c12-568c-52a4-db62">Reliable, Rifle</characteristic>
-                <characteristic name="Noise / Mayhem" typeId="4783-fd91-26e1-6d38">Mayhem</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <infoLinks>
-            <infoLink id="5154-85c5-8c79-e788" name="Reliable" hidden="false" targetId="9743-9f07-db71-da46" type="rule"/>
-            <infoLink id="7d4a-9f5c-04ff-4371" name="Rifle" hidden="false" targetId="c712-f896-0557-388a" type="rule"/>
-          </infoLinks>
-          <costs>
-            <cost name=" Points" typeId="0705-c536-f372-c2d0" value="0.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="d2eb-7204-a110-dcbd" name="Knife" hidden="false" collective="false" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c862-5fe0-4f2f-abc7" type="max"/>
-          </constraints>
-          <profiles>
-            <profile id="c3e1-58ad-5c3d-a49e" name="Knife" hidden="false" typeId="d42c-7da6-84ea-bbd3" typeName="Melee Weapon">
-              <characteristics>
-                <characteristic name="Attack Roll" typeId="84c3-eb7b-1a01-99c6">1Red</characteristic>
-                <characteristic name="Special Rules" typeId="a811-f6c5-34bc-5f90"/>
-                <characteristic name="Keywords" typeId="c6ce-a20c-5806-fc59"/>
-                <characteristic name="Noise / Mayhem" typeId="35d4-25bc-80cb-6f59"/>
-              </characteristics>
-            </profile>
-          </profiles>
-          <infoLinks>
-            <infoLink id="ccc7-07fb-694c-8af6" name="Dual Wield" hidden="false" targetId="cdbb-55db-ed3e-4259" type="rule"/>
-            <infoLink id="4965-183c-13a9-829b" name="Sharp" hidden="false" targetId="3728-71b5-e85a-07f5" type="rule"/>
-          </infoLinks>
-          <costs>
-            <cost name=" Points" typeId="0705-c536-f372-c2d0" value="0.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
       <selectionEntryGroups>
         <selectionEntryGroup id="16fd-9b62-46f9-fd52" name="Upgrades" hidden="false" collective="false">
           <constraints>
             <constraint field="0705-c536-f372-c2d0" scope="parent" value="42.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d696-70da-52e9-1dca" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="9987-5acc-2e86-a43d" name="Woodbury Army Melee Weapons" hidden="false" collective="false" targetId="60f9-7cac-2fc3-2203" type="selectionEntryGroup">
+            <entryLink id="2c05-0bab-6580-6ea5" name="Armor" hidden="false" collective="false" targetId="ae2c-f939-ccd5-108a" type="selectionEntryGroup"/>
+            <entryLink id="9258-5d27-a42d-face" name="Melee Weapons" hidden="false" collective="false" targetId="e8e1-137d-8a53-a1fd" type="selectionEntryGroup"/>
+            <entryLink id="c2f1-28aa-1ac8-25fd" name="Ranged Weapons" hidden="false" collective="false" targetId="6461-e3e9-6745-0a3b" type="selectionEntryGroup">
               <modifiers>
-                <modifier type="set" field="1c5b-fa24-fe5d-5f30" value="1">
+                <modifier type="set" field="87c9-5f1f-65c7-96be" value="0.0">
                   <conditions>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d2eb-7204-a110-dcbd" type="equalTo"/>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c2f1-28aa-1ac8-25fd" type="greaterThan"/>
                   </conditions>
                 </modifier>
               </modifiers>
             </entryLink>
-            <entryLink id="d935-a06c-7cc5-0973" name="Woodbury Army Special Items" hidden="false" collective="false" targetId="cd4b-4756-895b-1925" type="selectionEntryGroup"/>
-            <entryLink id="62a9-d6a6-106c-bceb" name="Woodbury Army Ranged Weapons" hidden="false" collective="false" targetId="d268-eca1-4fad-20f7" type="selectionEntryGroup">
+            <entryLink id="ee50-9ae0-6a81-ba06" name="Special Items" hidden="false" collective="false" targetId="8a02-d9d8-d10a-0ca2" type="selectionEntryGroup"/>
+            <entryLink id="3711-6e5e-02d5-dd4a" name="Knife" hidden="false" collective="false" targetId="e1c4-2bd3-01d3-0fdd" type="selectionEntry">
               <modifiers>
-                <modifier type="set" field="9d64-f432-23f9-b430" value="0.0">
+                <modifier type="set" field="0705-c536-f372-c2d0" value="0.0"/>
+                <modifier type="set" field="7bb7-3d66-725f-317a" value="0.0">
                   <conditions>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="becd-eed2-db15-4a9b" type="equalTo"/>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9258-5d27-a42d-face" type="greaterThan"/>
                   </conditions>
                 </modifier>
               </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7bb7-3d66-725f-317a" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="7111-bbcf-6053-7ce3" name="Remington 700" hidden="false" collective="false" targetId="e691-b73f-a4bf-d20e" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="0705-c536-f372-c2d0" value="0.0"/>
+                <modifier type="set" field="0a72-00fa-d82d-94f9" value="0.0">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c2f1-28aa-1ac8-25fd" type="greaterThan"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0a72-00fa-d82d-94f9" type="max"/>
+              </constraints>
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="4bcc-2dfc-c704-a996" name="Leader" hidden="false" collective="false" targetId="cca0-d068-1229-20ea" type="selectionEntry"/>
+        <entryLink id="12b8-d9e4-47e5-347f" name="Leader" hidden="false" collective="false" targetId="2bee-5b46-6bef-8581" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="0705-c536-f372-c2d0" value="42.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="ea39-c95c-0cad-d421" name="Bob" hidden="false" collective="false" type="model">
-      <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f738-22da-8e87-e598" type="max"/>
-      </constraints>
-      <profiles>
-        <profile id="e47e-2cff-8711-290e" name="Bob" hidden="false" typeId="40e9-9288-6f65-70a9" typeName="Character">
-          <characteristics>
-            <characteristic name="Type" typeId="d9ce-b162-4bd7-6736">Support</characteristic>
-            <characteristic name="Melee" typeId="fc7e-dccd-5244-3798">1Red</characteristic>
-            <characteristic name="Shoot" typeId="b227-fd8f-ea1c-65f7">1White</characteristic>
-            <characteristic name="Defense" typeId="ca1d-2465-3eb7-9bd8">2Red</characteristic>
-            <characteristic name="Health" typeId="5e5d-73d3-ba6a-8396">4</characteristic>
-            <characteristic name="SP" typeId="cae4-668b-3f49-b130">X/-</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <rules>
-        <rule id="3880-5533-30c2-a5d8" name="Bottom of a Bottle" hidden="false">
-          <description>Bottom of a Bottle: Unless a friendly Lilly model is within 6”, Bob treats all enemies as if they cause Fear.</description>
-        </rule>
-      </rules>
-      <categoryLinks>
-        <categoryLink id="945f-178c-ab9e-4bab" name="New CategoryLink" hidden="false" targetId="4eb2-d49f-4b22-dd86" primary="true"/>
-        <categoryLink id="6e56-d8a4-b502-ffdd" name="Alignment: Ruthless" hidden="false" targetId="f115-d6f7-b750-5f55" primary="false"/>
-        <categoryLink id="698a-9943-90b2-d666" name="Woodbury Army" hidden="false" targetId="80ce-410c-b879-c6db" primary="false"/>
-      </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="8a68-0c59-dd9c-08b7" name="Liquor" hidden="false" collective="false" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4468-f796-7c58-61db" type="max"/>
-          </constraints>
-          <profiles>
-            <profile id="27f1-65be-3f52-3105" name="Liquor" hidden="false" typeId="ba75-8ed9-edc3-b7f6" typeName="Special Items">
-              <characteristics>
-                <characteristic name="Special Rules" typeId="f83f-be9f-fcc5-abf5">Use as an Action. Until the end of the turn, reduce this model’s ranged attack rolls by 1 success, but add 1White to its defense rolls.</characteristic>
-                <characteristic name="Keywords" typeId="4d62-b2c0-a0c7-0a18">One Use</characteristic>
-                <characteristic name="Noise / Mayhem" typeId="589a-5fe7-b416-6918"/>
-              </characteristics>
-            </profile>
-          </profiles>
-          <infoLinks>
-            <infoLink id="7096-d38f-c824-aef0" name="One Use" hidden="false" targetId="1fc9-3a4a-db91-83db" type="rule"/>
-          </infoLinks>
-          <costs>
-            <cost name=" Points" typeId="0705-c536-f372-c2d0" value="0.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="b925-fa3c-75a3-3889" name="Medical Bag" hidden="false" collective="false" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7c82-a744-9489-900b" type="max"/>
-          </constraints>
-          <profiles>
-            <profile id="9205-b520-5507-193a" name="Medical Bag" hidden="false" typeId="ba75-8ed9-edc3-b7f6" typeName="Special Items">
-              <characteristics>
-                <characteristic name="Special Rules" typeId="f83f-be9f-fcc5-abf5">If this model restores Health points to itself or a friendly model, increase the number of points restored by 1.</characteristic>
-                <characteristic name="Keywords" typeId="4d62-b2c0-a0c7-0a18">Amputate</characteristic>
-                <characteristic name="Noise / Mayhem" typeId="589a-5fe7-b416-6918"/>
-              </characteristics>
-            </profile>
-          </profiles>
-          <infoLinks>
-            <infoLink id="85b0-49d4-ef43-338f" name="Amputate" hidden="false" targetId="fc2a-0fd7-efbf-15c0" type="rule"/>
-          </infoLinks>
-          <costs>
-            <cost name=" Points" typeId="0705-c536-f372-c2d0" value="15.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
-      <selectionEntryGroups>
-        <selectionEntryGroup id="b529-3c34-ee9f-d0d6" name="Upgrades" hidden="false" collective="false">
-          <constraints>
-            <constraint field="0705-c536-f372-c2d0" scope="parent" value="16.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eeec-d826-a054-afb7" type="max"/>
-          </constraints>
-          <entryLinks>
-            <entryLink id="1ea0-8477-5942-106a" name="Woodbury Army Melee Weapons" hidden="false" collective="false" targetId="60f9-7cac-2fc3-2203" type="selectionEntryGroup"/>
-            <entryLink id="f96a-6a05-1346-7249" name="Woodbury Army Special Items" hidden="false" collective="false" targetId="cd4b-4756-895b-1925" type="selectionEntryGroup">
-              <modifiers>
-                <modifier type="set" field="ff46-60b1-ebee-4f90" value="0.0">
-                  <conditions>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b925-fa3c-75a3-3889" type="equalTo"/>
-                  </conditions>
-                </modifier>
-              </modifiers>
-            </entryLink>
-            <entryLink id="b43f-1ebb-82fa-6819" name="Woodbury Army Ranged Weapons" hidden="false" collective="false" targetId="d268-eca1-4fad-20f7" type="selectionEntryGroup"/>
-          </entryLinks>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
-      <costs>
-        <cost name=" Points" typeId="0705-c536-f372-c2d0" value="16.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="952d-d72c-c037-27d5" name="Curtis" hidden="false" collective="false" type="model">
-      <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aff9-f870-f469-666b" type="max"/>
-      </constraints>
-      <profiles>
-        <profile id="7bca-6f22-b365-7af4" name="Curtis" hidden="false" typeId="40e9-9288-6f65-70a9" typeName="Character">
-          <characteristics>
-            <characteristic name="Type" typeId="d9ce-b162-4bd7-6736">Runner</characteristic>
-            <characteristic name="Melee" typeId="fc7e-dccd-5244-3798">1Red</characteristic>
-            <characteristic name="Shoot" typeId="b227-fd8f-ea1c-65f7">1White</characteristic>
-            <characteristic name="Defense" typeId="ca1d-2465-3eb7-9bd8">2Red</characteristic>
-            <characteristic name="Health" typeId="5e5d-73d3-ba6a-8396">3</characteristic>
-            <characteristic name="SP" typeId="cae4-668b-3f49-b130">X/-</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <categoryLinks>
-        <categoryLink id="0bcf-35e1-f789-9e1c" name="New CategoryLink" hidden="false" targetId="7aaa-f540-43d6-81de" primary="true"/>
-        <categoryLink id="74a8-c885-dcac-cfb2" name="Alignment: Ruthless" hidden="false" targetId="f115-d6f7-b750-5f55" primary="false"/>
-        <categoryLink id="94cb-5ebf-de9d-8bb4" name="Woodbury Army" hidden="false" targetId="80ce-410c-b879-c6db" primary="false"/>
-      </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="43b0-439b-925b-3393" name="AK-47" hidden="false" collective="false" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9900-e2f1-3d94-067b" type="max"/>
-          </constraints>
-          <profiles>
-            <profile id="3a78-5ab6-0f5d-cc96" name="AK-47" hidden="false" typeId="3560-a8a8-6a4e-2aa2" typeName="Ranged Weapon">
-              <characteristics>
-                <characteristic name="Attack Roll Short" typeId="5e67-d6ba-ff65-695d">1Red</characteristic>
-                <characteristic name="Attack Roll Medium" typeId="f3e5-c666-6d43-df23">1Red</characteristic>
-                <characteristic name="Attack Roll Long" typeId="1376-9535-490f-fce4">X</characteristic>
-                <characteristic name="Special Rules" typeId="8821-27ea-b643-76c2"/>
-                <characteristic name="Keywords" typeId="2c12-568c-52a4-db62">Assault, Multiple Shots (3), Rifle</characteristic>
-                <characteristic name="Noise / Mayhem" typeId="4783-fd91-26e1-6d38"/>
-              </characteristics>
-            </profile>
-          </profiles>
-          <infoLinks>
-            <infoLink id="cf5f-b736-28ab-8c12" name="Assault" hidden="false" targetId="a279-140c-00e3-0bcc" type="rule"/>
-            <infoLink id="8a3e-0faa-4adb-81fa" name="Multiple Shots (X)" hidden="false" targetId="f1bf-0f6c-71bd-4705" type="rule"/>
-            <infoLink id="e71f-76d2-aeac-d84a" name="Rifle" hidden="false" targetId="c712-f896-0557-388a" type="rule"/>
-          </infoLinks>
-          <costs>
-            <cost name=" Points" typeId="0705-c536-f372-c2d0" value="0.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
-      <selectionEntryGroups>
-        <selectionEntryGroup id="90d1-9448-8c31-1e4b" name="Upgrades" hidden="false" collective="false">
-          <constraints>
-            <constraint field="0705-c536-f372-c2d0" scope="parent" value="30.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0dcc-afeb-97c4-846c" type="max"/>
-          </constraints>
-          <entryLinks>
-            <entryLink id="6ab6-b0e7-a262-e7a8" name="Woodbury Army Melee Weapons" hidden="false" collective="false" targetId="60f9-7cac-2fc3-2203" type="selectionEntryGroup"/>
-            <entryLink id="ee0e-d429-57f3-e30a" name="Woodbury Army Special Items" hidden="false" collective="false" targetId="cd4b-4756-895b-1925" type="selectionEntryGroup"/>
-            <entryLink id="f1f5-5f0a-0489-195c" name="Woodbury Army Ranged Weapons" hidden="false" collective="false" targetId="d268-eca1-4fad-20f7" type="selectionEntryGroup">
-              <modifiers>
-                <modifier type="set" field="9d64-f432-23f9-b430" value="0.0">
-                  <conditions>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="43b0-439b-925b-3393" type="equalTo"/>
-                  </conditions>
-                </modifier>
-              </modifiers>
-            </entryLink>
-          </entryLinks>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
-      <costs>
-        <cost name=" Points" typeId="0705-c536-f372-c2d0" value="30.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="dcf9-aa7a-4b37-c3eb" name="Eugene Cooney" hidden="false" collective="false" type="model">
-      <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="61ca-5aef-4701-16d0" type="max"/>
-      </constraints>
-      <profiles>
-        <profile id="fe4f-ba94-a96a-f75b" name="Eugene Cooney" hidden="false" typeId="40e9-9288-6f65-70a9" typeName="Character">
-          <characteristics>
-            <characteristic name="Type" typeId="d9ce-b162-4bd7-6736">Bruiser</characteristic>
-            <characteristic name="Melee" typeId="fc7e-dccd-5244-3798">1White,1Red</characteristic>
-            <characteristic name="Shoot" typeId="b227-fd8f-ea1c-65f7">-</characteristic>
-            <characteristic name="Defense" typeId="ca1d-2465-3eb7-9bd8">1White,1Red</characteristic>
-            <characteristic name="Health" typeId="5e5d-73d3-ba6a-8396">5</characteristic>
-            <characteristic name="SP" typeId="cae4-668b-3f49-b130">X/-</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <categoryLinks>
-        <categoryLink id="a891-763f-81b9-edb4" name="New CategoryLink" hidden="false" targetId="1632-3305-8ec4-ecf2" primary="true"/>
-        <categoryLink id="0e7c-6c15-e1cd-3cf9" name="Alignment: Ruthless" hidden="false" targetId="f115-d6f7-b750-5f55" primary="false"/>
-        <categoryLink id="b80b-a511-504a-e6ca" name="Woodbury Army" hidden="false" targetId="80ce-410c-b879-c6db" primary="false"/>
-      </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="f151-9fbf-4cc6-1598" name="Baseball Bat" hidden="false" collective="false" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7f65-3484-cade-90f0" type="max"/>
-          </constraints>
-          <profiles>
-            <profile id="d5c0-715d-ffdc-8e07" name="Baseball Bat" hidden="false" typeId="d42c-7da6-84ea-bbd3" typeName="Melee Weapon">
-              <characteristics>
-                <characteristic name="Attack Roll" typeId="84c3-eb7b-1a01-99c6">1Red</characteristic>
-                <characteristic name="Special Rules" typeId="a811-f6c5-34bc-5f90">Bruisers may reroll 1Red per attack.</characteristic>
-                <characteristic name="Keywords" typeId="c6ce-a20c-5806-fc59"/>
-                <characteristic name="Noise / Mayhem" typeId="35d4-25bc-80cb-6f59"/>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name=" Points" typeId="0705-c536-f372-c2d0" value="0.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="e6ad-5c80-609c-a260" name="Football Pads" hidden="false" collective="false" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0680-78db-da56-0da1" type="max"/>
-          </constraints>
-          <profiles>
-            <profile id="5d6b-e65f-41d3-dfc2" name="Football Pads" hidden="false" typeId="ba75-8ed9-edc3-b7f6" typeName="Special Items">
-              <characteristics>
-                <characteristic name="Special Rules" typeId="f83f-be9f-fcc5-abf5">Reduce damage taken from melee attacks by 1 point.</characteristic>
-                <characteristic name="Keywords" typeId="4d62-b2c0-a0c7-0a18">Armor</characteristic>
-                <characteristic name="Noise / Mayhem" typeId="589a-5fe7-b416-6918"/>
-              </characteristics>
-            </profile>
-          </profiles>
-          <infoLinks>
-            <infoLink id="a5fd-8faf-19ca-e6e7" name="Armor" hidden="false" targetId="3ef1-f7b5-3ef7-7c6c" type="rule"/>
-          </infoLinks>
-          <costs>
-            <cost name=" Points" typeId="0705-c536-f372-c2d0" value="0.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
-      <selectionEntryGroups>
-        <selectionEntryGroup id="55d4-011b-6082-186f" name="Upgrades" hidden="false" collective="false">
-          <constraints>
-            <constraint field="0705-c536-f372-c2d0" scope="parent" value="40.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6105-cecd-fb67-be97" type="max"/>
-          </constraints>
-          <entryLinks>
-            <entryLink id="0c33-88a8-4694-03c4" name="Woodbury Army Melee Weapons" hidden="false" collective="false" targetId="60f9-7cac-2fc3-2203" type="selectionEntryGroup">
-              <modifiers>
-                <modifier type="set" field="1c5b-fa24-fe5d-5f30" value="1">
-                  <conditions>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f151-9fbf-4cc6-1598" type="equalTo"/>
-                  </conditions>
-                </modifier>
-              </modifiers>
-            </entryLink>
-            <entryLink id="11f1-01fc-41a1-2f70" name="Woodbury Army Special Items" hidden="false" collective="false" targetId="cd4b-4756-895b-1925" type="selectionEntryGroup">
-              <modifiers>
-                <modifier type="set" field="ff46-60b1-ebee-4f90" value="0.0">
-                  <conditions>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e6ad-5c80-609c-a260" type="equalTo"/>
-                  </conditions>
-                </modifier>
-              </modifiers>
-            </entryLink>
-            <entryLink id="69bb-89f3-a3c6-3fc6" name="Woodbury Army Ranged Weapons" hidden="false" collective="false" targetId="d268-eca1-4fad-20f7" type="selectionEntryGroup"/>
-          </entryLinks>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
-      <entryLinks>
-        <entryLink id="9313-714f-aead-1bd4" name="Leader" hidden="false" collective="false" targetId="cca0-d068-1229-20ea" type="selectionEntry"/>
-      </entryLinks>
-      <costs>
-        <cost name=" Points" typeId="0705-c536-f372-c2d0" value="40.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="d349-0634-c563-75f2" name="Harold Abernathy" hidden="false" collective="false" type="model">
-      <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6dd0-35d3-9f95-e759" type="max"/>
-      </constraints>
-      <profiles>
-        <profile id="14f9-e47e-ad6b-f816" name="Harold Abernathy" hidden="false" typeId="40e9-9288-6f65-70a9" typeName="Character">
-          <characteristics>
-            <characteristic name="Type" typeId="d9ce-b162-4bd7-6736">Bruiser</characteristic>
-            <characteristic name="Melee" typeId="fc7e-dccd-5244-3798">1White,1Red</characteristic>
-            <characteristic name="Shoot" typeId="b227-fd8f-ea1c-65f7">-</characteristic>
-            <characteristic name="Defense" typeId="ca1d-2465-3eb7-9bd8">2Red</characteristic>
-            <characteristic name="Health" typeId="5e5d-73d3-ba6a-8396">6</characteristic>
-            <characteristic name="SP" typeId="cae4-668b-3f49-b130">X/-</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <rules>
-        <rule id="9378-7ad8-63cc-0bc2" name="Competitive" hidden="false">
-          <description>Whenever a friendly Eugene Cooney model kills or makes Prone an enemy in melee, Harold adds 1White to his melee attack rolls for the rest of the turn.</description>
-        </rule>
-      </rules>
-      <categoryLinks>
-        <categoryLink id="0d0d-cc9c-3cf1-df03" name="New CategoryLink" hidden="false" targetId="1632-3305-8ec4-ecf2" primary="true"/>
-        <categoryLink id="bb1a-a9eb-a0f5-05ef" name="Alignment: Ruthless" hidden="false" targetId="f115-d6f7-b750-5f55" primary="false"/>
-        <categoryLink id="2ebb-b994-4295-986b" name="Woodbury Army" hidden="false" targetId="80ce-410c-b879-c6db" primary="false"/>
-      </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="125f-5a26-6067-c2ce" name="Hockey Gear" hidden="false" collective="false" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2e35-4319-c766-ce0c" type="max"/>
-          </constraints>
-          <profiles>
-            <profile id="f2c2-f7ec-eeb3-a3fa" name="Hockey Gear" hidden="false" typeId="ba75-8ed9-edc3-b7f6" typeName="Special Items">
-              <characteristics>
-                <characteristic name="Special Rules" typeId="f83f-be9f-fcc5-abf5">Ignore the Bludgeon keyword when attacked in melee.</characteristic>
-                <characteristic name="Keywords" typeId="4d62-b2c0-a0c7-0a18">Armor</characteristic>
-                <characteristic name="Noise / Mayhem" typeId="589a-5fe7-b416-6918"/>
-              </characteristics>
-            </profile>
-          </profiles>
-          <infoLinks>
-            <infoLink id="6c11-dd1c-c6e1-4af5" name="Armor" hidden="false" targetId="3ef1-f7b5-3ef7-7c6c" type="rule"/>
-          </infoLinks>
-          <costs>
-            <cost name=" Points" typeId="0705-c536-f372-c2d0" value="0.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="b1c2-e9e0-b723-0c97" name="Crowbar" hidden="false" collective="false" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="58e3-1015-1b42-080e" type="max"/>
-          </constraints>
-          <profiles>
-            <profile id="c8d2-f02b-c491-2d97" name="Crowbar" hidden="false" typeId="d42c-7da6-84ea-bbd3" typeName="Melee Weapon">
-              <characteristics>
-                <characteristic name="Attack Roll" typeId="84c3-eb7b-1a01-99c6">-</characteristic>
-                <characteristic name="Special Rules" typeId="a811-f6c5-34bc-5f90">When performing a Smash! Action, add 1White instead of 1Red.</characteristic>
-                <characteristic name="Keywords" typeId="c6ce-a20c-5806-fc59">Bludgeon</characteristic>
-                <characteristic name="Noise / Mayhem" typeId="35d4-25bc-80cb-6f59"/>
-              </characteristics>
-            </profile>
-          </profiles>
-          <infoLinks>
-            <infoLink id="b69d-93f8-4615-0715" name="Bludgeon" hidden="false" targetId="c050-a7e4-2e56-0cf1" type="rule"/>
-          </infoLinks>
-          <costs>
-            <cost name=" Points" typeId="0705-c536-f372-c2d0" value="0.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
-      <selectionEntryGroups>
-        <selectionEntryGroup id="f306-867e-175f-2f9b" name="Upgrades" hidden="false" collective="false">
-          <constraints>
-            <constraint field="0705-c536-f372-c2d0" scope="parent" value="37.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9204-0b8d-ca77-0866" type="max"/>
-          </constraints>
-          <entryLinks>
-            <entryLink id="ff21-0c34-c237-1359" name="Woodbury Army Melee Weapons" hidden="false" collective="false" targetId="60f9-7cac-2fc3-2203" type="selectionEntryGroup">
-              <modifiers>
-                <modifier type="set" field="1c5b-fa24-fe5d-5f30" value="1">
-                  <conditions>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b1c2-e9e0-b723-0c97" type="equalTo"/>
-                  </conditions>
-                </modifier>
-              </modifiers>
-            </entryLink>
-            <entryLink id="fd9d-e6c4-5a61-c4e3" name="Woodbury Army Special Items" hidden="false" collective="false" targetId="cd4b-4756-895b-1925" type="selectionEntryGroup">
-              <modifiers>
-                <modifier type="set" field="ff46-60b1-ebee-4f90" value="0.0">
-                  <conditions>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="125f-5a26-6067-c2ce" type="equalTo"/>
-                  </conditions>
-                </modifier>
-              </modifiers>
-            </entryLink>
-            <entryLink id="cd21-5343-2978-0ea5" name="Woodbury Army Ranged Weapons" hidden="false" collective="false" targetId="d268-eca1-4fad-20f7" type="selectionEntryGroup"/>
-          </entryLinks>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
-      <costs>
-        <cost name=" Points" typeId="0705-c536-f372-c2d0" value="37.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="3a27-c0e7-c4da-2cfc" name="Wes" hidden="false" collective="false" type="model">
@@ -1492,203 +719,56 @@
           </characteristics>
         </profile>
       </profiles>
+      <rules>
+        <rule id="87a7-3832-35c1-cda5" name="Bodyguard (Martinez)" hidden="false"/>
+      </rules>
+      <infoLinks>
+        <infoLink id="d916-9a44-6748-db19" name="Bodyguard (X)" hidden="false" targetId="b835-4f78-3c0a-5dee" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="9452-0a69-335d-a639" name="New CategoryLink" hidden="false" targetId="1632-3305-8ec4-ecf2" primary="true"/>
         <categoryLink id="5495-aba7-5a40-dedb" name="Alignment: Ruthless" hidden="false" targetId="f115-d6f7-b750-5f55" primary="false"/>
         <categoryLink id="f67e-a7bc-faca-8920" name="Woodbury Army" hidden="false" targetId="80ce-410c-b879-c6db" primary="false"/>
       </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="da8c-acf8-6b32-aaba" name="M4 Carbine" hidden="false" collective="false" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a888-01b2-4f42-bd8e" type="max"/>
-          </constraints>
-          <profiles>
-            <profile id="21f3-0d8d-4bd8-8707" name="M4 Carbine" hidden="false" typeId="3560-a8a8-6a4e-2aa2" typeName="Ranged Weapon">
-              <characteristics>
-                <characteristic name="Attack Roll Short" typeId="5e67-d6ba-ff65-695d">1White</characteristic>
-                <characteristic name="Attack Roll Medium" typeId="f3e5-c666-6d43-df23">1Red</characteristic>
-                <characteristic name="Attack Roll Long" typeId="1376-9535-490f-fce4">X</characteristic>
-                <characteristic name="Special Rules" typeId="8821-27ea-b643-76c2"/>
-                <characteristic name="Keywords" typeId="2c12-568c-52a4-db62">Assault, Multiple Shots (2), Reliable</characteristic>
-                <characteristic name="Noise / Mayhem" typeId="4783-fd91-26e1-6d38">Mayhem</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <infoLinks>
-            <infoLink id="0275-1fc8-d4e6-6428" name="Assault" hidden="false" targetId="a279-140c-00e3-0bcc" type="rule"/>
-            <infoLink id="f56d-62e1-a357-75f7" name="Multiple Shots (X)" hidden="false" targetId="f1bf-0f6c-71bd-4705" type="rule"/>
-            <infoLink id="2840-65e9-588b-d93a" name="Reliable" hidden="false" targetId="9743-9f07-db71-da46" type="rule"/>
-          </infoLinks>
-          <costs>
-            <cost name=" Points" typeId="0705-c536-f372-c2d0" value="0.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
       <selectionEntryGroups>
         <selectionEntryGroup id="a4f0-c693-f373-813c" name="Upgrades" hidden="false" collective="false">
           <constraints>
             <constraint field="0705-c536-f372-c2d0" scope="parent" value="30.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="963c-6311-4d33-abe8" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="2e64-a00a-5e82-bfc6" name="Woodbury Army Melee Weapons" hidden="false" collective="false" targetId="60f9-7cac-2fc3-2203" type="selectionEntryGroup"/>
-            <entryLink id="fe52-1f9d-6d9f-1a08" name="Woodbury Army Special Items" hidden="false" collective="false" targetId="cd4b-4756-895b-1925" type="selectionEntryGroup"/>
-            <entryLink id="fd2a-21cf-5a3b-d1f0" name="Woodbury Army Ranged Weapons" hidden="false" collective="false" targetId="d268-eca1-4fad-20f7" type="selectionEntryGroup">
+            <entryLink id="ac5c-fd82-2b86-5dcb" name="Special Items" hidden="false" collective="false" targetId="8a02-d9d8-d10a-0ca2" type="selectionEntryGroup"/>
+            <entryLink id="eae9-55b7-00b3-8a56" name="Ranged Weapons" hidden="false" collective="false" targetId="6461-e3e9-6745-0a3b" type="selectionEntryGroup">
               <modifiers>
-                <modifier type="set" field="9d64-f432-23f9-b430" value="0.0">
+                <modifier type="set" field="87c9-5f1f-65c7-96be" value="0.0">
                   <conditions>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="da8c-acf8-6b32-aaba" type="equalTo"/>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="065a-ba53-6930-e302" type="greaterThan"/>
                   </conditions>
                 </modifier>
               </modifiers>
             </entryLink>
-          </entryLinks>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
-      <costs>
-        <cost name=" Points" typeId="0705-c536-f372-c2d0" value="30.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="178b-ca25-f5e8-3069" name="Tom" hidden="false" collective="false" type="model">
-      <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5f9b-ba6c-9ad3-cccd" type="max"/>
-      </constraints>
-      <profiles>
-        <profile id="cccd-5185-efb0-a679" name="Tom" hidden="false" typeId="40e9-9288-6f65-70a9" typeName="Character">
-          <characteristics>
-            <characteristic name="Type" typeId="d9ce-b162-4bd7-6736">Bruiser</characteristic>
-            <characteristic name="Melee" typeId="fc7e-dccd-5244-3798">1White</characteristic>
-            <characteristic name="Shoot" typeId="b227-fd8f-ea1c-65f7">1Red</characteristic>
-            <characteristic name="Defense" typeId="ca1d-2465-3eb7-9bd8">1White</characteristic>
-            <characteristic name="Health" typeId="5e5d-73d3-ba6a-8396">5</characteristic>
-            <characteristic name="SP" typeId="cae4-668b-3f49-b130">X/-</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <categoryLinks>
-        <categoryLink id="1726-6697-636b-ce9f" name="New CategoryLink" hidden="false" targetId="1632-3305-8ec4-ecf2" primary="true"/>
-        <categoryLink id="6765-4da0-a922-e9f8" name="Alignment: Ruthless" hidden="false" targetId="f115-d6f7-b750-5f55" primary="false"/>
-        <categoryLink id="14d1-45fa-b2e0-5c9b" name="Woodbury Army" hidden="false" targetId="80ce-410c-b879-c6db" primary="false"/>
-      </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="03f2-17de-255d-3a50" name="Tire Iron" hidden="false" collective="false" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bd14-0d52-d9d6-9bb0" type="max"/>
-          </constraints>
-          <profiles>
-            <profile id="2f9f-3bb6-4f45-e36b" name="Tire Iron" hidden="false" typeId="d42c-7da6-84ea-bbd3" typeName="Melee Weapon">
-              <characteristics>
-                <characteristic name="Attack Roll" typeId="84c3-eb7b-1a01-99c6">1White</characteristic>
-                <characteristic name="Special Rules" typeId="a811-f6c5-34bc-5f90"/>
-                <characteristic name="Keywords" typeId="c6ce-a20c-5806-fc59"/>
-                <characteristic name="Noise / Mayhem" typeId="35d4-25bc-80cb-6f59"/>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name=" Points" typeId="0705-c536-f372-c2d0" value="0.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
-      <selectionEntryGroups>
-        <selectionEntryGroup id="0208-6747-f083-37d9" name="Upgrades" hidden="false" collective="false">
-          <constraints>
-            <constraint field="0705-c536-f372-c2d0" scope="parent" value="31.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="47fb-ee6c-6a9b-62e1" type="max"/>
-          </constraints>
-          <entryLinks>
-            <entryLink id="472e-ee7c-d7a4-7fb8" name="Woodbury Army Melee Weapons" hidden="false" collective="false" targetId="60f9-7cac-2fc3-2203" type="selectionEntryGroup">
+            <entryLink id="13c2-2325-2d87-f4fe" name="Melee Weapons" hidden="false" collective="false" targetId="e8e1-137d-8a53-a1fd" type="selectionEntryGroup"/>
+            <entryLink id="fb10-b389-54eb-950f" name="Armor" hidden="false" collective="false" targetId="ae2c-f939-ccd5-108a" type="selectionEntryGroup"/>
+            <entryLink id="065a-ba53-6930-e302" name="M4 Carbine" hidden="false" collective="false" targetId="b817-8f91-f299-f1de" type="selectionEntry">
               <modifiers>
-                <modifier type="set" field="1c5b-fa24-fe5d-5f30" value="1">
+                <modifier type="set" field="0705-c536-f372-c2d0" value="0.0"/>
+                <modifier type="set" field="bc0d-2b09-78c0-a2ba" value="0.0">
                   <conditions>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="03f2-17de-255d-3a50" type="equalTo"/>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="eae9-55b7-00b3-8a56" type="greaterThan"/>
                   </conditions>
                 </modifier>
               </modifiers>
-            </entryLink>
-            <entryLink id="2fae-d6b7-e325-6ce1" name="Woodbury Army Special Items" hidden="false" collective="false" targetId="cd4b-4756-895b-1925" type="selectionEntryGroup"/>
-            <entryLink id="15b6-d86f-0e5e-6f5c" name="Woodbury Army Ranged Weapons" hidden="false" collective="false" targetId="d268-eca1-4fad-20f7" type="selectionEntryGroup"/>
-          </entryLinks>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
-      <costs>
-        <cost name=" Points" typeId="0705-c536-f372-c2d0" value="25.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="8478-b11b-4092-10f2" name="Smitty" hidden="false" collective="false" type="model">
-      <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fe04-d6e0-c27f-49c1" type="max"/>
-      </constraints>
-      <profiles>
-        <profile id="4b6a-4901-be28-2949" name="Smitty" hidden="false" typeId="40e9-9288-6f65-70a9" typeName="Character">
-          <characteristics>
-            <characteristic name="Type" typeId="d9ce-b162-4bd7-6736">Marksman</characteristic>
-            <characteristic name="Melee" typeId="fc7e-dccd-5244-3798">1White</characteristic>
-            <characteristic name="Shoot" typeId="b227-fd8f-ea1c-65f7">1Red</characteristic>
-            <characteristic name="Defense" typeId="ca1d-2465-3eb7-9bd8">1White</characteristic>
-            <characteristic name="Health" typeId="5e5d-73d3-ba6a-8396">4</characteristic>
-            <characteristic name="SP" typeId="cae4-668b-3f49-b130">X/-</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <rules>
-        <rule id="0352-17cb-c4a3-d39c" name="Guilty Conscience" hidden="false">
-          <description>Each time Smitty kills an enemy Survivor, roll 1Black. On a blank, he loses one Action in his next activation.</description>
-        </rule>
-      </rules>
-      <infoLinks>
-        <infoLink id="7df8-4a1b-6cc9-7348" name="Scout" hidden="false" targetId="660e-1333-f835-e4a6" type="rule"/>
-      </infoLinks>
-      <categoryLinks>
-        <categoryLink id="86e6-a6cd-ea92-afe0" name="New CategoryLink" hidden="false" targetId="7e4f-cf68-74a3-b58a" primary="true"/>
-        <categoryLink id="1b0d-6af1-cfb2-055a" name="Alignment: Ruthless" hidden="false" targetId="f115-d6f7-b750-5f55" primary="false"/>
-        <categoryLink id="8428-86e4-e36b-3dc2" name="Woodbury Army" hidden="false" targetId="80ce-410c-b879-c6db" primary="false"/>
-      </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="22cd-9908-5d17-4352" name="Springfield M1903" hidden="false" collective="false" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a631-8797-5cfd-5764" type="max"/>
-          </constraints>
-          <profiles>
-            <profile id="3c98-d644-dda2-9ca7" name="Springfield M1903" hidden="false" typeId="3560-a8a8-6a4e-2aa2" typeName="Ranged Weapon">
-              <characteristics>
-                <characteristic name="Attack Roll Short" typeId="5e67-d6ba-ff65-695d">1White, 1Red</characteristic>
-                <characteristic name="Attack Roll Medium" typeId="f3e5-c666-6d43-df23">1White</characteristic>
-                <characteristic name="Attack Roll Long" typeId="1376-9535-490f-fce4">X</characteristic>
-                <characteristic name="Special Rules" typeId="8821-27ea-b643-76c2"/>
-                <characteristic name="Keywords" typeId="2c12-568c-52a4-db62">Rifle</characteristic>
-                <characteristic name="Noise / Mayhem" typeId="4783-fd91-26e1-6d38">Mayhem</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <infoLinks>
-            <infoLink id="7352-11c7-458e-2069" name="Rifle" hidden="false" targetId="c712-f896-0557-388a" type="rule"/>
-          </infoLinks>
-          <costs>
-            <cost name=" Points" typeId="0705-c536-f372-c2d0" value="0.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
-      <selectionEntryGroups>
-        <selectionEntryGroup id="3745-1f5b-c34d-21b9" name="Upgrades" hidden="false" collective="false">
-          <constraints>
-            <constraint field="0705-c536-f372-c2d0" scope="parent" value="30.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c953-5f95-293c-90f1" type="max"/>
-          </constraints>
-          <entryLinks>
-            <entryLink id="b977-c99a-bc12-2d9f" name="Woodbury Army Melee Weapons" hidden="false" collective="false" targetId="60f9-7cac-2fc3-2203" type="selectionEntryGroup"/>
-            <entryLink id="4690-764c-27e9-4566" name="Woodbury Army Special Items" hidden="false" collective="false" targetId="cd4b-4756-895b-1925" type="selectionEntryGroup"/>
-            <entryLink id="e819-912d-cc70-9995" name="Woodbury Army Ranged Weapons" hidden="false" collective="false" targetId="d268-eca1-4fad-20f7" type="selectionEntryGroup">
-              <modifiers>
-                <modifier type="set" field="9d64-f432-23f9-b430" value="0.0">
-                  <conditions>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="22cd-9908-5d17-4352" type="equalTo"/>
-                  </conditions>
-                </modifier>
-              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bc0d-2b09-78c0-a2ba" type="max"/>
+              </constraints>
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="18cc-32ed-34fb-2099" name="Leader" hidden="false" collective="false" targetId="2bee-5b46-6bef-8581" type="selectionEntry"/>
+      </entryLinks>
       <costs>
-        <cost name=" Points" typeId="0705-c536-f372-c2d0" value="30.0"/>
+        <cost name=" Points" typeId="0705-c536-f372-c2d0" value="32.0"/>
       </costs>
     </selectionEntry>
   </selectionEntries>
