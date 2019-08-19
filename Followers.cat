@@ -26,6 +26,7 @@
         <categoryLink id="c627-c055-8f05-1ea0" name="New CategoryLink" hidden="false" targetId="1632-3305-8ec4-ecf2" primary="true"/>
         <categoryLink id="4df5-dc20-0381-a0fe" name="Alignment: Neutral" hidden="false" targetId="a184-b0a1-ca0d-b36f" primary="false"/>
         <categoryLink id="bb8a-d142-30f7-b669" name="Followers" hidden="false" targetId="b77c-3081-049f-b25d" primary="false"/>
+        <categoryLink id="6f62-c44a-aeb9-09ef" name="Michonne" hidden="false" targetId="5516-680b-3658-94c6" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="a987-d171-d77e-88b6" name="Upgrades" hidden="false" collective="false">
@@ -231,6 +232,7 @@
         <categoryLink id="1af4-8668-1a4c-30a2" name="New CategoryLink" hidden="false" targetId="b33e-e6d0-05ba-26ce" primary="true"/>
         <categoryLink id="89b5-7d0e-4601-e1ff" name="Alignment: Lawful" hidden="false" targetId="03f7-28fe-397f-08c7" primary="false"/>
         <categoryLink id="dcd6-7ff0-ad2e-6c3a" name="Followers" hidden="false" targetId="b77c-3081-049f-b25d" primary="false"/>
+        <categoryLink id="ce90-c7e9-2088-b591" name="Morgan" hidden="false" targetId="5f6a-a2a7-9e2f-5dee" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="7bb3-1d5d-f853-756d" name="Upgrades" hidden="false" collective="false">
@@ -323,6 +325,7 @@
         <categoryLink id="eee7-09b6-329b-89a4" name="New CategoryLink" hidden="false" targetId="b33e-e6d0-05ba-26ce" primary="true"/>
         <categoryLink id="0072-bde6-3113-1c3b" name="Alignment: Neutral" hidden="false" targetId="a184-b0a1-ca0d-b36f" primary="false"/>
         <categoryLink id="3136-2dca-e107-9163" name="Followers" hidden="false" targetId="b77c-3081-049f-b25d" primary="false"/>
+        <categoryLink id="291b-0ab2-8d5f-aa61" name="Morgan" hidden="false" targetId="5f6a-a2a7-9e2f-5dee" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="2d5e-c461-9d7a-45b1" name="Upgrades" hidden="false" collective="false">
@@ -472,6 +475,7 @@
         <categoryLink id="8b8b-80ff-51d5-2577" name="New CategoryLink" hidden="false" targetId="b33e-e6d0-05ba-26ce" primary="true"/>
         <categoryLink id="f12e-f832-1eed-3231" name="Alignment: Lawful" hidden="false" targetId="03f7-28fe-397f-08c7" primary="false"/>
         <categoryLink id="2a7e-5e8c-34d3-6134" name="Followers" hidden="false" targetId="b77c-3081-049f-b25d" primary="false"/>
+        <categoryLink id="a46e-4e31-3c78-c351" name="Father Gabriel" hidden="false" targetId="07ab-e882-bcb6-f503" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="6b31-68a7-38fe-08d6" name="Upgrades" hidden="false" collective="false">
@@ -799,6 +803,7 @@
         <categoryLink id="8e52-44f5-2f45-0c5b" name="New CategoryLink" hidden="false" targetId="b33e-e6d0-05ba-26ce" primary="true"/>
         <categoryLink id="a83d-e66f-f749-6702" name="Alignment: Lawful" hidden="false" targetId="03f7-28fe-397f-08c7" primary="false"/>
         <categoryLink id="5a1a-de4a-18af-4915" name="Followers" hidden="false" targetId="b77c-3081-049f-b25d" primary="false"/>
+        <categoryLink id="ad46-da5a-7140-0ef2" name="Abraham" hidden="false" targetId="d424-14c9-ae49-5ba3" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="d7da-643c-bb3a-0329" name="Upgrades" hidden="false" collective="false">
@@ -897,6 +902,7 @@
         <categoryLink id="66b4-7542-f242-1374" name="New CategoryLink" hidden="false" targetId="4eb2-d49f-4b22-dd86" primary="true"/>
         <categoryLink id="32c3-aa56-ceb7-b2a5" name="Alignment: Neutral" hidden="false" targetId="a184-b0a1-ca0d-b36f" primary="false"/>
         <categoryLink id="0e1f-c5c1-5a67-6323" name="Followers" hidden="false" targetId="b77c-3081-049f-b25d" primary="false"/>
+        <categoryLink id="7c63-8e49-3f63-0446" name="Eugene" hidden="false" targetId="e6a0-0ba9-4e24-cfb5" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="f936-730a-08f5-c0a1" name="Upgrades" hidden="false" collective="false">
@@ -971,6 +977,7 @@
         <categoryLink id="4b24-6919-2389-1572" name="New CategoryLink" hidden="false" targetId="7e4f-cf68-74a3-b58a" primary="true"/>
         <categoryLink id="dd34-3a01-8ebd-072b" name="Alignment: Lawful" hidden="false" targetId="03f7-28fe-397f-08c7" primary="false"/>
         <categoryLink id="7b6e-4f4d-287d-b1f3" name="Followers" hidden="false" targetId="b77c-3081-049f-b25d" primary="false"/>
+        <categoryLink id="c615-e33a-b178-5fef" name="Rosita Espinosa" hidden="false" targetId="1ea7-f5bc-b648-9c2c" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="7ef7-51b8-a672-61a4" name="Upgrades" hidden="false" collective="false">
@@ -1254,6 +1261,7 @@
         <categoryLink id="e0cf-e1d6-91ef-6754" name="New CategoryLink" hidden="false" targetId="7e4f-cf68-74a3-b58a" primary="true"/>
         <categoryLink id="7de9-ab37-2f5b-6e7a" name="Alignment: Lawful" hidden="false" targetId="03f7-28fe-397f-08c7" primary="false"/>
         <categoryLink id="dcf2-dc92-6416-d397" name="Followers" hidden="false" targetId="b77c-3081-049f-b25d" primary="false"/>
+        <categoryLink id="35b1-a015-a790-ec93" name="Andrea" hidden="false" targetId="c1f1-57ea-1170-2700" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="c465-d0e4-5348-fd3a" name="Upgrades" hidden="false" collective="false">
@@ -1722,6 +1730,7 @@
         <categoryLink id="a8e9-660e-7a1f-6bd9" name="New CategoryLink" hidden="false" targetId="7e4f-cf68-74a3-b58a" primary="true"/>
         <categoryLink id="d8e9-e9a4-9361-26a3" name="Alignment: Lawful" hidden="false" targetId="03f7-28fe-397f-08c7" primary="false"/>
         <categoryLink id="f85b-7cce-a39b-b728" name="Followers" hidden="false" targetId="b77c-3081-049f-b25d" primary="false"/>
+        <categoryLink id="2979-7a2a-20d5-93d4" name="Dale" hidden="false" targetId="8bb7-7321-d2c8-bb76" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="72b3-2f5d-6939-1865" name="Upgrades" hidden="false" collective="false">
@@ -2874,6 +2883,7 @@
         <categoryLink id="31d5-e486-5680-210c" name="New CategoryLink" hidden="false" targetId="1632-3305-8ec4-ecf2" primary="true"/>
         <categoryLink id="9c3b-32fd-75c5-3c78" name="Alignment: Lawful" hidden="false" targetId="03f7-28fe-397f-08c7" primary="false"/>
         <categoryLink id="9d21-b846-61a4-6539" name="Followers" hidden="false" targetId="b77c-3081-049f-b25d" primary="false"/>
+        <categoryLink id="c752-9e22-d2e6-496b" name="Tyreese" hidden="false" targetId="12d3-711a-a6c4-d72d" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="a7ef-d579-486d-4380" name="Upgrades" hidden="false" collective="false">

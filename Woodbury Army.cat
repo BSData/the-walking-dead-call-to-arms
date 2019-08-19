@@ -43,8 +43,8 @@
       <categoryLinks>
         <categoryLink id="1e2d-2262-5594-74ac" name="New CategoryLink" hidden="false" targetId="b33e-e6d0-05ba-26ce" primary="true"/>
         <categoryLink id="e2b2-e2b3-bf85-6ffe" name="Alignment: Ruthless" hidden="false" targetId="f115-d6f7-b750-5f55" primary="false"/>
-        <categoryLink id="64e6-ce76-55cb-d075" name="Brian Blake" hidden="false" targetId="7296-331e-7b22-09dd" primary="false"/>
         <categoryLink id="1238-4e34-9f30-1d74" name="Woodbury Army" hidden="false" targetId="80ce-410c-b879-c6db" primary="false"/>
+        <categoryLink id="8ec9-6975-508f-9f1b" name="Brian Blake" hidden="false" targetId="4f9c-b8ab-51b9-6beb" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="8fd8-06d1-d50c-e08e" name="Upgrades" hidden="false" collective="false">
@@ -142,6 +142,7 @@
         <categoryLink id="c1dd-63f6-1309-9a70" name="New CategoryLink" hidden="false" targetId="4eb2-d49f-4b22-dd86" primary="true"/>
         <categoryLink id="7d7a-198b-a1a0-2894" name="Alignment: Ruthless" hidden="false" targetId="f115-d6f7-b750-5f55" primary="false"/>
         <categoryLink id="6c8b-18ee-eae8-9b51" name="Woodbury Army" hidden="false" targetId="80ce-410c-b879-c6db" primary="false"/>
+        <categoryLink id="c4f1-812f-ef68-4ab1" name="Brian Blake" hidden="false" targetId="4f9c-b8ab-51b9-6beb" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="2c10-288f-c4fa-d698" name="Upgrades" hidden="false" collective="false">
@@ -292,6 +293,7 @@
         <categoryLink id="9d34-90b2-359e-1f17" name="New CategoryLink" hidden="false" targetId="b33e-e6d0-05ba-26ce" primary="true"/>
         <categoryLink id="3576-ad08-f375-6c08" name="Alignment: Ruthless" hidden="false" targetId="f115-d6f7-b750-5f55" primary="false"/>
         <categoryLink id="b9f9-c8d6-c581-d9c5" name="Woodbury Army" hidden="false" targetId="80ce-410c-b879-c6db" primary="false"/>
+        <categoryLink id="5d42-049d-57a1-f2e0" name="Brian Blake" hidden="false" targetId="4f9c-b8ab-51b9-6beb" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="bdc3-69a7-e35f-8043" name="Upgrades" hidden="false" collective="false">

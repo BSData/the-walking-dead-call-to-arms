@@ -43,6 +43,7 @@
         <categoryLink id="3d83-685b-bf0a-9c61" name="New CategoryLink" hidden="false" targetId="4eb2-d49f-4b22-dd86" primary="true"/>
         <categoryLink id="8582-cebf-97d9-f95a" name="Alignment: Lawful" hidden="false" targetId="03f7-28fe-397f-08c7" primary="false"/>
         <categoryLink id="0eb3-162e-b878-41c1" name="Greene Family" hidden="false" targetId="9e76-1b82-7d89-1e79" primary="false"/>
+        <categoryLink id="1b16-8bef-5be7-dec8" name="Hershel Greene" hidden="false" targetId="4dae-d36e-64fa-e884" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="fe87-3951-e73c-0eff" name="Upgrades" hidden="false" collective="false">
@@ -112,6 +113,7 @@
         <categoryLink id="f77f-90da-1cb4-2a09" name="New CategoryLink" hidden="false" targetId="b33e-e6d0-05ba-26ce" primary="true"/>
         <categoryLink id="293c-fcfa-0b54-8ae7" name="Alignment: Lawful" hidden="false" targetId="03f7-28fe-397f-08c7" primary="false"/>
         <categoryLink id="73f0-2cd8-134a-f716" name="Greene Family" hidden="false" targetId="9e76-1b82-7d89-1e79" primary="false"/>
+        <categoryLink id="e13e-281c-2790-2c1f" name="Maggie Rhee" hidden="false" targetId="f647-3270-c198-4a08" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="2e5d-4430-eb63-772d" name="Upgrades" hidden="false" collective="false">

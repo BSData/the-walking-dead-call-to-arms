@@ -46,6 +46,7 @@
         <categoryLink id="bb1b-5824-0f22-1cea" name="New CategoryLink" hidden="false" targetId="b33e-e6d0-05ba-26ce" primary="true"/>
         <categoryLink id="44e3-efde-60b4-3a80" name="Alignment: Lawful" hidden="false" targetId="03f7-28fe-397f-08c7" primary="false"/>
         <categoryLink id="cff0-c1f0-8598-7bc8" name="Atlanta Camp" hidden="false" targetId="f7d7-113d-59c5-809e" primary="false"/>
+        <categoryLink id="deec-f76d-fdf0-6a3a" name="Rick Grimes" hidden="false" targetId="0c5d-33ed-49a5-6b53" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="89f6-e7f9-a9a9-c423" name="Upgrades" hidden="false" collective="false">
@@ -157,6 +158,7 @@
         <categoryLink id="3cb0-ca9e-4384-f878" name="New CategoryLink" hidden="false" targetId="1632-3305-8ec4-ecf2" primary="true"/>
         <categoryLink id="90df-c32b-10d4-bb17" name="Alignment: Lawful" hidden="false" targetId="03f7-28fe-397f-08c7" primary="false"/>
         <categoryLink id="e46b-36f2-f34b-53fe" name="Atlanta Camp" hidden="false" targetId="f7d7-113d-59c5-809e" primary="false"/>
+        <categoryLink id="7dd9-9c6c-ce9c-a0c3" name="Rick Grimes" hidden="false" targetId="0c5d-33ed-49a5-6b53" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="9dae-e1af-6b9a-41ea" name="Upgrades" hidden="false" collective="false">
@@ -253,6 +255,7 @@
         <categoryLink id="b0c4-e168-72fd-15f8" name="New CategoryLink" hidden="false" targetId="4eb2-d49f-4b22-dd86" primary="true"/>
         <categoryLink id="fe9c-9109-53f0-5792" name="Alignment: Lawful" hidden="false" targetId="03f7-28fe-397f-08c7" primary="false"/>
         <categoryLink id="bcce-c2d3-379a-311c" name="Atlanta Camp" hidden="false" targetId="f7d7-113d-59c5-809e" primary="false"/>
+        <categoryLink id="5a50-c380-e53c-ef31" name="Rick Grimes" hidden="false" targetId="0c5d-33ed-49a5-6b53" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="aea6-47a8-f425-b45d" name="Upgrades" hidden="false" collective="false">
@@ -350,6 +353,7 @@
         <categoryLink id="36c8-5442-1abf-53be" name="New CategoryLink" hidden="false" targetId="4eb2-d49f-4b22-dd86" primary="true"/>
         <categoryLink id="aeda-547c-15e2-dc98" name="Alignment: Lawful" hidden="false" targetId="03f7-28fe-397f-08c7" primary="false"/>
         <categoryLink id="1fdd-6d21-3da0-13b9" name="Atlanta Camp" hidden="false" targetId="f7d7-113d-59c5-809e" primary="false"/>
+        <categoryLink id="ba88-55ec-77df-20ca" name="Carl Grimes" hidden="false" targetId="741d-c8e9-6482-b37f" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="00eb-0b89-ebf6-1f78" name="Upgrades" hidden="false" collective="false">
@@ -594,6 +598,7 @@
         <categoryLink id="7dcb-9df4-d014-5085" name="New CategoryLink" hidden="false" targetId="7e4f-cf68-74a3-b58a" primary="true"/>
         <categoryLink id="d72c-bbde-0667-ee88" name="Alignment: Lawful" hidden="false" targetId="03f7-28fe-397f-08c7" primary="false"/>
         <categoryLink id="204d-27e3-7525-e90e" name="Atlanta Camp" hidden="false" targetId="f7d7-113d-59c5-809e" primary="false"/>
+        <categoryLink id="e3af-7c28-b0a7-fd8d" name="Andrea" hidden="false" targetId="c1f1-57ea-1170-2700" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="1fbf-1289-2c7a-07ac" name="Upgrades" hidden="false" collective="false">
@@ -709,6 +714,7 @@
         <categoryLink id="c5f9-bdae-f196-6378" name="New CategoryLink" hidden="false" targetId="4eb2-d49f-4b22-dd86" primary="true"/>
         <categoryLink id="2864-d0e5-1ba5-baf2" name="Alignment: Lawful" hidden="false" targetId="03f7-28fe-397f-08c7" primary="false"/>
         <categoryLink id="c5bb-beab-94fa-5bbd" name="Atlanta Camp" hidden="false" targetId="f7d7-113d-59c5-809e" primary="false"/>
+        <categoryLink id="850b-1f7b-7563-8874" name="Dale" hidden="false" targetId="8bb7-7321-d2c8-bb76" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="3603-bb0e-b3c8-e167" name="Upgrades" hidden="false" collective="false">
@@ -799,6 +805,7 @@
         <categoryLink id="44a5-4868-2516-3caf" name="New CategoryLink" hidden="false" targetId="7aaa-f540-43d6-81de" primary="true"/>
         <categoryLink id="a45f-d858-9d84-c5ec" name="Alignment: Lawful" hidden="false" targetId="03f7-28fe-397f-08c7" primary="false"/>
         <categoryLink id="fda1-183d-4bc3-96f7" name="Atlanta Camp" hidden="false" targetId="f7d7-113d-59c5-809e" primary="false"/>
+        <categoryLink id="8187-3c59-fdfd-8e2f" name="Glenn" hidden="false" targetId="68ff-f370-2fa7-d19c" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="569a-d787-7923-b0cb" name="Upgrades" hidden="false" collective="false">
@@ -891,6 +898,7 @@
         <categoryLink id="a871-fd73-0358-f510" name="New CategoryLink" hidden="false" targetId="b33e-e6d0-05ba-26ce" primary="true"/>
         <categoryLink id="4198-b76e-6a41-0805" name="Alignment: Lawful" hidden="false" targetId="03f7-28fe-397f-08c7" primary="false"/>
         <categoryLink id="3614-819b-259d-281c" name="Atlanta Camp" hidden="false" targetId="f7d7-113d-59c5-809e" primary="false"/>
+        <categoryLink id="9610-a2fd-8bd3-1b6d" name="Glenn" hidden="false" targetId="68ff-f370-2fa7-d19c" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="cb06-94f7-c0df-a848" name="Upgrades" hidden="false" collective="false">
@@ -1091,6 +1099,7 @@
         <categoryLink id="c9a7-e053-c645-bdb3" name="New CategoryLink" hidden="false" targetId="4eb2-d49f-4b22-dd86" primary="true"/>
         <categoryLink id="9e12-46cd-037e-fd88" name="Alignment: Lawful" hidden="false" targetId="03f7-28fe-397f-08c7" primary="false"/>
         <categoryLink id="3e16-5ca0-a887-48a1" name="Atlanta Camp" hidden="false" targetId="f7d7-113d-59c5-809e" primary="false"/>
+        <categoryLink id="8d35-c591-a2ae-ee52" name="Maggie Rhee" hidden="false" targetId="f647-3270-c198-4a08" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="935d-875b-d42a-473d" name="Upgrades" hidden="false" collective="false">
@@ -1159,6 +1168,7 @@
         <categoryLink id="c411-9fc3-3e43-e267" name="New CategoryLink" hidden="false" targetId="7aaa-f540-43d6-81de" primary="true"/>
         <categoryLink id="21f3-b743-c756-035b" name="Atlanta Camp" hidden="false" targetId="f7d7-113d-59c5-809e" primary="false"/>
         <categoryLink id="ca9c-cd53-97f6-6b5e" name="Alignment: Neutral" hidden="false" targetId="a184-b0a1-ca0d-b36f" primary="false"/>
+        <categoryLink id="9e2d-d364-1076-e6b8" name="Michonne" hidden="false" targetId="5516-680b-3658-94c6" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="94aa-cfc8-3765-a70e" name="Upgrades" hidden="false" collective="false">
@@ -1332,6 +1342,7 @@
         <categoryLink id="c82d-8fe8-c94b-a041" name="New CategoryLink" hidden="false" targetId="7aaa-f540-43d6-81de" primary="true"/>
         <categoryLink id="abc8-1b88-8564-77c8" name="Alignment: Lawful" hidden="false" targetId="03f7-28fe-397f-08c7" primary="false"/>
         <categoryLink id="8475-bdfc-b208-b8ae" name="Atlanta Camp" hidden="false" targetId="f7d7-113d-59c5-809e" primary="false"/>
+        <categoryLink id="d9d6-4b63-3753-160a" name="Tyreese" hidden="false" targetId="12d3-711a-a6c4-d72d" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="b6dd-038b-221d-a903" name="Upgrades" hidden="false" collective="false">
@@ -1432,6 +1443,7 @@ able to move into contact with the target, she must do so, but must always end t
         <categoryLink id="689b-cbb8-bc3e-843a" name="New CategoryLink" hidden="false" targetId="1632-3305-8ec4-ecf2" primary="true"/>
         <categoryLink id="348d-bbb0-6c0b-d5af" name="Alignment: Neutral" hidden="false" targetId="a184-b0a1-ca0d-b36f" primary="false"/>
         <categoryLink id="b35a-c43c-2e95-60e7" name="Atlanta Camp" hidden="false" targetId="f7d7-113d-59c5-809e" primary="false"/>
+        <categoryLink id="885f-df80-6a93-e71c" name="Michonne" hidden="false" targetId="5516-680b-3658-94c6" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="db3b-3731-1ef2-8825" name="Upgrades" hidden="false" collective="false">
@@ -1507,6 +1519,7 @@ able to move into contact with the target, she must do so, but must always end t
         <categoryLink id="41f6-693d-71d6-6978" name="Alignment: Lawful" hidden="false" targetId="03f7-28fe-397f-08c7" primary="false"/>
         <categoryLink id="39ca-ff4a-0eae-4d0d" name="Atlanta Camp" hidden="false" targetId="f7d7-113d-59c5-809e" primary="false"/>
         <categoryLink id="e6bf-c4d9-6ae1-e601" name="New CategoryLink" hidden="false" targetId="4eb2-d49f-4b22-dd86" primary="true"/>
+        <categoryLink id="f43a-90aa-3982-c4d3" name="Carl Grimes" hidden="false" targetId="741d-c8e9-6482-b37f" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="c98c-0269-8447-3531" name="Upgrades" hidden="false" collective="false">

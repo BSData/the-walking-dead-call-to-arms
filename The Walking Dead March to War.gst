@@ -73,7 +73,6 @@
     </categoryEntry>
     <categoryEntry id="f7d7-113d-59c5-809e" name="Atlanta Camp" hidden="false"/>
     <categoryEntry id="80ce-410c-b879-c6db" name="Woodbury Army" hidden="false"/>
-    <categoryEntry id="7296-331e-7b22-09dd" name="Brian Blake" hidden="false"/>
     <categoryEntry id="7d12-b85e-93d2-1ad0" name="Hunters" hidden="false"/>
     <categoryEntry id="604d-5476-6363-ee71" name="Scavengers" hidden="false"/>
     <categoryEntry id="35d4-1d10-541a-8cab" name="Marauders" hidden="false"/>
@@ -86,6 +85,86 @@
     <categoryEntry id="c874-db1c-d884-ee2d" name="Special Items" hidden="false"/>
     <categoryEntry id="14aa-5220-35fb-e9ef" name="Armor Items" hidden="false"/>
     <categoryEntry id="79c5-63e8-4a18-90b6" name="Special" hidden="false"/>
+    <categoryEntry id="0c5d-33ed-49a5-6b53" name="Rick Grimes" hidden="false">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e39c-7968-42f3-09aa" type="max"/>
+      </constraints>
+    </categoryEntry>
+    <categoryEntry id="4f9c-b8ab-51b9-6beb" name="Brian Blake" hidden="false">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d69a-0336-3467-30bb" type="max"/>
+      </constraints>
+    </categoryEntry>
+    <categoryEntry id="8bb7-7321-d2c8-bb76" name="Dale" hidden="false">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="529e-b3f7-df57-5aea" type="max"/>
+      </constraints>
+    </categoryEntry>
+    <categoryEntry id="c1f1-57ea-1170-2700" name="Andrea" hidden="false">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2070-37e9-34c8-05b1" type="max"/>
+      </constraints>
+    </categoryEntry>
+    <categoryEntry id="5f6a-a2a7-9e2f-5dee" name="Morgan" hidden="false">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0f91-455d-de94-acd3" type="max"/>
+      </constraints>
+    </categoryEntry>
+    <categoryEntry id="5516-680b-3658-94c6" name="Michonne" hidden="false">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3867-9925-93f4-b2b0" type="max"/>
+      </constraints>
+    </categoryEntry>
+    <categoryEntry id="12d3-711a-a6c4-d72d" name="Tyreese" hidden="false">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="11bf-d763-abc7-6dbc" type="max"/>
+      </constraints>
+    </categoryEntry>
+    <categoryEntry id="741d-c8e9-6482-b37f" name="Carl Grimes" hidden="false">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d536-5d13-123d-8790" type="max"/>
+      </constraints>
+    </categoryEntry>
+    <categoryEntry id="68ff-f370-2fa7-d19c" name="Glenn" hidden="false">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e25b-8ac4-f309-c517" type="max"/>
+      </constraints>
+    </categoryEntry>
+    <categoryEntry id="f647-3270-c198-4a08" name="Maggie Rhee" hidden="false">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="389a-f427-ab80-048e" type="max"/>
+      </constraints>
+    </categoryEntry>
+    <categoryEntry id="d424-14c9-ae49-5ba3" name="Abraham" hidden="false">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5048-eb5d-e241-5b4e" type="max"/>
+      </constraints>
+    </categoryEntry>
+    <categoryEntry id="e6a0-0ba9-4e24-cfb5" name="Eugene" hidden="false">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="935b-122c-f449-c29d" type="max"/>
+      </constraints>
+    </categoryEntry>
+    <categoryEntry id="07ab-e882-bcb6-f503" name="Father Gabriel" hidden="false">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="76a2-f68e-419c-afff" type="max"/>
+      </constraints>
+    </categoryEntry>
+    <categoryEntry id="1ea7-f5bc-b648-9c2c" name="Rosita Espinosa" hidden="false">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bc97-4337-45d8-4ac4" type="max"/>
+      </constraints>
+    </categoryEntry>
+    <categoryEntry id="4dae-d36e-64fa-e884" name="Hershel Greene" hidden="false">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bb0c-b80b-d363-adc7" type="max"/>
+      </constraints>
+    </categoryEntry>
+    <categoryEntry id="10f2-60af-fc17-1a25" name="Chris" hidden="false">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9557-f19a-3a0b-c99a" type="max"/>
+      </constraints>
+    </categoryEntry>
   </categoryEntries>
   <forceEntries>
     <forceEntry id="0747-3d1e-6f14-5332" name="Survivors" hidden="false">

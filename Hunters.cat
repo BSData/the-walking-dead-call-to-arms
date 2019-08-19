@@ -46,6 +46,7 @@
         <categoryLink id="518c-0cb8-c6ae-7a78" name="New CategoryLink" hidden="false" targetId="b33e-e6d0-05ba-26ce" primary="true"/>
         <categoryLink id="b510-ef37-ded0-c669" name="Alignment: Ruthless" hidden="false" targetId="f115-d6f7-b750-5f55" primary="false"/>
         <categoryLink id="a56c-c9eb-ac01-1941" name="Hunters" hidden="false" targetId="7d12-b85e-93d2-1ad0" primary="false"/>
+        <categoryLink id="e331-351a-2913-9795" name="Chris" hidden="false" targetId="10f2-60af-fc17-1a25" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="8270-36ba-78aa-7009" name="Upgrades" hidden="false" collective="false">
