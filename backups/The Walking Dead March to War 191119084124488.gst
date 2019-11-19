@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="f046-8736-7a7e-93d7" name="The Walking Dead: Call to Arms" revision="4" battleScribeVersion="2.03" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="f046-8736-7a7e-93d7" name="The Walking Dead: Call to Arms" revision="4" battleScribeVersion="2.02" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <costTypes>
     <costType id="0705-c536-f372-c2d0" name=" Points" defaultCostLimit="0.0"/>
   </costTypes>
@@ -334,7 +334,7 @@
     </forceEntry>
   </forceEntries>
   <sharedSelectionEntries>
-    <selectionEntry id="d6a8-e66f-ce73-e303" name="Body Armor" page="bod" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="d6a8-e66f-ce73-e303" name="Body Armor" page="bod" hidden="false" collective="false" type="upgrade">
       <profiles>
         <profile id="6237-ed88-e22b-860c" name="Body Armor" hidden="false" typeId="ba75-8ed9-edc3-b7f6" typeName="Special Items">
           <characteristics>
@@ -354,7 +354,7 @@
         <cost name=" Points" typeId="0705-c536-f372-c2d0" value="16.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="b45c-d238-4ebf-c2d7" name="Flak Jacket" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="b45c-d238-4ebf-c2d7" name="Flak Jacket" hidden="false" collective="false" type="upgrade">
       <profiles>
         <profile id="1269-1c4c-0837-4f32" name="Flak Jacket" hidden="false" typeId="ba75-8ed9-edc3-b7f6" typeName="Special Items">
           <characteristics>
@@ -371,7 +371,7 @@
         <cost name=" Points" typeId="0705-c536-f372-c2d0" value="6.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="ff1e-9f4e-e88f-af31" name="Football Pads" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="ff1e-9f4e-e88f-af31" name="Football Pads" hidden="false" collective="false" type="upgrade">
       <profiles>
         <profile id="784a-8bb7-9a00-ff48" name="Football Pads" hidden="false" typeId="ba75-8ed9-edc3-b7f6" typeName="Special Items">
           <characteristics>
@@ -388,7 +388,7 @@
         <cost name=" Points" typeId="0705-c536-f372-c2d0" value="10.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="b8b7-2911-1a6b-2235" name="Hockey Gear" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="b8b7-2911-1a6b-2235" name="Hockey Gear" hidden="false" collective="false" type="upgrade">
       <rules>
         <rule id="3273-d6cc-29ac-c113" name="Hockey Gear" hidden="false">
           <description>Ignore the Bludgeon keyword when attacked in melee.</description>
@@ -401,7 +401,7 @@
         <cost name=" Points" typeId="0705-c536-f372-c2d0" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="2aa0-4fe1-a3bf-57df" name="Leather Jacket" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="2aa0-4fe1-a3bf-57df" name="Leather Jacket" hidden="false" collective="false" type="upgrade">
       <profiles>
         <profile id="d6ba-ccca-76dc-e85c" name="Leather Jacket" hidden="false" typeId="ba75-8ed9-edc3-b7f6" typeName="Special Items">
           <characteristics>
@@ -419,7 +419,7 @@
         <cost name=" Points" typeId="0705-c536-f372-c2d0" value="7.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="4c89-9ad8-9b57-2833" name="Makeshift Padding" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="4c89-9ad8-9b57-2833" name="Makeshift Padding" hidden="false" collective="false" type="upgrade">
       <profiles>
         <profile id="519d-493e-59fb-9780" name="Makeshift Padding" hidden="false" typeId="ba75-8ed9-edc3-b7f6" typeName="Special Items">
           <characteristics>
@@ -437,7 +437,7 @@
         <cost name=" Points" typeId="0705-c536-f372-c2d0" value="4.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="0aa6-10b6-6110-cfa9" name="Police Vest" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="0aa6-10b6-6110-cfa9" name="Police Vest" hidden="false" collective="false" type="upgrade">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
@@ -461,7 +461,7 @@
         <cost name=" Points" typeId="0705-c536-f372-c2d0" value="10.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="1672-3925-3d1b-4808" name="Riot Gear" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="1672-3925-3d1b-4808" name="Riot Gear" hidden="false" collective="false" type="upgrade">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
@@ -485,7 +485,7 @@
         <cost name=" Points" typeId="0705-c536-f372-c2d0" value="14.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="33a9-0185-386f-0c4e" name="Stab Vest" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="33a9-0185-386f-0c4e" name="Stab Vest" hidden="false" collective="false" type="upgrade">
       <profiles>
         <profile id="ce00-0cf9-b19f-20fe" name="Stab Vest" hidden="false" typeId="ba75-8ed9-edc3-b7f6" typeName="Special Items">
           <characteristics>
@@ -502,7 +502,7 @@
         <cost name=" Points" typeId="0705-c536-f372-c2d0" value="8.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="0cdd-5f84-f025-dda1" name="Baseball Bat" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="0cdd-5f84-f025-dda1" name="Baseball Bat" hidden="false" collective="false" type="upgrade">
       <profiles>
         <profile id="608d-4c6e-0fe2-3c31" name="Baseball Bat" hidden="false" typeId="d42c-7da6-84ea-bbd3" typeName="Melee Weapon">
           <characteristics>
@@ -520,7 +520,7 @@
         <cost name=" Points" typeId="0705-c536-f372-c2d0" value="8.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="6b3c-6f5d-4167-d363" name="Cattle Prod" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="6b3c-6f5d-4167-d363" name="Cattle Prod" hidden="false" collective="false" type="upgrade">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
@@ -548,7 +548,7 @@
         <cost name=" Points" typeId="0705-c536-f372-c2d0" value="8.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="2557-ad6c-8fed-3b83" name="Chainsaw" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="2557-ad6c-8fed-3b83" name="Chainsaw" hidden="false" collective="false" type="upgrade">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b6ca-30d7-d268-dab3" type="max"/>
       </constraints>
@@ -572,7 +572,7 @@
         <cost name=" Points" typeId="0705-c536-f372-c2d0" value="15.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="0ea3-5cfb-5bd6-afd2" name="Cleaver" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="0ea3-5cfb-5bd6-afd2" name="Cleaver" hidden="false" collective="false" type="upgrade">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
@@ -599,7 +599,7 @@
         <cost name=" Points" typeId="0705-c536-f372-c2d0" value="10.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="cb36-3dab-6233-2e67" name="Crowbar" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="cb36-3dab-6233-2e67" name="Crowbar" hidden="false" collective="false" type="upgrade">
       <profiles>
         <profile id="9dad-dea3-86de-c5f1" name="Crowbar" hidden="false" typeId="d42c-7da6-84ea-bbd3" typeName="Melee Weapon">
           <characteristics>
@@ -617,7 +617,7 @@
         <cost name=" Points" typeId="0705-c536-f372-c2d0" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="fdda-ebfe-15f4-f734" name="Felling Axe" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="fdda-ebfe-15f4-f734" name="Felling Axe" hidden="false" collective="false" type="upgrade">
       <profiles>
         <profile id="cc6c-811e-d11f-89b3" name="Felling Axe" hidden="false" typeId="d42c-7da6-84ea-bbd3" typeName="Melee Weapon">
           <characteristics>
@@ -636,7 +636,7 @@
         <cost name=" Points" typeId="0705-c536-f372-c2d0" value="20.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="5702-d7fd-0362-1ebc" name="Fire Axe" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="5702-d7fd-0362-1ebc" name="Fire Axe" hidden="false" collective="false" type="upgrade">
       <profiles>
         <profile id="2e56-c304-347c-7137" name="Fire Axe" hidden="false" typeId="d42c-7da6-84ea-bbd3" typeName="Melee Weapon">
           <characteristics>
@@ -655,7 +655,7 @@
         <cost name=" Points" typeId="0705-c536-f372-c2d0" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="5ac6-8363-b9e6-dc5b" name="Hammer" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="5ac6-8363-b9e6-dc5b" name="Hammer" hidden="false" collective="false" type="upgrade">
       <profiles>
         <profile id="7c01-5431-dd91-385c" name="Hammer" hidden="false" typeId="d42c-7da6-84ea-bbd3" typeName="Melee Weapon">
           <characteristics>
@@ -674,7 +674,7 @@
         <cost name=" Points" typeId="0705-c536-f372-c2d0" value="5.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="f81a-4ea3-d438-5303" name="Hatchet" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="f81a-4ea3-d438-5303" name="Hatchet" hidden="false" collective="false" type="upgrade">
       <profiles>
         <profile id="7998-2526-ded1-1c67" name="Hatchet" hidden="false" typeId="d42c-7da6-84ea-bbd3" typeName="Melee Weapon">
           <characteristics>
@@ -693,7 +693,7 @@
         <cost name=" Points" typeId="0705-c536-f372-c2d0" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="6007-1e47-9cb1-1b69" name="Hay Hook" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="6007-1e47-9cb1-1b69" name="Hay Hook" hidden="false" collective="false" type="upgrade">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
@@ -719,7 +719,7 @@
         <cost name=" Points" typeId="0705-c536-f372-c2d0" value="6.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="a04e-c5ed-d106-fe0c" name="Katana" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="a04e-c5ed-d106-fe0c" name="Katana" hidden="false" collective="false" type="upgrade">
       <profiles>
         <profile id="9044-4cc4-24ed-2a13" name="Katana" hidden="false" typeId="d42c-7da6-84ea-bbd3" typeName="Melee Weapon">
           <characteristics>
@@ -737,7 +737,7 @@
         <cost name=" Points" typeId="0705-c536-f372-c2d0" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="e1c4-2bd3-01d3-0fdd" name="Knife" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="e1c4-2bd3-01d3-0fdd" name="Knife" hidden="false" collective="false" type="upgrade">
       <profiles>
         <profile id="6b3f-6a68-f847-72fa" name="Knife" hidden="false" typeId="d42c-7da6-84ea-bbd3" typeName="Melee Weapon">
           <characteristics>
@@ -756,7 +756,7 @@
         <cost name=" Points" typeId="0705-c536-f372-c2d0" value="8.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="32c9-856a-047f-b39b" name="Machete" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="32c9-856a-047f-b39b" name="Machete" hidden="false" collective="false" type="upgrade">
       <profiles>
         <profile id="c1c3-ec02-883f-e05b" name="Machete" hidden="false" typeId="d42c-7da6-84ea-bbd3" typeName="Melee Weapon">
           <characteristics>
@@ -776,7 +776,7 @@
         <cost name=" Points" typeId="0705-c536-f372-c2d0" value="13.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="749b-a9e5-571f-d0bd" name="Metal Pipe" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="749b-a9e5-571f-d0bd" name="Metal Pipe" hidden="false" collective="false" type="upgrade">
       <profiles>
         <profile id="a184-78c9-9aa0-5800" name="Metal Pipe" hidden="false" typeId="d42c-7da6-84ea-bbd3" typeName="Melee Weapon">
           <characteristics>
@@ -794,7 +794,7 @@
         <cost name=" Points" typeId="0705-c536-f372-c2d0" value="3.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="57e4-4933-c47d-f0e3" name="Pitchfork" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="57e4-4933-c47d-f0e3" name="Pitchfork" hidden="false" collective="false" type="upgrade">
       <profiles>
         <profile id="b1d1-2faa-1686-9a2a" name="Pitchfork" hidden="false" typeId="d42c-7da6-84ea-bbd3" typeName="Melee Weapon">
           <characteristics>
@@ -813,7 +813,7 @@
         <cost name=" Points" typeId="0705-c536-f372-c2d0" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="c400-4b83-38d2-fe71" name="Riot Baton" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="c400-4b83-38d2-fe71" name="Riot Baton" hidden="false" collective="false" type="upgrade">
       <profiles>
         <profile id="135e-9e03-d4d1-2efd" name="Riot Baton" hidden="false" typeId="d42c-7da6-84ea-bbd3" typeName="Melee Weapon">
           <characteristics>
@@ -832,7 +832,7 @@
         <cost name=" Points" typeId="0705-c536-f372-c2d0" value="10.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="1979-6765-ee70-e04b" name="Riot Shield" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="1979-6765-ee70-e04b" name="Riot Shield" hidden="false" collective="false" type="upgrade">
       <profiles>
         <profile id="e406-df94-c1cd-117d" name="Riot Shield" hidden="false" typeId="d42c-7da6-84ea-bbd3" typeName="Melee Weapon">
           <characteristics>
@@ -850,7 +850,7 @@
         <cost name=" Points" typeId="0705-c536-f372-c2d0" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="dc3b-931f-2cd5-c643" name="Scythe" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="dc3b-931f-2cd5-c643" name="Scythe" hidden="false" collective="false" type="upgrade">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
@@ -876,7 +876,7 @@
         <cost name=" Points" typeId="0705-c536-f372-c2d0" value="14.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="3589-9728-aa8e-d369" name="Shiv" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="3589-9728-aa8e-d369" name="Shiv" hidden="false" collective="false" type="upgrade">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditionGroups>
@@ -907,7 +907,7 @@
         <cost name=" Points" typeId="0705-c536-f372-c2d0" value="4.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="db2a-ee96-6e95-d042" name="Shovel" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="db2a-ee96-6e95-d042" name="Shovel" hidden="false" collective="false" type="upgrade">
       <profiles>
         <profile id="a5b1-4767-e06d-725c" name="Shovel" hidden="false" typeId="d42c-7da6-84ea-bbd3" typeName="Melee Weapon">
           <characteristics>
@@ -926,7 +926,7 @@
         <cost name=" Points" typeId="0705-c536-f372-c2d0" value="6.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="611b-f53a-a2dd-e323" name="Sickle" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="611b-f53a-a2dd-e323" name="Sickle" hidden="false" collective="false" type="upgrade">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
@@ -951,7 +951,7 @@
         <cost name=" Points" typeId="0705-c536-f372-c2d0" value="8.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="43c2-082f-29c3-508e" name="Sledgehammer" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="43c2-082f-29c3-508e" name="Sledgehammer" hidden="false" collective="false" type="upgrade">
       <profiles>
         <profile id="014c-ba1e-c406-3e8b" name="Sledgehammer" hidden="false" typeId="d42c-7da6-84ea-bbd3" typeName="Melee Weapon">
           <characteristics>
@@ -970,7 +970,7 @@
         <cost name=" Points" typeId="0705-c536-f372-c2d0" value="13.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="538f-91a1-3211-887d" name="Taser" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="538f-91a1-3211-887d" name="Taser" hidden="false" collective="false" type="upgrade">
       <profiles>
         <profile id="c9f9-d2fe-16b4-a2db" name="Taser" hidden="false" typeId="d42c-7da6-84ea-bbd3" typeName="Melee Weapon">
           <characteristics>
@@ -988,7 +988,7 @@
         <cost name=" Points" typeId="0705-c536-f372-c2d0" value="6.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="946e-367e-9db7-b6fd" name="Tire Iron" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="946e-367e-9db7-b6fd" name="Tire Iron" hidden="false" collective="false" type="upgrade">
       <profiles>
         <profile id="3e2d-64b1-c2c5-e5a0" name="Tire Iron" hidden="false" typeId="d42c-7da6-84ea-bbd3" typeName="Melee Weapon">
           <characteristics>
@@ -1003,7 +1003,7 @@
         <cost name=" Points" typeId="0705-c536-f372-c2d0" value="8.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="ffaf-e801-2087-06e1" name=".22 Revolver" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="ffaf-e801-2087-06e1" name=".22 Revolver" hidden="false" collective="false" type="upgrade">
       <profiles>
         <profile id="830a-c972-02b8-ee84" name=".22 Revolver" hidden="false" typeId="3560-a8a8-6a4e-2aa2" typeName="Ranged Weapon">
           <characteristics>
@@ -1026,7 +1026,7 @@
         <cost name=" Points" typeId="0705-c536-f372-c2d0" value="6.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="aeb7-e632-261d-d843" name=".38 Revolver" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="aeb7-e632-261d-d843" name=".38 Revolver" hidden="false" collective="false" type="upgrade">
       <profiles>
         <profile id="0f6e-6fe0-6c82-6f4c" name=".38 Revolver" hidden="false" typeId="3560-a8a8-6a4e-2aa2" typeName="Ranged Weapon">
           <characteristics>
@@ -1049,7 +1049,7 @@
         <cost name=" Points" typeId="0705-c536-f372-c2d0" value="12.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="329b-bd83-bbe9-bd52" name="9mm Pistol" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="329b-bd83-bbe9-bd52" name="9mm Pistol" hidden="false" collective="false" type="upgrade">
       <profiles>
         <profile id="33f9-a30d-9595-f0fb" name="9mm Pistol" hidden="false" typeId="3560-a8a8-6a4e-2aa2" typeName="Ranged Weapon">
           <characteristics>
@@ -1073,7 +1073,7 @@
         <cost name=" Points" typeId="0705-c536-f372-c2d0" value="14.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="24bb-8509-0e1d-d748" name="Airtronic RPG-7" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="24bb-8509-0e1d-d748" name="Airtronic RPG-7" hidden="false" collective="false" type="upgrade">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
@@ -1108,7 +1108,7 @@
         <cost name=" Points" typeId="0705-c536-f372-c2d0" value="26.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="e2b5-7290-3a44-a524" name="AK-47" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="e2b5-7290-3a44-a524" name="AK-47" hidden="false" collective="false" type="upgrade">
       <profiles>
         <profile id="5fc7-0394-a328-7d9f" name="AK-47" hidden="false" typeId="3560-a8a8-6a4e-2aa2" typeName="Ranged Weapon">
           <characteristics>
@@ -1133,7 +1133,7 @@
         <cost name=" Points" typeId="0705-c536-f372-c2d0" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="74ad-7273-aed2-dfb6" name="Antique Rifle" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="74ad-7273-aed2-dfb6" name="Antique Rifle" hidden="false" collective="false" type="upgrade">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
@@ -1164,7 +1164,7 @@
         <cost name=" Points" typeId="0705-c536-f372-c2d0" value="18.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="9c64-38a1-031d-05db" name="AR-15" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="9c64-38a1-031d-05db" name="AR-15" hidden="false" collective="false" type="upgrade">
       <profiles>
         <profile id="f933-b665-fb7e-cf28" name="AR-15" hidden="false" typeId="3560-a8a8-6a4e-2aa2" typeName="Ranged Weapon">
           <characteristics>
@@ -1190,7 +1190,7 @@
         <cost name=" Points" typeId="0705-c536-f372-c2d0" value="30.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="37ea-4bc5-5b66-4f28" name="Arctic Warfare Sniper Rifle" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="37ea-4bc5-5b66-4f28" name="Arctic Warfare Sniper Rifle" hidden="false" collective="false" type="upgrade">
       <profiles>
         <profile id="fa98-6176-e5af-f3a9" name="Arctic Sniper Rifle" hidden="false" typeId="3560-a8a8-6a4e-2aa2" typeName="Ranged Weapon">
           <characteristics>
@@ -1213,7 +1213,7 @@
         <cost name=" Points" typeId="0705-c536-f372-c2d0" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="c2f9-298d-8cac-dc94" name="Beretta 92" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="c2f9-298d-8cac-dc94" name="Beretta 92" hidden="false" collective="false" type="upgrade">
       <profiles>
         <profile id="fc3f-1b91-b566-2786" name="Beretta 92" hidden="false" typeId="3560-a8a8-6a4e-2aa2" typeName="Ranged Weapon">
           <characteristics>
@@ -1237,7 +1237,7 @@
         <cost name=" Points" typeId="0705-c536-f372-c2d0" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="577e-ffd8-55b8-147e" name="Browning Hi-Power" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="577e-ffd8-55b8-147e" name="Browning Hi-Power" hidden="false" collective="false" type="upgrade">
       <profiles>
         <profile id="dc76-3881-9b6c-981d" name="Browning Hi-Power" hidden="false" typeId="3560-a8a8-6a4e-2aa2" typeName="Ranged Weapon">
           <characteristics>
@@ -1261,7 +1261,7 @@
         <cost name=" Points" typeId="0705-c536-f372-c2d0" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="3401-aa6d-f643-de6d" name="Browning Hunting Rifle" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="3401-aa6d-f643-de6d" name="Browning Hunting Rifle" hidden="false" collective="false" type="upgrade">
       <profiles>
         <profile id="2a2f-76cb-81a9-c63b" name="Browning Hunting Rifle" hidden="false" typeId="3560-a8a8-6a4e-2aa2" typeName="Ranged Weapon">
           <characteristics>
@@ -1284,7 +1284,7 @@
         <cost name=" Points" typeId="0705-c536-f372-c2d0" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="fc99-56ee-ce61-96c7" name="Coach Gun" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="fc99-56ee-ce61-96c7" name="Coach Gun" hidden="false" collective="false" type="upgrade">
       <profiles>
         <profile id="0d88-998f-6292-2df7" name="Coach Gun" hidden="false" typeId="3560-a8a8-6a4e-2aa2" typeName="Ranged Weapon">
           <characteristics>
@@ -1305,7 +1305,7 @@
         <cost name=" Points" typeId="0705-c536-f372-c2d0" value="18.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="9681-146e-1773-ab60" name="Colt Python" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="9681-146e-1773-ab60" name="Colt Python" hidden="false" collective="false" type="upgrade">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
@@ -1337,7 +1337,7 @@
         <cost name=" Points" typeId="0705-c536-f372-c2d0" value="24.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="6b11-4abb-3b2e-f725" name="Crossbow" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="6b11-4abb-3b2e-f725" name="Crossbow" hidden="false" collective="false" type="upgrade">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ee77-a5f2-9540-c6b0" type="max"/>
       </constraints>
@@ -1361,7 +1361,7 @@
         <cost name=" Points" typeId="0705-c536-f372-c2d0" value="22.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="2945-e6d6-5c50-508c" name="CX4 Storm" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="2945-e6d6-5c50-508c" name="CX4 Storm" hidden="false" collective="false" type="upgrade">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
@@ -1394,7 +1394,7 @@
         <cost name=" Points" typeId="0705-c536-f372-c2d0" value="32.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="cdfb-beb3-1d39-0eeb" name="CZ 82" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="cdfb-beb3-1d39-0eeb" name="CZ 82" hidden="false" collective="false" type="upgrade">
       <profiles>
         <profile id="b945-b9ce-63f3-b62f" name="CZ 82" hidden="false" typeId="3560-a8a8-6a4e-2aa2" typeName="Ranged Weapon">
           <characteristics>
@@ -1415,7 +1415,7 @@
         <cost name=" Points" typeId="0705-c536-f372-c2d0" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="6904-804a-4adf-02e1" name="Flare Gun" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="6904-804a-4adf-02e1" name="Flare Gun" hidden="false" collective="false" type="upgrade">
       <profiles>
         <profile id="154e-fe44-1fe6-eea1" name="Flare Gun" hidden="false" typeId="3560-a8a8-6a4e-2aa2" typeName="Ranged Weapon">
           <characteristics>
@@ -1437,7 +1437,7 @@
         <cost name=" Points" typeId="0705-c536-f372-c2d0" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="8a7e-85ec-6b38-1299" name="Grenade" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="8a7e-85ec-6b38-1299" name="Grenade" hidden="false" collective="false" type="upgrade">
       <profiles>
         <profile id="5c99-da38-14da-4c23" name="Grenade" hidden="false" typeId="3560-a8a8-6a4e-2aa2" typeName="Ranged Weapon">
           <characteristics>
@@ -1459,7 +1459,7 @@
         <cost name=" Points" typeId="0705-c536-f372-c2d0" value="12.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="9118-81b8-5078-b8e9" name="IMI Uzi" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="9118-81b8-5078-b8e9" name="IMI Uzi" hidden="false" collective="false" type="upgrade">
       <profiles>
         <profile id="d714-5ed8-99c2-0127" name="IMI Uzi" hidden="false" typeId="3560-a8a8-6a4e-2aa2" typeName="Ranged Weapon">
           <characteristics>
@@ -1482,7 +1482,7 @@
         <cost name=" Points" typeId="0705-c536-f372-c2d0" value="28.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="b0e1-8732-0f34-0843" name="M16 Assault Rifle" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="b0e1-8732-0f34-0843" name="M16 Assault Rifle" hidden="false" collective="false" type="upgrade">
       <profiles>
         <profile id="13e6-6fca-e999-c90e" name="M16 Assault Rifle" hidden="false" typeId="3560-a8a8-6a4e-2aa2" typeName="Ranged Weapon">
           <characteristics>
@@ -1504,7 +1504,7 @@
         <cost name=" Points" typeId="0705-c536-f372-c2d0" value="30.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="b817-8f91-f299-f1de" name="M4 Carbine" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="b817-8f91-f299-f1de" name="M4 Carbine" hidden="false" collective="false" type="upgrade">
       <profiles>
         <profile id="38a8-6f73-08ca-4e89" name="M4 Carbine" hidden="false" typeId="3560-a8a8-6a4e-2aa2" typeName="Ranged Weapon">
           <characteristics>
@@ -1526,7 +1526,7 @@
         <cost name=" Points" typeId="0705-c536-f372-c2d0" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="5cd1-19ae-0a6c-fb08" name="Marlin XT-17R" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="5cd1-19ae-0a6c-fb08" name="Marlin XT-17R" hidden="false" collective="false" type="upgrade">
       <profiles>
         <profile id="fea3-8510-e095-6008" name="Marlin XT-17R" hidden="false" typeId="3560-a8a8-6a4e-2aa2" typeName="Ranged Weapon">
           <characteristics>
@@ -1546,7 +1546,7 @@
         <cost name=" Points" typeId="0705-c536-f372-c2d0" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="231a-beb4-6a3a-c812" name="Molotov" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="231a-beb4-6a3a-c812" name="Molotov" hidden="false" collective="false" type="upgrade">
       <profiles>
         <profile id="e6ac-49eb-6d8d-89a8" name="Molotov" hidden="false" typeId="3560-a8a8-6a4e-2aa2" typeName="Ranged Weapon">
           <characteristics>
@@ -1569,7 +1569,7 @@
         <cost name=" Points" typeId="0705-c536-f372-c2d0" value="10.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="2a8d-1e6c-63e1-9349" name="Mossberg 500" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="2a8d-1e6c-63e1-9349" name="Mossberg 500" hidden="false" collective="false" type="upgrade">
       <profiles>
         <profile id="ca61-be70-0167-bb2d" name="Mossberg 500" hidden="false" typeId="3560-a8a8-6a4e-2aa2" typeName="Ranged Weapon">
           <characteristics>
@@ -1590,7 +1590,7 @@
         <cost name=" Points" typeId="0705-c536-f372-c2d0" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="8a45-bae6-c630-1b9f" name="Old Gun" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="8a45-bae6-c630-1b9f" name="Old Gun" hidden="false" collective="false" type="upgrade">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
@@ -1618,7 +1618,7 @@
         <cost name=" Points" typeId="0705-c536-f372-c2d0" value="4.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="59cf-6ac8-0f4f-c29b" name="Pump-Action Shotgun" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="59cf-6ac8-0f4f-c29b" name="Pump-Action Shotgun" hidden="false" collective="false" type="upgrade">
       <profiles>
         <profile id="34a8-c27a-8791-6a86" name="Pump-Action Shotgun" hidden="false" typeId="3560-a8a8-6a4e-2aa2" typeName="Ranged Weapon">
           <characteristics>
@@ -1639,7 +1639,7 @@
         <cost name=" Points" typeId="0705-c536-f372-c2d0" value="22.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="e691-b73f-a4bf-d20e" name="Remington 700" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="e691-b73f-a4bf-d20e" name="Remington 700" hidden="false" collective="false" type="upgrade">
       <profiles>
         <profile id="6b38-9e1f-5627-8bfa" name="Remington 700" hidden="false" typeId="3560-a8a8-6a4e-2aa2" typeName="Ranged Weapon">
           <characteristics>
@@ -1660,7 +1660,7 @@
         <cost name=" Points" typeId="0705-c536-f372-c2d0" value="22.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="c545-f067-8e51-c276" name="Safari Rifle" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="c545-f067-8e51-c276" name="Safari Rifle" hidden="false" collective="false" type="upgrade">
       <profiles>
         <profile id="ca2c-063f-69dc-4472" name="Safari Rifle" hidden="false" typeId="3560-a8a8-6a4e-2aa2" typeName="Ranged Weapon">
           <characteristics>
@@ -1681,7 +1681,7 @@
         <cost name=" Points" typeId="0705-c536-f372-c2d0" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="aa6a-e41a-0e9f-aa5a" name="Sawn-Off Shotgun" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="aa6a-e41a-0e9f-aa5a" name="Sawn-Off Shotgun" hidden="false" collective="false" type="upgrade">
       <profiles>
         <profile id="1ca9-250c-3ad8-166a" name="Sawn-Off Shotgun" hidden="false" typeId="3560-a8a8-6a4e-2aa2" typeName="Ranged Weapon">
           <characteristics>
@@ -1702,7 +1702,7 @@
         <cost name=" Points" typeId="0705-c536-f372-c2d0" value="20.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="6556-9a11-f03b-1759" name="Smoke Grenade" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="6556-9a11-f03b-1759" name="Smoke Grenade" hidden="false" collective="false" type="upgrade">
       <profiles>
         <profile id="9906-86bd-582b-ae3f" name="Smoke Grenade" hidden="false" typeId="3560-a8a8-6a4e-2aa2" typeName="Ranged Weapon">
           <characteristics>
@@ -1725,7 +1725,7 @@
         <cost name=" Points" typeId="0705-c536-f372-c2d0" value="8.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="7628-71d8-8eb1-42e9" name="Springfield M1903" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="7628-71d8-8eb1-42e9" name="Springfield M1903" hidden="false" collective="false" type="upgrade">
       <profiles>
         <profile id="3cec-af31-e432-a53e" name="Springfield M1903" hidden="false" typeId="3560-a8a8-6a4e-2aa2" typeName="Ranged Weapon">
           <characteristics>
@@ -1745,7 +1745,7 @@
         <cost name=" Points" typeId="0705-c536-f372-c2d0" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="1487-4e70-6718-f3b6" name="Tear Gas Grenade" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="1487-4e70-6718-f3b6" name="Tear Gas Grenade" hidden="false" collective="false" type="upgrade">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditionGroups>
@@ -1779,7 +1779,7 @@
         <cost name=" Points" typeId="0705-c536-f372-c2d0" value="10.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="779f-fdfd-7f3d-fb5a" name="Tranquilizer Gun" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="779f-fdfd-7f3d-fb5a" name="Tranquilizer Gun" hidden="false" collective="false" type="upgrade">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
@@ -1807,7 +1807,7 @@
         <cost name=" Points" typeId="0705-c536-f372-c2d0" value="15.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="282a-835f-6eb5-9380" name="UTAS UTS-15" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="282a-835f-6eb5-9380" name="UTAS UTS-15" hidden="false" collective="false" type="upgrade">
       <profiles>
         <profile id="7a4f-5a64-5fb7-2ceb" name="UTAS UTS-15" hidden="false" typeId="3560-a8a8-6a4e-2aa2" typeName="Ranged Weapon">
           <characteristics>
@@ -1828,7 +1828,7 @@
         <cost name=" Points" typeId="0705-c536-f372-c2d0" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="250c-f255-835a-d7de" name="Adrenaline Shot" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="250c-f255-835a-d7de" name="Adrenaline Shot" hidden="false" collective="false" type="upgrade">
       <profiles>
         <profile id="a48d-78b8-3e01-ac77" name="Adrenaline Shot" hidden="false" typeId="ba75-8ed9-edc3-b7f6" typeName="Special Items">
           <characteristics>
@@ -1848,7 +1848,7 @@
         <cost name=" Points" typeId="0705-c536-f372-c2d0" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="4fd5-56d4-8fb6-ea0e" name="Animal Catcher" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="4fd5-56d4-8fb6-ea0e" name="Animal Catcher" hidden="false" collective="false" type="upgrade">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
@@ -1873,7 +1873,7 @@
         <cost name=" Points" typeId="0705-c536-f372-c2d0" value="14.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="23a1-04f5-c16c-e811" name="Backpack" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="23a1-04f5-c16c-e811" name="Backpack" hidden="false" collective="false" type="upgrade">
       <rules>
         <rule id="f977-0c03-8b1f-2358" name="Backpack" hidden="false">
           <description>Whenever this model Scavenges a Supply Counter, they receive +1 VP.</description>
@@ -1886,7 +1886,7 @@
         <cost name=" Points" typeId="0705-c536-f372-c2d0" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="1a6b-7f68-00f8-d71a" name="Bandages" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="1a6b-7f68-00f8-d71a" name="Bandages" hidden="false" collective="false" type="upgrade">
       <profiles>
         <profile id="04d3-c3df-7394-0dee" name="Bandages" hidden="false" typeId="ba75-8ed9-edc3-b7f6" typeName="Special Items">
           <characteristics>
@@ -1903,7 +1903,7 @@
         <cost name=" Points" typeId="0705-c536-f372-c2d0" value="4.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="abe3-92b4-b617-c507" name="Bandoleer" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="abe3-92b4-b617-c507" name="Bandoleer" hidden="false" collective="false" type="upgrade">
       <profiles>
         <profile id="f601-f6ea-db56-dd1b" name="Bandoleer" hidden="false" typeId="ba75-8ed9-edc3-b7f6" typeName="Special Items">
           <characteristics>
@@ -1920,7 +1920,7 @@
         <cost name=" Points" typeId="0705-c536-f372-c2d0" value="14.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="9425-dd0e-8676-7d1a" name="Bear Trap" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="9425-dd0e-8676-7d1a" name="Bear Trap" hidden="false" collective="false" type="upgrade">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
@@ -1947,7 +1947,7 @@
         <cost name=" Points" typeId="0705-c536-f372-c2d0" value="4.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="a09a-1814-9b64-0431" name="Camo Gear" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="a09a-1814-9b64-0431" name="Camo Gear" hidden="false" collective="false" type="upgrade">
       <profiles>
         <profile id="4987-38fc-1fc2-f74a" name="Camo Gear" hidden="false" typeId="ba75-8ed9-edc3-b7f6" typeName="Special Items">
           <characteristics>
@@ -1964,7 +1964,7 @@
         <cost name=" Points" typeId="0705-c536-f372-c2d0" value="10.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="2814-f6fa-5a4b-621a" name="Camo Paint" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="2814-f6fa-5a4b-621a" name="Camo Paint" hidden="false" collective="false" type="upgrade">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
@@ -1991,7 +1991,7 @@
         <cost name=" Points" typeId="0705-c536-f372-c2d0" value="3.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="7967-cf73-6f73-c08a" name="Cuban Cigar" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="7967-cf73-6f73-c08a" name="Cuban Cigar" hidden="false" collective="false" type="upgrade">
       <rules>
         <rule id="cc9a-2d24-67fb-79df" name="Cuban Cigar" hidden="false">
           <description>Reroll a single die from one of this model&apos;s attack rolls.</description>
@@ -2007,7 +2007,7 @@
         <cost name=" Points" typeId="0705-c536-f372-c2d0" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="df11-c793-38a5-02a7" name="Flashlight" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="df11-c793-38a5-02a7" name="Flashlight" hidden="false" collective="false" type="upgrade">
       <profiles>
         <profile id="62ef-bcf7-be82-e35c" name="Flashlight" hidden="false" typeId="ba75-8ed9-edc3-b7f6" typeName="Special Items">
           <characteristics>
@@ -2021,7 +2021,7 @@
         <cost name=" Points" typeId="0705-c536-f372-c2d0" value="6.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="7602-e9fb-53e9-9505" name="Gory Clothing" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="7602-e9fb-53e9-9505" name="Gory Clothing" hidden="false" collective="false" type="upgrade">
       <profiles>
         <profile id="99b1-7bcf-ac03-ff06" name="Gory Clothing" hidden="false" typeId="ba75-8ed9-edc3-b7f6" typeName="Special Items">
           <characteristics>
@@ -2038,7 +2038,7 @@
         <cost name=" Points" typeId="0705-c536-f372-c2d0" value="15.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="8b07-296c-3e8c-c4a0" name="Horse" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="8b07-296c-3e8c-c4a0" name="Horse" hidden="false" collective="false" type="upgrade">
       <profiles>
         <profile id="ad31-58a4-7214-7825" name="Horse" hidden="false" typeId="ba75-8ed9-edc3-b7f6" typeName="Special Items">
           <characteristics>
@@ -2052,7 +2052,7 @@
         <cost name=" Points" typeId="0705-c536-f372-c2d0" value="15.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="2445-a2d5-fd53-67ca" name="Keepsake" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="2445-a2d5-fd53-67ca" name="Keepsake" hidden="false" collective="false" type="upgrade">
       <profiles>
         <profile id="53a7-1484-4cfa-fdb3" name="Keepsake" hidden="false" typeId="ba75-8ed9-edc3-b7f6" typeName="Special Items">
           <characteristics>
@@ -2066,7 +2066,7 @@
         <cost name=" Points" typeId="0705-c536-f372-c2d0" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="c3db-ef20-82bd-3445" name="Knapsack" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="c3db-ef20-82bd-3445" name="Knapsack" hidden="false" collective="false" type="upgrade">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b634-a5e0-66ba-ef6e" type="max"/>
       </constraints>
@@ -2086,7 +2086,7 @@
         <cost name=" Points" typeId="0705-c536-f372-c2d0" value="5.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="36f3-7f0c-bc6e-e3e0" name="Laser Sight" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="36f3-7f0c-bc6e-e3e0" name="Laser Sight" hidden="false" collective="false" type="upgrade">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
@@ -2110,7 +2110,7 @@
         <cost name=" Points" typeId="0705-c536-f372-c2d0" value="8.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="bfef-da61-e859-8242" name="Liquor" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="bfef-da61-e859-8242" name="Liquor" hidden="false" collective="false" type="upgrade">
       <profiles>
         <profile id="63bf-893e-8d91-5197" name="Liquor" hidden="false" typeId="ba75-8ed9-edc3-b7f6" typeName="Special Items">
           <characteristics>
@@ -2127,7 +2127,7 @@
         <cost name=" Points" typeId="0705-c536-f372-c2d0" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="1db8-13bb-5fd3-a99b" name="Medical Bag" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="1db8-13bb-5fd3-a99b" name="Medical Bag" hidden="false" collective="false" type="upgrade">
       <profiles>
         <profile id="9a1b-d002-3e2c-854e" name="Medical Bag" hidden="false" typeId="ba75-8ed9-edc3-b7f6" typeName="Special Items">
           <characteristics>
@@ -2144,7 +2144,7 @@
         <cost name=" Points" typeId="0705-c536-f372-c2d0" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="06e8-42b3-a734-20f1" name="Mike &amp; Terry" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="06e8-42b3-a734-20f1" name="Mike &amp; Terry" hidden="false" collective="false" type="upgrade">
       <rules>
         <rule id="3349-d3b5-09b9-73ff" name="Mike &amp; Terry" hidden="false">
           <description>The Mike and Terry models are treated as markers. While both are in play, Michonne gains the Masked Scent keyword. They must remain within 1&quot; of Michonne at all times. They are treated as Walkers by enemy models, but may only defend, and are removed from play if they suffer any damage. Michonne may discard one of these models to ignore all damage from a single attack.</description>
@@ -2154,7 +2154,7 @@
         <cost name=" Points" typeId="0705-c536-f372-c2d0" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="5c75-8e84-c985-2a70" name="Rifle Scope" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="5c75-8e84-c985-2a70" name="Rifle Scope" hidden="false" collective="false" type="upgrade">
       <profiles>
         <profile id="193a-62bc-28c5-d022" name="Rifle Scope" hidden="false" typeId="ba75-8ed9-edc3-b7f6" typeName="Special Items">
           <characteristics>
@@ -2171,7 +2171,7 @@
         <cost name=" Points" typeId="0705-c536-f372-c2d0" value="10.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="984f-4e54-d8b6-6dd6" name="Rocket Reload" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="984f-4e54-d8b6-6dd6" name="Rocket Reload" hidden="false" collective="false" type="upgrade">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
@@ -2196,7 +2196,7 @@
         <cost name=" Points" typeId="0705-c536-f372-c2d0" value="10.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="f5f3-5461-7a01-1a49" name="Running Shoes" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="f5f3-5461-7a01-1a49" name="Running Shoes" hidden="false" collective="false" type="upgrade">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
@@ -2217,7 +2217,7 @@
         <cost name=" Points" typeId="0705-c536-f372-c2d0" value="10.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="c17d-e5a3-d463-2b26" name="Silencer" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="c17d-e5a3-d463-2b26" name="Silencer" hidden="false" collective="false" type="upgrade">
       <profiles>
         <profile id="2047-96b6-3cb6-a39f" name="Silencer" hidden="false" typeId="ba75-8ed9-edc3-b7f6" typeName="Special Items">
           <characteristics>
@@ -2234,7 +2234,7 @@
         <cost name=" Points" typeId="0705-c536-f372-c2d0" value="12.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="693b-50b2-64d2-66a2" name="Sniper Scope" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="693b-50b2-64d2-66a2" name="Sniper Scope" hidden="false" collective="false" type="upgrade">
       <profiles>
         <profile id="f805-1460-ce94-5fe1" name="Sniper Scope" hidden="false" typeId="ba75-8ed9-edc3-b7f6" typeName="Special Items">
           <characteristics>
@@ -2252,7 +2252,7 @@
         <cost name=" Points" typeId="0705-c536-f372-c2d0" value="8.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="6d78-63f1-cd30-e4d4" name="Speedloader" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="6d78-63f1-cd30-e4d4" name="Speedloader" hidden="false" collective="false" type="upgrade">
       <profiles>
         <profile id="38f2-81d8-5904-b1d4" name="Speedloader" hidden="false" typeId="ba75-8ed9-edc3-b7f6" typeName="Special Items">
           <characteristics>
@@ -2270,7 +2270,7 @@
         <cost name=" Points" typeId="0705-c536-f372-c2d0" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="4952-8a30-9f93-6878" name="Suppressor" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="4952-8a30-9f93-6878" name="Suppressor" hidden="false" collective="false" type="upgrade">
       <profiles>
         <profile id="ddf0-2dad-bc1d-b8fb" name="Suppressor" hidden="false" typeId="ba75-8ed9-edc3-b7f6" typeName="Special Items">
           <characteristics>
@@ -2287,7 +2287,7 @@
         <cost name=" Points" typeId="0705-c536-f372-c2d0" value="8.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="f82f-6b56-8fb6-67e1" name="Veterinary Bag" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="f82f-6b56-8fb6-67e1" name="Veterinary Bag" hidden="false" collective="false" type="upgrade">
       <rules>
         <rule id="2956-6dfa-9867-c90d" name="Veterinary Bag" hidden="false">
           <description>As a Special Action, this Survivor may restore 1Blue health points lost earlier in the game.</description>
@@ -2300,11 +2300,11 @@
         <cost name=" Points" typeId="0705-c536-f372-c2d0" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="2bee-5b46-6bef-8581" name="Leader" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="2bee-5b46-6bef-8581" name="Leader" hidden="false" collective="false" type="upgrade">
       <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="00c0-3e2a-9453-8748" type="max"/>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="0b69-7876-d50e-18b6" type="min"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="82f9-4caf-eb03-5cc1" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="ac27-c555-6c0f-6cb1" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="3a01-fc34-8f59-fa80" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1ecc-54a0-ea0f-3d50" type="max"/>
       </constraints>
       <rules>
         <rule id="ea3d-5ad9-1917-5609" name="Bring &apos;Em Down!" hidden="false">
@@ -2326,93 +2326,93 @@
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
-    <selectionEntryGroup id="8a02-d9d8-d10a-0ca2" name="Special Items" hidden="false" collective="false" import="true">
+    <selectionEntryGroup id="8a02-d9d8-d10a-0ca2" name="Special Items" hidden="false" collective="false">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9a7f-457e-7197-5f45" type="max"/>
       </constraints>
       <entryLinks>
-        <entryLink id="919b-c2ea-aa96-4075" name="Bandages" hidden="false" collective="false" import="true" targetId="1a6b-7f68-00f8-d71a" type="selectionEntry"/>
-        <entryLink id="5d24-5aa9-8068-374b" name="Bandoleer" hidden="false" collective="false" import="true" targetId="abe3-92b4-b617-c507" type="selectionEntry"/>
-        <entryLink id="9998-24ad-1dc7-feee" name="Bear Trap" hidden="false" collective="false" import="true" targetId="9425-dd0e-8676-7d1a" type="selectionEntry"/>
-        <entryLink id="def7-4806-5e4f-0a8c" name="Camo Gear" hidden="false" collective="false" import="true" targetId="a09a-1814-9b64-0431" type="selectionEntry"/>
-        <entryLink id="f738-bf7a-36c7-8b14" name="Camo Paint" hidden="false" collective="false" import="true" targetId="2814-f6fa-5a4b-621a" type="selectionEntry"/>
-        <entryLink id="a0d1-1373-8a99-4ac7" name="Flashlight" hidden="false" collective="false" import="true" targetId="df11-c793-38a5-02a7" type="selectionEntry"/>
-        <entryLink id="f528-78e9-b475-6569" name="Gory Clothing" hidden="false" collective="false" import="true" targetId="7602-e9fb-53e9-9505" type="selectionEntry"/>
-        <entryLink id="4d16-c4d0-d680-fb52" name="Knapsack" hidden="false" collective="false" import="true" targetId="c3db-ef20-82bd-3445" type="selectionEntry"/>
-        <entryLink id="ae8f-8971-d355-1546" name="Laser Sight" hidden="false" collective="false" import="true" targetId="36f3-7f0c-bc6e-e3e0" type="selectionEntry"/>
-        <entryLink id="63a4-29b1-a6c3-a129" name="Rifle Scope" hidden="false" collective="false" import="true" targetId="5c75-8e84-c985-2a70" type="selectionEntry"/>
-        <entryLink id="721b-e69f-93a0-43ed" name="Rocket Reload" hidden="false" collective="false" import="true" targetId="984f-4e54-d8b6-6dd6" type="selectionEntry"/>
-        <entryLink id="b91e-739f-0b2f-b4a3" name="Running Shoes" hidden="false" collective="false" import="true" targetId="f5f3-5461-7a01-1a49" type="selectionEntry"/>
-        <entryLink id="6010-82e7-21e2-daba" name="Silencer" hidden="false" collective="false" import="true" targetId="c17d-e5a3-d463-2b26" type="selectionEntry"/>
-        <entryLink id="98ec-f969-fca4-d039" name="Suppressor" hidden="false" collective="false" import="true" targetId="4952-8a30-9f93-6878" type="selectionEntry"/>
+        <entryLink id="919b-c2ea-aa96-4075" name="Bandages" hidden="false" collective="false" targetId="1a6b-7f68-00f8-d71a" type="selectionEntry"/>
+        <entryLink id="5d24-5aa9-8068-374b" name="Bandoleer" hidden="false" collective="false" targetId="abe3-92b4-b617-c507" type="selectionEntry"/>
+        <entryLink id="9998-24ad-1dc7-feee" name="Bear Trap" hidden="false" collective="false" targetId="9425-dd0e-8676-7d1a" type="selectionEntry"/>
+        <entryLink id="def7-4806-5e4f-0a8c" name="Camo Gear" hidden="false" collective="false" targetId="a09a-1814-9b64-0431" type="selectionEntry"/>
+        <entryLink id="f738-bf7a-36c7-8b14" name="Camo Paint" hidden="false" collective="false" targetId="2814-f6fa-5a4b-621a" type="selectionEntry"/>
+        <entryLink id="a0d1-1373-8a99-4ac7" name="Flashlight" hidden="false" collective="false" targetId="df11-c793-38a5-02a7" type="selectionEntry"/>
+        <entryLink id="f528-78e9-b475-6569" name="Gory Clothing" hidden="false" collective="false" targetId="7602-e9fb-53e9-9505" type="selectionEntry"/>
+        <entryLink id="4d16-c4d0-d680-fb52" name="Knapsack" hidden="false" collective="false" targetId="c3db-ef20-82bd-3445" type="selectionEntry"/>
+        <entryLink id="ae8f-8971-d355-1546" name="Laser Sight" hidden="false" collective="false" targetId="36f3-7f0c-bc6e-e3e0" type="selectionEntry"/>
+        <entryLink id="63a4-29b1-a6c3-a129" name="Rifle Scope" hidden="false" collective="false" targetId="5c75-8e84-c985-2a70" type="selectionEntry"/>
+        <entryLink id="721b-e69f-93a0-43ed" name="Rocket Reload" hidden="false" collective="false" targetId="984f-4e54-d8b6-6dd6" type="selectionEntry"/>
+        <entryLink id="b91e-739f-0b2f-b4a3" name="Running Shoes" hidden="false" collective="false" targetId="f5f3-5461-7a01-1a49" type="selectionEntry"/>
+        <entryLink id="6010-82e7-21e2-daba" name="Silencer" hidden="false" collective="false" targetId="c17d-e5a3-d463-2b26" type="selectionEntry"/>
+        <entryLink id="98ec-f969-fca4-d039" name="Suppressor" hidden="false" collective="false" targetId="4952-8a30-9f93-6878" type="selectionEntry"/>
       </entryLinks>
     </selectionEntryGroup>
-    <selectionEntryGroup id="6461-e3e9-6745-0a3b" name="Ranged Weapons" hidden="false" collective="false" import="true">
+    <selectionEntryGroup id="6461-e3e9-6745-0a3b" name="Ranged Weapons" hidden="false" collective="false">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="87c9-5f1f-65c7-96be" type="max"/>
       </constraints>
       <entryLinks>
-        <entryLink id="f762-de11-05e0-6b43" name=".22 Revolver" hidden="false" collective="false" import="true" targetId="ffaf-e801-2087-06e1" type="selectionEntry"/>
-        <entryLink id="e516-3dd6-13fc-ebca" name=".38 Revolver" hidden="false" collective="false" import="true" targetId="aeb7-e632-261d-d843" type="selectionEntry"/>
-        <entryLink id="e790-3d53-fd46-78df" name="9mm Pistol" hidden="false" collective="false" import="true" targetId="329b-bd83-bbe9-bd52" type="selectionEntry"/>
-        <entryLink id="451e-b004-67a8-7444" name="Airtronic RPG-7" hidden="false" collective="false" import="true" targetId="24bb-8509-0e1d-d748" type="selectionEntry"/>
-        <entryLink id="0238-ca97-1597-51a1" name="Antique Rifle" hidden="false" collective="false" import="true" targetId="74ad-7273-aed2-dfb6" type="selectionEntry"/>
-        <entryLink id="b532-37d1-ee07-fbc5" name="AR-15" hidden="false" collective="false" import="true" targetId="9c64-38a1-031d-05db" type="selectionEntry"/>
-        <entryLink id="e322-67aa-ad81-3821" name="Colt Python" hidden="false" collective="false" import="true" targetId="9681-146e-1773-ab60" type="selectionEntry"/>
-        <entryLink id="b4fe-7ecb-7d28-85e1" name="Coach Gun" hidden="false" collective="false" import="true" targetId="fc99-56ee-ce61-96c7" type="selectionEntry"/>
-        <entryLink id="5981-efd7-b7da-b75b" name="Crossbow" hidden="false" collective="false" import="true" targetId="6b11-4abb-3b2e-f725" type="selectionEntry"/>
-        <entryLink id="88a0-6601-e17e-b4c7" name="CX4 Storm" hidden="false" collective="false" import="true" targetId="2945-e6d6-5c50-508c" type="selectionEntry"/>
-        <entryLink id="b886-c0b2-c305-ca33" name="Grenade" hidden="false" collective="false" import="true" targetId="8a7e-85ec-6b38-1299" type="selectionEntry"/>
-        <entryLink id="cae4-0afd-b84f-0b4b" name="IMI Uzi" hidden="false" collective="false" import="true" targetId="9118-81b8-5078-b8e9" type="selectionEntry"/>
-        <entryLink id="c73e-e969-f075-8b0d" name="M16 Assault Rifle" hidden="false" collective="false" import="true" targetId="b0e1-8732-0f34-0843" type="selectionEntry"/>
-        <entryLink id="7702-be66-dc06-70fb" name="Molotov" hidden="false" collective="false" import="true" targetId="231a-beb4-6a3a-c812" type="selectionEntry"/>
-        <entryLink id="77b1-4810-46d7-5bc9" name="Old Gun" hidden="false" collective="false" import="true" targetId="8a45-bae6-c630-1b9f" type="selectionEntry"/>
-        <entryLink id="0903-02c0-bc6b-3474" name="Pump-Action Shotgun" hidden="false" collective="false" import="true" targetId="59cf-6ac8-0f4f-c29b" type="selectionEntry"/>
-        <entryLink id="45fc-df2f-93af-686e" name="Remington 700" hidden="false" collective="false" import="true" targetId="e691-b73f-a4bf-d20e" type="selectionEntry"/>
-        <entryLink id="9c94-3a44-b981-ce60" name="Sawn-Off Shotgun" hidden="false" collective="false" import="true" targetId="aa6a-e41a-0e9f-aa5a" type="selectionEntry"/>
-        <entryLink id="a062-1918-e5b0-0e79" name="Smoke Grenade" hidden="false" collective="false" import="true" targetId="6556-9a11-f03b-1759" type="selectionEntry"/>
-        <entryLink id="73e1-9cfd-1db4-1568" name="Tear Gas Grenade" hidden="false" collective="false" import="true" targetId="1487-4e70-6718-f3b6" type="selectionEntry"/>
-        <entryLink id="4218-bc75-21e9-1824" name="Tranquilizer Gun" hidden="false" collective="false" import="true" targetId="779f-fdfd-7f3d-fb5a" type="selectionEntry"/>
+        <entryLink id="f762-de11-05e0-6b43" name=".22 Revolver" hidden="false" collective="false" targetId="ffaf-e801-2087-06e1" type="selectionEntry"/>
+        <entryLink id="e516-3dd6-13fc-ebca" name=".38 Revolver" hidden="false" collective="false" targetId="aeb7-e632-261d-d843" type="selectionEntry"/>
+        <entryLink id="e790-3d53-fd46-78df" name="9mm Pistol" hidden="false" collective="false" targetId="329b-bd83-bbe9-bd52" type="selectionEntry"/>
+        <entryLink id="451e-b004-67a8-7444" name="Airtronic RPG-7" hidden="false" collective="false" targetId="24bb-8509-0e1d-d748" type="selectionEntry"/>
+        <entryLink id="0238-ca97-1597-51a1" name="Antique Rifle" hidden="false" collective="false" targetId="74ad-7273-aed2-dfb6" type="selectionEntry"/>
+        <entryLink id="b532-37d1-ee07-fbc5" name="AR-15" hidden="false" collective="false" targetId="9c64-38a1-031d-05db" type="selectionEntry"/>
+        <entryLink id="e322-67aa-ad81-3821" name="Colt Python" hidden="false" collective="false" targetId="9681-146e-1773-ab60" type="selectionEntry"/>
+        <entryLink id="b4fe-7ecb-7d28-85e1" name="Coach Gun" hidden="false" collective="false" targetId="fc99-56ee-ce61-96c7" type="selectionEntry"/>
+        <entryLink id="5981-efd7-b7da-b75b" name="Crossbow" hidden="false" collective="false" targetId="6b11-4abb-3b2e-f725" type="selectionEntry"/>
+        <entryLink id="88a0-6601-e17e-b4c7" name="CX4 Storm" hidden="false" collective="false" targetId="2945-e6d6-5c50-508c" type="selectionEntry"/>
+        <entryLink id="b886-c0b2-c305-ca33" name="Grenade" hidden="false" collective="false" targetId="8a7e-85ec-6b38-1299" type="selectionEntry"/>
+        <entryLink id="cae4-0afd-b84f-0b4b" name="IMI Uzi" hidden="false" collective="false" targetId="9118-81b8-5078-b8e9" type="selectionEntry"/>
+        <entryLink id="c73e-e969-f075-8b0d" name="M16 Assault Rifle" hidden="false" collective="false" targetId="b0e1-8732-0f34-0843" type="selectionEntry"/>
+        <entryLink id="7702-be66-dc06-70fb" name="Molotov" hidden="false" collective="false" targetId="231a-beb4-6a3a-c812" type="selectionEntry"/>
+        <entryLink id="77b1-4810-46d7-5bc9" name="Old Gun" hidden="false" collective="false" targetId="8a45-bae6-c630-1b9f" type="selectionEntry"/>
+        <entryLink id="0903-02c0-bc6b-3474" name="Pump-Action Shotgun" hidden="false" collective="false" targetId="59cf-6ac8-0f4f-c29b" type="selectionEntry"/>
+        <entryLink id="45fc-df2f-93af-686e" name="Remington 700" hidden="false" collective="false" targetId="e691-b73f-a4bf-d20e" type="selectionEntry"/>
+        <entryLink id="9c94-3a44-b981-ce60" name="Sawn-Off Shotgun" hidden="false" collective="false" targetId="aa6a-e41a-0e9f-aa5a" type="selectionEntry"/>
+        <entryLink id="a062-1918-e5b0-0e79" name="Smoke Grenade" hidden="false" collective="false" targetId="6556-9a11-f03b-1759" type="selectionEntry"/>
+        <entryLink id="73e1-9cfd-1db4-1568" name="Tear Gas Grenade" hidden="false" collective="false" targetId="1487-4e70-6718-f3b6" type="selectionEntry"/>
+        <entryLink id="4218-bc75-21e9-1824" name="Tranquilizer Gun" hidden="false" collective="false" targetId="779f-fdfd-7f3d-fb5a" type="selectionEntry"/>
       </entryLinks>
     </selectionEntryGroup>
-    <selectionEntryGroup id="e8e1-137d-8a53-a1fd" name="Melee Weapons" hidden="false" collective="false" import="true">
+    <selectionEntryGroup id="e8e1-137d-8a53-a1fd" name="Melee Weapons" hidden="false" collective="false">
       <constraints>
         <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4f9c-993e-439e-104e" type="max"/>
       </constraints>
       <entryLinks>
-        <entryLink id="52b8-4264-64be-ed43" name="Baseball Bat" hidden="false" collective="false" import="true" targetId="0cdd-5f84-f025-dda1" type="selectionEntry"/>
-        <entryLink id="03ca-c2bf-495c-0b1a" name="Cattle Prod" hidden="false" collective="false" import="true" targetId="6b3c-6f5d-4167-d363" type="selectionEntry"/>
-        <entryLink id="3796-4656-0509-80ca" name="Chainsaw" hidden="false" collective="false" import="true" targetId="2557-ad6c-8fed-3b83" type="selectionEntry"/>
-        <entryLink id="b3bd-25be-b1ac-d4d5" name="Cleaver" hidden="false" collective="false" import="true" targetId="0ea3-5cfb-5bd6-afd2" type="selectionEntry"/>
-        <entryLink id="01cb-157c-125f-f9de" name="Hammer" hidden="false" collective="false" import="true" targetId="5ac6-8363-b9e6-dc5b" type="selectionEntry"/>
-        <entryLink id="2f1b-1fd8-9739-76b8" name="Hay Hook" hidden="false" collective="false" import="true" targetId="6007-1e47-9cb1-1b69" type="selectionEntry"/>
-        <entryLink id="59e7-7482-ceef-f6f9" name="Knife" hidden="false" collective="false" import="true" targetId="e1c4-2bd3-01d3-0fdd" type="selectionEntry"/>
-        <entryLink id="08df-e5e3-3912-f755" name="Machete" hidden="false" collective="false" import="true" targetId="32c9-856a-047f-b39b" type="selectionEntry"/>
-        <entryLink id="83e2-22a3-f6c6-4f8f" name="Metal Pipe" hidden="false" collective="false" import="true" targetId="749b-a9e5-571f-d0bd" type="selectionEntry"/>
-        <entryLink id="7af5-2116-3486-e419" name="Pitchfork" hidden="false" collective="false" import="true" targetId="57e4-4933-c47d-f0e3" type="selectionEntry"/>
-        <entryLink id="5dda-5738-c36e-f059" name="Riot Baton" hidden="false" collective="false" import="true" targetId="c400-4b83-38d2-fe71" type="selectionEntry"/>
-        <entryLink id="2e1a-0aba-919a-c367" name="Scythe" hidden="false" collective="false" import="true" targetId="dc3b-931f-2cd5-c643" type="selectionEntry"/>
-        <entryLink id="74e6-12c1-536b-33d8" name="Shiv" hidden="false" collective="false" import="true" targetId="3589-9728-aa8e-d369" type="selectionEntry"/>
-        <entryLink id="0c79-39f0-dbbf-83de" name="Shovel" hidden="false" collective="false" import="true" targetId="db2a-ee96-6e95-d042" type="selectionEntry"/>
-        <entryLink id="ba70-cc30-5acf-7b03" name="Sickle" hidden="false" collective="false" import="true" targetId="611b-f53a-a2dd-e323" type="selectionEntry"/>
-        <entryLink id="3a63-1fba-8d3a-f1b8" name="Sledgehammer" hidden="false" collective="false" import="true" targetId="43c2-082f-29c3-508e" type="selectionEntry"/>
-        <entryLink id="13fb-969d-ddfa-df00" name="Taser" hidden="false" collective="false" import="true" targetId="538f-91a1-3211-887d" type="selectionEntry"/>
-        <entryLink id="2aa7-b511-6052-cadf" name="Tire Iron" hidden="false" collective="false" import="true" targetId="946e-367e-9db7-b6fd" type="selectionEntry"/>
+        <entryLink id="52b8-4264-64be-ed43" name="Baseball Bat" hidden="false" collective="false" targetId="0cdd-5f84-f025-dda1" type="selectionEntry"/>
+        <entryLink id="03ca-c2bf-495c-0b1a" name="Cattle Prod" hidden="false" collective="false" targetId="6b3c-6f5d-4167-d363" type="selectionEntry"/>
+        <entryLink id="3796-4656-0509-80ca" name="Chainsaw" hidden="false" collective="false" targetId="2557-ad6c-8fed-3b83" type="selectionEntry"/>
+        <entryLink id="b3bd-25be-b1ac-d4d5" name="Cleaver" hidden="false" collective="false" targetId="0ea3-5cfb-5bd6-afd2" type="selectionEntry"/>
+        <entryLink id="01cb-157c-125f-f9de" name="Hammer" hidden="false" collective="false" targetId="5ac6-8363-b9e6-dc5b" type="selectionEntry"/>
+        <entryLink id="2f1b-1fd8-9739-76b8" name="Hay Hook" hidden="false" collective="false" targetId="6007-1e47-9cb1-1b69" type="selectionEntry"/>
+        <entryLink id="59e7-7482-ceef-f6f9" name="Knife" hidden="false" collective="false" targetId="e1c4-2bd3-01d3-0fdd" type="selectionEntry"/>
+        <entryLink id="08df-e5e3-3912-f755" name="Machete" hidden="false" collective="false" targetId="32c9-856a-047f-b39b" type="selectionEntry"/>
+        <entryLink id="83e2-22a3-f6c6-4f8f" name="Metal Pipe" hidden="false" collective="false" targetId="749b-a9e5-571f-d0bd" type="selectionEntry"/>
+        <entryLink id="7af5-2116-3486-e419" name="Pitchfork" hidden="false" collective="false" targetId="57e4-4933-c47d-f0e3" type="selectionEntry"/>
+        <entryLink id="5dda-5738-c36e-f059" name="Riot Baton" hidden="false" collective="false" targetId="c400-4b83-38d2-fe71" type="selectionEntry"/>
+        <entryLink id="2e1a-0aba-919a-c367" name="Scythe" hidden="false" collective="false" targetId="dc3b-931f-2cd5-c643" type="selectionEntry"/>
+        <entryLink id="74e6-12c1-536b-33d8" name="Shiv" hidden="false" collective="false" targetId="3589-9728-aa8e-d369" type="selectionEntry"/>
+        <entryLink id="0c79-39f0-dbbf-83de" name="Shovel" hidden="false" collective="false" targetId="db2a-ee96-6e95-d042" type="selectionEntry"/>
+        <entryLink id="ba70-cc30-5acf-7b03" name="Sickle" hidden="false" collective="false" targetId="611b-f53a-a2dd-e323" type="selectionEntry"/>
+        <entryLink id="3a63-1fba-8d3a-f1b8" name="Sledgehammer" hidden="false" collective="false" targetId="43c2-082f-29c3-508e" type="selectionEntry"/>
+        <entryLink id="13fb-969d-ddfa-df00" name="Taser" hidden="false" collective="false" targetId="538f-91a1-3211-887d" type="selectionEntry"/>
+        <entryLink id="2aa7-b511-6052-cadf" name="Tire Iron" hidden="false" collective="false" targetId="946e-367e-9db7-b6fd" type="selectionEntry"/>
       </entryLinks>
     </selectionEntryGroup>
-    <selectionEntryGroup id="ae2c-f939-ccd5-108a" name="Armor" hidden="false" collective="false" import="true">
+    <selectionEntryGroup id="ae2c-f939-ccd5-108a" name="Armor" hidden="false" collective="false">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ec3d-4a63-9fa9-c35f" type="max"/>
       </constraints>
       <entryLinks>
-        <entryLink id="19b4-7331-137e-833c" name="Body Armor" hidden="false" collective="false" import="true" targetId="d6a8-e66f-ce73-e303" type="selectionEntry"/>
-        <entryLink id="9817-dca2-be35-3d29" name="Flak Jacket" hidden="false" collective="false" import="true" targetId="b45c-d238-4ebf-c2d7" type="selectionEntry"/>
-        <entryLink id="ffcf-fae9-fb46-85b5" name="Football Pads" hidden="false" collective="false" import="true" targetId="ff1e-9f4e-e88f-af31" type="selectionEntry"/>
-        <entryLink id="4c43-9a69-c0f3-9be8" name="Leather Jacket" hidden="false" collective="false" import="true" targetId="2aa0-4fe1-a3bf-57df" type="selectionEntry"/>
-        <entryLink id="4b96-dd36-1700-e1da" name="Makeshift Padding" hidden="false" collective="false" import="true" targetId="4c89-9ad8-9b57-2833" type="selectionEntry"/>
-        <entryLink id="e623-5bed-8c02-b035" name="Police Vest" hidden="false" collective="false" import="true" targetId="0aa6-10b6-6110-cfa9" type="selectionEntry"/>
-        <entryLink id="b68f-e8cb-67d7-ec8a" name="Riot Gear" hidden="false" collective="false" import="true" targetId="1672-3925-3d1b-4808" type="selectionEntry"/>
-        <entryLink id="f8fd-29e0-80f4-4c1b" name="Stab Vest" hidden="false" collective="false" import="true" targetId="33a9-0185-386f-0c4e" type="selectionEntry"/>
+        <entryLink id="19b4-7331-137e-833c" name="Body Armor" hidden="false" collective="false" targetId="d6a8-e66f-ce73-e303" type="selectionEntry"/>
+        <entryLink id="9817-dca2-be35-3d29" name="Flak Jacket" hidden="false" collective="false" targetId="b45c-d238-4ebf-c2d7" type="selectionEntry"/>
+        <entryLink id="ffcf-fae9-fb46-85b5" name="Football Pads" hidden="false" collective="false" targetId="ff1e-9f4e-e88f-af31" type="selectionEntry"/>
+        <entryLink id="4c43-9a69-c0f3-9be8" name="Leather Jacket" hidden="false" collective="false" targetId="2aa0-4fe1-a3bf-57df" type="selectionEntry"/>
+        <entryLink id="4b96-dd36-1700-e1da" name="Makeshift Padding" hidden="false" collective="false" targetId="4c89-9ad8-9b57-2833" type="selectionEntry"/>
+        <entryLink id="e623-5bed-8c02-b035" name="Police Vest" hidden="false" collective="false" targetId="0aa6-10b6-6110-cfa9" type="selectionEntry"/>
+        <entryLink id="b68f-e8cb-67d7-ec8a" name="Riot Gear" hidden="false" collective="false" targetId="1672-3925-3d1b-4808" type="selectionEntry"/>
+        <entryLink id="f8fd-29e0-80f4-4c1b" name="Stab Vest" hidden="false" collective="false" targetId="33a9-0185-386f-0c4e" type="selectionEntry"/>
       </entryLinks>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>

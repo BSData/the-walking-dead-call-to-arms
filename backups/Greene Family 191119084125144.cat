@@ -1,0 +1,449 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="2134-4b7a-8650-0153" name="Greene Family" revision="1" battleScribeVersion="2.02" library="false" gameSystemId="f046-8736-7a7e-93d7" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <selectionEntries>
+    <selectionEntry id="1ae9-f700-f030-3872" name="Group Special Rules" hidden="false" collective="false" type="upgrade">
+      <rules>
+        <rule id="e394-634c-2e89-d8f9" name="Close-Knit" hidden="false">
+          <description>Any model from the Greene Family faction may sacrifice one of its Action to give another friendly model from this Faction within their Kill Zone a +1 Action counter.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="f235-e2c7-b69f-2084" name="Alignment: Lawful" hidden="false" targetId="03f7-28fe-397f-08c7" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Points" typeId="0705-c536-f372-c2d0" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="6987-f784-0c6e-25d0" name="Hershel Greene, Greene Family Patriarch" hidden="false" collective="false" type="model">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8e1a-d3b3-3c98-3d5b" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="90f7-cbe7-45f0-0fd1" name="Hershel Greene" hidden="false" typeId="40e9-9288-6f65-70a9" typeName="Character">
+          <characteristics>
+            <characteristic name="Type" typeId="d9ce-b162-4bd7-6736">Support</characteristic>
+            <characteristic name="Melee" typeId="fc7e-dccd-5244-3798">1Red</characteristic>
+            <characteristic name="Shoot" typeId="b227-fd8f-ea1c-65f7">1Red</characteristic>
+            <characteristic name="Defense" typeId="ca1d-2465-3eb7-9bd8">2Red</characteristic>
+            <characteristic name="Health" typeId="5e5d-73d3-ba6a-8396">5</characteristic>
+            <characteristic name="SP" typeId="cae4-668b-3f49-b130">1White/1White</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="d421-9845-ee6f-af56" name="Greene Family" hidden="false"/>
+        <rule id="5624-a789-9b2d-9e90" name="First Aid" hidden="false">
+          <description>Hershel may use Bandages on a friendly model in his Kill Zone.</description>
+        </rule>
+        <rule id="0aa1-4138-2d70-ad28" name="Look Out For the Family (Special Order)" hidden="false">
+          <description>Hershel may spend 1SP to choose a friendly Greene Family model within 6”. Until the end of the round, the target model adds 1White to its Defense rolls vs Survivors, and 1Blue to its Defense rolls vs Walkers. Friendly Greene Family members cannot score Headshots against Walkers in a turn in which this Special Order is used (Critical rolls still count towards Ammo rolls).</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="3d83-685b-bf0a-9c61" name="New CategoryLink" hidden="false" targetId="4eb2-d49f-4b22-dd86" primary="true"/>
+        <categoryLink id="8582-cebf-97d9-f95a" name="Alignment: Lawful" hidden="false" targetId="03f7-28fe-397f-08c7" primary="false"/>
+        <categoryLink id="0eb3-162e-b878-41c1" name="Greene Family" hidden="false" targetId="9e76-1b82-7d89-1e79" primary="false"/>
+        <categoryLink id="1b16-8bef-5be7-dec8" name="Hershel Greene" hidden="false" targetId="4dae-d36e-64fa-e884" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="fe87-3951-e73c-0eff" name="Upgrades" hidden="false" collective="false">
+          <constraints>
+            <constraint field="0705-c536-f372-c2d0" scope="parent" value="40.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7565-207c-8ef4-bd59" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="ab4b-2d9d-2895-7557" name="Armor" hidden="false" collective="false" targetId="ae2c-f939-ccd5-108a" type="selectionEntryGroup"/>
+            <entryLink id="0abd-9411-19e5-2999" name="Melee Weapons" hidden="false" collective="false" targetId="e8e1-137d-8a53-a1fd" type="selectionEntryGroup"/>
+            <entryLink id="7ca3-66b4-5829-5227" name="Ranged Weapons" hidden="false" collective="false" targetId="6461-e3e9-6745-0a3b" type="selectionEntryGroup"/>
+            <entryLink id="17b9-ceb4-1b25-44ea" name="Special Items" hidden="false" collective="false" targetId="8a02-d9d8-d10a-0ca2" type="selectionEntryGroup">
+              <modifiers>
+                <modifier type="set" field="9a7f-457e-7197-5f45" value="0.0">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c648-1884-e502-2543" type="greaterThan"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
+            <entryLink id="c648-1884-e502-2543" name="Veterinary Bag" hidden="false" collective="false" targetId="f82f-6b56-8fb6-67e1" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="0705-c536-f372-c2d0" value="0.0"/>
+                <modifier type="set" field="c53d-485d-8731-9c62" value="0.0">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="17b9-ceb4-1b25-44ea" type="greaterThan"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c53d-485d-8731-9c62" type="max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="4c71-b79c-3dfc-7db4" name="Leader" hidden="false" collective="false" targetId="2bee-5b46-6bef-8581" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e6cd-ea72-299b-4d23" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Points" typeId="0705-c536-f372-c2d0" value="40.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c9cd-ad53-a33d-5b44" name="Maggie Greene, Rebellious Daughter" hidden="false" collective="false" type="model">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="76b9-b228-eabf-db6b" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="71a2-5840-ab58-ef3f" name="Maggie Greene" hidden="false" typeId="40e9-9288-6f65-70a9" typeName="Character">
+          <characteristics>
+            <characteristic name="Type" typeId="d9ce-b162-4bd7-6736">Tactician</characteristic>
+            <characteristic name="Melee" typeId="fc7e-dccd-5244-3798">1Red</characteristic>
+            <characteristic name="Shoot" typeId="b227-fd8f-ea1c-65f7">1Red</characteristic>
+            <characteristic name="Defense" typeId="ca1d-2465-3eb7-9bd8">2Red</characteristic>
+            <characteristic name="Health" typeId="5e5d-73d3-ba6a-8396">4</characteristic>
+            <characteristic name="SP" typeId="cae4-668b-3f49-b130">X/1White</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="df86-61a9-81bf-109e" name="Rebellious" hidden="false" targetId="b745-4444-7471-acf1" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="f77f-90da-1cb4-2a09" name="New CategoryLink" hidden="false" targetId="b33e-e6d0-05ba-26ce" primary="true"/>
+        <categoryLink id="293c-fcfa-0b54-8ae7" name="Alignment: Lawful" hidden="false" targetId="03f7-28fe-397f-08c7" primary="false"/>
+        <categoryLink id="73f0-2cd8-134a-f716" name="Greene Family" hidden="false" targetId="9e76-1b82-7d89-1e79" primary="false"/>
+        <categoryLink id="e13e-281c-2790-2c1f" name="Maggie Rhee" hidden="false" targetId="f647-3270-c198-4a08" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="2e5d-4430-eb63-772d" name="Upgrades" hidden="false" collective="false">
+          <constraints>
+            <constraint field="0705-c536-f372-c2d0" scope="parent" value="32.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4688-3b84-44fa-fde7" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="46a1-5e11-5019-7675" name="Armor" hidden="false" collective="false" targetId="ae2c-f939-ccd5-108a" type="selectionEntryGroup"/>
+            <entryLink id="ae39-2f10-39e4-454c" name="Melee Weapons" hidden="false" collective="false" targetId="e8e1-137d-8a53-a1fd" type="selectionEntryGroup"/>
+            <entryLink id="ddd7-3b84-b112-580c" name="Ranged Weapons" hidden="false" collective="false" targetId="6461-e3e9-6745-0a3b" type="selectionEntryGroup">
+              <modifiers>
+                <modifier type="set" field="87c9-5f1f-65c7-96be" value="0.0">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4389-9ab3-42c6-8465" type="greaterThan"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
+            <entryLink id="dd96-6e7e-8465-ca29" name="Special Items" hidden="false" collective="false" targetId="8a02-d9d8-d10a-0ca2" type="selectionEntryGroup"/>
+            <entryLink id="4389-9ab3-42c6-8465" name="CZ 82" hidden="false" collective="false" targetId="cdfb-beb3-1d39-0eeb" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="0705-c536-f372-c2d0" value="0.0"/>
+                <modifier type="set" field="1812-b777-ec43-d4b8" value="0.0">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ddd7-3b84-b112-580c" type="greaterThan"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1812-b777-ec43-d4b8" type="max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="e33a-c76a-8557-2ffe" name="Leader" hidden="false" collective="false" targetId="2bee-5b46-6bef-8581" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0045-2a67-f8f0-0da9" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Points" typeId="0705-c536-f372-c2d0" value="32.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="a5f0-f5b0-06e1-c60d" name="Arnold Greene" hidden="false" collective="false" type="model">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ff1d-615f-47c8-1af0" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="d415-b954-c157-0acd" name="Arnold Greene" hidden="false" typeId="40e9-9288-6f65-70a9" typeName="Character">
+          <characteristics>
+            <characteristic name="Type" typeId="d9ce-b162-4bd7-6736">Bruiser</characteristic>
+            <characteristic name="Melee" typeId="fc7e-dccd-5244-3798">1White</characteristic>
+            <characteristic name="Shoot" typeId="b227-fd8f-ea1c-65f7">1Red</characteristic>
+            <characteristic name="Defense" typeId="ca1d-2465-3eb7-9bd8">1White,1Red</characteristic>
+            <characteristic name="Health" typeId="5e5d-73d3-ba6a-8396">6</characteristic>
+            <characteristic name="SP" typeId="cae4-668b-3f49-b130">X/-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="8c83-43f2-18d3-564e" name="Haymaker" hidden="false">
+          <description>If Arnold attacks in melee without a weapon, his attack gains the Stun keyword.</description>
+        </rule>
+        <rule id="8b5b-7677-430d-fdb1" name="Protector" hidden="false">
+          <description>If a friendly model from the Greene Family Faction within Arnold’s Kill Zone is targeted by a ranged attack, Arnold may take the attack on their behalf. Arnold becomes the new target, even if he was not initially in range or line of sight.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="7459-6cc1-f70f-8b83" name="New CategoryLink" hidden="false" targetId="1632-3305-8ec4-ecf2" primary="true"/>
+        <categoryLink id="89b8-e052-6326-0b23" name="Alignment: Lawful" hidden="false" targetId="03f7-28fe-397f-08c7" primary="false"/>
+        <categoryLink id="d306-bb0a-143c-3e2b" name="Greene Family" hidden="false" targetId="9e76-1b82-7d89-1e79" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="b1b2-6dd2-5901-e725" name="Upgrades" hidden="false" collective="false">
+          <constraints>
+            <constraint field="0705-c536-f372-c2d0" scope="parent" value="26.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e039-b0ec-37b1-b337" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="38f5-a39b-e7b9-876b" name="Armor" hidden="false" collective="false" targetId="ae2c-f939-ccd5-108a" type="selectionEntryGroup"/>
+            <entryLink id="d364-c038-82d8-2468" name="Melee Weapons" hidden="false" collective="false" targetId="e8e1-137d-8a53-a1fd" type="selectionEntryGroup"/>
+            <entryLink id="c6c1-02e2-b533-db6f" name="Ranged Weapons" hidden="false" collective="false" targetId="6461-e3e9-6745-0a3b" type="selectionEntryGroup"/>
+            <entryLink id="d7c2-f8f8-2d1b-b178" name="Special Items" hidden="false" collective="false" targetId="8a02-d9d8-d10a-0ca2" type="selectionEntryGroup"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="0f59-87b0-6c50-c172" name="Leader" hidden="false" collective="false" targetId="2bee-5b46-6bef-8581" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d3aa-93fe-793e-7481" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Points" typeId="0705-c536-f372-c2d0" value="26.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="40db-87e1-8aa5-62d1" name="Lacey Greene" hidden="false" collective="false" type="model">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8141-bafc-76d1-a247" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="5053-0e49-f4b4-8d3d" name="Lacey Greene" hidden="false" typeId="40e9-9288-6f65-70a9" typeName="Character">
+          <characteristics>
+            <characteristic name="Type" typeId="d9ce-b162-4bd7-6736">Support</characteristic>
+            <characteristic name="Melee" typeId="fc7e-dccd-5244-3798">1Red</characteristic>
+            <characteristic name="Shoot" typeId="b227-fd8f-ea1c-65f7">-</characteristic>
+            <characteristic name="Defense" typeId="ca1d-2465-3eb7-9bd8">1Red</characteristic>
+            <characteristic name="Health" typeId="5e5d-73d3-ba6a-8396">3</characteristic>
+            <characteristic name="SP" typeId="cae4-668b-3f49-b130">X/-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="aeeb-8152-6aa8-02c6" name="Distract" hidden="false">
+          <description>When performing the Make NOISE Action, Lacey may choose a point within 6” of herself (not within the Kill Zone of an enemy model) from which to cause the NOISE.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="fbe9-5a2a-901c-f99d" name="New CategoryLink" hidden="false" targetId="4eb2-d49f-4b22-dd86" primary="true"/>
+        <categoryLink id="c230-c196-e44d-497e" name="Alignment: Lawful" hidden="false" targetId="03f7-28fe-397f-08c7" primary="false"/>
+        <categoryLink id="90b7-6706-65fc-26a4" name="Greene Family" hidden="false" targetId="9e76-1b82-7d89-1e79" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="9cdf-c59e-2923-977a" name="Upgrades" hidden="false" collective="false">
+          <constraints>
+            <constraint field="0705-c536-f372-c2d0" scope="parent" value="15.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1a8f-c2a0-7406-5059" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="2131-7e75-b7c7-f2cf" name="Armor" hidden="false" collective="false" targetId="ae2c-f939-ccd5-108a" type="selectionEntryGroup"/>
+            <entryLink id="a9db-e99f-5495-f52d" name="Melee Weapons" hidden="false" collective="false" targetId="e8e1-137d-8a53-a1fd" type="selectionEntryGroup">
+              <modifiers>
+                <modifier type="set" field="4f9c-993e-439e-104e" value="1.0">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5552-8fbb-52d6-01a5" type="greaterThan"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
+            <entryLink id="f07c-19c3-de22-402a" name="Ranged Weapons" hidden="false" collective="false" targetId="6461-e3e9-6745-0a3b" type="selectionEntryGroup"/>
+            <entryLink id="451e-015e-1bde-9098" name="Special Items" hidden="false" collective="false" targetId="8a02-d9d8-d10a-0ca2" type="selectionEntryGroup"/>
+            <entryLink id="5552-8fbb-52d6-01a5" name="Pitchfork" hidden="false" collective="false" targetId="57e4-4933-c47d-f0e3" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="0705-c536-f372-c2d0" value="0.0"/>
+                <modifier type="set" field="508d-5986-3437-fd2d" value="0.0">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a9db-e99f-5495-f52d" type="greaterThan"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="508d-5986-3437-fd2d" type="max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="920c-1bd6-9a8d-482e" name="Leader" hidden="false" collective="false" targetId="2bee-5b46-6bef-8581" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8106-c470-7694-34c9" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Points" typeId="0705-c536-f372-c2d0" value="15.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="20db-7418-5ddb-74be" name="Susie &amp; Rachel" hidden="false" collective="false" type="model">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="66b4-152c-b9a5-17e8" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="aeba-6f0e-38eb-1674" name="Susie &amp; Rachel" hidden="false" typeId="40e9-9288-6f65-70a9" typeName="Character">
+          <characteristics>
+            <characteristic name="Type" typeId="d9ce-b162-4bd7-6736">Support</characteristic>
+            <characteristic name="Melee" typeId="fc7e-dccd-5244-3798">1Red</characteristic>
+            <characteristic name="Shoot" typeId="b227-fd8f-ea1c-65f7">-</characteristic>
+            <characteristic name="Defense" typeId="ca1d-2465-3eb7-9bd8">1Red</characteristic>
+            <characteristic name="Health" typeId="5e5d-73d3-ba6a-8396">3</characteristic>
+            <characteristic name="SP" typeId="cae4-668b-3f49-b130">X/-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="204d-7039-8945-2ff9" name="Split Up!" hidden="false">
+          <description>Susie &amp; Rachel may spend two Actions instead of one when performing the Scavenge Action, to gain +1 Victory Point.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="a40a-772f-b390-c20f" name="Just a Kid" hidden="false" targetId="a8a9-88b3-ae80-fee5" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="7df1-c822-5359-21be" name="New CategoryLink" hidden="false" targetId="4eb2-d49f-4b22-dd86" primary="true"/>
+        <categoryLink id="86c2-a3c5-8886-1f53" name="Alignment: Lawful" hidden="false" targetId="03f7-28fe-397f-08c7" primary="false"/>
+        <categoryLink id="cc9e-3a88-b3de-6c8b" name="Greene Family" hidden="false" targetId="9e76-1b82-7d89-1e79" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="2501-0d63-d880-d7a8" name="Upgrades" hidden="false" collective="false">
+          <constraints>
+            <constraint field="0705-c536-f372-c2d0" scope="parent" value="15.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c878-1afe-5d00-466d" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="d27d-1153-1bb6-d2d0" name="Armor" hidden="false" collective="false" targetId="ae2c-f939-ccd5-108a" type="selectionEntryGroup"/>
+            <entryLink id="959a-6205-8476-4c6a" name="Melee Weapons" hidden="false" collective="false" targetId="e8e1-137d-8a53-a1fd" type="selectionEntryGroup">
+              <modifiers>
+                <modifier type="set" field="4f9c-993e-439e-104e" value="1.0">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e681-b727-2247-7ac6" type="greaterThan"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
+            <entryLink id="66ca-37e4-a210-1142" name="Ranged Weapons" hidden="false" collective="false" targetId="6461-e3e9-6745-0a3b" type="selectionEntryGroup"/>
+            <entryLink id="a180-7d70-e5e6-d9b5" name="Special Items" hidden="false" collective="false" targetId="8a02-d9d8-d10a-0ca2" type="selectionEntryGroup"/>
+            <entryLink id="e681-b727-2247-7ac6" name="Knife" hidden="false" collective="false" targetId="e1c4-2bd3-01d3-0fdd" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="0705-c536-f372-c2d0" value="0.0"/>
+                <modifier type="set" field="31a6-dfc6-fe14-f9ff" value="0.0">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="959a-6205-8476-4c6a" type="greaterThan"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="31a6-dfc6-fe14-f9ff" type="max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="292f-b885-2db6-c744" name="Leader" hidden="false" collective="false" targetId="2bee-5b46-6bef-8581" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f5ab-132b-6262-e19f" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Points" typeId="0705-c536-f372-c2d0" value="15.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="fd13-f343-8c44-6823" name="Billy Greene" hidden="false" collective="false" type="model">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="873e-9c92-e082-db47" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="c5b8-d88f-7fc4-dbc1" name="Billy Greene" hidden="false" typeId="40e9-9288-6f65-70a9" typeName="Character">
+          <characteristics>
+            <characteristic name="Type" typeId="d9ce-b162-4bd7-6736">Marksman</characteristic>
+            <characteristic name="Melee" typeId="fc7e-dccd-5244-3798">1Red</characteristic>
+            <characteristic name="Shoot" typeId="b227-fd8f-ea1c-65f7">1Blue</characteristic>
+            <characteristic name="Defense" typeId="ca1d-2465-3eb7-9bd8">1White</characteristic>
+            <characteristic name="Health" typeId="5e5d-73d3-ba6a-8396">4</characteristic>
+            <characteristic name="SP" typeId="cae4-668b-3f49-b130">X/1Red</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="c0ae-9cf2-ba58-f574" name="New CategoryLink" hidden="false" targetId="7e4f-cf68-74a3-b58a" primary="true"/>
+        <categoryLink id="dd70-9a12-829b-a4a0" name="Alignment: Lawful" hidden="false" targetId="03f7-28fe-397f-08c7" primary="false"/>
+        <categoryLink id="377a-9547-33bd-92af" name="Greene Family" hidden="false" targetId="9e76-1b82-7d89-1e79" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="340f-fb1d-a0a4-4a55" name="Upgrades" hidden="false" collective="false">
+          <constraints>
+            <constraint field="0705-c536-f372-c2d0" scope="parent" value="46.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aa4d-e27e-35e9-9ee0" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="a6a0-74fd-6522-b04a" name="Armor" hidden="false" collective="false" targetId="ae2c-f939-ccd5-108a" type="selectionEntryGroup"/>
+            <entryLink id="d760-230f-eb38-6d27" name="Melee Weapons" hidden="false" collective="false" targetId="e8e1-137d-8a53-a1fd" type="selectionEntryGroup">
+              <modifiers>
+                <modifier type="set" field="4f9c-993e-439e-104e" value="1.0">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ad5a-a7c6-1f64-9c6d" type="greaterThan"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
+            <entryLink id="504e-00bd-5de6-bd1b" name="Ranged Weapons" hidden="false" collective="false" targetId="6461-e3e9-6745-0a3b" type="selectionEntryGroup">
+              <modifiers>
+                <modifier type="set" field="87c9-5f1f-65c7-96be" value="0.0">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ad5a-a7c6-1f64-9c6d" type="greaterThan"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
+            <entryLink id="08f7-e9a3-0dc7-d47f" name="Special Items" hidden="false" collective="false" targetId="8a02-d9d8-d10a-0ca2" type="selectionEntryGroup"/>
+            <entryLink id="5d92-3152-202d-47a7" name="Knife" hidden="false" collective="false" targetId="e1c4-2bd3-01d3-0fdd" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="0705-c536-f372-c2d0" value="0.0"/>
+                <modifier type="set" field="6842-6a11-1be0-1194" value="0.0">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d760-230f-eb38-6d27" type="greaterThan"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6842-6a11-1be0-1194" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="ad5a-a7c6-1f64-9c6d" name="Remington 700" hidden="false" collective="false" targetId="e691-b73f-a4bf-d20e" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="0705-c536-f372-c2d0" value="0.0"/>
+                <modifier type="set" field="21e2-1b3f-4f94-b4a7" value="0.0">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="504e-00bd-5de6-bd1b" type="greaterThan"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="21e2-1b3f-4f94-b4a7" type="max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="1294-9ec9-6a2f-7834" name="Leader" hidden="false" collective="false" targetId="2bee-5b46-6bef-8581" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="50c9-7770-652e-0b44" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Points" typeId="0705-c536-f372-c2d0" value="46.0"/>
+      </costs>
+    </selectionEntry>
+  </selectionEntries>
+</catalogue>
