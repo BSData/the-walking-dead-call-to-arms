@@ -171,7 +171,7 @@
       <categoryLinks>
         <categoryLink id="8a51-cd0a-228a-0e31" name="Bruiser" hidden="false" targetId="1632-3305-8ec4-ecf2" primary="false">
           <constraints>
-            <constraint field="selections" scope="roster" value="50.0" percentValue="true" shared="true" includeChildSelections="true" includeChildForces="true" id="9ca7-2f38-bdee-5e9c" type="max"/>
+            <constraint field="selections" scope="roster" value="50.0" percentValue="true" shared="true" includeChildSelections="false" includeChildForces="true" id="9ca7-2f38-bdee-5e9c" type="max"/>
           </constraints>
           <rules>
             <rule id="ab33-ae91-9fb6-3d65" name="Bash!" hidden="false">
@@ -181,7 +181,7 @@
         </categoryLink>
         <categoryLink id="42af-0b6f-2cec-4d32" name="Marksman" hidden="false" targetId="7e4f-cf68-74a3-b58a" primary="false">
           <constraints>
-            <constraint field="selections" scope="roster" value="50.0" percentValue="true" shared="true" includeChildSelections="true" includeChildForces="true" id="c2f9-f2cc-2f0a-1946" type="max"/>
+            <constraint field="selections" scope="roster" value="50.0" percentValue="true" shared="true" includeChildSelections="false" includeChildForces="true" id="c2f9-f2cc-2f0a-1946" type="max"/>
           </constraints>
           <rules>
             <rule id="2a90-d88c-f5a4-38d0" name="Crackshot" hidden="false">
@@ -191,7 +191,7 @@
         </categoryLink>
         <categoryLink id="7226-b199-efd1-bb3c" name="Runner" hidden="false" targetId="7aaa-f540-43d6-81de" primary="false">
           <constraints>
-            <constraint field="selections" scope="roster" value="50.0" percentValue="true" shared="true" includeChildSelections="true" includeChildForces="true" id="a7fa-b7c6-5ede-f717" type="max"/>
+            <constraint field="selections" scope="roster" value="50.0" percentValue="true" shared="true" includeChildSelections="false" includeChildForces="true" id="a7fa-b7c6-5ede-f717" type="max"/>
           </constraints>
           <rules>
             <rule id="9f69-5d8e-2173-a593" name="Turn of Speed" hidden="false">
@@ -201,7 +201,7 @@
         </categoryLink>
         <categoryLink id="efb6-3a1d-7126-cc96" name="Support" hidden="false" targetId="4eb2-d49f-4b22-dd86" primary="false">
           <constraints>
-            <constraint field="selections" scope="roster" value="50.0" percentValue="true" shared="true" includeChildSelections="true" includeChildForces="true" id="e8f5-e3fd-7d91-5329" type="max"/>
+            <constraint field="selections" scope="roster" value="50.0" percentValue="true" shared="true" includeChildSelections="false" includeChildForces="true" id="e8f5-e3fd-7d91-5329" type="max"/>
           </constraints>
           <rules>
             <rule id="180c-da51-d596-47d0" name="Encourage" hidden="false">
@@ -211,7 +211,7 @@
         </categoryLink>
         <categoryLink id="c78f-6621-562e-075c" name="Tactician" hidden="false" targetId="b33e-e6d0-05ba-26ce" primary="false">
           <constraints>
-            <constraint field="selections" scope="roster" value="50.0" percentValue="true" shared="true" includeChildSelections="true" includeChildForces="true" id="c747-aecf-02ee-5149" type="max"/>
+            <constraint field="selections" scope="roster" value="50.0" percentValue="true" shared="true" includeChildSelections="false" includeChildForces="true" id="c747-aecf-02ee-5149" type="max"/>
           </constraints>
           <rules>
             <rule id="45fc-b32c-175a-f437" name="Tactical Flexibility" hidden="false">
@@ -228,7 +228,7 @@
       <categoryLinks>
         <categoryLink id="6803-385f-4ffe-91d6" name="Bruiser" hidden="false" targetId="1632-3305-8ec4-ecf2" primary="false">
           <constraints>
-            <constraint field="selections" scope="roster" value="50.0" percentValue="true" shared="true" includeChildSelections="true" includeChildForces="true" id="77fb-3c0a-852f-8383" type="max"/>
+            <constraint field="selections" scope="roster" value="50.0" percentValue="true" shared="true" includeChildSelections="false" includeChildForces="true" id="77fb-3c0a-852f-8383" type="max"/>
           </constraints>
           <rules>
             <rule id="b81e-32b0-c3db-3ac9" name="Bash!" hidden="false">
@@ -238,7 +238,7 @@
         </categoryLink>
         <categoryLink id="29c8-883a-a70a-073b" name="Marksman" hidden="false" targetId="7e4f-cf68-74a3-b58a" primary="false">
           <constraints>
-            <constraint field="selections" scope="roster" value="50.0" percentValue="true" shared="true" includeChildSelections="true" includeChildForces="true" id="97f5-f4a2-af50-1b65" type="max"/>
+            <constraint field="selections" scope="roster" value="50.0" percentValue="true" shared="true" includeChildSelections="false" includeChildForces="true" id="97f5-f4a2-af50-1b65" type="max"/>
           </constraints>
           <rules>
             <rule id="3057-62dc-f5b1-3de0" name="Crackshot" hidden="false">
@@ -248,7 +248,7 @@
         </categoryLink>
         <categoryLink id="01e5-37ff-fbaf-b9c6" name="Runner" hidden="false" targetId="7aaa-f540-43d6-81de" primary="false">
           <constraints>
-            <constraint field="selections" scope="roster" value="50.0" percentValue="true" shared="true" includeChildSelections="true" includeChildForces="true" id="6191-85bc-c69e-6ec1" type="max"/>
+            <constraint field="selections" scope="roster" value="50.0" percentValue="true" shared="true" includeChildSelections="false" includeChildForces="true" id="6191-85bc-c69e-6ec1" type="max"/>
           </constraints>
           <rules>
             <rule id="e542-a641-724f-a793" name="Turn of Speed" hidden="false">
@@ -258,7 +258,7 @@
         </categoryLink>
         <categoryLink id="e47a-013f-04c5-da3c" name="Support" hidden="false" targetId="4eb2-d49f-4b22-dd86" primary="false">
           <constraints>
-            <constraint field="selections" scope="roster" value="50.0" percentValue="true" shared="true" includeChildSelections="true" includeChildForces="true" id="f561-3d06-9ba0-ebf6" type="max"/>
+            <constraint field="selections" scope="roster" value="50.0" percentValue="true" shared="true" includeChildSelections="false" includeChildForces="true" id="f561-3d06-9ba0-ebf6" type="max"/>
           </constraints>
           <rules>
             <rule id="a86a-caeb-031d-5e62" name="Encourage" hidden="false">
@@ -268,7 +268,7 @@
         </categoryLink>
         <categoryLink id="54e2-ae8b-7f8e-97d2" name="Tactician" hidden="false" targetId="b33e-e6d0-05ba-26ce" primary="false">
           <constraints>
-            <constraint field="selections" scope="roster" value="50.0" percentValue="true" shared="true" includeChildSelections="true" includeChildForces="true" id="618d-2369-8bd6-878d" type="max"/>
+            <constraint field="selections" scope="roster" value="50.0" percentValue="true" shared="true" includeChildSelections="false" includeChildForces="true" id="618d-2369-8bd6-878d" type="max"/>
           </constraints>
           <rules>
             <rule id="5e48-9eee-ab97-4df5" name="Tactical Flexibility" hidden="false">
@@ -282,7 +282,7 @@
       <categoryLinks>
         <categoryLink id="7b4a-5569-44fc-8c87" name="Bruiser" hidden="false" targetId="1632-3305-8ec4-ecf2" primary="false">
           <constraints>
-            <constraint field="selections" scope="roster" value="50.0" percentValue="true" shared="true" includeChildSelections="true" includeChildForces="true" id="f760-34d8-06e8-7df0" type="max"/>
+            <constraint field="selections" scope="roster" value="50.0" percentValue="true" shared="true" includeChildSelections="false" includeChildForces="true" id="f760-34d8-06e8-7df0" type="max"/>
           </constraints>
           <rules>
             <rule id="8e18-470a-6e80-26fc" name="Bash!" hidden="false">
@@ -292,7 +292,7 @@
         </categoryLink>
         <categoryLink id="5c98-cc2c-fb0d-c39f" name="Marksman" hidden="false" targetId="7e4f-cf68-74a3-b58a" primary="false">
           <constraints>
-            <constraint field="selections" scope="roster" value="50.0" percentValue="true" shared="true" includeChildSelections="true" includeChildForces="true" id="55d3-7197-cdea-cb71" type="max"/>
+            <constraint field="selections" scope="roster" value="50.0" percentValue="true" shared="true" includeChildSelections="false" includeChildForces="true" id="55d3-7197-cdea-cb71" type="max"/>
           </constraints>
           <rules>
             <rule id="cde3-e814-4d6b-bc31" name="Crackshot" hidden="false">
@@ -302,7 +302,7 @@
         </categoryLink>
         <categoryLink id="ebb2-88e5-59ca-aaed" name="Runner" hidden="false" targetId="7aaa-f540-43d6-81de" primary="false">
           <constraints>
-            <constraint field="selections" scope="roster" value="50.0" percentValue="true" shared="true" includeChildSelections="true" includeChildForces="true" id="faae-f69d-b289-a4fa" type="max"/>
+            <constraint field="selections" scope="roster" value="50.0" percentValue="true" shared="true" includeChildSelections="false" includeChildForces="true" id="faae-f69d-b289-a4fa" type="max"/>
           </constraints>
           <rules>
             <rule id="2a76-e6bd-8a33-6693" name="Turn of Speed" hidden="false">
@@ -312,7 +312,7 @@
         </categoryLink>
         <categoryLink id="a255-8a8a-b1ef-1f92" name="Support" hidden="false" targetId="4eb2-d49f-4b22-dd86" primary="false">
           <constraints>
-            <constraint field="selections" scope="roster" value="50.0" percentValue="true" shared="true" includeChildSelections="true" includeChildForces="true" id="3bb4-e5e8-7a27-0e20" type="max"/>
+            <constraint field="selections" scope="roster" value="50.0" percentValue="true" shared="true" includeChildSelections="false" includeChildForces="true" id="3bb4-e5e8-7a27-0e20" type="max"/>
           </constraints>
           <rules>
             <rule id="efe0-6372-21df-fef1" name="Encourage" hidden="false">
@@ -322,7 +322,7 @@
         </categoryLink>
         <categoryLink id="6507-0ac1-f749-11af" name="Tactician" hidden="false" targetId="b33e-e6d0-05ba-26ce" primary="false">
           <constraints>
-            <constraint field="selections" scope="roster" value="50.0" percentValue="true" shared="true" includeChildSelections="true" includeChildForces="true" id="ca15-6a1e-aa75-fa1b" type="max"/>
+            <constraint field="selections" scope="roster" value="50.0" percentValue="true" shared="true" includeChildSelections="false" includeChildForces="true" id="ca15-6a1e-aa75-fa1b" type="max"/>
           </constraints>
           <rules>
             <rule id="bb79-dd17-921a-d222" name="Tactical Flexibility" hidden="false">
@@ -2302,9 +2302,7 @@
     </selectionEntry>
     <selectionEntry id="2bee-5b46-6bef-8581" name="Leader" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="00c0-3e2a-9453-8748" type="max"/>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="0b69-7876-d50e-18b6" type="min"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="82f9-4caf-eb03-5cc1" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6559-c917-8091-4cf7" type="max"/>
       </constraints>
       <rules>
         <rule id="ea3d-5ad9-1917-5609" name="Bring &apos;Em Down!" hidden="false">

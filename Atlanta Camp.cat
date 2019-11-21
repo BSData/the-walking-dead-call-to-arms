@@ -122,10 +122,9 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="d280-63d0-f6c3-855a" name="Leader" hidden="false" collective="false" import="true" targetId="2bee-5b46-6bef-8581" type="selectionEntry">
+        <entryLink id="ae81-a698-7e86-62ed" name="Leader" hidden="false" collective="false" import="true" targetId="2bee-5b46-6bef-8581" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="cd07-c087-7600-19c6" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="6174-45cb-08c7-de4d" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a304-3d1a-bc8c-cc7a" type="min"/>
           </constraints>
         </entryLink>
       </entryLinks>
@@ -215,13 +214,6 @@
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
-      <entryLinks>
-        <entryLink id="acdd-640e-a993-fa78" name="Leader" hidden="false" collective="false" import="true" targetId="2bee-5b46-6bef-8581" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ed1d-896d-0f79-98d2" type="max"/>
-          </constraints>
-        </entryLink>
-      </entryLinks>
       <costs>
         <cost name=" Points" typeId="0705-c536-f372-c2d0" value="65.0"/>
       </costs>
@@ -313,11 +305,7 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="00a8-f708-515c-826a" name="Leader" hidden="false" collective="false" import="true" targetId="2bee-5b46-6bef-8581" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bf7e-ecf4-0b29-f3e4" type="max"/>
-          </constraints>
-        </entryLink>
+        <entryLink id="3db4-63aa-1446-09c8" name="Leader" hidden="false" collective="false" import="true" targetId="2bee-5b46-6bef-8581" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="0705-c536-f372-c2d0" value="58.0"/>
@@ -420,11 +408,7 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="35dc-dc42-82c9-ecbc" name="Leader" hidden="false" collective="false" import="true" targetId="2bee-5b46-6bef-8581" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c4c7-d717-a65f-3199" type="max"/>
-          </constraints>
-        </entryLink>
+        <entryLink id="30a0-514e-697b-16ab" name="Leader" hidden="false" collective="false" import="true" targetId="2bee-5b46-6bef-8581" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="0705-c536-f372-c2d0" value="25.0"/>
@@ -492,11 +476,7 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="823a-6075-4076-d3c5" name="Leader" hidden="false" collective="false" import="true" targetId="2bee-5b46-6bef-8581" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="75d2-1104-706c-ed41" type="max"/>
-          </constraints>
-        </entryLink>
+        <entryLink id="da14-9afc-9d2f-6bba" name="Leader" hidden="false" collective="false" import="true" targetId="2bee-5b46-6bef-8581" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="0705-c536-f372-c2d0" value="22.0"/>
@@ -563,11 +543,7 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="959a-18c8-4fdf-0f6f" name="Leader" hidden="false" collective="false" import="true" targetId="2bee-5b46-6bef-8581" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="44bb-100f-567a-c6e2" type="max"/>
-          </constraints>
-        </entryLink>
+        <entryLink id="53e1-9e5b-b771-2f05" name="Leader" hidden="false" collective="false" import="true" targetId="2bee-5b46-6bef-8581" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="0705-c536-f372-c2d0" value="48.0"/>
@@ -676,11 +652,7 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="0312-5cb0-6784-5022" name="Leader" hidden="false" collective="false" import="true" targetId="2bee-5b46-6bef-8581" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7436-4700-5f2b-3021" type="max"/>
-          </constraints>
-        </entryLink>
+        <entryLink id="e4e4-af09-9676-6645" name="Leader" hidden="false" collective="false" import="true" targetId="2bee-5b46-6bef-8581" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="0705-c536-f372-c2d0" value="58.0"/>
@@ -772,11 +744,7 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="4e41-339f-a87c-7a87" name="Leader" hidden="false" collective="false" import="true" targetId="2bee-5b46-6bef-8581" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="04b9-a608-5300-5eca" type="max"/>
-          </constraints>
-        </entryLink>
+        <entryLink id="f6ac-a777-ab07-a8dc" name="Leader" hidden="false" collective="false" import="true" targetId="2bee-5b46-6bef-8581" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="0705-c536-f372-c2d0" value="36.0"/>
@@ -863,11 +831,7 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="0020-2bcf-41b8-7fb9" name="Leader" hidden="false" collective="false" import="true" targetId="2bee-5b46-6bef-8581" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8c14-1d00-8d62-42c4" type="max"/>
-          </constraints>
-        </entryLink>
+        <entryLink id="c659-de7b-2793-63cc" name="Leader" hidden="false" collective="false" import="true" targetId="2bee-5b46-6bef-8581" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="0705-c536-f372-c2d0" value="38.0"/>
@@ -1064,11 +1028,7 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="9d90-4e41-681e-cd76" name="Leader" hidden="false" collective="false" import="true" targetId="2bee-5b46-6bef-8581" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a023-8494-716d-3ff1" type="max"/>
-          </constraints>
-        </entryLink>
+        <entryLink id="b62a-ebfc-45b1-14b8" name="Leader" hidden="false" collective="false" import="true" targetId="2bee-5b46-6bef-8581" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="0705-c536-f372-c2d0" value="45.0"/>
@@ -1136,11 +1096,7 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="e3a6-ba50-d6c5-281c" name="Leader" hidden="false" collective="false" import="true" targetId="2bee-5b46-6bef-8581" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2b40-4de1-0399-e5f3" type="max"/>
-          </constraints>
-        </entryLink>
+        <entryLink id="3f41-a7aa-4be4-2d27" name="Leader" hidden="false" collective="false" import="true" targetId="2bee-5b46-6bef-8581" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="0705-c536-f372-c2d0" value="44.0"/>
@@ -1304,11 +1260,7 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="fc14-2740-04dd-8691" name="Leader" hidden="false" collective="false" import="true" targetId="2bee-5b46-6bef-8581" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fb7b-b4d9-9abf-04a4" type="max"/>
-          </constraints>
-        </entryLink>
+        <entryLink id="ee7a-4fd2-5c69-66e1" name="Leader" hidden="false" collective="false" import="true" targetId="2bee-5b46-6bef-8581" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="0705-c536-f372-c2d0" value="58.0"/>
@@ -1400,11 +1352,7 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="5ca1-20c9-1e1c-c86a" name="Leader" hidden="false" collective="false" import="true" targetId="2bee-5b46-6bef-8581" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="09f3-bbaf-af5e-b55d" type="max"/>
-          </constraints>
-        </entryLink>
+        <entryLink id="d702-4fcd-3143-fa2d" name="Leader" hidden="false" collective="false" import="true" targetId="2bee-5b46-6bef-8581" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="0705-c536-f372-c2d0" value="70.0"/>
@@ -1480,11 +1428,7 @@ able to move into contact with the target, she must do so, but must always end t
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="c968-e0dd-ea58-3460" name="Leader" hidden="false" collective="false" import="true" targetId="2bee-5b46-6bef-8581" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ebff-6349-68ac-aaf7" type="max"/>
-          </constraints>
-        </entryLink>
+        <entryLink id="9422-bdec-162b-6e87" name="Leader" hidden="false" collective="false" import="true" targetId="2bee-5b46-6bef-8581" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="0705-c536-f372-c2d0" value="50.0"/>
@@ -1585,11 +1529,7 @@ able to move into contact with the target, she must do so, but must always end t
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="d0c8-71ef-f990-73bb" name="Leader" hidden="false" collective="false" import="true" targetId="2bee-5b46-6bef-8581" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9ac7-9534-151e-3d9a" type="max"/>
-          </constraints>
-        </entryLink>
+        <entryLink id="c287-d2e5-d874-584d" name="Leader" hidden="false" collective="false" import="true" targetId="2bee-5b46-6bef-8581" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="0705-c536-f372-c2d0" value="40.0"/>
