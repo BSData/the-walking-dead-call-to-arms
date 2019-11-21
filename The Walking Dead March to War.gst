@@ -2303,6 +2303,8 @@
     <selectionEntry id="2bee-5b46-6bef-8581" name="Leader" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6559-c917-8091-4cf7" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9568-1f68-f074-6930" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d87e-d369-8c25-2d1b" type="min"/>
       </constraints>
       <rules>
         <rule id="ea3d-5ad9-1917-5609" name="Bring &apos;Em Down!" hidden="false">
