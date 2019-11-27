@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="f046-8736-7a7e-93d7" name="The Walking Dead: Call to Arms" revision="4" battleScribeVersion="2.03" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="f046-8736-7a7e-93d7" name="The Walking Dead: Call to Arms" revision="2" battleScribeVersion="2.03" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <costTypes>
     <costType id="0705-c536-f372-c2d0" name=" Points" defaultCostLimit="0.0"/>
   </costTypes>
@@ -165,6 +165,12 @@
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9557-f19a-3a0b-c99a" type="max"/>
       </constraints>
     </categoryEntry>
+    <categoryEntry id="11a1-5c80-932a-3a02" name="Negan" hidden="false">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f94f-f56b-3f20-115a" type="max"/>
+      </constraints>
+    </categoryEntry>
+    <categoryEntry id="7c85-eb9c-ed89-fb14" name="Saviors" hidden="false"/>
   </categoryEntries>
   <forceEntries>
     <forceEntry id="0747-3d1e-6f14-5332" name="Survivors" hidden="false">
@@ -1726,6 +1732,13 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="7628-71d8-8eb1-42e9" name="Springfield M1903" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7c85-eb9c-ed89-fb14" type="notInstanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <profiles>
         <profile id="3cec-af31-e432-a53e" name="Springfield M1903" hidden="false" typeId="3560-a8a8-6a4e-2aa2" typeName="Ranged Weapon">
           <characteristics>
@@ -2324,6 +2337,67 @@
         <cost name=" Points" typeId="0705-c536-f372-c2d0" value="0.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="2cbc-24b3-0fec-ba01" name="Infected Machete" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7c85-eb9c-ed89-fb14" type="notInstanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="25ee-2f8f-dd3e-4999" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="e23a-81c2-9550-5b26" name="Infected Machete" hidden="false" typeId="d42c-7da6-84ea-bbd3" typeName="Melee Weapon">
+          <characteristics>
+            <characteristic name="Attack Roll" typeId="84c3-eb7b-1a01-99c6">1White</characteristic>
+            <characteristic name="Special Rules" typeId="a811-f6c5-34bc-5f90">If an attack roll with this weapon includes any !, any Survivor wounded by the attack is Bitten.</characteristic>
+            <characteristic name="Keywords" typeId="c6ce-a20c-5806-fc59">Amputate, Dual Wield, Sharp</characteristic>
+            <characteristic name="Noise / Mayhem" typeId="35d4-25bc-80cb-6f59"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="d76d-a04b-f877-f199" name="Amputate" hidden="false" targetId="fc2a-0fd7-efbf-15c0" type="rule"/>
+        <infoLink id="6817-8c0f-7d8c-f399" name="Dual Wield" hidden="false" targetId="cdbb-55db-ed3e-4259" type="rule"/>
+        <infoLink id="c57a-a212-7ba8-ac6e" name="Sharp" hidden="false" targetId="3728-71b5-e85a-07f5" type="rule"/>
+        <infoLink id="79bb-dcb0-faf9-8313" name="Rare" hidden="false" targetId="a6d8-707b-90fa-5db7" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Points" typeId="0705-c536-f372-c2d0" value="18.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b75f-d081-5b78-202c" name="Angle Grinder" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7c85-eb9c-ed89-fb14" type="notInstanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eee2-1514-bc6a-8951" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="91d5-e90a-8dff-00fd" name="Angle Grinder" hidden="false" typeId="d42c-7da6-84ea-bbd3" typeName="Melee Weapon">
+          <characteristics>
+            <characteristic name="Attack Roll" typeId="84c3-eb7b-1a01-99c6">1White, 1Red</characteristic>
+            <characteristic name="Special Rules" typeId="a811-f6c5-34bc-5f90">If an attack roll with this weapon scores two or more !, roll 1Black. On a blank, discard this card.</characteristic>
+            <characteristic name="Keywords" typeId="c6ce-a20c-5806-fc59">Armor Piercing, Bulky</characteristic>
+            <characteristic name="Noise / Mayhem" typeId="35d4-25bc-80cb-6f59">Noise</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="e061-dc7d-46e3-0043" name="Rare" hidden="false" targetId="a6d8-707b-90fa-5db7" type="rule"/>
+        <infoLink id="2ee5-e681-3483-9888" name="Armor Piercing" hidden="false" targetId="e38d-5ad1-0296-043b" type="rule"/>
+        <infoLink id="40ca-9a78-4037-dd80" name="Bulky" hidden="false" targetId="4339-a3fb-7f39-37ec" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Points" typeId="0705-c536-f372-c2d0" value="14.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="8a02-d9d8-d10a-0ca2" name="Special Items" hidden="false" collective="false" import="true">
@@ -2373,6 +2447,7 @@
         <entryLink id="a062-1918-e5b0-0e79" name="Smoke Grenade" hidden="false" collective="false" import="true" targetId="6556-9a11-f03b-1759" type="selectionEntry"/>
         <entryLink id="73e1-9cfd-1db4-1568" name="Tear Gas Grenade" hidden="false" collective="false" import="true" targetId="1487-4e70-6718-f3b6" type="selectionEntry"/>
         <entryLink id="4218-bc75-21e9-1824" name="Tranquilizer Gun" hidden="false" collective="false" import="true" targetId="779f-fdfd-7f3d-fb5a" type="selectionEntry"/>
+        <entryLink id="f11e-db73-88e3-eddb" name="Springfield M1903" hidden="false" collective="false" import="true" targetId="7628-71d8-8eb1-42e9" type="selectionEntry"/>
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="e8e1-137d-8a53-a1fd" name="Melee Weapons" hidden="false" collective="false" import="true">
@@ -2398,6 +2473,8 @@
         <entryLink id="3a63-1fba-8d3a-f1b8" name="Sledgehammer" hidden="false" collective="false" import="true" targetId="43c2-082f-29c3-508e" type="selectionEntry"/>
         <entryLink id="13fb-969d-ddfa-df00" name="Taser" hidden="false" collective="false" import="true" targetId="538f-91a1-3211-887d" type="selectionEntry"/>
         <entryLink id="2aa7-b511-6052-cadf" name="Tire Iron" hidden="false" collective="false" import="true" targetId="946e-367e-9db7-b6fd" type="selectionEntry"/>
+        <entryLink id="3b04-e941-fe0d-41b4" name="Angle Grinder" hidden="false" collective="false" import="true" targetId="b75f-d081-5b78-202c" type="selectionEntry"/>
+        <entryLink id="8be8-fc8e-49e0-a3ac" name="Infected Machete" hidden="false" collective="false" import="true" targetId="2cbc-24b3-0fec-ba01" type="selectionEntry"/>
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="ae2c-f939-ccd5-108a" name="Armor" hidden="false" collective="false" import="true">

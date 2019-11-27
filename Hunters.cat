@@ -55,8 +55,24 @@
           </constraints>
           <entryLinks>
             <entryLink id="5678-73ec-6fea-824d" name="Armor" hidden="false" collective="false" import="true" targetId="ae2c-f939-ccd5-108a" type="selectionEntryGroup"/>
-            <entryLink id="20b7-b5a8-ead2-fa72" name="Melee Weapons" hidden="false" collective="false" import="true" targetId="e8e1-137d-8a53-a1fd" type="selectionEntryGroup"/>
-            <entryLink id="ae7d-9c7e-e61f-e58c" name="Ranged Weapons" hidden="false" collective="false" import="true" targetId="6461-e3e9-6745-0a3b" type="selectionEntryGroup"/>
+            <entryLink id="20b7-b5a8-ead2-fa72" name="Melee Weapons" hidden="false" collective="false" import="true" targetId="e8e1-137d-8a53-a1fd" type="selectionEntryGroup">
+              <modifiers>
+                <modifier type="set" field="4f9c-993e-439e-104e" value="1.0">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7ce5-5b42-5c38-de03" type="greaterThan"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
+            <entryLink id="ae7d-9c7e-e61f-e58c" name="Ranged Weapons" hidden="false" collective="false" import="true" targetId="6461-e3e9-6745-0a3b" type="selectionEntryGroup">
+              <modifiers>
+                <modifier type="set" field="87c9-5f1f-65c7-96be" value="0.0">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3f5a-0392-fda3-dabe" type="greaterThan"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
             <entryLink id="a77a-e722-4382-8861" name="Special Items" hidden="false" collective="false" import="true" targetId="8a02-d9d8-d10a-0ca2" type="selectionEntryGroup"/>
             <entryLink id="3f5a-0392-fda3-dabe" name="9mm Pistol" hidden="false" collective="false" import="true" targetId="329b-bd83-bbe9-bd52" type="selectionEntry">
               <modifiers>
