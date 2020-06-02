@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="9a14-a306-9e51-9777" name="The Kingdom" revision="2" battleScribeVersion="2.03" library="false" gameSystemId="f046-8736-7a7e-93d7" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <selectionEntries>
+    <selectionEntry id="3bae-d57b-6987-b688" name="King Ezekiel, Leader of the Kingdom" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5d27-07f0-272f-ba06" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="8c5a-578d-9dc6-3869" name="King Ezekiel, Leader of the Kingdom" hidden="false" typeId="40e9-9288-6f65-70a9" typeName="Character">
+          <characteristics>
+            <characteristic name="Type" typeId="d9ce-b162-4bd7-6736">Support</characteristic>
+            <characteristic name="Melee" typeId="fc7e-dccd-5244-3798">2Red</characteristic>
+            <characteristic name="Shoot" typeId="b227-fd8f-ea1c-65f7">1Red</characteristic>
+            <characteristic name="Defense" typeId="ca1d-2465-3eb7-9bd8">1Blue</characteristic>
+            <characteristic name="Health" typeId="5e5d-73d3-ba6a-8396">5</characteristic>
+            <characteristic name="SP" typeId="cae4-668b-3f49-b130">2Red/1Red</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="93ab-aaa1-8cba-fdcf" name="Hail to the King" hidden="false">
+          <description>When Ezekiel uses his Encourage ability, all Friendly Kingdom models in his Kill Zone receive a +1 Action counter, rather than a single target model, at no extra SP cost.</description>
+        </rule>
+        <rule id="d718-247a-474b-1abf" name="For the Kingdom! (Special Order)" hidden="false">
+          <description>Once per game, when Ezekiel declares a Follow Me! special order, he may use this rule instead. Perform the order exactly like the Follow Me! rule. However, Ezekiel and any friendly Kingdom model moved by this order that ends the move engaged with an enemy adds 1White to its melee attack rolls this round.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="df2e-9672-36d0-7926" name="Boss" hidden="false" targetId="4bcf-b79d-278c-0223" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="d72c-bbde-0667-ee88" name="Alignment: Lawful" hidden="false" targetId="03f7-28fe-397f-08c7" primary="false"/>
+        <categoryLink id="fe3e-f77a-c5dc-65c4" name="New CategoryLink" hidden="false" targetId="4eb2-d49f-4b22-dd86" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="1fbf-1289-2c7a-07ac" name="Upgrades" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="0705-c536-f372-c2d0" scope="parent" value="66.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fc40-4d2b-7e68-8649" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="f8ce-d1db-5920-dd15" name="Shikomizue" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="0705-c536-f372-c2d0" value="0.0"/>
+                <modifier type="set" field="44ec-ac5a-55f2-c4de" value="0.0">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="62c6-227d-b659-87a7" type="greaterThan"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="44ec-ac5a-55f2-c4de" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="45d1-699d-5d74-c402" name="Shikomizue" hidden="false" typeId="d42c-7da6-84ea-bbd3" typeName="Melee Weapon">
+                  <characteristics>
+                    <characteristic name="Attack Roll" typeId="84c3-eb7b-1a01-99c6">1White</characteristic>
+                    <characteristic name="Special Rules" typeId="a811-f6c5-34bc-5f90">If the attack scores any !, add 1Red to the roll. Against Walkers, add 1White instead.</characteristic>
+                    <characteristic name="Keywords" typeId="c6ce-a20c-5806-fc59">Sharp.</characteristic>
+                    <characteristic name="Noise / Mayhem" typeId="35d4-25bc-80cb-6f59"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" Points" typeId="0705-c536-f372-c2d0" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <entryLinks>
+            <entryLink id="cbf4-e04b-5425-5257" name="Armor" hidden="false" collective="false" import="true" targetId="ae2c-f939-ccd5-108a" type="selectionEntryGroup"/>
+            <entryLink id="62c6-227d-b659-87a7" name="Melee Weapons" hidden="false" collective="false" import="true" targetId="e8e1-137d-8a53-a1fd" type="selectionEntryGroup">
+              <modifiers>
+                <modifier type="set" field="4f9c-993e-439e-104e" value="1.0">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f8ce-d1db-5920-dd15" type="greaterThan"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
+            <entryLink id="7ae5-c783-9305-359e" name="Ranged Weapons" hidden="false" collective="false" import="true" targetId="6461-e3e9-6745-0a3b" type="selectionEntryGroup">
+              <modifiers>
+                <modifier type="set" field="87c9-5f1f-65c7-96be" value="0.0">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3bfe-ea7c-a4f0-c2b0" type="greaterThan"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
+            <entryLink id="a4e7-38a0-9e67-1097" name="Special Items" hidden="false" collective="false" import="true" targetId="8a02-d9d8-d10a-0ca2" type="selectionEntryGroup"/>
+            <entryLink id="3bfe-ea7c-a4f0-c2b0" name="AK-47" hidden="false" collective="false" import="true" targetId="e2b5-7290-3a44-a524" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="0705-c536-f372-c2d0" value="0.0"/>
+                <modifier type="set" field="c35e-d622-8832-41da" value="0.0">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7ae5-c783-9305-359e" type="greaterThan"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c35e-d622-8832-41da" type="max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="e4e4-af09-9676-6645" name="Leader" hidden="false" collective="false" import="true" targetId="2bee-5b46-6bef-8581" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Points" typeId="0705-c536-f372-c2d0" value="66.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0bc2-a5b5-4c1a-db90" name="Group Special Rules" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7055-8eca-2b60-c2c4" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d82f-984f-352d-4f36" type="min"/>
+      </constraints>
+      <rules>
+        <rule id="dec2-095b-94a3-297e" name="Formation Charge" hidden="false">
+          <description>Models from the Kingdom Faction may reroll blanks when taking Melee attack rolls while there is at least one other friendly Kingdom model in their Kill Zone.</description>
+        </rule>
+        <rule id="12b4-5942-ac15-d6ec" name="Knights of the Realm" hidden="false">
+          <description>Any Kingdom model mounted on a Horse adds 1Red to its Melee attack rolls. Furthermore, each time a Kingdom model on a Horse scores three or more ! as part of a Melee attack roll, add 1SP to the Strategy Pool for the round.</description>
+        </rule>
+      </rules>
+      <costs>
+        <cost name=" Points" typeId="0705-c536-f372-c2d0" value="0.0"/>
+      </costs>
+    </selectionEntry>
+  </selectionEntries>
+</catalogue>
