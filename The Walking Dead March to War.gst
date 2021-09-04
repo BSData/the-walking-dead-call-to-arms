@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <gameSystem id="f046-8736-7a7e-93d7" name="The Walking Dead: Call to Arms" revision="4" battleScribeVersion="2.03" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <costTypes>
-    <costType id="0705-c536-f372-c2d0" name=" Points" defaultCostLimit="0.0"/>
+    <costType id="0705-c536-f372-c2d0" name=" Points" defaultCostLimit="0.0" hidden="false"/>
   </costTypes>
   <profileTypes>
     <profileType id="40e9-9288-6f65-70a9" name="Character">
@@ -338,6 +338,11 @@
               <description>Any Tactician may spend 1SP to treat their Type as either Bruiser, Marksman, Runner or Support for the rest of the round. They retain their Tactician type in addition to the new type. Further SP may be spent to perform Strategies in accordance with the new type.</description>
             </rule>
           </rules>
+        </categoryLink>
+        <categoryLink id="9db6-5240-0717-a2b2" name="Special" hidden="false" targetId="79c5-63e8-4a18-90b6" primary="false">
+          <constraints>
+            <constraint field="selections" scope="roster" value="50.0" percentValue="true" shared="true" includeChildSelections="false" includeChildForces="true" id="64fa-0523-6b31-3cdd" type="max"/>
+          </constraints>
         </categoryLink>
       </categoryLinks>
     </forceEntry>
