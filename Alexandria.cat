@@ -1,0 +1,544 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="c273-5aec-f616-572a" name="Alexandria" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="f046-8736-7a7e-93d7" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <selectionEntries>
+    <selectionEntry id="1ae9-f700-f030-3872" name="Group Special Rules" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f359-a85d-fbd9-3ffc" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8760-3fdd-4cc9-7f81" type="min"/>
+      </constraints>
+      <rules>
+        <rule id="e394-634c-2e89-d8f9" name="Building for the Future" hidden="false">
+          <description>Each time an Alexandria model is removed as a casualty, choose and apply one of the following options:
+
+*Add 1Red to the Strategy Pool for the round.
+*Assign a +1 Action counter to one friendly model.</description>
+        </rule>
+      </rules>
+      <costs>
+        <cost name=" Points" typeId="0705-c536-f372-c2d0" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3bc2-ed40-a185-4593" name="Rick Grimes, Leader of Alexandria" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8582-d1ca-7765-41ef" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="a8d4-a0a8-5732-7dfa" name="Rick Grimes" hidden="false" typeId="40e9-9288-6f65-70a9" typeName="Character">
+          <characteristics>
+            <characteristic name="Type" typeId="d9ce-b162-4bd7-6736">Tactician</characteristic>
+            <characteristic name="Melee" typeId="fc7e-dccd-5244-3798">1White</characteristic>
+            <characteristic name="Shoot" typeId="b227-fd8f-ea1c-65f7">1Blue</characteristic>
+            <characteristic name="Defense" typeId="ca1d-2465-3eb7-9bd8">1White</characteristic>
+            <characteristic name="Health" typeId="5e5d-73d3-ba6a-8396">6</characteristic>
+            <characteristic name="SP" typeId="cae4-668b-3f49-b130">1Blue/1White</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="b3fd-848d-9cab-0dae" name="Remake the World (Special Order)" hidden="false">
+          <description>Rick may spend SP to nominate friendly Alexandria or Atlanta Camp models in line of sight (at a rate of 1SP per model, to a maximum of 3 per round). That model immediately chooses a new Survivor Type. The new Type is used instead of the old one until the end of the round.</description>
+        </rule>
+        <rule id="20e6-18a5-54e0-8525" name="One Step Ahead" hidden="false">
+          <description>When a friendly model in Rick&apos;s Kill Zone is removed as a casualty, he may choose to add 1White SP to the strategy pool instead of 1Red for the Building for the Future rule.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="7af0-5c78-9447-eaa4" name="Boss" hidden="false" targetId="4bcf-b79d-278c-0223" type="rule"/>
+        <infoLink id="1f40-2f42-14eb-e319" name="Someone to Fight For (X)" hidden="false" targetId="cff8-cad1-c64e-0ee0" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="bb1b-5824-0f22-1cea" name="New CategoryLink" hidden="false" targetId="b33e-e6d0-05ba-26ce" primary="true"/>
+        <categoryLink id="44e3-efde-60b4-3a80" name="Alignment: Lawful" hidden="false" targetId="03f7-28fe-397f-08c7" primary="false"/>
+        <categoryLink id="deec-f76d-fdf0-6a3a" name="Rick Grimes" hidden="false" targetId="0c5d-33ed-49a5-6b53" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="89f6-e7f9-a9a9-c423" name="Upgrades" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="0705-c536-f372-c2d0" scope="parent" value="62.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="accf-2359-bb7b-4221" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="24ca-c5cc-bff7-b5b8" name="Armor" hidden="false" collective="false" import="true" targetId="ae2c-f939-ccd5-108a" type="selectionEntryGroup"/>
+            <entryLink id="63a8-fb74-5652-b509" name="Melee Weapons" hidden="false" collective="false" import="true" targetId="e8e1-137d-8a53-a1fd" type="selectionEntryGroup">
+              <modifiers>
+                <modifier type="set" field="4f9c-993e-439e-104e" value="1.0">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="733f-9b99-e55b-ff2f" type="greaterThan"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
+            <entryLink id="9d01-16eb-0faf-e575" name="Ranged Weapons" hidden="false" collective="false" import="true" targetId="6461-e3e9-6745-0a3b" type="selectionEntryGroup">
+              <modifiers>
+                <modifier type="decrement" field="87c9-5f1f-65c7-96be" value="1.0">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1760-79f3-c9bc-2f44" type="greaterThan"/>
+                  </conditions>
+                </modifier>
+                <modifier type="increment" field="87c9-5f1f-65c7-96be" value="1.0">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1760-79f3-c9bc-2f44" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
+            <entryLink id="eb76-90ea-013b-c73e" name="Special Items" hidden="false" collective="false" import="true" targetId="8a02-d9d8-d10a-0ca2" type="selectionEntryGroup"/>
+            <entryLink id="1760-79f3-c9bc-2f44" name="9mm Pistol" hidden="false" collective="false" import="true" targetId="329b-bd83-bbe9-bd52" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="0705-c536-f372-c2d0" value="0.0"/>
+                <modifier type="set" field="3f9b-3521-2cb2-6eac" value="0.0">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9d01-16eb-0faf-e575" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3f9b-3521-2cb2-6eac" type="max"/>
+              </constraints>
+              <rules>
+                <rule id="0c29-1dad-3ec9-83e9" name="9mm Pistol" hidden="false">
+                  <description>If attack roll scores one or more !, add 1Red to the roll.</description>
+                </rule>
+              </rules>
+            </entryLink>
+            <entryLink id="733f-9b99-e55b-ff2f" name="Hatchet" hidden="false" collective="false" import="true" targetId="f81a-4ea3-d438-5303" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="0705-c536-f372-c2d0" value="0.0"/>
+                <modifier type="set" field="20dd-b101-382c-a22c" value="0.0">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="63a8-fb74-5652-b509" type="greaterThan"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="20dd-b101-382c-a22c" type="max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="ae81-a698-7e86-62ed" name="Leader" hidden="false" collective="false" import="true" targetId="2bee-5b46-6bef-8581" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a304-3d1a-bc8c-cc7a" type="min"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Points" typeId="0705-c536-f372-c2d0" value="62.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="30bb-8042-ee4a-91b6" name="Andrea, Prison Sniper" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5d27-07f0-272f-ba06" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="8c5a-578d-9dc6-3869" name="Andrea" hidden="false" typeId="40e9-9288-6f65-70a9" typeName="Character">
+          <characteristics>
+            <characteristic name="Type" typeId="d9ce-b162-4bd7-6736">Marksman</characteristic>
+            <characteristic name="Melee" typeId="fc7e-dccd-5244-3798">1Red</characteristic>
+            <characteristic name="Shoot" typeId="b227-fd8f-ea1c-65f7">1Blue</characteristic>
+            <characteristic name="Defense" typeId="ca1d-2465-3eb7-9bd8">2Red</characteristic>
+            <characteristic name="Health" typeId="5e5d-73d3-ba6a-8396">4</characteristic>
+            <characteristic name="SP" typeId="cae4-668b-3f49-b130">1Red/-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="93ab-aaa1-8cba-fdcf" name="Pinpoint Accuracy" hidden="false">
+          <description>Andrea may spend 1SP when performing a ranged attack to add one automatic !.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="7dcb-9df4-d014-5085" name="New CategoryLink" hidden="false" targetId="7e4f-cf68-74a3-b58a" primary="true"/>
+        <categoryLink id="d72c-bbde-0667-ee88" name="Alignment: Lawful" hidden="false" targetId="03f7-28fe-397f-08c7" primary="false"/>
+        <categoryLink id="204d-27e3-7525-e90e" name="Atlanta Camp" hidden="false" targetId="f7d7-113d-59c5-809e" primary="false"/>
+        <categoryLink id="e3af-7c28-b0a7-fd8d" name="Andrea" hidden="false" targetId="c1f1-57ea-1170-2700" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="1fbf-1289-2c7a-07ac" name="Upgrades" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="0705-c536-f372-c2d0" scope="parent" value="58.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fc40-4d2b-7e68-8649" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="cbf4-e04b-5425-5257" name="Armor" hidden="false" collective="false" import="true" targetId="ae2c-f939-ccd5-108a" type="selectionEntryGroup"/>
+            <entryLink id="62c6-227d-b659-87a7" name="Melee Weapons" hidden="false" collective="false" import="true" targetId="e8e1-137d-8a53-a1fd" type="selectionEntryGroup">
+              <modifiers>
+                <modifier type="set" field="4f9c-993e-439e-104e" value="1.0">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3c8e-5b6c-349b-238a" type="greaterThan"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
+            <entryLink id="7ae5-c783-9305-359e" name="Ranged Weapons" hidden="false" collective="false" import="true" targetId="6461-e3e9-6745-0a3b" type="selectionEntryGroup">
+              <modifiers>
+                <modifier type="set" field="87c9-5f1f-65c7-96be" value="0.0">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3bfe-ea7c-a4f0-c2b0" type="greaterThan"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
+            <entryLink id="a4e7-38a0-9e67-1097" name="Special Items" hidden="false" collective="false" import="true" targetId="8a02-d9d8-d10a-0ca2" type="selectionEntryGroup">
+              <modifiers>
+                <modifier type="set" field="9a7f-457e-7197-5f45" value="0.0">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e485-123b-aec7-5fd3" type="greaterThan"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
+            <entryLink id="3bfe-ea7c-a4f0-c2b0" name="Safari Rifle" hidden="false" collective="false" import="true" targetId="c545-f067-8e51-c276" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="0705-c536-f372-c2d0" value="0.0"/>
+                <modifier type="set" field="c35e-d622-8832-41da" value="0.0">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7ae5-c783-9305-359e" type="greaterThan"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c35e-d622-8832-41da" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="3c8e-5b6c-349b-238a" name="Knife" hidden="false" collective="false" import="true" targetId="e1c4-2bd3-01d3-0fdd" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="0705-c536-f372-c2d0" value="0.0"/>
+                <modifier type="set" field="448c-5b78-19eb-59d9" value="0.0">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="62c6-227d-b659-87a7" type="greaterThan"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="448c-5b78-19eb-59d9" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="e485-123b-aec7-5fd3" name="Sniper Scope" hidden="false" collective="false" import="true" targetId="693b-50b2-64d2-66a2" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="a2c2-f114-3b13-8e0c" value="0.0">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a4e7-38a0-9e67-1097" type="greaterThan"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a2c2-f114-3b13-8e0c" type="max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="e4e4-af09-9676-6645" name="Leader" hidden="false" collective="false" import="true" targetId="2bee-5b46-6bef-8581" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Points" typeId="0705-c536-f372-c2d0" value="58.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3176-b7ea-8d42-f430" name="Spencer" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="15fd-fc15-8dd0-3de7" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="adcb-5553-eb6c-ba34" name="Spencer" hidden="false" typeId="40e9-9288-6f65-70a9" typeName="Character">
+          <characteristics>
+            <characteristic name="Type" typeId="d9ce-b162-4bd7-6736">Tactician</characteristic>
+            <characteristic name="Melee" typeId="fc7e-dccd-5244-3798">1Red</characteristic>
+            <characteristic name="Shoot" typeId="b227-fd8f-ea1c-65f7">1Red</characteristic>
+            <characteristic name="Defense" typeId="ca1d-2465-3eb7-9bd8">1White</characteristic>
+            <characteristic name="Health" typeId="5e5d-73d3-ba6a-8396">5</characteristic>
+            <characteristic name="SP" typeId="cae4-668b-3f49-b130">1Red/-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="243b-54ca-d181-88d3" name="Double-Dealer" hidden="false">
+          <description>When Spencer is targeted by a ranged attack, roll 1Black. On a Shield, choose a friendly model in his Kill Zone to take the attack on his behalf, even if it was not in range or line of sight. If the target model is wounded, Spencer may immediately spend 1SP to add 1Red to his Defense for the rest of the round.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="03fe-5b31-bab9-18b8" name="Alignment: Lawful" hidden="false" targetId="03f7-28fe-397f-08c7" primary="false"/>
+        <categoryLink id="8bf4-8d4c-2181-8259" name="New CategoryLink" hidden="false" targetId="b33e-e6d0-05ba-26ce" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="6689-27b5-d496-4933" name="Upgrades" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="0705-c536-f372-c2d0" scope="parent" value="44.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1a03-e6cf-7fa6-75c1" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="93f8-5146-2766-71b6" name="Armor" hidden="false" collective="false" import="true" targetId="ae2c-f939-ccd5-108a" type="selectionEntryGroup"/>
+            <entryLink id="d860-4def-662b-d742" name="Melee Weapons" hidden="false" collective="false" import="true" targetId="e8e1-137d-8a53-a1fd" type="selectionEntryGroup"/>
+            <entryLink id="0279-9129-49da-9868" name="Ranged Weapons" hidden="false" collective="false" import="true" targetId="6461-e3e9-6745-0a3b" type="selectionEntryGroup">
+              <modifiers>
+                <modifier type="set" field="87c9-5f1f-65c7-96be" value="0.0">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="696c-8d9b-7077-c078" type="greaterThan"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
+            <entryLink id="cbd2-7e0b-ad37-88bb" name="Special Items" hidden="false" collective="false" import="true" targetId="8a02-d9d8-d10a-0ca2" type="selectionEntryGroup"/>
+            <entryLink id="696c-8d9b-7077-c078" name="M16 Assault Rifle" hidden="false" collective="false" import="true" targetId="b0e1-8732-0f34-0843" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="0705-c536-f372-c2d0" value="0.0"/>
+                <modifier type="set" field="2654-a8f6-f8d9-7e42" value="0.0">
+                  <conditions>
+                    <condition field="selections" scope="c716-0621-d4c8-4ce1" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="greaterThan"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2654-a8f6-f8d9-7e42" type="max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="b7bf-0ee8-e96b-30d1" name="Leader" hidden="false" collective="false" import="true" targetId="2bee-5b46-6bef-8581" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Points" typeId="0705-c536-f372-c2d0" value="44.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="db3c-b16b-705e-b95d" name="Eric" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a4c1-c9ae-399c-66d9" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="7ac4-c887-d365-a8dc" name="Eric" hidden="false" typeId="40e9-9288-6f65-70a9" typeName="Character">
+          <characteristics>
+            <characteristic name="Type" typeId="d9ce-b162-4bd7-6736">Support</characteristic>
+            <characteristic name="Melee" typeId="fc7e-dccd-5244-3798">1Red</characteristic>
+            <characteristic name="Shoot" typeId="b227-fd8f-ea1c-65f7">1Red</characteristic>
+            <characteristic name="Defense" typeId="ca1d-2465-3eb7-9bd8">1White</characteristic>
+            <characteristic name="Health" typeId="5e5d-73d3-ba6a-8396">4</characteristic>
+            <characteristic name="SP" typeId="cae4-668b-3f49-b130">X/-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="19ad-85ef-b3f2-f5a5" name="Someone to Fight For (X)" hidden="false" targetId="cff8-cad1-c64e-0ee0" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="3e4b-e482-64f4-094a" name="Alignment: Lawful" hidden="false" targetId="03f7-28fe-397f-08c7" primary="false"/>
+        <categoryLink id="ac0f-a513-0bc6-176b" name="New CategoryLink" hidden="false" targetId="4eb2-d49f-4b22-dd86" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="2728-58a3-4a84-35b7" name="Upgrades" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="0705-c536-f372-c2d0" scope="parent" value="44.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a2d4-eb8a-a4ed-497c" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="1d4b-f118-50bf-5c8c" name="Armor" hidden="false" collective="false" import="true" targetId="ae2c-f939-ccd5-108a" type="selectionEntryGroup"/>
+            <entryLink id="3849-9294-82ac-7ff3" name="Melee Weapons" hidden="false" collective="false" import="true" targetId="e8e1-137d-8a53-a1fd" type="selectionEntryGroup">
+              <modifiers>
+                <modifier type="set" field="4f9c-993e-439e-104e" value="1.0">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="091a-aaf0-f7a8-4d56" type="greaterThan"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
+            <entryLink id="6765-70d4-62af-02d4" name="Ranged Weapons" hidden="false" collective="false" import="true" targetId="6461-e3e9-6745-0a3b" type="selectionEntryGroup">
+              <modifiers>
+                <modifier type="set" field="87c9-5f1f-65c7-96be" value="0.0">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="71d3-b3b9-8964-806c" type="greaterThan"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
+            <entryLink id="9897-623a-5d84-8f8d" name="Special Items" hidden="false" collective="false" import="true" targetId="8a02-d9d8-d10a-0ca2" type="selectionEntryGroup"/>
+            <entryLink id="71d3-b3b9-8964-806c" name="Remington 700" hidden="false" collective="false" import="true" targetId="e691-b73f-a4bf-d20e" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="0705-c536-f372-c2d0" value="0.0"/>
+                <modifier type="set" field="6bbe-5def-2885-afc7" value="0.0">
+                  <conditions>
+                    <condition field="selections" scope="c716-0621-d4c8-4ce1" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="greaterThan"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6bbe-5def-2885-afc7" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="091a-aaf0-f7a8-4d56" name="Crowbar" hidden="false" collective="false" import="true" targetId="cb36-3dab-6233-2e67" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="0705-c536-f372-c2d0" value="0.0"/>
+                <modifier type="set" field="bd0f-fbad-c97e-609d" value="0.0">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3849-9294-82ac-7ff3" type="greaterThan"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bd0f-fbad-c97e-609d" type="max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="39e3-2f3d-0fc4-cccf" name="Leader" hidden="false" collective="false" import="true" targetId="2bee-5b46-6bef-8581" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Points" typeId="0705-c536-f372-c2d0" value="34.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="938c-3ea9-674a-a209" name="Aaron" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6376-48e1-3a4e-9859" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="2bf9-3e23-4a05-3657" name="Aaron" hidden="false" typeId="40e9-9288-6f65-70a9" typeName="Character">
+          <characteristics>
+            <characteristic name="Type" typeId="d9ce-b162-4bd7-6736">Tactician</characteristic>
+            <characteristic name="Melee" typeId="fc7e-dccd-5244-3798">1White</characteristic>
+            <characteristic name="Shoot" typeId="b227-fd8f-ea1c-65f7">1Red</characteristic>
+            <characteristic name="Defense" typeId="ca1d-2465-3eb7-9bd8">1White</characteristic>
+            <characteristic name="Health" typeId="5e5d-73d3-ba6a-8396">5</characteristic>
+            <characteristic name="SP" typeId="cae4-668b-3f49-b130">1Red/1White</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="68aa-ee5a-9854-8142" name="Negotiation" hidden="false">
+          <description>Once per round, Aaron may spend 1SP to target one enemy Survivor and one friendly Survivor both within 6. Roll 1Black: on a Shield, the target enemy must lose 1 action in its next activation, and the target friendly model gains a +1 Action counter.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="9b0d-2bd7-0a7a-ba86" name="Alignment: Lawful" hidden="false" targetId="03f7-28fe-397f-08c7" primary="false"/>
+        <categoryLink id="6fc8-78e5-6dce-3ee6" name="New CategoryLink" hidden="false" targetId="b33e-e6d0-05ba-26ce" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="20eb-ed00-52a2-734a" name="Upgrades" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="0705-c536-f372-c2d0" scope="parent" value="48.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6bb9-8133-c414-b073" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="15c8-bd8f-54fd-5fc2" name="Armor" hidden="false" collective="false" import="true" targetId="ae2c-f939-ccd5-108a" type="selectionEntryGroup"/>
+            <entryLink id="7ce6-5e90-a610-3c31" name="Melee Weapons" hidden="false" collective="false" import="true" targetId="e8e1-137d-8a53-a1fd" type="selectionEntryGroup">
+              <modifiers>
+                <modifier type="set" field="4f9c-993e-439e-104e" value="1.0">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6ef1-5d02-1b51-e672" type="greaterThan"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
+            <entryLink id="1405-1cfc-5e7f-4a36" name="Ranged Weapons" hidden="false" collective="false" import="true" targetId="6461-e3e9-6745-0a3b" type="selectionEntryGroup">
+              <modifiers>
+                <modifier type="set" field="87c9-5f1f-65c7-96be" value="0.0">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="eb54-8bc3-9814-2801" type="greaterThan"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
+            <entryLink id="9ede-7594-3265-992e" name="Special Items" hidden="false" collective="false" import="true" targetId="8a02-d9d8-d10a-0ca2" type="selectionEntryGroup"/>
+            <entryLink id="eb54-8bc3-9814-2801" name="AR-15" hidden="false" collective="false" import="true" targetId="9c64-38a1-031d-05db" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="0705-c536-f372-c2d0" value="0.0"/>
+                <modifier type="set" field="3bdc-fc2b-029c-5ebe" value="0.0">
+                  <conditions>
+                    <condition field="selections" scope="c716-0621-d4c8-4ce1" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="greaterThan"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3bdc-fc2b-029c-5ebe" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="6ef1-5d02-1b51-e672" name="Knife" hidden="false" collective="false" import="true" targetId="e1c4-2bd3-01d3-0fdd" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="0705-c536-f372-c2d0" value="0.0"/>
+                <modifier type="set" field="9ddc-fb97-796f-519b" value="0.0">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7ce6-5e90-a610-3c31" type="greaterThan"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9ddc-fb97-796f-519b" type="max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="b61b-1be8-a521-f8a3" name="Leader" hidden="false" collective="false" import="true" targetId="2bee-5b46-6bef-8581" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Points" typeId="0705-c536-f372-c2d0" value="48.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="cdfa-1923-e5b2-c0e7" name="Heath" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="534d-88e3-0070-b88b" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="f459-36ba-ea79-a74a" name="Heath" hidden="false" typeId="40e9-9288-6f65-70a9" typeName="Character">
+          <characteristics>
+            <characteristic name="Type" typeId="d9ce-b162-4bd7-6736">Runner</characteristic>
+            <characteristic name="Melee" typeId="fc7e-dccd-5244-3798">1White</characteristic>
+            <characteristic name="Shoot" typeId="b227-fd8f-ea1c-65f7">1White</characteristic>
+            <characteristic name="Defense" typeId="ca1d-2465-3eb7-9bd8">1White</characteristic>
+            <characteristic name="Health" typeId="5e5d-73d3-ba6a-8396">5</characteristic>
+            <characteristic name="SP" typeId="cae4-668b-3f49-b130">-/-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="5bf8-fec3-ba20-f3c7" name="Good Neighbor" hidden="false">
+          <description>If a friendly model within Heath&apos;s Kill Zone is wounded by an enemy attack, both Heath and that model add 1White to their Defense for the remainder of the round.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="b3c7-4c95-485c-aef6" name="Alignment: Lawful" hidden="false" targetId="03f7-28fe-397f-08c7" primary="false"/>
+        <categoryLink id="d7ad-2445-ced5-cae2" name="New CategoryLink" hidden="false" targetId="b33e-e6d0-05ba-26ce" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="4dd8-f5ab-f71b-a958" name="Upgrades" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="0705-c536-f372-c2d0" scope="parent" value="32.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="52f3-2ab0-ca5d-601b" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="9540-08a1-79f4-85a0" name="Armor" hidden="false" collective="false" import="true" targetId="ae2c-f939-ccd5-108a" type="selectionEntryGroup"/>
+            <entryLink id="df47-7e87-3fc3-b0ea" name="Melee Weapons" hidden="false" collective="false" import="true" targetId="e8e1-137d-8a53-a1fd" type="selectionEntryGroup"/>
+            <entryLink id="d584-3f5e-7c60-5386" name="Ranged Weapons" hidden="false" collective="false" import="true" targetId="6461-e3e9-6745-0a3b" type="selectionEntryGroup">
+              <modifiers>
+                <modifier type="set" field="87c9-5f1f-65c7-96be" value="0.0">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e071-5f83-1023-69e8" type="greaterThan"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
+            <entryLink id="bf03-bb6c-9857-5bca" name="Special Items" hidden="false" collective="false" import="true" targetId="8a02-d9d8-d10a-0ca2" type="selectionEntryGroup"/>
+            <entryLink id="e071-5f83-1023-69e8" name="9mm Pistol" hidden="false" collective="false" import="true" targetId="329b-bd83-bbe9-bd52" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="0705-c536-f372-c2d0" value="0.0"/>
+                <modifier type="set" field="591b-e8b7-f72b-0207" value="0.0">
+                  <conditions>
+                    <condition field="selections" scope="c716-0621-d4c8-4ce1" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="greaterThan"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="591b-e8b7-f72b-0207" type="max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="7b60-7b6a-0c4a-fb61" name="Leader" hidden="false" collective="false" import="true" targetId="2bee-5b46-6bef-8581" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Points" typeId="0705-c536-f372-c2d0" value="32.0"/>
+      </costs>
+    </selectionEntry>
+  </selectionEntries>
+</catalogue>
