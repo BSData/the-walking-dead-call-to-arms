@@ -2479,6 +2479,13 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="73de-fd62-aebe-f26f" name="Sword" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="064d-1927-9910-0ef5" type="notInstanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <profiles>
         <profile id="0977-41ea-a74c-d2d6" name="Sword" hidden="false" typeId="d42c-7da6-84ea-bbd3" typeName="Melee Weapon">
           <characteristics>
@@ -2720,6 +2727,53 @@
         <cost name=" Points" typeId="0705-c536-f372-c2d0" value="20.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="32be-0cc5-514e-dbbc" name="Head Spikes" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="5c0e-c6e8-34ba-6d0e" name="Head Spikes" hidden="false" typeId="ba75-8ed9-edc3-b7f6" typeName="Special Items">
+          <characteristics>
+            <characteristic name="Special Rules" typeId="f83f-be9f-fcc5-abf5">At the start of the game, after deployment, place 3 Head Spikes on the board (either models or spare counters), not within any deployment zone, and no closer than 10&quot; to each other.
+
+These counters are Impassable terrain (1 Scenery Point) and cause Fear.</characteristic>
+            <characteristic name="Keywords" typeId="4d62-b2c0-a0c7-0a18"/>
+            <characteristic name="Noise / Mayhem" typeId="589a-5fe7-b416-6918"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name=" Points" typeId="0705-c536-f372-c2d0" value="15.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="f006-03ee-5c5c-6b94" name="Flaming Arrow" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="788c-ab4e-65b6-53a2" name="Flaming Arrow" hidden="false" typeId="ba75-8ed9-edc3-b7f6" typeName="Special Items">
+          <characteristics>
+            <characteristic name="Special Rules" typeId="f83f-be9f-fcc5-abf5">The attached weapon may target Flammable scenery - any roll of ! assigns a Burning Token to the scenery. In addition, after resolving a successful attack vs Walkers or Survivors with the attached weapon, the target model causes NOISE (even if it is Prone).</characteristic>
+            <characteristic name="Keywords" typeId="4d62-b2c0-a0c7-0a18">Attachment (Whisperer Bow), One Use</characteristic>
+            <characteristic name="Noise / Mayhem" typeId="589a-5fe7-b416-6918"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name=" Points" typeId="0705-c536-f372-c2d0" value="5.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="78be-be12-3aaa-84fa" name="Whisperer Bow" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="517b-e77e-1ad5-59ae" name="Whisperer Bow" hidden="false" typeId="3560-a8a8-6a4e-2aa2" typeName="Ranged Weapon">
+          <characteristics>
+            <characteristic name="Attack Roll Short" typeId="5e67-d6ba-ff65-695d">1Red</characteristic>
+            <characteristic name="Attack Roll Medium" typeId="f3e5-c666-6d43-df23">X</characteristic>
+            <characteristic name="Attack Roll Long" typeId="1376-9535-490f-fce4">X</characteristic>
+            <characteristic name="Special Rules" typeId="8821-27ea-b643-76c2"/>
+            <characteristic name="Keywords" typeId="2c12-568c-52a4-db62">Reliable.</characteristic>
+            <characteristic name="Noise / Mayhem" typeId="4783-fd91-26e1-6d38"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name=" Points" typeId="0705-c536-f372-c2d0" value="12.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="8a02-d9d8-d10a-0ca2" name="Special Items" hidden="false" collective="false" import="true">
@@ -2746,6 +2800,7 @@
         <entryLink id="dae4-9947-2e30-0a39" name="Rope" hidden="false" collective="false" import="true" targetId="2777-fade-4ed9-5edd" type="selectionEntry"/>
         <entryLink id="f37d-8f16-d761-1f98" name="Knapsack" hidden="false" collective="false" import="true" targetId="2a0b-0acb-cec1-19e0" type="selectionEntry"/>
         <entryLink id="201a-7112-893b-62aa" name="Listening Device" hidden="false" collective="false" import="true" targetId="4197-afa2-e040-a8b0" type="selectionEntry"/>
+        <entryLink id="59cf-be03-d1fa-f044" name="Head Spikes" hidden="false" collective="false" import="true" targetId="32be-0cc5-514e-dbbc" type="selectionEntry"/>
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="6461-e3e9-6745-0a3b" name="Ranged Weapons" hidden="false" collective="false" import="true">
@@ -3004,5 +3059,16 @@ A model on horseback may move up to 12”, and this movement is always considere
       <description>This model may not be included in the same group as a model wtih the name matching X. In addition, this model adds 1Red to all of its attack rolls against an enemy model with this name.</description>
     </rule>
     <rule id="a6d8-707b-90fa-5db7" name="Rare" hidden="false"/>
+    <rule id="94b0-be1c-40e1-4751" name="Minion" hidden="false">
+      <description>You may recruit as many Survivors with this special rule into your group as you like, even if they have the same Name. Minions may never be the group leader.</description>
+    </rule>
+    <rule id="d0be-3f22-24ac-8cd6" name="The Whispers..." hidden="false">
+      <description>As an Action, a Whisperer may either remove an Activation counter from a Walker in its Kill Zone, or Move an unactivated Walker in its Kill Zone (placing an Activation counter on the Walker when the move is complete). This rule cannot target Herds.
+
+Models with this rule cannot perform any Action that causes NOISE or MAYHEM if there is a Walker within 10&quot;. Note this restriction only applies to NOISE and MAYHEM created by the model itself, not to secondary effects (such as attacking with a Flaming Arrow). </description>
+    </rule>
+    <rule id="8182-7398-52e4-be21" name="Skin Suit" hidden="false">
+      <description>A model with this rule gains the Masked Scent special rule, and treats all Walkers in its Kill Zone as having the Bodyguard (this model) keyword, counting them as friendly models for the purpose of the Bodyguard rule. In addition, this model may Sneak through Walkers as though they weren&apos;t there, and may spend 1SP whenever a Masked Scent roll is failed to force the Walker to stop 1&quot; away. This model may not purchase other Armor equipment.</description>
+    </rule>
   </sharedRules>
 </gameSystem>
